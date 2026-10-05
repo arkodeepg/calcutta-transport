@@ -5,6 +5,9 @@ Stops: OSM tram_stop nodes within 40 m of the OSM route=tram relation geometry (
 ordered by straight-line distance from the origin (both routes are near-monotonic). OSM maps only some
 stops, so the stop lists are partial (major stops only).
 Usage: venv/bin/python scripts/build_tram.py
+NOTE: data/tram/routes.csv was edited by hand after this script last ran (2026-10-05: official
+timetables and the October 2026 accuracy audit). The CSVs are the source of truth; rerunning this script
+overwrites those edits, so diff the output before keeping it.
 """
 import csv, json, math, pathlib, re
 

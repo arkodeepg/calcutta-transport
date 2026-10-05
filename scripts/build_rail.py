@@ -6,6 +6,10 @@ order and times; OSM station nodes matched on the Indian Railways station code i
 Trips are clipped to REGION (Kolkata suburban area incl. Bardhaman, Krishnanagar, Namkhana, Panskura;
 Kharagpur and beyond are outside lon 87.7 and are clipped). Each trip is assigned to one linear corridor
 route by the rules in ROUTES (first match wins).
+Route labels: origin, destination and the route_stops template are trimmed to the line terminals in LINE_ENDS
+(reviewable, hand-set from the route name), so a single through train or a region-clipped long-distance
+train cannot relabel a line (audit F-06, F-07, F-08). Every trip still keeps its full in-region stop list in
+timetable.csv. Station names are cleaned of invisible characters (U+200E and similar, audit F-12).
 Usage: venv/bin/python scripts/build_rail.py
 """
 import csv, json, math, pathlib, re, statistics, sys
@@ -15,6 +19,26 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "rail"
 REGION = (21.7, 23.5, 87.7, 89.0)
 T = json.load(open(ROOT / "sources/raw/rail/erail_trains_index.json"))
+INVISIBLE = re.compile("[\u200b-\u200f\u202a-\u202e\u2060-\u2064\ufeff\u00ad]")
+
+
+def clean(n):
+    """Strip invisible formatting characters and collapse whitespace."""
+    return re.sub(r"\s+", " ", INVISIBLE.sub("", n or "")).strip()
+
+
+# Line terminals (IR codes) for the route label and route_stops template. Trips beyond these ends stay in
+# timetable.csv. Routes not listed keep the full ordered station set. Region-clip points (Mertala Phaleya on
+# the Katwa lines, Panskura) are kept as ends and flagged in the notes.
+LINE_ENDS = {
+    "rail_circular": ("DDJ", "MJT"),          # Circular Railway: Dum Dum - BBD Bag - Majerhat
+    "rail_sdah_dankuni": ("SDAH", "DKAE"),
+    "rail_sdah_bardhaman": ("SDAH", "BWN"),   # Guskara is a region clip point of 2 trains
+    "rail_sdah_bangaon": ("SDAH", "BNJ"),     # BNJ-STB through train 33751/33752 excluded from the label
+    "rail_sdah_shantipur": ("SDAH", "STB"),   # KNJ-STB branch working 31586 excluded from the label
+    "rail_sdah_krishnanagar": ("SDAH", "KNJ"),  # Dhubulia is a region clip point of Lalgola trains
+    "rail_hwh_bardhaman_chord": ("HWH", "BWN"),  # Khana/Guskara workings beyond Bardhaman excluded
+}
 
 
 def inreg(s):
@@ -137,17 +161,17 @@ for r in ROUTES:
         for a, b in zip(cs, cs[1:]):
             if b not in succ[a]:
                 succ[a].add(b); indeg[b] += 1
-    order, ready = [], sorted([n for n in nodes if indeg[n] == 0], key=lambda n: pos.get(n, 0))
+    order, ready = [], sorted([n for n in nodes if indeg[n] == 0], key=lambda n: (pos.get(n, 0), n))
     while ready:
         n = ready.pop(0); order.append(n)
         for m in succ[n]:
             indeg[m] -= 1
             if indeg[m] == 0:
                 ready.append(m)
-        ready.sort(key=lambda n: pos.get(n, 0))
+        ready.sort(key=lambda n: (pos.get(n, 0), n))
     if len(order) < len(nodes):
         viol[rid] += len(nodes) - len(order)
-        order += sorted(nodes - set(order), key=lambda n: pos.get(n, 0))
+        order += sorted(nodes - set(order), key=lambda n: (pos.get(n, 0), n))
     # a linear route has a single start node; more than one means branching
     starts = [n for n in nodes if not any(n in succ[m] for m in nodes)]
     if len(starts) > 1:
@@ -160,7 +184,7 @@ print("ordering problems per route (cycle nodes / branch starts)", dict(viol))
 names, coords = {}, {}
 for x in trips:
     for s in x["stops"]:
-        names.setdefault(s["code"], s["name"]); coords.setdefault(s["code"], (s["lat"], s["lon"]))
+        names.setdefault(s["code"], clean(s["name"])); coords.setdefault(s["code"], (s["lat"], s["lon"]))
 slug = lambda s: re.sub(r"[^a-z0-9]+", "_", s.lower()).strip("_")
 sid, used, sname = {}, set(), {}
 far = []
@@ -183,7 +207,7 @@ with open(OUT / "stops.csv", "w", newline="") as f:
         else:
             la, lo, nm = el, eo, names[code]
             src, note = "S-MR-06", f"IR code {code}; not matched in OSM by ref, coordinates from erail (community)"
-        nm = nm or names[code]
+        nm = clean(nm) or names[code]
         base = "rail_" + slug(re.sub(r"\b(Junction|Jn)\b\.?", "", nm))
         s_id = base if base not in used else f"{base}_{code.lower()}"
         used.add(s_id); sid[code] = s_id; sname[code] = nm
@@ -234,10 +258,19 @@ for r in ROUTES:
     branching = isinstance(viol.get(rid + ":branches"), str)
     if branching:
         # not a single line: template = stop list of the trip with most stops (oriented away from hub)
-        rep = max(rt, key=lambda x: len(x["stops"]))
+        ends = LINE_ENDS.get(rid)
+        cand = [x for x in rt if ends and {ends[0], ends[1]} <= {s_["code"] for s_ in x["stops"]}] or rt
+        rep = max(cand, key=lambda x: (len(x["stops"]), x["num"]))
         order = [s_["code"] for s_ in rep["stops"]]
         if dir_of[rep["num"]] == 1:
             order = order[::-1]
+    ends = LINE_ENDS.get(rid)
+    if ends:
+        if ends[0] in order and ends[1] in order:
+            i0, i1 = order.index(ends[0]), order.index(ends[1])
+            order = order[i0:i1 + 1] if i0 <= i1 else order[i1:i0 + 1][::-1]
+        else:
+            print(f"WARNING {rid}: LINE_ENDS {ends} not both in the station order, label left untrimmed")
     for d, seq in ((0, order), (1, list(reversed(order)))):
         # travel time: median over trips in this direction that serve both seq[0] and the station
         tt = defaultdict(list)
@@ -269,7 +302,17 @@ for r in ROUTES:
         hws[lab] = round(statistics.median(gaps)) if gaps else ""
     o, dname = sname[order[0]], sname[order[-1]]
     clipped = sum(x["clipped"] for x in rt)
+    clip_ends = {x["stops"][-1]["code"] for x in rt if x["clipped"]} | {x["stops"][0]["code"] for x in rt if x["clipped"]}
+    if order[-1] in clip_ends:
+        extra_clip = f" Some trains continue past {sname[order[-1]]} out of the region box and are clipped there; the line continues beyond it."
+    else:
+        extra_clip = ""
+    beyond = sum(1 for x in rt if not {s_["code"] for s_ in x["stops"]} <= set(order))
+    extra_ends = (f" Origin, destination and route_stops cover the line {sname[order[0]]} to {sname[order[-1]]}"
+                  f" (LINE_ENDS); {beyond} trips also serve stations outside it (through or branch workings),"
+                  " which are in timetable.csv.") if ends else ""
     extra = (" Route has branches/through patterns, so route_stops shows only the longest trip pattern (train " + rep["num"] + "); see timetable.csv for every trip.") if branching else ""
+    extra += extra_clip + extra_ends
     route_rows.append([rid, name, "rail", op, o, dname, hws["peak"], hws["off"], fmt(min(deps) % 1440)[:5] if deps else "",
                        fmt(max(deps) % 1440)[:5] if deps else "", 5, "", "S-MR-06;S-MR-01", "community",
                        f"{len(rt)} trips in erail ({len(wk)} on weekdays); headways are medians of weekday departure gaps at {sname[busiest]} ({busiest}), both directions, peak 07-10 and 17-20, off-peak 11-16. first/last = earliest/latest weekday trip departure from its origin. {clipped} trips continue beyond the region and are clipped. Fare by distance, see fares.csv." + extra])

@@ -12,7 +12,15 @@ Writes raw JSON to sources/raw/bus/:
 
 Usage: venv/bin/python scripts/bus_fetch_osm.py [--force] [osm_bus_stops.json ...]
 (rail platforms are fetched too and filtered out at build time)
-Stdlib only. Data (c) OpenStreetMap contributors, ODbL.
+
+Gazetteer mode (no Overpass load at all; reads a local Geofabrik extract):
+  venv/bin/python scripts/bus_fetch_osm.py --pbf sources/raw/bus/eastern-zone-latest.osm.pbf
+writes sources/raw/bus/osm_gazetteer.json: every named OSM feature of any type in bus_common.WIDE_BBOX,
+as [lat, lon, "type/id", "key=value", {name tags}], with all name variants (name, name:en, name:bn,
+alt_name, old_name, official_name, short_name, loc_name ...). Nodes at their position, closed ways
+and multipolygons at the centre of their outer ring bbox. Linear features (roads, rivers, rail
+lines, boundaries) are skipped: their centre is not a place a bus stops at. Needs pyosmium.
+Stdlib only otherwise. Data (c) OpenStreetMap contributors, ODbL.
 """
 import json
 import sys
@@ -23,7 +31,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "sources" / "raw" / "bus"
-from bus_common import UA  # noqa: E402
+from bus_common import UA, WIDE_BBOX as GAZ_BBOX  # noqa: E402
 ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
@@ -92,7 +100,73 @@ def fetch(query):
     raise RuntimeError(f"all Overpass endpoints failed: {last}")
 
 
+GAZ_NAME_KEYS = ("name", "name:en", "name:bn", "alt_name", "alt_name:en", "alt_name:bn", "old_name",
+                 "old_name:en", "official_name", "official_name:en", "short_name", "loc_name", "int_name")
+GAZ_KIND_KEYS = ("place", "highway", "public_transport", "amenity", "railway", "shop", "leisure", "tourism",
+                 "historic", "building", "landuse", "office", "man_made", "natural", "waterway", "bridge",
+                 "junction", "healthcare", "religion", "boundary")
+
+
+def build_gazetteer(pbf):
+    import osmium  # only this mode needs pyosmium
+    s, w, n, e = GAZ_BBOX
+    out = []
+
+    def kind(t):
+        for k in GAZ_KIND_KEYS:
+            if k in t:
+                return f"{k}={t[k]}"
+        return ""
+
+    def names(t):
+        return {k: t[k] for k in GAZ_NAME_KEYS if k in t}
+
+    fp = osmium.FileProcessor(pbf).with_locations().with_areas()
+    for o in fp:
+        if o.is_node():
+            if not o.location.valid():
+                continue
+            lat, lon = o.location.lat, o.location.lon
+            if not (s <= lat <= n and w <= lon <= e):
+                continue
+            t = dict(o.tags)
+            nm = names(t)
+            if nm:
+                out.append([round(lat, 6), round(lon, 6), f"node/{o.id}", kind(t), nm])
+        elif o.is_area():
+            t = dict(o.tags)
+            nm = names(t)
+            if not nm:
+                continue
+            k = kind(t)
+            if k.split("=")[0] in ("highway", "waterway", "railway", "boundary") and t.get("area") != "yes":
+                continue
+            lats, lons = [], []
+            for ring in o.outer_rings():
+                for nd in ring:
+                    if nd.location.valid():
+                        lats.append(nd.location.lat)
+                        lons.append(nd.location.lon)
+            if not lats:
+                continue
+            lat, lon = (min(lats) + max(lats)) / 2, (min(lons) + max(lons)) / 2
+            span = max(max(lats) - min(lats), max(lons) - min(lons))
+            if span > 0.05 or not (s <= lat <= n and w <= lon <= e):
+                continue  # > ~5 km across (districts, rivers, big estates): centre is meaningless
+            ref = f"way/{o.orig_id()}" if o.from_way() else f"relation/{o.orig_id()}"
+            out.append([round(lat, 6), round(lon, 6), ref, k, nm])
+    return out
+
+
 def main():
+    if "--pbf" in sys.argv:
+        pbf = sys.argv[sys.argv.index("--pbf") + 1]
+        gz = build_gazetteer(pbf)
+        dest = RAW / "osm_gazetteer.json"
+        dest.write_text(json.dumps({"source": Path(pbf).name, "bbox": list(GAZ_BBOX), "elements": gz},
+                                   ensure_ascii=False), encoding="utf-8")
+        print(f"gazetteer: {len(gz)} named features -> {dest}")
+        return
     force = "--force" in sys.argv
     only = [a for a in sys.argv[1:] if a.endswith(".json")]
     RAW.mkdir(parents=True, exist_ok=True)

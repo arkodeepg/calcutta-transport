@@ -5,6 +5,9 @@ Service info: WBSTC route list (S-FE-01, last updated 2019), WBTC fare list via 
 community guides dated 2026 (S-FE-03 travelingcreature 2026-05-08, S-FE-04 kolkatadekho 2026-08-18).
 Northern crossings exist only as OSM ferry ways: kept with no service data, confidence unverified.
 Usage: venv/bin/python scripts/build_ferry.py
+NOTE: data/ferry/routes.csv was edited by hand after this script last ran (2026-10-05: official
+timetables and the October 2026 accuracy audit). The CSVs are the source of truth; rerunning this script
+overwrites those edits, so diff the output before keeping it.
 """
 import csv, json, pathlib
 

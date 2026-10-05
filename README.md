@@ -8,27 +8,27 @@ Open route data for getting around Kolkata: buses, minibuses, metro, local train
 |---|---|
 | `data/{mode}/` | Hand-editable CSVs, one folder per mode. The source of truth. |
 | `gtfs/` | Built GTFS feed generated from `data/`. Load this into OpenTripPlanner or any GTFS tool. |
-| `scripts/` | Build and validation scripts. |
-| `sources/` | Raw downloads and `SOURCES.md`, where every dataset came from. |
+| `scripts/` | Build scripts. Validation is run with the MobilityData validator, see [docs/VALIDATION.md](docs/VALIDATION.md). |
+| `sources/` | `SOURCES.md` and per-mode source tables, where every dataset came from. Raw downloads go in `sources/raw/` and are not committed. |
 
 ## Coverage (October 2026)
 
 | Mode | Routes in feed | Stops in feed | Timing data |
 |---|---|---|---|
 | Suburban rail | 27 lines | 355 | Real timetables, 1,637 trains |
-| Metro | 5 lines | 57 | Official headways for Blue, Green, Yellow |
-| Bus and minibus | 584 | 805 | Default 15 min headway, times estimated from distance |
-| Auto | 25 | 56 | Default 10 min headway |
-| Ferry | 9 | 15 | Published frequencies, flat fares |
-| Tram | 2 | 12 | Default headway |
+| Metro | 5 lines | 57 | Official timetables for all 5 lines, per weekday, Saturday and Sunday (`data/metro/service_periods.csv`): Orange runs Monday to Friday only, Purple Monday to Friday plus Saturday afternoon |
+| Bus and minibus | 603 | 1,177 | Default 15 min headway, times estimated from distance |
+| Auto | 105 of 514 | 122 | Default 10 min headway. 492 routes from RTA Kolkata's official 2018 list |
+| Ferry | 8 | 15 | Community-sourced frequencies and hours (no official timetable found); flat fares where one value is known. Routes with no service data are kept in `data/` but left out of the feed |
+| Tram | 2 | 12 | 30 min headway (Wikipedia, undated); service is irregular, times are indicative |
 
 Fares and passes for every mode are in `data/fares/` (distance slabs are not yet encoded in GTFS).
 
 ## Known gaps, help welcome
 
-- About 1,500 bus stops and 60 auto stops have no coordinates, so they are left out of the feed. Adding the missing names to OpenStreetMap is the best fix.
-- Auto routes cover mostly south and central Kolkata. RTA Kolkata has 489 authorised routes; that list is not public.
-- No source publishes bus or auto frequencies, so defaults are used. See `gtfs/BUILD_REPORT.md`.
+- About 1,185 bus stops and 490 auto stops have no coordinates in any open source, so they are left out of the feed (bus stops located: 74% weighted by how often routes use them). Adding the missing names to OpenStreetMap is the best fix; well-known examples are Moulali, Chandni Market, Khanna Cinema and Tollygunge Phari.
+- RTA Kolkata's notification 5673-WT of December 2018 lists 489 authorised auto routes (a 2018 count, not a current one). They are transcribed in `data/auto/`, but many of their stops have no coordinates yet, so most are not in the feed.
+- No source publishes bus or auto frequencies, so defaults are used for those two modes only; every default is listed in `gtfs/BUILD_REPORT.md`. No other mode gets invented service.
 - Rail timetables are community-sourced and may miss some trains.
 
 ## Build
@@ -38,11 +38,12 @@ python3 -m venv venv && venv/bin/pip install -r requirements.txt
 venv/bin/python scripts/build_gtfs.py --publisher-url https://github.com/arkodeepg/calcutta-transport
 ```
 
-Mode data is rebuilt with the `scripts/build_*.py` and `scripts/bus_*.py` scripts.
+Mode data is rebuilt with the `scripts/build_*.py` and `scripts/bus_*.py` scripts. Two cross-mode tables feed the GTFS build: `data/{mode}/service_periods.csv` (per-day and per-direction service windows) and `data/interchanges.csv` (reviewed transfer pairs whose names differ, such as Majerhat / Majherhat).
 
 ## Licence
 
-- Data (`data/`, `gtfs/`): [Open Database License (ODbL) 1.0](LICENSE-DATA), required because it includes OpenStreetMap data. Attribution: © OpenStreetMap contributors and the sources in [CREDITS.md](CREDITS.md).
+- Data (`data/`, `gtfs/`): [Open Database License (ODbL) 1.0](LICENSE-DATA), required because it includes OpenStreetMap data. Attribution: © OpenStreetMap contributors and the sources in [CREDITS.md](CREDITS.md). The GTFS zip carries the same notice in `attributions.txt`, `ATTRIBUTION.txt` and `LICENSE-DATA.txt`.
+- Facts taken from sources that state no open licence (timetables, route lists, news reports) are republished as facts only, with credit; see the licence notes in `sources/`.
 - Code (`scripts/`): [MIT](LICENSE).
 
 ## Credits

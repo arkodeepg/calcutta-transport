@@ -1,14 +1,28 @@
 route_id,service_id,trip_id,trip_headsign,direction_id
-metro_blue,daily,metro_blue_d0,Shahid Khudiram,0
-metro_blue,daily,metro_blue_d1,Dakshineswar,1
-metro_green,daily,metro_green_d0,Salt Lake Sector V,0
-metro_green,daily,metro_green_d1,Howrah Maidan,1
-metro_purple,daily,metro_purple_d0,Majerhat,0
-metro_purple,daily,metro_purple_d1,Joka,1
-metro_orange,daily,metro_orange_d0,Beleghata,0
-metro_orange,daily,metro_orange_d1,Kavi Subhash,1
-metro_yellow,daily,metro_yellow_d0,Jai Hind,0
-metro_yellow,daily,metro_yellow_d1,Noapara,1
+metro_blue,weekdays,metro_blue_d0_weekdays,Shahid Khudiram,0
+metro_blue,saturday,metro_blue_d0_saturday,Shahid Khudiram,0
+metro_blue,sunday,metro_blue_d0_sunday,Shahid Khudiram,0
+metro_blue,weekdays,metro_blue_d1_weekdays,Dakshineswar,1
+metro_blue,saturday,metro_blue_d1_saturday,Dakshineswar,1
+metro_blue,sunday,metro_blue_d1_sunday,Dakshineswar,1
+metro_green,weekdays,metro_green_d0_weekdays,Salt Lake Sector V,0
+metro_green,saturday,metro_green_d0_saturday,Salt Lake Sector V,0
+metro_green,sunday,metro_green_d0_sunday,Salt Lake Sector V,0
+metro_green,weekdays,metro_green_d1_weekdays,Howrah Maidan,1
+metro_green,saturday,metro_green_d1_saturday,Howrah Maidan,1
+metro_green,sunday,metro_green_d1_sunday,Howrah Maidan,1
+metro_purple,weekdays,metro_purple_d0_weekdays,Majerhat,0
+metro_purple,saturday,metro_purple_d0_saturday,Majerhat,0
+metro_purple,weekdays,metro_purple_d1_weekdays,Joka,1
+metro_purple,saturday,metro_purple_d1_saturday,Joka,1
+metro_orange,weekdays,metro_orange_d0_weekdays,Beleghata,0
+metro_orange,weekdays,metro_orange_d1_weekdays,Kavi Subhash,1
+metro_yellow,weekdays,metro_yellow_d0_weekdays,Jai Hind,0
+metro_yellow,saturday,metro_yellow_d0_saturday,Jai Hind,0
+metro_yellow,sunday,metro_yellow_d0_sunday,Jai Hind,0
+metro_yellow,weekdays,metro_yellow_d1_weekdays,Noapara,1
+metro_yellow,saturday,metro_yellow_d1_saturday,Noapara,1
+metro_yellow,sunday,metro_yellow_d1_sunday,Noapara,1
 rail_hwh_kharagpur,rail_1111111,rail_38305,Mecheda,0
 rail_hwh_kharagpur,rail_1111110,rail_38031,Santragachi Junction,0
 rail_hwh_kharagpur,rail_1111110,rail_38033,Santragachi Junction,0
@@ -1647,7 +1661,7 @@ rail_ranaghat_bangaon,rail_1111111,rail_33743,Bangaon Junction,0
 rail_sdah_shantipur,rail_1111111,rail_31584,Shantipur Junction,1
 rail_sdah_shantipur,rail_1111111,rail_31586,Shantipur Junction,1
 bus_3,daily,bus_3_d0,Sealdah,0
-bus_3,daily,bus_3_d1,Mominpur,1
+bus_3,daily,bus_3_d1,Khiderpur,1
 bus_15,daily,bus_15_d0,Howrah Station,0
 bus_15,daily,bus_15_d1,Ultadanga,1
 bus_33,daily,bus_33_d0,Paikpara,0
@@ -1656,7 +1670,7 @@ bus_7a,daily,bus_7a_d0,Howrah Station,0
 bus_7a,daily,bus_7a_d1,Sarsuna Bus terminus,1
 bus_11a,daily,bus_11a_d0,Howrah Station,0
 bus_11a,daily,bus_11a_d1,Dum Dum,1
-bus_14a,daily,bus_14a_d0,Central Park,0
+bus_14a,daily,bus_14a_d0,Bikash Bhawan,0
 bus_14a,daily,bus_14a_d1,Bichali Ghat,1
 bus_5_n,daily,bus_5_n_d0,Nabanna,0
 bus_5_n,daily,bus_5_n_d1,Garia,1
@@ -1673,25 +1687,25 @@ bus_ac4,daily,bus_ac4_d1,Parnashree,1
 bus_ac4a,daily,bus_ac4a_d0,Shapoorji,0
 bus_ac4a,daily,bus_ac4a_d1,Parnashree,1
 bus_ac4b,daily,bus_ac4b_d0,Newtown,0
-bus_ac4b,daily,bus_ac4b_d1,Thakurpukur,1
+bus_ac4b,daily,bus_ac4b_d1,Joka,1
 bus_ac5,daily,bus_ac5_d0,Howrah Station,0
 bus_ac5,daily,bus_ac5_d1,Garia 5no. Bus Stand,1
 bus_ac6,daily,bus_ac6_d0,Howrah Station,0
-bus_ac6,daily,bus_ac6_d1,Garia 6no. Bus stand,1
-bus_ac9,daily,bus_ac9_d0,City Centre,0
+bus_ac6,daily,bus_ac6_d1,Naktala,1
+bus_ac9,daily,bus_ac9_d0,Saltlake Karunamoyee,0
 bus_ac9,daily,bus_ac9_d1,Jadavpur,1
-bus_ac9b,daily,bus_ac9b_d0,Ecospace,0
+bus_ac9b,daily,bus_ac9b_d0,Amity University (Ecospace),0
 bus_ac9b,daily,bus_ac9b_d1,Jadavpur,1
 bus_ac12,daily,bus_ac12_d0,Howrah Station,0
 bus_ac12,daily,bus_ac12_d1,Unitech Gate 1,1
 bus_ac12d,daily,bus_ac12d_d0,Howrah Station,0
-bus_ac12d,daily,bus_ac12d_d1,Thakurpukur Bazar,1
-bus_ac14,daily,bus_ac14_d0,Central Park,0
+bus_ac12d,daily,bus_ac12d_d1,Thakurpukur 3A (Joka),1
+bus_ac14,daily,bus_ac14_d0,Saltlake Karunamoyee,0
 bus_ac14,daily,bus_ac14_d1,Baruipur Hospital,1
 bus_ac20,daily,bus_ac20_d0,Santragachi Bus Terminus,0
 bus_ac20,daily,bus_ac20_d1,Titagarh,1
 bus_ac23a,daily,bus_ac23a_d0,Rajchandrapur (Ballyhalt),0
-bus_ac23a,daily,bus_ac23a_d1,Wipro,1
+bus_ac23a,daily,bus_ac23a_d1,Saltlake Karunamoyee,1
 bus_ac24,daily,bus_ac24_d0,Howrah Station,0
 bus_ac24,daily,bus_ac24_d1,Patuli,1
 bus_ac24a,daily,bus_ac24a_d0,Howrah Station,0
@@ -1706,21 +1720,21 @@ bus_ac37,daily,bus_ac37_d0,Garia Bus Stand,0
 bus_ac37,daily,bus_ac37_d1,Barasat Champadali,1
 bus_ac37a,daily,bus_ac37a_d0,Garia Bus Stand,0
 bus_ac37a,daily,bus_ac37a_d1,Kaikhali,1
-bus_ac38,daily,bus_ac38_d0,Tank 10,0
+bus_ac38,daily,bus_ac38_d0,Saltlake Karunamoyee,0
 bus_ac38,daily,bus_ac38_d1,Dumdum Station,1
 bus_ac39,daily,bus_ac39_d0,Howrah Station,0
 bus_ac39,daily,bus_ac39_d1,Kaikhali,1
 bus_ac40,daily,bus_ac40_d0,Howrah Maidan,0
-bus_ac40,daily,bus_ac40_d1,Central Jail,1
-bus_ac43,daily,bus_ac43_d0,Kaikhali,0
+bus_ac40,daily,bus_ac40_d1,Airport Gate 1,1
+bus_ac43,daily,bus_ac43_d0,Airport Gate 1,0
 bus_ac43,daily,bus_ac43_d1,Golf Green,1
 bus_ac47,daily,bus_ac47_d0,Tollygunge Metro,0
-bus_ac47,daily,bus_ac47_d1,Kudghat,1
+bus_ac47,daily,bus_ac47_d1,Unitech Gate 1,1
 bus_ac50a,daily,bus_ac50a_d0,Garia Bus Stand,0
 bus_ac50a,daily,bus_ac50a_d1,Rajchandrapur (Ballyhalt),1
 bus_ac52,daily,bus_ac52_d0,Howrah Station,0
 bus_ac52,daily,bus_ac52_d1,Amtala,1
-bus_c2a,daily,bus_c2a_d0,Nalmuri,0
+bus_c2a,daily,bus_c2a_d0,Ghatatkpukur,0
 bus_c2a,daily,bus_c2a_d1,Tollygunge,1
 bus_c7,daily,bus_c7_d0,Garden Reach,0
 bus_c7,daily,bus_c7_d1,Howrah,1
@@ -1735,22 +1749,22 @@ bus_c26,daily,bus_c26_d1,Howrah Station,1
 bus_c28,daily,bus_c28_d0,Barrackpore Court,0
 bus_c28,daily,bus_c28_d1,Howrah Station,1
 bus_c29,daily,bus_c29_d0,Barasat,0
-bus_c29,daily,bus_c29_d1,Neelgunge,1
-bus_c31,daily,bus_c31_d0,Belurmath,0
+bus_c29,daily,bus_c29_d1,Barrackpur,1
+bus_c31,daily,bus_c31_d0,Bhattanagar,0
 bus_c31,daily,bus_c31_d1,Karunamoyee,1
-bus_c36,daily,bus_c36_d0,Bakultala,0
+bus_c36,daily,bus_c36_d0,Chandmari,0
 bus_c36,daily,bus_c36_d1,Rajabazar Tram Depot,1
 bus_c37,daily,bus_c37_d0,Amtala,0
 bus_c37,daily,bus_c37_d1,Howrah Station,1
 bus_c42,daily,bus_c42_d0,Howrah,0
 bus_c42,daily,bus_c42_d1,Birati,1
 bus_c43,daily,bus_c43_d0,Garia Bus Stand,0
-bus_c43,daily,bus_c43_d1,Barasat Champadali,1
+bus_c43,daily,bus_c43_d1,Habra Rail station,1
 bus_c46,daily,bus_c46_d0,Nabanna,0
 bus_c46,daily,bus_c46_d1,Hastings,1
 bus_c48,daily,bus_c48_d0,Baruipur,0
 bus_c48,daily,bus_c48_d1,Madhyamgram,1
-bus_d17,daily,bus_d17_d0,Santragachi,0
+bus_d17,daily,bus_d17_d0,Kona Express,0
 bus_d17,daily,bus_d17_d1,Garia,1
 bus_d1a,daily,bus_d1a_d0,Tollygunge,0
 bus_d1a,daily,bus_d1a_d1,Barasat,1
@@ -1759,18 +1773,18 @@ bus_e1,daily,bus_e1_d1,Jadavpur 8B,1
 bus_e4,daily,bus_e4_d0,Howrah bus stand (Executive),0
 bus_e4,daily,bus_e4_d1,Parnashree,1
 bus_e32,daily,bus_e32_d0,Howrah Station,0
-bus_e32,daily,bus_e32_d1,Chiria More,1
+bus_e32,daily,bus_e32_d1,Lalkuthi,1
 bus_e36,daily,bus_e36_d0,Santragachi,0
-bus_e36,daily,bus_e36_d1,Barasat,1
+bus_e36,daily,bus_e36_d1,Habra,1
 bus_e_36_spl,daily,bus_e_36_spl_d0,Santragachi,0
 bus_e_36_spl,daily,bus_e_36_spl_d1,Barasat,1
 bus_e_37a,daily,bus_e_37a_d0,Esplanade,0
 bus_e_37a,daily,bus_e_37a_d1,Barasat,1
-bus_e43a,daily,bus_e43a_d0,Battala,0
+bus_e43a,daily,bus_e43a_d0,Bhebia,0
 bus_e43a,daily,bus_e43a_d1,Howrah,1
 bus_e75,daily,bus_e75_d0,Baruipur,0
 bus_e75,daily,bus_e75_d1,Barasat,1
-bus_e77,daily,bus_e77_d0,Jagatballavpur,0
+bus_e77,daily,bus_e77_d0,Ichanagari,0
 bus_e77,daily,bus_e77_d1,Esplanade,1
 bus_eb1,daily,bus_eb1_d0,Newtown,0
 bus_eb1,daily,bus_eb1_d1,Nabanna,1
@@ -1802,9 +1816,9 @@ bus_s3a,daily,bus_s3a_d0,Sealdah(Rajabajar),0
 bus_s3a,daily,bus_s3a_d1,Thakurpukur,1
 bus_s3b,daily,bus_s3b_d0,Kankurgachi,0
 bus_s3b,daily,bus_s3b_d1,Behala 14 number,1
-bus_s3w,daily,bus_s3w_d0,Unitech Gate 2,0
-bus_s3w,daily,bus_s3w_d1,Thakurpukur Bazar,1
-bus_s4,daily,bus_s4_d0,Baisakhi,0
+bus_s3w,daily,bus_s3w_d0,Amity University (Ecospace),0
+bus_s3w,daily,bus_s3w_d1,Thakurpukur 3A bus stand (Joka),1
+bus_s4,daily,bus_s4_d0,Saltlake Karunamoyee,0
 bus_s4,daily,bus_s4_d1,Parnashree,1
 bus_s4c,daily,bus_s4c_d0,Howrah Station,0
 bus_s4c,daily,bus_s4c_d1,Haridevpur,1
@@ -1813,26 +1827,26 @@ bus_s4d,daily,bus_s4d_d1,Parnashree,1
 bus_s5,daily,bus_s5_d0,Howrah Station,0
 bus_s5,daily,bus_s5_d1,Garia 5no. Bus Stand,1
 bus_s7,daily,bus_s7_d0,Howrah Station,0
-bus_s7,daily,bus_s7_d1,Garia 6no. Bus stand,1
-bus_s9,daily,bus_s9_d0,Central Park,0
+bus_s7,daily,bus_s7_d1,Naktala,1
+bus_s9,daily,bus_s9_d0,Saltlake Karunamoyee,0
 bus_s9,daily,bus_s9_d1,Jadavpur,1
 bus_s9a,daily,bus_s9a_d0,Ballygunge Station,0
 bus_s9a,daily,bus_s9a_d1,Dunlop,1
 bus_s9c,daily,bus_s9c_d0,Ecospace,0
 bus_s9c,daily,bus_s9c_d1,Kamalgazi,1
-bus_s10,daily,bus_s10_d0,Hastings,0
-bus_s10,daily,bus_s10_d1,Central Jail,1
+bus_s10,daily,bus_s10_d0,Nabanna Bus Terminus,0
+bus_s10,daily,bus_s10_d1,Airport Gate 1,1
 bus_s10a,daily,bus_s10a_d0,Howrah Station,0
 bus_s10a,daily,bus_s10a_d1,Ballygunge Station,1
 bus_s11,daily,bus_s11_d0,Esplanade L20,0
-bus_s11,daily,bus_s11_d1,Chiria More,1
+bus_s11,daily,bus_s11_d1,Lalkuthi,1
 bus_s12,daily,bus_s12_d0,Howrah Station,0
 bus_s12,daily,bus_s12_d1,Newtown Bus Stand,1
 bus_s12d,daily,bus_s12d_d0,Howrah Station,0
 bus_s12d,daily,bus_s12d_d1,Thakurpukur 3A,1
 bus_s12e,daily,bus_s12e_d0,Howrah Station,0
-bus_s12e,daily,bus_s12e_d1,Unitech Gate 2,1
-bus_s14,daily,bus_s14_d0,Central Park,0
+bus_s12e,daily,bus_s12e_d1,Amity University (Ecospace),1
+bus_s14,daily,bus_s14_d0,Saltlake Karunamoyee,0
 bus_s14,daily,bus_s14_d1,Garia Bus Stand,1
 bus_s16,daily,bus_s16_d0,Saltlake,0
 bus_s16,daily,bus_s16_d1,Thakurpukur,1
@@ -1840,10 +1854,10 @@ bus_s17a,daily,bus_s17a_d0,Tollygunj Tram Depot,0
 bus_s17a,daily,bus_s17a_d1,Ariadaha (Dakshineswar),1
 bus_s21,daily,bus_s21_d0,Garia Bus Stand,0
 bus_s21,daily,bus_s21_d1,Bagbazar,1
-bus_s22,daily,bus_s22_d0,Wipro,0
+bus_s22,daily,bus_s22_d0,Saltlake Karunamoyee,0
 bus_s22,daily,bus_s22_d1,Shakuntala Park,1
 bus_s23a,daily,bus_s23a_d0,Rajchandrapur (Ballyhalt),0
-bus_s23a,daily,bus_s23a_d1,Tank No.10,1
+bus_s23a,daily,bus_s23a_d1,Saltlake Karunamoyee,1
 bus_s24,daily,bus_s24_d0,Howrah Station,0
 bus_s24,daily,bus_s24_d1,Kamalgazi,1
 bus_s24n,daily,bus_s24n_d0,Nabanna,0
@@ -1858,41 +1872,43 @@ bus_s32,daily,bus_s32_d0,Howrah Station,0
 bus_s32,daily,bus_s32_d1,Barrackpore,1
 bus_s32a,daily,bus_s32a_d0,Howrah Station,0
 bus_s32a,daily,bus_s32a_d1,Dunlop,1
+bus_s34b,daily,bus_s34b_d0,Lalkuthi,0
+bus_s34b,daily,bus_s34b_d1,Barrackpur Court,1
 bus_s34c,daily,bus_s34c_d0,Nagerbazar,0
-bus_s34c,daily,bus_s34c_d1,Dunlop,1
+bus_s34c,daily,bus_s34c_d1,State University,1
 bus_s_37,daily,bus_s_37_d0,Garia Bus Stand,0
 bus_s_37,daily,bus_s_37_d1,Hridaypur,1
 bus_s45,daily,bus_s45_d0,Kolkata Station,0
 bus_s45,daily,bus_s45_d1,Shakuntala Park,1
-bus_s46,daily,bus_s46_d0,Central Park,0
+bus_s46,daily,bus_s46_d0,Saltlake Karunamoyee,0
 bus_s46,daily,bus_s46_d1,Santoshpur,1
 bus_s47,daily,bus_s47_d0,Howrah Station,0
-bus_s47,daily,bus_s47_d1,Bata More,1
+bus_s47,daily,bus_s47_d1,Nungi More,1
 bus_s47a,daily,bus_s47a_d0,Howrah Station,0
 bus_s47a,daily,bus_s47a_d1,Behala Airport,1
-bus_s57,daily,bus_s57_d0,Hastings,0
+bus_s57,daily,bus_s57_d0,Nabanna Bus Terminus,0
 bus_s57,daily,bus_s57_d1,Ariadaha,1
-bus_s58,daily,bus_s58_d0,Central Park,0
+bus_s58,daily,bus_s58_d0,Saltlake Karunamoyee,0
 bus_s58,daily,bus_s58_d1,Barrackpore Court,1
 bus_s5c,daily,bus_s5c_d0,Howrah Station,0
-bus_s5c,daily,bus_s5c_d1,Garia Station,1
+bus_s5c,daily,bus_s5c_d1,Nayabad,1
 bus_s61,daily,bus_s61_d0,Achipur,0
 bus_s61,daily,bus_s61_d1,Taratala,1
 bus_s_62,daily,bus_s_62_d0,Bichali Ghat,0
 bus_s_62,daily,bus_s_62_d1,Patuli,1
 bus_s63,daily,bus_s63_d0,Nadial,0
-bus_s63,daily,bus_s63_d1,Taratala,1
+bus_s63,daily,bus_s63_d1,Behala 14no,1
 bus_s64,daily,bus_s64_d0,DLF1,0
 bus_s64,daily,bus_s64_d1,Naihati Bus terminus,1
-bus_s65,daily,bus_s65_d0,Sankrail Station,0
+bus_s65,daily,bus_s65_d0,Bakultala,0
 bus_s65,daily,bus_s65_d1,Sealdah,1
 bus_st16,daily,bus_st16_d0,Garia Metro,0
 bus_st16,daily,bus_st16_d1,Unitech Gate 1,1
 bus_st6,daily,bus_st6_d0,Tollygunge,0
-bus_st6,daily,bus_st6_d1,College More,1
-bus_t12,daily,bus_t12_d0,Science City,0
+bus_st6,daily,bus_st6_d1,Techonopolis,1
+bus_t12,daily,bus_t12_d0,Malancha,0
 bus_t12,daily,bus_t12_d1,Howrah,1
-bus_t2,daily,bus_t2_d0,Hastings,0
+bus_t2,daily,bus_t2_d0,Vidyasagar Setu,0
 bus_t2,daily,bus_t2_d1,BBD Bag,1
 bus_t8,daily,bus_t8_d0,BBD Bag,0
 bus_t8,daily,bus_t8_d1,Tikiapara,1
@@ -1903,14 +1919,14 @@ bus_v1_l,daily,bus_v1_l_d1,Tollygunge,1
 bus_vs1,daily,bus_vs1_d0,Esplanade L20,0
 bus_vs1,daily,bus_vs1_d1,Kaikhali,1
 bus_vs12,daily,bus_vs12_d0,Santragachi,0
-bus_vs12,daily,bus_vs12_d1,Central Park,1
+bus_vs12,daily,bus_vs12_d1,Saltlake Karunamoyee,1
 bus_vs2,daily,bus_vs2_d0,Howrah Station,0
 bus_vs2,daily,bus_vs2_d1,Kaikhali,1
 bus_1,daily,bus_1_d0,Mukundapur,0
 bus_1,daily,bus_1_d1,BNR,1
 bus_1a,daily,bus_1a_d0,Mukundapur,0
 bus_1a,daily,bus_1a_d1,Kidderpore,1
-bus_1b,daily,bus_1b_d0,Garia Station,0
+bus_1b,daily,bus_1b_d0,Nayabad,0
 bus_1b,daily,bus_1b_d1,Taratala,1
 bus_3b,daily,bus_3b_d0,Belgachia Metro,0
 bus_3b,daily,bus_3b_d1,New Alipore,1
@@ -1921,25 +1937,25 @@ bus_3c_2,daily,bus_3c_2_d1,Anandapur,1
 bus_3d,daily,bus_3d_d0,Belgachia Metro,0
 bus_3d,daily,bus_3d_d1,Sakherbazar (Behala),1
 bus_12,daily,bus_12_d0,Rajabazar,0
-bus_12,daily,bus_12_d1,Metiabruz,1
+bus_12,daily,bus_12_d1,Badartala,1
 bus_12_shuttle,daily,bus_12_shuttle_d0,Esplanade,0
-bus_12_shuttle,daily,bus_12_shuttle_d1,Metiabruz,1
+bus_12_shuttle,daily,bus_12_shuttle_d1,Badartala,1
 bus_12a,daily,bus_12a_d0,Howrah Station,0
-bus_12a,daily,bus_12a_d1,Metiabruz,1
+bus_12a,daily,bus_12a_d1,Badartala,1
 bus_12ad,daily,bus_12ad_d0,Howrah Station,0
 bus_12ad,daily,bus_12ad_d1,Santoshpur Station,1
 bus_12b_shuttle,daily,bus_12b_shuttle_d0,Esplanade,0
 bus_12b_shuttle,daily,bus_12b_shuttle_d1,Garden Reach,1
 bus_12c,daily,bus_12c_d0,Howrah Station,0
-bus_12c,daily,bus_12c_d1,Thakurpukur,1
+bus_12c,daily,bus_12c_d1,Pailan,1
 bus_12c_1,daily,bus_12c_1_d0,Howrah Station,0
 bus_12c_1,daily,bus_12c_1_d1,Shibrampur,1
 bus_12c_2,daily,bus_12c_2_d0,Howrah Station,0
 bus_12c_2,daily,bus_12c_2_d1,Aquatica,1
 bus_12c_1a,daily,bus_12c_1a_d0,Howrah Station,0
-bus_12c_1a,daily,bus_12c_1a_d1,Thakurpukur,1
+bus_12c_1a,daily,bus_12c_1a_d1,Pailan,1
 bus_12c_1b,daily,bus_12c_1b_d0,Howrah Station,0
-bus_12c_1b,daily,bus_12c_1b_d1,Thakurpukur 3A,1
+bus_12c_1b,daily,bus_12c_1b_d1,Pailan,1
 bus_13,daily,bus_13_d0,Sealdah Station,0
 bus_13,daily,bus_13_d1,Parnashree,1
 bus_13a,daily,bus_13a_d0,BBD Bag,0
@@ -1960,9 +1976,11 @@ bus_21,daily,bus_21_d0,Sealdah Station,0
 bus_21,daily,bus_21_d1,Barisha,1
 bus_21_1,daily,bus_21_1_d0,Sealdah Station,0
 bus_21_1,daily,bus_21_1_d1,Barisha,1
-bus_24,daily,bus_24_d0,Howrah Maidan,0
+bus_23,daily,bus_23_d0,Majlishpur,0
+bus_23,daily,bus_23_d1,Barasat,1
+bus_24,daily,bus_24_d0,Pilkhana More,0
 bus_24,daily,bus_24_d1,Topsia,1
-bus_24a,daily,bus_24a_d0,Howrah Maidan,0
+bus_24a,daily,bus_24a_d0,Pilkhana More,0
 bus_24a,daily,bus_24a_d1,Topsia,1
 bus_24a_1,daily,bus_24a_1_d0,Howrah Station,0
 bus_24a_1,daily,bus_24a_1_d1,Mukundapur,1
@@ -1991,19 +2009,19 @@ bus_37,daily,bus_37_d1,Dhakuria,1
 bus_37a,daily,bus_37a_d0,Howrah Station,0
 bus_37a,daily,bus_37a_d1,Dhakuria,1
 bus_39,daily,bus_39_d0,High Court,0
-bus_39,daily,bus_39_d1,Kustia More,1
+bus_39,daily,bus_39_d1,Picnic Garden,1
 bus_39a_2,daily,bus_39a_2_d0,Howrah Station,0
 bus_39a_2,daily,bus_39a_2_d1,VIP Bazar,1
 bus_40a,daily,bus_40a_d0,Babughat,0
-bus_40a,daily,bus_40a_d1,Bakeshwar,1
+bus_40a,daily,bus_40a_d1,Julpia,1
 bus_40b,daily,bus_40b_d0,Babughat,0
 bus_40b,daily,bus_40b_d1,Thakurpukur,1
 bus_41,daily,bus_41_d0,Howrah Station,0
 bus_41,daily,bus_41_d1,Layalka,1
 bus_41b,daily,bus_41b_d0,Howrah Station,0
-bus_41b,daily,bus_41b_d1,Tollygunge,1
+bus_41b,daily,bus_41b_d1,Netaji Nagar,1
 bus_42a,daily,bus_42a_d0,Bichali Ghat,0
-bus_42a,daily,bus_42a_d1,Kustia More,1
+bus_42a,daily,bus_42a_d1,Picnic Garden,1
 bus_42b,daily,bus_42b_d0,Bichali Ghat,0
 bus_42b,daily,bus_42b_d1,Anandapur,1
 bus_43,daily,bus_43_d0,Esplanade,0
@@ -2015,16 +2033,16 @@ bus_44_1,daily,bus_44_1_d1,Baguiati,1
 bus_44a,daily,bus_44a_d0,Howrah Station,0
 bus_44a,daily,bus_44a_d1,Sector V (Saltlake),1
 bus_45,daily,bus_45_d0,Baishnabghata,0
-bus_45,daily,bus_45_d1,Kaikhali,1
+bus_45,daily,bus_45_d1,Airport 1no,1
 bus_45a,daily,bus_45a_d0,Garia Station,0
-bus_45a,daily,bus_45a_d1,Kaikhali,1
+bus_45a,daily,bus_45a_d1,Airport 1no,1
 bus_45b,daily,bus_45b_d0,Garia Station,0
 bus_45b,daily,bus_45b_d1,Building More,1
 bus_46,daily,bus_46_d0,Esplanade,0
-bus_46,daily,bus_46_d1,Kaikhali,1
+bus_46,daily,bus_46_d1,Airport 1no,1
 bus_46b,daily,bus_46b_d0,Esplanade,0
 bus_46b,daily,bus_46b_d1,Moonbeam,1
-bus_47_1,daily,bus_47_1_d0,Sealdah Station,0
+bus_47_1,daily,bus_47_1_d0,Rajabazar (Saltlake),0
 bus_47_1,daily,bus_47_1_d1,Tollygunge,1
 bus_47b,daily,bus_47b_d0,Dhanmath,0
 bus_47b,daily,bus_47b_d1,Laketown,1
@@ -2043,45 +2061,59 @@ bus_56,daily,bus_56_d1,Kalyan Nagar,1
 bus_57,daily,bus_57_d0,Esplanade,0
 bus_57,daily,bus_57_d1,Belgachia,1
 bus_57a,daily,bus_57a_d0,Howrah Station,0
-bus_57a,daily,bus_57a_d1,Chamrail,1
+bus_57a,daily,bus_57a_d1,Chanditala,1
 bus_59,daily,bus_59_d0,Esplanade,0
 bus_59,daily,bus_59_d1,Bakultala,1
 bus_61,daily,bus_61_d0,Howrah Station,0
-bus_61,daily,bus_61_d1,Bakultala,1
+bus_61,daily,bus_61_d1,Alampur,1
 bus_63,daily,bus_63_d0,Howrah Station,0
 bus_63,daily,bus_63_d1,Domjur,1
+bus_64,daily,bus_64_d0,Kulgachia,0
+bus_64,daily,bus_64_d1,Tulshiberia,1
 bus_67,daily,bus_67_d0,Shibgunge,0
-bus_67,daily,bus_67_d1,Khalore More,1
-bus_67b,daily,bus_67b_d0,Mugkalyan,0
-bus_67b,daily,bus_67b_d1,Khalore More,1
-bus_68,daily,bus_68_d0,Radhapur,0
-bus_68,daily,bus_68_d1,Khalore More,1
+bus_67,daily,bus_67_d1,Bagnan,1
+bus_67b,daily,bus_67b_d0,58 Gate,0
+bus_67b,daily,bus_67b_d1,Bagnan,1
+bus_68,daily,bus_68_d0,Kamalpur,0
+bus_68,daily,bus_68_d1,Bagnan,1
 bus_69,daily,bus_69_d0,Howrah Station,0
-bus_69,daily,bus_69_d1,Sankrail,1
-bus_71,daily,bus_71_d0,Sealdah Station,0
+bus_69,daily,bus_69_d1,Bakultala,1
+bus_70,daily,bus_70_d0,Uluberia,0
+bus_70,daily,bus_70_d1,Amta,1
+bus_71,daily,bus_71_d0,Rajabazar (Saltlake),0
 bus_71,daily,bus_71_d1,Howrah Maidan,1
 bus_72,daily,bus_72_d0,Park Circus,0
 bus_72,daily,bus_72_d1,Dumurjola,1
+bus_72_2,daily,bus_72_2_d0,Nazat,0
+bus_72_2,daily,bus_72_2_d1,Basirhat,1
+bus_72a,daily,bus_72a_d0,Dhamakhali,0
+bus_72a,daily,bus_72a_d1,Basirhat,1
 bus_73,daily,bus_73_d0,Esplanade,0
 bus_73,daily,bus_73_d1,Dasnagar,1
 bus_73_2,daily,bus_73_2_d0,Naihati,0
-bus_73_2,daily,bus_73_2_d1,Kalyangarh,1
+bus_73_2,daily,bus_73_2_d1,Habra,1
 bus_75,daily,bus_75_d0,Esplanade,0
 bus_75,daily,bus_75_d1,Ichapur More,1
 bus_75_2,daily,bus_75_2_d0,Babughat,0
-bus_75_2,daily,bus_75_2_d1,Dongaria,1
+bus_75_2,daily,bus_75_2_d1,Raipur,1
+bus_76,daily,bus_76_d0,Bagnan,0
+bus_76,daily,bus_76_d1,Amta,1
+bus_77,daily,bus_77_d0,Ranihati,0
+bus_77,daily,bus_77_d1,Amta,1
 bus_77a,daily,bus_77a_d0,Esplanade,0
 bus_77a,daily,bus_77a_d1,Batanagar,1
 bus_77a_no_bata,daily,bus_77a_no_bata_d0,Esplanade,0
 bus_77a_no_bata,daily,bus_77a_no_bata_d1,Birlapur,1
 bus_78,daily,bus_78_d0,Esplanade,0
 bus_78,daily,bus_78_d1,Barrackpore Court,1
+bus_78_2,daily,bus_78_2_d0,Joypur,0
+bus_78_2,daily,bus_78_2_d1,Bagnan,1
 bus_78_1,daily,bus_78_1_d0,Babughat,0
 bus_78_1,daily,bus_78_1_d1,Rahara Bazar,1
 bus_78_1_2,daily,bus_78_1_2_d0,Babughat,0
 bus_78_1_2,daily,bus_78_1_2_d1,Sodepur Station,1
 bus_79,daily,bus_79_d0,Dunlop More,0
-bus_79,daily,bus_79_d1,Rajchandrapur,1
+bus_79,daily,bus_79_d1,Panchla,1
 bus_79b,daily,bus_79b_d0,Bagbazar,0
 bus_79b,daily,bus_79b_d1,Barasat,1
 bus_79d,daily,bus_79d_d0,Babughat,0
@@ -2100,25 +2132,33 @@ bus_83,daily,bus_83_d0,Babughat,0
 bus_83,daily,bus_83_d1,Falta,1
 bus_85,daily,bus_85_d0,Barrackpore Court,0
 bus_85,daily,bus_85_d1,Kanchrapara,1
-bus_87,daily,bus_87_d0,Adhata More,0
+bus_87,daily,bus_87_d0,Jaguli,0
 bus_87,daily,bus_87_d1,Barasat,1
-bus_87a,daily,bus_87a_d0,Rambati,0
+bus_87a,daily,bus_87a_d0,Naihati Station,0
 bus_87a,daily,bus_87a_d1,Barasat,1
 bus_88,daily,bus_88_d0,Kanchrapara,0
 bus_88,daily,bus_88_d1,Barasat,1
-bus_91,daily,bus_91_d0,Kashipur,0
+bus_91,daily,bus_91_d0,Shonepur,0
 bus_91,daily,bus_91_d1,Shyambazar,1
-bus_91a,daily,bus_91a_d0,Dhanpota,0
+bus_91a,daily,bus_91a_d0,Mazompur,0
 bus_91a,daily,bus_91a_d1,Shyambazar,1
-bus_91b,daily,bus_91b_d0,Bishnupur,0
+bus_91b,daily,bus_91b_d0,Shikharpur,0
 bus_91b,daily,bus_91b_d1,Shyambazar,1
-bus_91c,daily,bus_91c_d0,Bishnupur,0
+bus_91c,daily,bus_91c_d0,Lauhati,0
 bus_91c,daily,bus_91c_d1,Shyambazar,1
+bus_92,daily,bus_92_d0,Meherani,0
+bus_92,daily,bus_92_d1,Bongaon,1
+bus_92a,daily,bus_92a_d0,Sindrani,0
+bus_92a,daily,bus_92a_d1,Bongaon,1
 bus_93,daily,bus_93_d0,Bagbazar,0
 bus_93,daily,bus_93_d1,Kharibari,1
-bus_95,daily,bus_95_d0,Chanda,0
-bus_95,daily,bus_95_d1,Nagarukhra,1
-bus_201,daily,bus_201_d0,College More,0
+bus_95,daily,bus_95_d0,Habra Station,0
+bus_95,daily,bus_95_d1,Bongaon,1
+bus_96c,daily,bus_96c_d0,Sindrani,0
+bus_96c,daily,bus_96c_d1,Bongaon,1
+bus_96c_2,daily,bus_96c_2_d0,Kahankia,0
+bus_96c_2,daily,bus_96c_2_d1,Bongaon,1
+bus_201,daily,bus_201_d0,Mahishbathan,0
 bus_201,daily,bus_201_d1,Nimta,1
 bus_202,daily,bus_202_d0,Science City,0
 bus_202,daily,bus_202_d1,Nagerbazar,1
@@ -2136,16 +2176,16 @@ bus_211_white_board,daily,bus_211_white_board_d0,Kharibari,0
 bus_211_white_board,daily,bus_211_white_board_d1,Ahiritola,1
 bus_211_yellow_board,daily,bus_211_yellow_board_d0,Patharghata,0
 bus_211_yellow_board,daily,bus_211_yellow_board_d1,Ahiritola,1
-bus_211_blue_board,daily,bus_211_blue_board_d0,Bishnupur,0
+bus_211_blue_board,daily,bus_211_blue_board_d0,Shikharpur,0
 bus_211_blue_board,daily,bus_211_blue_board_d1,Ahiritola,1
-bus_211a,daily,bus_211a_d0,Rajarhat Chowmatha,0
+bus_211a,daily,bus_211a_d0,Langolpota,0
 bus_211a,daily,bus_211a_d1,Ahiritola,1
 bus_212,daily,bus_212_d0,Howrah Station,0
 bus_212,daily,bus_212_d1,Garfa Road,1
 bus_213,daily,bus_213_d0,Babughat,0
-bus_213,daily,bus_213_d1,Nalmuri,1
+bus_213,daily,bus_213_d1,Ghatakpukur,1
 bus_213a,daily,bus_213a_d0,Rajabazar,0
-bus_213a,daily,bus_213a_d1,Nalmuri,1
+bus_213a,daily,bus_213a_d1,Ghatakpukur,1
 bus_214,daily,bus_214_d0,Babughat,0
 bus_214,daily,bus_214_d1,Sajirhat,1
 bus_214a,daily,bus_214a_d0,Esplanade,0
@@ -2175,7 +2215,7 @@ bus_221,daily,bus_221_d1,Nagerbazar,1
 bus_222,daily,bus_222_d0,Dunlop More,0
 bus_222,daily,bus_222_d1,Sakher Bazar,1
 bus_223,daily,bus_223_d0,Golf Green,0
-bus_223,daily,bus_223_d1,Birati More,1
+bus_223,daily,bus_223_d1,Michael Nagar,1
 bus_227,daily,bus_227_d0,Bangur Avenue,0
 bus_227,daily,bus_227_d1,B.N.R. Hospital,1
 bus_228,daily,bus_228_d0,Babughat,0
@@ -2188,14 +2228,14 @@ bus_234,daily,bus_234_d0,Golf Green,0
 bus_234,daily,bus_234_d1,Belgharia,1
 bus_234_1,daily,bus_234_1_d0,Golf Green,0
 bus_234_1,daily,bus_234_1_d1,Belgharia Station,1
-bus_235,daily,bus_235_d0,Sealdah Station,0
+bus_235,daily,bus_235_d0,Rajabazar (Saltlake),0
 bus_235,daily,bus_235_d1,Amtala,1
 bus_237,daily,bus_237_d0,Babughat,0
 bus_237,daily,bus_237_d1,Birati Station,1
 bus_l238,daily,bus_l238_d0,Howrah Station,0
 bus_l238,daily,bus_l238_d1,Barasat,1
 bus_239_white_board,daily,bus_239_white_board_d0,Babughat,0
-bus_239_white_board,daily,bus_239_white_board_d1,Karunamoyee,1
+bus_239_white_board,daily,bus_239_white_board_d1,Bikash Bhawan,1
 bus_239_yellow_board,daily,bus_239_yellow_board_d0,Babughat,0
 bus_239_yellow_board,daily,bus_239_yellow_board_d1,Shapoorji,1
 bus_240,daily,bus_240_d0,Golf Green,0
@@ -2207,7 +2247,7 @@ bus_241,daily,bus_241_d1,Santoshpur Station,1
 bus_242,daily,bus_242_d0,Esplanade,0
 bus_242,daily,bus_242_d1,Cossipore,1
 bus_253,daily,bus_253_d0,Esplanade,0
-bus_253,daily,bus_253_d1,Gopalpur,1
+bus_253,daily,bus_253_d1,Basirhat,1
 bus_259,daily,bus_259_d0,Howrah Station,0
 bus_259,daily,bus_259_d1,Akra Station,1
 bus_260,daily,bus_260_d0,Alipore Zoo,0
@@ -2223,7 +2263,7 @@ bus_s103,daily,bus_s103_d1,Jadavpur,1
 bus_s104,daily,bus_s104_d0,BBD Bag,0
 bus_s104,daily,bus_s104_d1,Jodhpur Park,1
 bus_s106,daily,bus_s106_d0,BBD Bag,0
-bus_s106,daily,bus_s106_d1,Mukundapur,1
+bus_s106,daily,bus_s106_d1,Nayabad,1
 bus_s107,daily,bus_s107_d0,Howrah Station,0
 bus_s107,daily,bus_s107_d1,Anandapur,1
 bus_s107_1,daily,bus_s107_1_d0,Howrah Station,0
@@ -2241,19 +2281,19 @@ bus_s112,daily,bus_s112_d1,Garia Station (Naktala),1
 bus_s113,daily,bus_s113_d0,Howrah Station,0
 bus_s113,daily,bus_s113_d1,Harinavi,1
 bus_s117,daily,bus_s117_d0,Howrah Station,0
-bus_s117,daily,bus_s117_d1,Haridevpur,1
+bus_s117,daily,bus_s117_d1,Keorapukur,1
 bus_s121,daily,bus_s121_d0,Howrah Station,0
 bus_s121,daily,bus_s121_d1,Behala Chowrasta,1
 bus_s123,daily,bus_s123_d0,Howrah Station,0
-bus_s123,daily,bus_s123_d1,Bichali Ghat,1
+bus_s123,daily,bus_s123_d1,Matiabruz,1
 bus_s124,daily,bus_s124_d0,Howrah Station,0
 bus_s124,daily,bus_s124_d1,Garia Station,1
 bus_s125,daily,bus_s125_d0,Howrah Station,0
-bus_s125,daily,bus_s125_d1,Park Circus,1
+bus_s125,daily,bus_s125_d1,Picnic Garden,1
 bus_s126,daily,bus_s126_d0,Howrah Station,0
 bus_s126,daily,bus_s126_d1,Batanagar,1
 bus_s128,daily,bus_s128_d0,Howrah Station,0
-bus_s128,daily,bus_s128_d1,C.I.T. Road,1
+bus_s128,daily,bus_s128_d1,Picnic Garden,1
 bus_s129,daily,bus_s129_d0,Howrah Station,0
 bus_s129,daily,bus_s129_d1,Parnashree,1
 bus_s131,daily,bus_s131_d0,Ruby Hospital,0
@@ -2263,7 +2303,7 @@ bus_s135,daily,bus_s135_d1,Baishnabghata,1
 bus_s139,daily,bus_s139_d0,Babughat,0
 bus_s139,daily,bus_s139_d1,Shyambazar,1
 bus_s151,daily,bus_s151_d0,BBD Bag,0
-bus_s151,daily,bus_s151_d1,Kaikhali,1
+bus_s151,daily,bus_s151_d1,Airport 1no,1
 bus_s151_2,daily,bus_s151_2_d0,BBD Bag,0
 bus_s151_2,daily,bus_s151_2_d1,Derozio College,1
 bus_s152,daily,bus_s152_d0,BBD Bag,0
@@ -2272,7 +2312,7 @@ bus_s158,daily,bus_s158_d0,Babughat,0
 bus_s158,daily,bus_s158_d1,Dakshineswar,1
 bus_s159,daily,bus_s159_d0,BBD Bag,0
 bus_s159,daily,bus_s159_d1,Dunlop More,1
-bus_s161,daily,bus_s161_d0,Bichali Ghat,0
+bus_s161,daily,bus_s161_d0,Matiabruz,0
 bus_s161,daily,bus_s161_d1,Shyambazar,1
 bus_s163,daily,bus_s163_d0,BBD Bag,0
 bus_s163,daily,bus_s163_d1,Shyambazar,1
@@ -2295,7 +2335,7 @@ bus_s175,daily,bus_s175_d1,New Barrackpore,1
 bus_s176,daily,bus_s176_d0,Howrah Maidan,0
 bus_s176,daily,bus_s176_d1,Shyambazar,1
 bus_s178,daily,bus_s178_d0,Rajabazar,0
-bus_s178,daily,bus_s178_d1,Majherhat,1
+bus_s178,daily,bus_s178_d1,Behala 14no,1
 bus_s180,daily,bus_s180_d0,Howrah Maidan,0
 bus_s180,daily,bus_s180_d1,Belgharia Station,1
 bus_s184,daily,bus_s184_d0,BBD Bag,0
@@ -2309,11 +2349,11 @@ bus_s186,daily,bus_s186_d1,Uttar Panchannagram,1
 bus_s189,daily,bus_s189_d0,Howrah Maidan,0
 bus_s189,daily,bus_s189_d1,Shyambazar,1
 bus_rt1,daily,bus_rt1_d0,Esplanade,0
-bus_rt1,daily,bus_rt1_d1,Howrah Station,1
+bus_rt1,daily,bus_rt1_d1,Golabarai PS,1
 bus_rt1a,daily,bus_rt1a_d0,Sishu Mangal (Kasba),0
-bus_rt1a,daily,bus_rt1a_d1,Howrah Station,1
+bus_rt1a,daily,bus_rt1a_d1,Golabarai PS,1
 bus_rt2,daily,bus_rt2_d0,Esplanade,0
-bus_rt2,daily,bus_rt2_d1,Howrah Station,1
+bus_rt2,daily,bus_rt2_d1,Golabarai PS,1
 bus_rt3,daily,bus_rt3_d0,Esplanade,0
 bus_rt3,daily,bus_rt3_d1,Ichapur More,1
 bus_rt3a,daily,bus_rt3a_d0,Esplanade,0
@@ -2323,119 +2363,119 @@ bus_rt5,daily,bus_rt5_d1,Dasnagar,1
 bus_rt6,daily,bus_rt6_d0,Esplanade,0
 bus_rt6,daily,bus_rt6_d1,B.Garden,1
 bus_rt6a,daily,bus_rt6a_d0,Esplanade,0
-bus_rt6a,daily,bus_rt6a_d1,Avani Mall,1
+bus_rt6a,daily,bus_rt6a_d1,Danesh Shaikh Lane,1
 bus_rt7,daily,bus_rt7_d0,Shyambazar,0
 bus_rt7,daily,bus_rt7_d1,Howrah Maidan (Amtala Phari),1
 bus_rt8,daily,bus_rt8_d0,Esplanade,0
-bus_rt8,daily,bus_rt8_d1,Avani Mall,1
+bus_rt8,daily,bus_rt8_d1,Mandirtala,1
 bus_rt10,daily,bus_rt10_d0,Kidderpore,0
 bus_rt10,daily,bus_rt10_d1,Belurmath,1
 bus_rt11,daily,bus_rt11_d0,Esplanade,0
 bus_rt11,daily,bus_rt11_d1,Belurmath,1
 bus_rt11a,daily,bus_rt11a_d0,Rabindra Sadan (Diamond Park),0
 bus_rt11a,daily,bus_rt11a_d1,Howrah Maidan,1
-bus_rt13,daily,bus_rt13_d0,Jorabagan,0
-bus_rt13,daily,bus_rt13_d1,Bakultala,1
-bus_rt13a,daily,bus_rt13a_d0,Jorabagan,0
-bus_rt13a,daily,bus_rt13a_d1,Bakultala,1
+bus_rt13,daily,bus_rt13_d0,Ahiritola (Rajabazar),0
+bus_rt13,daily,bus_rt13_d1,Ranihati,1
+bus_rt13a,daily,bus_rt13a_d0,Ahiritola (Rajabazar),0
+bus_rt13a,daily,bus_rt13a_d1,Alampur,1
 bus_rt18,daily,bus_rt18_d0,Esplanade,0
 bus_rt18,daily,bus_rt18_d1,Belgachia,1
 bus_rt20,daily,bus_rt20_d0,Ultadanga,0
-bus_rt20,daily,bus_rt20_d1,Bakultala,1
+bus_rt20,daily,bus_rt20_d1,Alampur,1
 bus_rt20a,daily,bus_rt20a_d0,Saltlake Stadium,0
 bus_rt20a,daily,bus_rt20a_d1,Bakultala,1
 bus_rt21,daily,bus_rt21_d0,Sakher Bazar,0
 bus_rt21,daily,bus_rt21_d1,Howrah Maidan,1
 bus_rt24,daily,bus_rt24_d0,Howrah Station,0
-bus_rt24,daily,bus_rt24_d1,Sankrail,1
+bus_rt24,daily,bus_rt24_d1,Bakultala,1
 bus_rt25,daily,bus_rt25_d0,Sealdah Station,0
-bus_rt25,daily,bus_rt25_d1,Howrah Station,1
+bus_rt25,daily,bus_rt25_d1,Golabarai PS,1
 bus_rt26,daily,bus_rt26_d0,Esplanade,0
 bus_rt26,daily,bus_rt26_d1,Santragachi,1
 bus_rt27,daily,bus_rt27_d0,Park Circus,0
-bus_rt27,daily,bus_rt27_d1,Dasnagar,1
+bus_rt27,daily,bus_rt27_d1,Bankra,1
 bus_rt27a,daily,bus_rt27a_d0,Park Circus (Ruby Hospital),0
 bus_rt27a,daily,bus_rt27a_d1,Howrah Maidan,1
 bus_rt29,daily,bus_rt29_d0,Sector V (Saltlake),0
 bus_rt29,daily,bus_rt29_d1,Tikiapara,1
 bus_rt30,daily,bus_rt30_d0,Esplanade,0
-bus_rt30,daily,bus_rt30_d1,Baluhati,1
+bus_rt30,daily,bus_rt30_d1,Belgachia,1
 bus_rt31,daily,bus_rt31_d0,Rabindra Sadan (Kidderpore),0
 bus_rt31,daily,bus_rt31_d1,Makardaha,1
 bus_rt32,daily,bus_rt32_d0,Rabindra Sadan (Parnasree),0
 bus_rt32,daily,bus_rt32_d1,Howrah Maidan,1
 bus_rt34,daily,bus_rt34_d0,Howrah Station,0
-bus_rt34,daily,bus_rt34_d1,Domjur,1
+bus_rt34,daily,bus_rt34_d1,Purash,1
 bus_rt35,daily,bus_rt35_d0,Howrah Station,0
-bus_rt35,daily,bus_rt35_d1,Domjur,1
+bus_rt35,daily,bus_rt35_d1,Hantal,1
 bus_rt38,daily,bus_rt38_d0,Esplanade,0
 bus_rt38,daily,bus_rt38_d1,Dasnagar,1
 bus_rt39,daily,bus_rt39_d0,Esplanade,0
-bus_rt39,daily,bus_rt39_d1,Liluah Station,1
+bus_rt39,daily,bus_rt39_d1,Bamangachi,1
 bus_rt42,daily,bus_rt42_d0,Aliah University,0
-bus_rt42,daily,bus_rt42_d1,Hastings,1
+bus_rt42,daily,bus_rt42_d1,Danesh Shaikh Lane,1
 bus_m10,daily,bus_m10_d0,Raidighi,0
 bus_m10,daily,bus_m10_d1,Diamond Harbour,1
 bus_m14_2,daily,bus_m14_2_d0,Howrah Station,0
 bus_m14_2,daily,bus_m14_2_d1,Jhinjhira Bazar,1
-bus_m15,daily,bus_m15_d0,Brindabanpur,0
+bus_m15,daily,bus_m15_d0,Ramnarayanpur,0
 bus_m15,daily,bus_m15_d1,Falta Sector 1,1
 bus_m16,daily,bus_m16_d0,Radhanagar,0
 bus_m16,daily,bus_m16_d1,Burul,1
-bus_sd3,daily,bus_sd3_d0,Jagulgachi,0
+bus_sd3,daily,bus_sd3_d0,Ghatakpukur,0
 bus_sd3,daily,bus_sd3_d1,Sonarpur,1
 bus_sd4,daily,bus_sd4_d0,Garfa Road,0
 bus_sd4,daily,bus_sd4_d1,Thakurpukur,1
 bus_sd5,daily,bus_sd5_d0,Khariberia,0
 bus_sd5,daily,bus_sd5_d1,Sonarpur Station,1
-bus_sd8,daily,bus_sd8_d0,Ballygunge Station,0
+bus_sd8,daily,bus_sd8_d0,Nandi Bagan,0
 bus_sd8,daily,bus_sd8_d1,Shamali,1
 bus_sd9,daily,bus_sd9_d0,Esplanade,0
-bus_sd9,daily,bus_sd9_d1,Noorpur,1
-bus_sd11,daily,bus_sd11_d0,Gangadharpur,0
-bus_sd11,daily,bus_sd11_d1,Noorpur,1
-bus_sd11_1,daily,bus_sd11_1_d0,Indranarayanpur,0
-bus_sd11_1,daily,bus_sd11_1_d1,Noorpur,1
+bus_sd9,daily,bus_sd9_d1,Sarisha More,1
+bus_sd11,daily,bus_sd11_d0,Milan More,0
+bus_sd11,daily,bus_sd11_d1,Sarisha More,1
+bus_sd11_1,daily,bus_sd11_1_d0,Milan More,0
+bus_sd11_1,daily,bus_sd11_1_d1,Sarisha More,1
 bus_sd14,daily,bus_sd14_d0,Taratala,0
 bus_sd14,daily,bus_sd14_d1,Belsingha,1
 bus_sd16,daily,bus_sd16_d0,Mukundapur,0
-bus_sd16,daily,bus_sd16_d1,Amtala,1
+bus_sd16,daily,bus_sd16_d1,Shirakole,1
 bus_sd18,daily,bus_sd18_d0,Esplanade,0
 bus_sd18,daily,bus_sd18_d1,Diamond Harbour,1
-bus_sd19,daily,bus_sd19_d0,Gangadharpur,0
+bus_sd19,daily,bus_sd19_d0,Milan More,0
 bus_sd19,daily,bus_sd19_d1,Esplanade,1
 bus_sd22_1,daily,bus_sd22_1_d0,Esplanade,0
-bus_sd22_1,daily,bus_sd22_1_d1,Nainan,1
+bus_sd22_1,daily,bus_sd22_1_d1,Kalatalahat,1
 bus_sd24,daily,bus_sd24_d0,Sonakhali,0
 bus_sd24,daily,bus_sd24_d1,Alipore Zoo,1
 bus_sd26,daily,bus_sd26_d0,Babughat,0
 bus_sd26,daily,bus_sd26_d1,Burul,1
 bus_sd27,daily,bus_sd27_d0,Santoshpur Station,0
-bus_sd27,daily,bus_sd27_d1,Usthi,1
+bus_sd27,daily,bus_sd27_d1,Dostipur,1
 bus_sd29,daily,bus_sd29_d0,Baruipur Station,0
 bus_sd29,daily,bus_sd29_d1,Amtala,1
 bus_sd30,daily,bus_sd30_d0,Taratala,0
 bus_sd30,daily,bus_sd30_d1,Sujapur,1
 bus_sd33,daily,bus_sd33_d0,Jharkhali,0
 bus_sd33,daily,bus_sd33_d1,Canning,1
-bus_sd39,daily,bus_sd39_d0,Baikunthapur,0
-bus_sd39,daily,bus_sd39_d1,Nimpith,1
-bus_sd50,daily,bus_sd50_d0,Gangadharpur,0
+bus_sd39,daily,bus_sd39_d0,Lakshmi More,0
+bus_sd39,daily,bus_sd39_d1,Joynagar,1
+bus_sd50,daily,bus_sd50_d0,Milan More,0
 bus_sd50,daily,bus_sd50_d1,Diamond Harbour,1
-bus_sd51,daily,bus_sd51_d0,Kashinagar,0
-bus_sd51,daily,bus_sd51_d1,Gurudaspur,1
-bus_sd53,daily,bus_sd53_d0,Maipith,0
-bus_sd53,daily,bus_sd53_d1,Nimpith,1
+bus_sd51,daily,bus_sd51_d0,Mathurapur Station,0
+bus_sd51,daily,bus_sd51_d1,Milan More,1
+bus_sd53,daily,bus_sd53_d0,Binodpur,0
+bus_sd53,daily,bus_sd53_d1,Joynagar,1
 bus_sd63,daily,bus_sd63_d0,Gadkhali,0
 bus_sd63,daily,bus_sd63_d1,Canning,1
 bus_sd64,daily,bus_sd64_d0,Chunakhali,0
 bus_sd64,daily,bus_sd64_d1,Canning,1
-bus_sd82,daily,bus_sd82_d0,Kakdwip Station (Bamuner More),0
+bus_sd82,daily,bus_sd82_d0,Kakdwip,0
 bus_sd82,daily,bus_sd82_d1,Esplanade,1
-bus_sd85,daily,bus_sd85_d0,Gabbuni,0
+bus_sd85,daily,bus_sd85_d0,Dhamakhali,0
 bus_sd85,daily,bus_sd85_d1,Canning,1
 bus_sd94,daily,bus_sd94_d0,Bakkhali,0
-bus_sd94,daily,bus_sd94_d1,Amrabati,1
+bus_sd94,daily,bus_sd94_d1,Kakdwip,1
 bus_dn2,daily,bus_dn2_d0,Dakshineswar,0
 bus_dn2,daily,bus_dn2_d1,Barasat,1
 bus_dn2_1,daily,bus_dn2_1_d0,Dakshineswar,0
@@ -2446,32 +2486,36 @@ bus_dn8,daily,bus_dn8_d0,Sector V (Saltlake),0
 bus_dn8,daily,bus_dn8_d1,Barasat,1
 bus_dn9_1,daily,bus_dn9_1_d0,Rajchandrapur,0
 bus_dn9_1,daily,bus_dn9_1_d1,Barasat,1
-bus_dn12_1,daily,bus_dn12_1_d0,Bagjola,0
-bus_dn12_1,daily,bus_dn12_1_d1,Hazra,1
-bus_dn13,daily,bus_dn13_d0,Gokulpur,0
-bus_dn13,daily,bus_dn13_d1,Gopalpur More,1
-bus_dn13a,daily,bus_dn13a_d0,Gokulpur,0
-bus_dn13a,daily,bus_dn13a_d1,Gopalpur More,1
-bus_dn16_1,daily,bus_dn16_1_d0,Rampur,0
+bus_dn12,daily,bus_dn12_d0,Basirhat,0
+bus_dn12,daily,bus_dn12_d1,Kalupur,1
+bus_dn12_1,daily,bus_dn12_1_d0,Nazat,0
+bus_dn12_1,daily,bus_dn12_1_d1,Joygachhi,1
+bus_dn13,daily,bus_dn13_d0,Hakimpur,0
+bus_dn13,daily,bus_dn13_d1,Madartala,1
+bus_dn13a,daily,bus_dn13a_d0,Hakimpur,0
+bus_dn13a,daily,bus_dn13a_d1,Haroa (upto Kholapota),1
+bus_dn16_1,daily,bus_dn16_1_d0,Dhamakhali,0
 bus_dn16_1,daily,bus_dn16_1_d1,Barasat,1
 bus_dn17,daily,bus_dn17_d0,Babughat,0
 bus_dn17,daily,bus_dn17_d1,Barasat Titumir Bus Stand,1
-bus_dn18,daily,bus_dn18_d0,Raghunathpur,0
+bus_dn18,daily,bus_dn18_d0,Baduria,0
 bus_dn18,daily,bus_dn18_d1,Shyambazar,1
 bus_dn19,daily,bus_dn19_d0,Colony More,0
 bus_dn19,daily,bus_dn19_d1,Barrackpore Court,1
-bus_dn26,daily,bus_dn26_d0,Shrikrishnapur,0
-bus_dn26,daily,bus_dn26_d1,Gaighata (Habra),1
+bus_dn26,daily,bus_dn26_d0,Rajberia,0
+bus_dn26,daily,bus_dn26_d1,Joygachhi,1
 bus_dn28,daily,bus_dn28_d0,Haroa,0
 bus_dn28,daily,bus_dn28_d1,Barasat Titumir Bus Stand,1
-bus_dn35,daily,bus_dn35_d0,Balti,0
+bus_dn35,daily,bus_dn35_d0,Nabatkati,0
 bus_dn35,daily,bus_dn35_d1,Barasat Titumir Bus Stand,1
+bus_dn38,daily,bus_dn38_d0,Gobindapur,0
+bus_dn38,daily,bus_dn38_d1,Bashirhat (Malancha),1
 bus_dn43,daily,bus_dn43_d0,Colony More,0
 bus_dn43,daily,bus_dn43_d1,Dakshineswar,1
 bus_dn44,daily,bus_dn44_d0,Dakshineswar,0
-bus_dn44,daily,bus_dn44_d1,Dharampur,1
+bus_dn44,daily,bus_dn44_d1,Bongaon,1
 bus_dn46,daily,bus_dn46_d0,Newtown,0
-bus_dn46,daily,bus_dn46_d1,Dunlop,1
+bus_dn46,daily,bus_dn46_d1,Nilgunge Road,1
 bus_dn47,daily,bus_dn47_d0,Karunamoyee,0
 bus_dn47,daily,bus_dn47_d1,Colony More,1
 bus_k1,daily,bus_k1_d0,Kolkata Station,0
@@ -2488,40 +2532,42 @@ bus_kb16,daily,bus_kb16_d0,Bangur Avenue,0
 bus_kb16,daily,bus_kb16_d1,Shapoorji,1
 bus_kb17,daily,bus_kb17_d0,Unitech Gate 1,0
 bus_kb17,daily,bus_kb17_d1,Sonarpur Station,1
-bus_kb21,daily,bus_kb21_d0,Birati More,0
+bus_kb21,daily,bus_kb21_d0,Sukanta Nagar,0
 bus_kb21,daily,bus_kb21_d1,Topsia,1
 bus_kb22,daily,bus_kb22_d0,Jamirgachi,0
 bus_kb22,daily,bus_kb22_d1,Kolkata Station,1
 bus_m10_ac_corporate,daily,bus_m10_ac_corporate_d0,Barasat,0
 bus_m10_ac_corporate,daily,bus_m10_ac_corporate_d1,Rashbehari,1
-bus_mm3,daily,bus_mm3_d0,Sabedabagan,0
+bus_mm3,daily,bus_mm3_d0,Duttapukur,0
 bus_mm3,daily,bus_mm3_d1,Dakshineswar,1
-bus_mm5,daily,bus_mm5_d0,Santoshpur,0
+bus_mm5,daily,bus_mm5_d0,Habra Station,0
 bus_mm5,daily,bus_mm5_d1,Barrackpore Court,1
-bus_mm6,daily,bus_mm6_d0,Beliaghata,0
-bus_mm6,daily,bus_mm6_d1,Jafarpur(Barasat),1
+bus_mm6,daily,bus_mm6_d0,Chakla(Sohai),0
+bus_mm6,daily,bus_mm6_d1,Champadali More,1
 bus_mm6_1,daily,bus_mm6_1_d0,Bagjola,0
-bus_mm6_1,daily,bus_mm6_1_d1,Barasat,1
+bus_mm6_1,daily,bus_mm6_1_d1,Jafarpur,1
+bus_mm7,daily,bus_mm7_d0,Dhamakhali,0
+bus_mm7,daily,bus_mm7_d1,Basirhat Court,1
 bus_mn3,daily,bus_mn3_d0,Kashtodanga,0
 bus_mn3,daily,bus_mn3_d1,Barasat Titumir Bus Stand,1
 bus_mn6,daily,bus_mn6_d0,Purandarpur,0
 bus_mn6,daily,bus_mn6_d1,Barasat Titumir Bus Stand,1
-bus_e43,daily,bus_e43_d0,Lebutala,0
+bus_e43,daily,bus_e43_d0,Nischintapur,0
 bus_e43,daily,bus_e43_d1,Howrah Station,1
 bus_e53,daily,bus_e53_d0,Tikiapara,0
 bus_e53,daily,bus_e53_d1,Howrah Station,1
 bus_sta_amta_airport,daily,bus_sta_amta_airport_d0,Airport,0
-bus_sta_amta_airport,daily,bus_sta_amta_airport_d1,Rajchandrapur,1
+bus_sta_amta_airport,daily,bus_sta_amta_airport_d1,Amta,1
 bus_sta_amta_mukundapur,daily,bus_sta_amta_mukundapur_d0,Mukundapur,0
-bus_sta_amta_mukundapur,daily,bus_sta_amta_mukundapur_d1,Santragachi Station,1
+bus_sta_amta_mukundapur,daily,bus_sta_amta_mukundapur_d1,Amta,1
 bus_sta_amta_newtown,daily,bus_sta_amta_newtown_d0,Newtown,0
-bus_sta_amta_newtown,daily,bus_sta_amta_newtown_d1,Santragachi,1
+bus_sta_amta_newtown,daily,bus_sta_amta_newtown_d1,Amta,1
 bus_sta_bagnan_ecospace,daily,bus_sta_bagnan_ecospace_d0,Ecospace,0
-bus_sta_bagnan_ecospace,daily,bus_sta_bagnan_ecospace_d1,Om Dayal,1
-bus_sta_bally_halt_saltlake_karunamoyee,daily,bus_sta_bally_halt_saltlake_karunamoyee_d0,Tank No.10,0
+bus_sta_bagnan_ecospace,daily,bus_sta_bagnan_ecospace_d1,Bagnan,1
+bus_sta_bally_halt_saltlake_karunamoyee,daily,bus_sta_bally_halt_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
 bus_sta_bally_halt_saltlake_karunamoyee,daily,bus_sta_bally_halt_saltlake_karunamoyee_d1,Ballyhalt,1
 bus_sta_bandar_howrah_station,daily,bus_sta_bandar_howrah_station_d0,Howrah Station,0
-bus_sta_bandar_howrah_station,daily,bus_sta_bandar_howrah_station_d1,Bandar,1
+bus_sta_bandar_howrah_station,daily,bus_sta_bandar_howrah_station_d1,Arambagh,1
 bus_sta_barasat_santragachi_newtown_version,daily,bus_sta_barasat_santragachi_newtown_version_d0,Santragachi (Newtown Version),0
 bus_sta_barasat_santragachi_newtown_version,daily,bus_sta_barasat_santragachi_newtown_version_d1,Barasat,1
 bus_sta_barasat_titumir_bus_stand_santragachi,daily,bus_sta_barasat_titumir_bus_stand_santragachi_d0,Santragachi,0
@@ -2533,28 +2579,28 @@ bus_sta_barasat_garia,daily,bus_sta_barasat_garia_d1,Barasat,1
 bus_sta_barasat_botanical_garden_b_garden,daily,bus_sta_barasat_botanical_garden_b_garden_d0,Botanical Garden (B garden),0
 bus_sta_barasat_botanical_garden_b_garden,daily,bus_sta_barasat_botanical_garden_b_garden_d1,Barasat,1
 bus_sta_bargachia_sealdah_court,daily,bus_sta_bargachia_sealdah_court_d0,Sealdah Court,0
-bus_sta_bargachia_sealdah_court,daily,bus_sta_bargachia_sealdah_court_d1,Domjur,1
+bus_sta_bargachia_sealdah_court,daily,bus_sta_bargachia_sealdah_court_d1,Bargachia,1
 bus_sta_barrackpore_howrah_station,daily,bus_sta_barrackpore_howrah_station_d0,Howrah Station,0
 bus_sta_barrackpore_howrah_station,daily,bus_sta_barrackpore_howrah_station_d1,Barrackpore,1
-bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d0,Chaulkhola,0
-bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d1,Barasat,1
-bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d0,City Center,0
-bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d1,Berachampa Crossing,1
-bus_sta_botanical_garden_dhamakhali,daily,bus_sta_botanical_garden_dhamakhali_d0,Rampur,0
+bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d0,Gadiara,0
+bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d1,Basirhat,1
+bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
+bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d1,Berachampa,1
+bus_sta_botanical_garden_dhamakhali,daily,bus_sta_botanical_garden_dhamakhali_d0,Dhamakhali,0
 bus_sta_botanical_garden_dhamakhali,daily,bus_sta_botanical_garden_dhamakhali_d1,Botanical Garden,1
-bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d0,PNB,0
-bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d1,College ghat,1
-bus_sta_deulti_saltlake_karunamoyee,daily,bus_sta_deulti_saltlake_karunamoyee_d0,Nicco Park,0
+bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
+bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d1,Bagdah,1
+bus_sta_deulti_saltlake_karunamoyee,daily,bus_sta_deulti_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
 bus_sta_deulti_saltlake_karunamoyee,daily,bus_sta_deulti_saltlake_karunamoyee_d1,Deulti,1
 bus_sta_dhulagarh_newtown,daily,bus_sta_dhulagarh_newtown_d0,Newtown,0
-bus_sta_dhulagarh_newtown,daily,bus_sta_dhulagarh_newtown_d1,Santragachi,1
+bus_sta_dhulagarh_newtown,daily,bus_sta_dhulagarh_newtown_d1,Alampur,1
 bus_sta_dhulagarh_sealdah,daily,bus_sta_dhulagarh_sealdah_d0,Sealdah,0
-bus_sta_dhulagarh_sealdah,daily,bus_sta_dhulagarh_sealdah_d1,Santragachi,1
+bus_sta_dhulagarh_sealdah,daily,bus_sta_dhulagarh_sealdah_d1,Alampur,1
 bus_sta_dhulagarh_unitech,daily,bus_sta_dhulagarh_unitech_d0,Unitech,0
-bus_sta_dhulagarh_unitech,daily,bus_sta_dhulagarh_unitech_d1,Santragachi,1
-bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d0,Narkelbagan,0
-bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d1,Laxmi Bazar,1
-bus_sta_garia_ultodanga,daily,bus_sta_garia_ultodanga_d0,HUDCO,0
+bus_sta_dhulagarh_unitech,daily,bus_sta_dhulagarh_unitech_d1,Alampur,1
+bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d0,Rajarhat,0
+bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d1,Gadiara,1
+bus_sta_garia_ultodanga,daily,bus_sta_garia_ultodanga_d0,Ultodanga,0
 bus_sta_garia_ultodanga,daily,bus_sta_garia_ultodanga_d1,Garia,1
 bus_sta_garia_station_bagbazar,daily,bus_sta_garia_station_bagbazar_d0,Bagbazar,0
 bus_sta_garia_station_bagbazar,daily,bus_sta_garia_station_bagbazar_d1,Garia Station,1
@@ -2565,56 +2611,56 @@ bus_sta_garia_station_paikpara,daily,bus_sta_garia_station_paikpara_d1,Garia Sta
 bus_sta_kamalgazi_dankuni_housing,daily,bus_sta_kamalgazi_dankuni_housing_d0,Rajchandrapur,0
 bus_sta_kamalgazi_dankuni_housing,daily,bus_sta_kamalgazi_dankuni_housing_d1,Kamalgazi,1
 bus_sta_kadamtala_newtown,daily,bus_sta_kadamtala_newtown_d0,Newtown,0
-bus_sta_kadamtala_newtown,daily,bus_sta_kadamtala_newtown_d1,Belepole,1
+bus_sta_kadamtala_newtown,daily,bus_sta_kadamtala_newtown_d1,Notun Rastar More,1
 bus_sta_madhyamgram_howrah,daily,bus_sta_madhyamgram_howrah_d0,Howrah,0
 bus_sta_madhyamgram_howrah,daily,bus_sta_madhyamgram_howrah_d1,Madhyamgram,1
 bus_sta_malancha_kolkata_station,daily,bus_sta_malancha_kolkata_station_d0,Kolkata Station,0
-bus_sta_malancha_kolkata_station,daily,bus_sta_malancha_kolkata_station_d1,Kolkata Leather Complex,1
+bus_sta_malancha_kolkata_station,daily,bus_sta_malancha_kolkata_station_d1,Malancha,1
 bus_sta_matapara_newtown,daily,bus_sta_matapara_newtown_d0,Newtown,0
-bus_sta_matapara_newtown,daily,bus_sta_matapara_newtown_d1,Kalinagar More,1
-bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d0,College More,0
-bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d1,Shibtala,1
+bus_sta_matapara_newtown,daily,bus_sta_matapara_newtown_d1,Gohalberia,1
+bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
+bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d1,Jhikira,1
 bus_sta_naktala_garia_dakshineswar,daily,bus_sta_naktala_garia_dakshineswar_d0,Dakshineswar,0
 bus_sta_naktala_garia_dakshineswar,daily,bus_sta_naktala_garia_dakshineswar_d1,Naktala ( Garia ),1
 bus_sta_polerhat_shyambazar,daily,bus_sta_polerhat_shyambazar_d0,Shyambazar,0
 bus_sta_polerhat_shyambazar,daily,bus_sta_polerhat_shyambazar_d1,Anantapur,1
-bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d0,Deuli,0
-bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d1,Sealdah,1
-bus_sta_rajabazar_hasnabad,daily,bus_sta_rajabazar_hasnabad_d0,Nalmuri,0
+bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d0,Minakhan,0
+bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d1,Rajabazar (Dankuni),1
+bus_sta_rajabazar_hasnabad,daily,bus_sta_rajabazar_hasnabad_d0,Hasnabad,0
 bus_sta_rajabazar_hasnabad,daily,bus_sta_rajabazar_hasnabad_d1,Rajabazar,1
-bus_sta_rajchandrapur_saltlake_karunamoyee,daily,bus_sta_rajchandrapur_saltlake_karunamoyee_d0,Karunamoyee,0
+bus_sta_rajchandrapur_saltlake_karunamoyee,daily,bus_sta_rajchandrapur_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
 bus_sta_rajchandrapur_saltlake_karunamoyee,daily,bus_sta_rajchandrapur_saltlake_karunamoyee_d1,Rajchandrapur,1
-bus_sta_shyambazar_malancha,daily,bus_sta_shyambazar_malancha_d0,Nalmuri,0
+bus_sta_shyambazar_malancha,daily,bus_sta_shyambazar_malancha_d0,Malancha,0
 bus_sta_shyambazar_malancha,daily,bus_sta_shyambazar_malancha_d1,Shyambazar,1
 bus_sta_shyampur_kolkata_station,daily,bus_sta_shyampur_kolkata_station_d0,Kolkata Station,0
-bus_sta_shyampur_kolkata_station,daily,bus_sta_shyampur_kolkata_station_d1,Mugkalyan,1
+bus_sta_shyampur_kolkata_station,daily,bus_sta_shyampur_kolkata_station_d1,Shyampur,1
 bus_sta_santragachi_newtown,daily,bus_sta_santragachi_newtown_d0,Newtown,0
 bus_sta_santragachi_newtown,daily,bus_sta_santragachi_newtown_d1,Santragachi,1
-bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d0,Tank No.10,0
-bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d1,Beltala,1
+bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d0,Saltlake Karunamoyee,0
+bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d1,Udanarayanpur,1
 bus_s2n,daily,bus_s2n_d0,Nabanna,0
 bus_s2n,daily,bus_s2n_d1,Kudghat,1
-bus_s5_n,daily,bus_s5_n_d0,Rabindra Sadan,0
+bus_s5_n,daily,bus_s5_n_d0,Nabanna Bus Terminus,0
 bus_s5_n,daily,bus_s5_n_d1,Garia 5no. Bus Stand,1
-bus_s7_n,daily,bus_s7_n_d0,Exide,0
-bus_s7_n,daily,bus_s7_n_d1,Garia 6no. Bus stand,1
-bus_s12g,daily,bus_s12g_d0,Betaitala,0
+bus_s7_n,daily,bus_s7_n_d0,Nabanna Bus Terminus,0
+bus_s7_n,daily,bus_s7_n_d1,Naktala,1
+bus_s12g,daily,bus_s12g_d0,Nabanna Bus Terminus,0
 bus_s12g,daily,bus_s12g_d1,Newtown Bus Stand,1
 bus_s23,daily,bus_s23_d0,Howrah Station,0
-bus_s23,daily,bus_s23_d1,Central Park,1
+bus_s23,daily,bus_s23_d1,Saltlake Karunamoyee,1
 bus_s30a_it_special,daily,bus_s30a_it_special_d0,Bidhannagar Station (Circular Route),0
 bus_s30a_it_special,daily,bus_s30a_it_special_d1,Bidhannagar Station,1
 bus_e32_executive_service,daily,bus_e32_executive_service_d0,Howrah Station,0
-bus_e32_executive_service,daily,bus_e32_executive_service_d1,Chiria More,1
-bus_ac36,daily,bus_ac36_d0,Tank 10,0
+bus_e32_executive_service,daily,bus_e32_executive_service_d1,Lalkuthi,1
+bus_ac36,daily,bus_ac36_d0,Saltlake Karunamoyee,0
 bus_ac36,daily,bus_ac36_d1,Barasat,1
 bus_s37a,daily,bus_s37a_d0,Garia Bus Stand,0
-bus_s37a,daily,bus_s37a_d1,Kaikhali,1
+bus_s37a,daily,bus_s37a_d1,Airport Gate 1,1
 bus_ac37c,daily,bus_ac37c_d0,Garia Bus Stand,0
 bus_ac37c,daily,bus_ac37c_d1,Kaikhali,1
-bus_ac41,daily,bus_ac41_d0,Unitech Gate 2,0
+bus_ac41,daily,bus_ac41_d0,Amity University (Ecospace),0
 bus_ac41,daily,bus_ac41_d1,Santragachi,1
-bus_ac49,daily,bus_ac49_d0,Kaikhali,0
+bus_ac49,daily,bus_ac49_d0,Airport Gate 1,0
 bus_ac49,daily,bus_ac49_d1,Jhinjhira Bazar,1
 bus_ac50,daily,bus_ac50_d0,Garia Bus Stand,0
 bus_ac50,daily,bus_ac50_d1,Belurmath,1
@@ -2623,15 +2669,15 @@ bus_ac54,daily,bus_ac54_d1,Dunlop,1
 bus_ac55,daily,bus_ac55_d0,Newtown Bus Stand,0
 bus_ac55,daily,bus_ac55_d1,Naihati Bus terminus,1
 bus_s59,daily,bus_s59_d0,Howrah Station,0
-bus_s59,daily,bus_s59_d1,Laboni,1
+bus_s59,daily,bus_s59_d1,Saltlake Karunamoyee,1
 bus_ac59,daily,bus_ac59_d0,Howrah Station,0
-bus_ac59,daily,bus_ac59_d1,City Centre,1
+bus_ac59,daily,bus_ac59_d1,Saltlake Karunamoyee,1
 bus_vs6,daily,bus_vs6_d0,Fort William,0
 bus_vs6,daily,bus_vs6_d1,Diamond Harbour,1
 bus_vs10,daily,bus_vs10_d0,Parnashree,0
-bus_vs10,daily,bus_vs10_d1,Narkelbagan,1
+bus_vs10,daily,bus_vs10_d1,Tata Cancer Hospital,1
 bus_vs14a,daily,bus_vs14a_d0,Park Street,0
-bus_vs14a,daily,bus_vs14a_d1,Central Park,1
+bus_vs14a,daily,bus_vs14a_d1,Saltlake Karunamoyee,1
 bus_st7,daily,bus_st7_d0,Ultadanga,0
 bus_st7,daily,bus_st7_d1,Unitech Gate 1,1
 bus_st10,daily,bus_st10_d0,Santragachi,0
@@ -2639,24 +2685,24 @@ bus_st10,daily,bus_st10_d1,Narkelbagan,1
 bus_st12,daily,bus_st12_d0,Baruipur Hospital,0
 bus_st12,daily,bus_st12_d1,Unitech Gate 1,1
 bus_st21,daily,bus_st21_d0,Howrah Station,0
-bus_st21,daily,bus_st21_d1,Chowbaga,1
-bus_st21_2,daily,bus_st21_2_d0,Nalmuri,0
+bus_st21,daily,bus_st21_d1,Mathbari,1
+bus_st21_2,daily,bus_st21_2_d0,Mathbari,0
 bus_st21_2,daily,bus_st21_2_d1,Ultadanga,1
 bus_st22,daily,bus_st22_d0,Basanti,0
 bus_st22,daily,bus_st22_d1,Howrah Station,1
 bus_st22a,daily,bus_st22a_d0,Howrah Station,0
 bus_st22a,daily,bus_st22a_d1,Basanti,1
-bus_st25,daily,bus_st25_d0,Hatugunge,0
+bus_st25,daily,bus_st25_d0,Hospital More,0
 bus_st25,daily,bus_st25_d1,Esplanade,1
-bus_st26,daily,bus_st26_d0,Usthi,0
+bus_st26,daily,bus_st26_d0,Srichanda,0
 bus_st26,daily,bus_st26_d1,Esplanade,1
-bus_st27,daily,bus_st27_d0,Hatugunge,0
+bus_st27,daily,bus_st27_d0,Nischintipur,0
 bus_st27,daily,bus_st27_d1,Esplanade,1
-bus_st28,daily,bus_st28_d0,Hatugunge,0
+bus_st28,daily,bus_st28_d0,Namkhana,0
 bus_st28,daily,bus_st28_d1,Esplanade,1
-bus_st29,daily,bus_st29_d0,Hatugunge,0
+bus_st29,daily,bus_st29_d0,Dhola bus stop,0
 bus_st29,daily,bus_st29_d1,Esplanade,1
-bus_st31,daily,bus_st31_d0,Nachinda,0
+bus_st31,daily,bus_st31_d0,Digha,0
 bus_st31,daily,bus_st31_d1,Esplanade,1
 bus_st32,daily,bus_st32_d0,Bakkhali,0
 bus_st32,daily,bus_st32_d1,Esplanade,1
@@ -2664,123 +2710,129 @@ bus_st39,daily,bus_st39_d0,Nimpith,0
 bus_st39,daily,bus_st39_d1,Esplanade,1
 bus_c11,daily,bus_c11_d0,Domjur bus Stand,0
 bus_c11,daily,bus_c11_d1,Shyambazar,1
-bus_c11_1,daily,bus_c11_1_d0,pantihal,0
+bus_c11_1,daily,bus_c11_1_d0,Munshirhat,0
 bus_c11_1,daily,bus_c11_1_d1,Howrah Station,1
 bus_c14_1,daily,bus_c14_1_d0,Tollygunj Tram Depot,0
 bus_c14_1,daily,bus_c14_1_d1,Madhyamgram,1
 bus_c20,daily,bus_c20_d0,Santragachi Bus Terminus,0
 bus_c20,daily,bus_c20_d1,Fort William,1
 bus_c23a,daily,bus_c23a_d0,Park Circus tram Depot,0
-bus_c23a,daily,bus_c23a_d1,Kaikhali,1
+bus_c23a,daily,bus_c23a_d1,Airport Gate 1,1
 bus_c26a,daily,bus_c26a_d0,Kamalgazi,0
 bus_c26a,daily,bus_c26a_d1,Howrah Station,1
-bus_c30,daily,bus_c30_d0,Sankrail Station,0
+bus_c30,daily,bus_c30_d0,Bakultala,0
 bus_c30,daily,bus_c30_d1,Rajabazar Tram Depot,1
-bus_c38,daily,bus_c38_d0,Behala Chowrasta,0
+bus_c38,daily,bus_c38_d0,Sakherbzar,0
 bus_c38,daily,bus_c38_d1,Howrah Station,1
-bus_c39,daily,bus_c39_d0,Hastings,0
+bus_c39,daily,bus_c39_d0,Nabanna Bus Terminus,0
 bus_c39,daily,bus_c39_d1,Rajabazar Tram Depot,1
 bus_d2,daily,bus_d2_d0,Naihati,0
-bus_d2,daily,bus_d2_d1,Kalyangarh More,1
-bus_d11,daily,bus_d11_d0,Barasat,0
+bus_d2,daily,bus_d2_d1,Habra,1
+bus_d7,daily,bus_d7_d0,Bagdah,0
+bus_d7,daily,bus_d7_d1,Barasat,1
+bus_d8,daily,bus_d8_d0,Baduria,0
+bus_d8,daily,bus_d8_d1,Barasat,1
+bus_d9,daily,bus_d9_d0,Hakimpur,0
+bus_d9,daily,bus_d9_d1,Barasat,1
+bus_d11,daily,bus_d11_d0,Baduria,0
 bus_d11,daily,bus_d11_d1,Esplanade,1
-bus_d20,daily,bus_d20_d0,Barasat,0
+bus_d20,daily,bus_d20_d0,Basirhat,0
 bus_d20,daily,bus_d20_d1,Esplanade,1
-bus_d21,daily,bus_d21_d0,Science City,0
+bus_d21,daily,bus_d21_d0,Nazat,0
 bus_d21,daily,bus_d21_d1,Sealdah Court,1
-bus_d23,daily,bus_d23_d0,Barasat,0
+bus_d23,daily,bus_d23_d0,Baduria,0
 bus_d23,daily,bus_d23_d1,Esplanade,1
-bus_d26,daily,bus_d26_d0,Barasat,0
+bus_d26,daily,bus_d26_d0,Hakimpur,0
 bus_d26,daily,bus_d26_d1,Park Circus,1
 bus_d28,daily,bus_d28_d0,Chakla,0
 bus_d28,daily,bus_d28_d1,Esplanade,1
-bus_d31,daily,bus_d31_d0,Barasat,0
+bus_d31,daily,bus_d31_d0,Srinathpur,0
 bus_d31,daily,bus_d31_d1,Esplanade,1
-bus_d32,daily,bus_d32_d0,Hingalgunge,0
-bus_d32,daily,bus_d32_d1,Barasat,1
-bus_e6,daily,bus_e6_d0,Santragachi,0
+bus_d32,daily,bus_d32_d0,Dulduli,0
+bus_d32,daily,bus_d32_d1,Deganga,1
+bus_e6,daily,bus_e6_d0,Amta,0
 bus_e6,daily,bus_e6_d1,Esplanade,1
-bus_e7,daily,bus_e7_d0,Santragachi,0
+bus_e7,daily,bus_e7_d0,Bagnan,0
 bus_e7,daily,bus_e7_d1,Esplanade,1
-bus_e12,daily,bus_e12_d0,Domjur,0
+bus_e12,daily,bus_e12_d0,Khila,0
 bus_e12,daily,bus_e12_d1,Esplanade,1
-bus_e13,daily,bus_e13_d0,Domjur,0
+bus_e13,daily,bus_e13_d0,Jangipara,0
 bus_e13,daily,bus_e13_d1,Esplanade,1
 bus_e14,daily,bus_e14_d0,Furfura Sharif,0
 bus_e14,daily,bus_e14_d1,Esplanade,1
-bus_e15,daily,bus_e15_d0,Santragachi,0
+bus_e15,daily,bus_e15_d0,Gadiara,0
 bus_e15,daily,bus_e15_d1,Esplanade,1
-bus_e17,daily,bus_e17_d0,Santragachi,0
+bus_e17,daily,bus_e17_d0,Digha,0
 bus_e17,daily,bus_e17_d1,Barasat,1
-bus_e17_1,daily,bus_e17_1_d0,Dunlop,0
+bus_e17_1,daily,bus_e17_1_d0,Digha,0
 bus_e17_1,daily,bus_e17_1_d1,Barasat,1
-bus_e18,daily,bus_e18_d0,Science City,0
+bus_e18,daily,bus_e18_d0,Dhamakhali,0
 bus_e18,daily,bus_e18_d1,Esplanade,1
-bus_e19,daily,bus_e19_d0,Dunlop,0
-bus_e19,daily,bus_e19_d1,Barasat,1
-bus_e21,daily,bus_e21_d0,Barasat,0
+bus_e19,daily,bus_e19_d0,Digha,0
+bus_e19,daily,bus_e19_d1,Habra,1
+bus_e21,daily,bus_e21_d0,Shikharpur,0
 bus_e21,daily,bus_e21_d1,Esplanade,1
-bus_e22,daily,bus_e22_d0,Barasat,0
+bus_e22,daily,bus_e22_d0,Shikharpur,0
 bus_e22,daily,bus_e22_d1,Esplanade,1
-bus_e24,daily,bus_e24_d0,Barasat,0
+bus_e24,daily,bus_e24_d0,Krishnanagar,0
 bus_e24,daily,bus_e24_d1,Esplanade,1
-bus_e28,daily,bus_e28_d0,Santragachi,0
+bus_e28,daily,bus_e28_d0,Bakshi,0
 bus_e28,daily,bus_e28_d1,Esplanade,1
-bus_e29,daily,bus_e29_d0,Library More,0
+bus_e29,daily,bus_e29_d0,Fatikgachi,0
 bus_e29,daily,bus_e29_d1,Esplanade,1
-bus_e31,daily,bus_e31_d0,Santragachi,0
+bus_e31,daily,bus_e31_d0,Garh Bhawanipur,0
 bus_e31,daily,bus_e31_d1,Esplanade,1
-bus_e31_1,daily,bus_e31_1_d0,Santragachi,0
+bus_e31_1,daily,bus_e31_1_d0,Jhikira,0
 bus_e31_1,daily,bus_e31_1_d1,Howrah Station,1
-bus_e35,daily,bus_e35_d0,Dunlop,0
+bus_e35,daily,bus_e35_d0,Jayrambati,0
 bus_e35,daily,bus_e35_d1,Esplanade,1
-bus_e38,daily,bus_e38_d0,Mayapur,0
+bus_e38,daily,bus_e38_d0,Bamanpukur,0
 bus_e38,daily,bus_e38_d1,Esplanade,1
-bus_e40,daily,bus_e40_d0,Santragachi,0
+bus_e40,daily,bus_e40_d0,Digha,0
 bus_e40,daily,bus_e40_d1,Esplanade,1
-bus_e40_1,daily,bus_e40_1_d0,Santragachi,0
+bus_e40_1,daily,bus_e40_1_d0,Digha,0
 bus_e40_1,daily,bus_e40_1_d1,Esplanade,1
 bus_e41,daily,bus_e41_d0,Raniganj,0
-bus_e41,daily,bus_e41_d1,Barasat,1
+bus_e41,daily,bus_e41_d1,Habra,1
 bus_e44,daily,bus_e44_d0,Radhanagar,0
 bus_e44,daily,bus_e44_d1,Esplanade,1
-bus_e45,daily,bus_e45_d0,Santragachi,0
-bus_e45,daily,bus_e45_d1,Tollygunge,1
-bus_e46,daily,bus_e46_d0,Dunlop,0
+bus_e45,daily,bus_e45_d0,Digha,0
+bus_e45,daily,bus_e45_d1,Joka,1
+bus_e46,daily,bus_e46_d0,Digha,0
 bus_e46,daily,bus_e46_d1,Karunamoyee,1
-bus_e47,daily,bus_e47_d0,Jaleswar,0
+bus_e47,daily,bus_e47_d0,Gaighata,0
 bus_e47,daily,bus_e47_d1,Howrah Station,1
-bus_e51,daily,bus_e51_d0,Dunlop,0
+bus_e51,daily,bus_e51_d0,Arambagh,0
 bus_e51,daily,bus_e51_d1,Esplanade,1
-bus_e51a,daily,bus_e51a_d0,Bishnupur,0
-bus_e51a,daily,bus_e51a_d1,Barasat,1
-bus_e54,daily,bus_e54_d0,Ballyhalt,0
+bus_e51a,daily,bus_e51a_d0,Arambagh,0
+bus_e51a,daily,bus_e51a_d1,Habra,1
+bus_e54,daily,bus_e54_d0,Digha,0
 bus_e54,daily,bus_e54_d1,Serampore,1
-bus_e55,daily,bus_e55_d0,Dunlop,0
+bus_e55,daily,bus_e55_d0,Digha,0
 bus_e55,daily,bus_e55_d1,Barasat,1
-bus_e56,daily,bus_e56_d0,Airport,0
-bus_e56,daily,bus_e56_d1,Barasat Champadali,1
+bus_e56,daily,bus_e56_d0,Digha,0
+bus_e56,daily,bus_e56_d1,Baduria,1
 bus_e57,daily,bus_e57_d0,Chapra,0
 bus_e57,daily,bus_e57_d1,Esplanade,1
-bus_e59,daily,bus_e59_d0,Dunlop,0
+bus_e59,daily,bus_e59_d0,Digha,0
 bus_e59,daily,bus_e59_d1,Naihati,1
 bus_e61,daily,bus_e61_d0,Bakkhali,0
-bus_e61,daily,bus_e61_d1,Barasat,1
-bus_e62,daily,bus_e62_d0,Khulna,0
+bus_e61,daily,bus_e61_d1,Habra,1
+bus_e62,daily,bus_e62_d0,Hasnabad Station,0
 bus_e62,daily,bus_e62_d1,Esplanade,1
-bus_e66,daily,bus_e66_d0,Dunlop,0
-bus_e66,daily,bus_e66_d1,Barasat,1
-bus_e67,daily,bus_e67_d0,Bardhaman,0
-bus_e67,daily,bus_e67_d1,Airport,1
+bus_e66,daily,bus_e66_d0,Budhigram,0
+bus_e66,daily,bus_e66_d1,Habra,1
+bus_e67,daily,bus_e67_d0,Kamalpur,0
+bus_e67,daily,bus_e67_d1,Habra,1
 bus_e68,daily,bus_e68_d0,Haldia,0
-bus_e68,daily,bus_e68_d1,Barasat,1
-bus_e70,daily,bus_e70_d0,Chandra,0
-bus_e70,daily,bus_e70_d1,Barasat,1
-bus_e71,daily,bus_e71_d0,Jagatballavpur,0
+bus_e68,daily,bus_e68_d1,Habra,1
+bus_e70,daily,bus_e70_d0,Basantapur,0
+bus_e70,daily,bus_e70_d1,Habra,1
+bus_e71,daily,bus_e71_d0,Udaynaryanpur,0
 bus_e71,daily,bus_e71_d1,Esplanade,1
-bus_e72,daily,bus_e72_d0,Domjur,0
+bus_e72,daily,bus_e72_d0,Jangipara,0
 bus_e72,daily,bus_e72_d1,Esplanade,1
-bus_e73,daily,bus_e73_d0,Science City,0
+bus_e73,daily,bus_e73_d0,Basirhat,0
 bus_e73,daily,bus_e73_d1,Howrah Station,1
 bus_e74,daily,bus_e74_d0,Basubati,0
 bus_e74,daily,bus_e74_d1,Esplanade,1
@@ -2804,8 +2856,8 @@ bus_ic21,daily,bus_ic21_d0,Beleghata,0
 bus_ic21,daily,bus_ic21_d1,Dhapa,1
 bus_jm2,daily,bus_jm2_d0,Beleghata,0
 bus_jm2,daily,bus_jm2_d1,Dhapa,1
-bus_l30b,daily,bus_l30b_d0,Babughat,0
-bus_l30b,daily,bus_l30b_d1,Chhatakal,1
+bus_l30b,daily,bus_l30b_d0,Airport No. 1 Gate,0
+bus_l30b,daily,bus_l30b_d1,Babughat,1
 bus_rt007,daily,bus_rt007_d0,Beleghata,0
 bus_rt007,daily,bus_rt007_d1,Dhapa,1
 bus_rt239,daily,bus_rt239_d0,Beleghata,0
@@ -2828,8 +2880,6 @@ ferry_howrah_bagbazar,daily,ferry_howrah_bagbazar_d0,Bagbazar Launch Ghat,0
 ferry_howrah_bagbazar,daily,ferry_howrah_bagbazar_d1,Howrah Station Ghat (Howrah Launch Ghat),1
 ferry_belur_dakshineswar,daily,ferry_belur_dakshineswar_d0,Dakshineswar Ghat,0
 ferry_belur_dakshineswar,daily,ferry_belur_dakshineswar_d1,Belur Math Ghat,1
-ferry_rsv_circuit,daily,ferry_rsv_circuit_d0,Belur Math Ghat,0
-ferry_rsv_circuit,daily,ferry_rsv_circuit_d1,Fairlie Ghat (Fairlie Place),1
 ferry_rishra_khardah,daily,ferry_rishra_khardah_d0,Khardah Ghat,0
 ferry_rishra_khardah,daily,ferry_rishra_khardah_d1,Rishra Ferry Ghat,1
 ferry_sheoraphuli_barrackpore,daily,ferry_sheoraphuli_barrackpore_d0,"Dui Paisar Ghat (east bank, Barrackpore side)",0
@@ -2838,14 +2888,14 @@ ferry_serampore_barrackpore,daily,ferry_serampore_barrackpore_d0,"Dhobi Ghat (ea
 ferry_serampore_barrackpore,daily,ferry_serampore_barrackpore_d1,"Jugal Auddy Ferry Ghat (west bank, Serampore side)",1
 auto_r91,daily,auto_r91_d0,Karunamoyee,0
 auto_r91,daily,auto_r91_d1,Phoolbagan,1
-auto_r58,daily,auto_r58_d0,CIT More,0
+auto_r58,daily,auto_r58_d0,ID Hospital,0
 auto_r58,daily,auto_r58_d1,Phoolbagan,1
 auto_r17,daily,auto_r17_d0,Sealdah Station,0
 auto_r17,daily,auto_r17_d1,Phoolbagan,1
 auto_r59,daily,auto_r59_d0,Girish Park,0
 auto_r59,daily,auto_r59_d1,Phoolbagan,1
 auto_r80,daily,auto_r80_d0,Deshbandhu Park,0
-auto_r80,daily,auto_r80_d1,CIT More,1
+auto_r80,daily,auto_r80_d1,ID Hospital,1
 auto_r44,daily,auto_r44_d0,Raja Bazar,0
 auto_r44,daily,auto_r44_d1,Phoolbagan,1
 auto_r73,daily,auto_r73_d0,Sealdah Station,0
@@ -2870,6 +2920,8 @@ auto_behala_td_ballygunge_stn,daily,auto_behala_td_ballygunge_stn_d0,Ballygunge 
 auto_behala_td_ballygunge_stn,daily,auto_behala_td_ballygunge_stn_d1,Behala Tram Depot,1
 auto_chetla_park_behala_chowrasta,daily,auto_chetla_park_behala_chowrasta_d0,Behala Chowrasta,0
 auto_chetla_park_behala_chowrasta,daily,auto_chetla_park_behala_chowrasta_d1,Chetla Park,1
+auto_ultadanga_sector_v,daily,auto_ultadanga_sector_v_d0,Sector V,0
+auto_ultadanga_sector_v,daily,auto_ultadanga_sector_v_d1,Ultadanga,1
 auto_ultadanga_bikash_bhavan,daily,auto_ultadanga_bikash_bhavan_d0,Bikash Bhavan,0
 auto_ultadanga_bikash_bhavan,daily,auto_ultadanga_bikash_bhavan_d1,Ultadanga,1
 auto_ultadanga_karunamoyee,daily,auto_ultadanga_karunamoyee_d0,Karunamoyee,0
@@ -2884,5 +2936,163 @@ auto_behala_chowrasta_sarsuna,daily,auto_behala_chowrasta_sarsuna_d0,Sarsuna,0
 auto_behala_chowrasta_sarsuna,daily,auto_behala_chowrasta_sarsuna_d1,Behala Chowrasta,1
 auto_chingrighata_sdf,daily,auto_chingrighata_sdf_d0,SDF Building Salt Lake,0
 auto_chingrighata_sdf,daily,auto_chingrighata_sdf_d1,Chingrighata,1
+auto_garia_baruipur,daily,auto_garia_baruipur_d0,Baruipur,0
+auto_garia_baruipur,daily,auto_garia_baruipur_d1,Garia,1
+auto_sonarpur_garia,daily,auto_sonarpur_garia_d0,Garia,0
+auto_sonarpur_garia,daily,auto_sonarpur_garia_d1,Sonarpur,1
 auto_baruipur_julpia,daily,auto_baruipur_julpia_d0,Julpia,0
 auto_baruipur_julpia,daily,auto_baruipur_julpia_d1,Baruipur,1
+auto_rta_011,daily,auto_rta_011_d0,Santragachi Station,0
+auto_rta_011,daily,auto_rta_011_d1,Bakultala Bus Stand,1
+auto_rta_016,daily,auto_rta_016_d0,Baltikuri,0
+auto_rta_016,daily,auto_rta_016_d1,Ramrajatala Station,1
+auto_rta_020,daily,auto_rta_020_d0,Baghajatin,0
+auto_rta_020,daily,auto_rta_020_d1,Ruby,1
+auto_rta_029,daily,auto_rta_029_d0,Tollygunge,0
+auto_rta_029,daily,auto_rta_029_d1,Behala Chowrasta,1
+auto_rta_030,daily,auto_rta_030_d0,Sarsuna,0
+auto_rta_030,daily,auto_rta_030_d1,Behala Tram Depot,1
+auto_rta_032,daily,auto_rta_032_d0,Ruby,0
+auto_rta_032,daily,auto_rta_032_d1,Jadavpur Police Station,1
+auto_rta_036,daily,auto_rta_036_d0,Tollygunge Tram Depot,0
+auto_rta_036,daily,auto_rta_036_d1,Behala Chowrasta,1
+auto_rta_039,daily,auto_rta_039_d0,Tollygunge Tram Depot,0
+auto_rta_039,daily,auto_rta_039_d1,Sakherbazar,1
+auto_rta_041,daily,auto_rta_041_d0,Taratala,0
+auto_rta_041,daily,auto_rta_041_d1,3A Bus Stand,1
+auto_rta_044,daily,auto_rta_044_d0,Taratala,0
+auto_rta_044,daily,auto_rta_044_d1,Joka,1
+auto_rta_047,daily,auto_rta_047_d0,Garia,0
+auto_rta_047,daily,auto_rta_047_d1,Tollygunge Tram Depot,1
+auto_rta_048,daily,auto_rta_048_d0,Hazra,0
+auto_rta_048,daily,auto_rta_048_d1,Garia,1
+auto_rta_062,daily,auto_rta_062_d0,Mukundapur,0
+auto_rta_062,daily,auto_rta_062_d1,Jadavpur Police Station,1
+auto_rta_063,daily,auto_rta_063_d0,Garia Station,0
+auto_rta_063,daily,auto_rta_063_d1,Jadavpur Station,1
+auto_rta_064,daily,auto_rta_064_d0,Garia,0
+auto_rta_064,daily,auto_rta_064_d1,Jadavpur,1
+auto_rta_068,daily,auto_rta_068_d0,Metiabruz,0
+auto_rta_068,daily,auto_rta_068_d1,Khidderpore,1
+auto_rta_074,daily,auto_rta_074_d0,Garia Station,0
+auto_rta_074,daily,auto_rta_074_d1,Ruby General Hospital,1
+auto_rta_076,daily,auto_rta_076_d0,Behala Tram Depot,0
+auto_rta_076,daily,auto_rta_076_d1,Sarsuna College,1
+auto_rta_077,daily,auto_rta_077_d0,Taratala,0
+auto_rta_077,daily,auto_rta_077_d1,Sarsuna,1
+auto_rta_079,daily,auto_rta_079_d0,Taratala,0
+auto_rta_079,daily,auto_rta_079_d1,Thakurpukur,1
+auto_rta_080,daily,auto_rta_080_d0,Nayabad,0
+auto_rta_080,daily,auto_rta_080_d1,Jadavpur,1
+auto_rta_083,daily,auto_rta_083_d0,Ultadanga,0
+auto_rta_083,daily,auto_rta_083_d1,Belgachia Metro,1
+auto_rta_085,daily,auto_rta_085_d0,Ultadanga,0
+auto_rta_085,daily,auto_rta_085_d1,Baguiati,1
+auto_rta_088,daily,auto_rta_088_d0,Baguiati,0
+auto_rta_088,daily,auto_rta_088_d1,Rajarhat,1
+auto_rta_091,daily,auto_rta_091_d0,13 No. Tank,0
+auto_rta_091,daily,auto_rta_091_d1,Ultadanga,1
+auto_rta_092,daily,auto_rta_092_d0,13 No. Tank,0
+auto_rta_092,daily,auto_rta_092_d1,Phoolbagan,1
+auto_rta_096,daily,auto_rta_096_d0,Rajarhat,0
+auto_rta_096,daily,auto_rta_096_d1,Chinar Park,1
+auto_rta_099,daily,auto_rta_099_d0,Sector V,0
+auto_rta_099,daily,auto_rta_099_d1,HUDCO,1
+auto_rta_105,daily,auto_rta_105_d0,Kaikhali,0
+auto_rta_105,daily,auto_rta_105_d1,Rajarhat,1
+auto_rta_109,daily,auto_rta_109_d0,Ultadanga,0
+auto_rta_109,daily,auto_rta_109_d1,Lake Town,1
+auto_rta_125,daily,auto_rta_125_d0,Karunamoyee,0
+auto_rta_125,daily,auto_rta_125_d1,New Town,1
+auto_rta_136,daily,auto_rta_136_d0,Salt Lake,0
+auto_rta_136,daily,auto_rta_136_d1,HUDCO,1
+auto_rta_141,daily,auto_rta_141_d0,Karunamoyee,0
+auto_rta_141,daily,auto_rta_141_d1,Ultadanga,1
+auto_rta_145,daily,auto_rta_145_d0,Karunamoyee,0
+auto_rta_145,daily,auto_rta_145_d1,Ultadanga,1
+auto_rta_153,daily,auto_rta_153_d0,13 No. Tank,0
+auto_rta_153,daily,auto_rta_153_d1,Ultadanga,1
+auto_rta_159,daily,auto_rta_159_d0,Birati Station,0
+auto_rta_159,daily,auto_rta_159_d1,Birati More,1
+auto_rta_168,daily,auto_rta_168_d0,Hazra More,0
+auto_rta_168,daily,auto_rta_168_d1,Ballygunge Phari,1
+auto_rta_169,daily,auto_rta_169_d0,Hazra More,0
+auto_rta_169,daily,auto_rta_169_d1,Ballygunge Station,1
+auto_rta_178,daily,auto_rta_178_d0,Gariahat,0
+auto_rta_178,daily,auto_rta_178_d1,Chetla,1
+auto_rta_182,daily,auto_rta_182_d0,Chiria More,0
+auto_rta_182,daily,auto_rta_182_d1,Dum Dum Station,1
+auto_rta_187,daily,auto_rta_187_d0,Gariahat,0
+auto_rta_187,daily,auto_rta_187_d1,Golpark,1
+auto_rta_190,daily,auto_rta_190_d0,Behala,0
+auto_rta_190,daily,auto_rta_190_d1,Hazra,1
+auto_rta_191,daily,auto_rta_191_d0,13 No. Tank,0
+auto_rta_191,daily,auto_rta_191_d1,HUDCO,1
+auto_rta_192,daily,auto_rta_192_d0,Karunamoyee,0
+auto_rta_192,daily,auto_rta_192_d1,HUDCO,1
+auto_rta_197,daily,auto_rta_197_d0,Taratala,0
+auto_rta_197,daily,auto_rta_197_d1,Jadavpur Police Station,1
+auto_rta_241,daily,auto_rta_241_d0,13 No. Tank,0
+auto_rta_241,daily,auto_rta_241_d1,Ultadanga,1
+auto_rta_257,daily,auto_rta_257_d0,Khidirpur,0
+auto_rta_257,daily,auto_rta_257_d1,Chetla Park,1
+auto_rta_261,daily,auto_rta_261_d0,Jadavpur Police Station,0
+auto_rta_261,daily,auto_rta_261_d1,Ruby General Hospital,1
+auto_rta_263,daily,auto_rta_263_d0,Golpark,0
+auto_rta_263,daily,auto_rta_263_d1,Garia Station,1
+auto_rta_268,daily,auto_rta_268_d0,Tollygunge Tram Depot,0
+auto_rta_268,daily,auto_rta_268_d1,Deshapriya Park,1
+auto_rta_269,daily,auto_rta_269_d0,Garia Station,0
+auto_rta_269,daily,auto_rta_269_d1,Ruby General Hospital,1
+auto_rta_271,daily,auto_rta_271_d0,Jadavpur Police Station,0
+auto_rta_271,daily,auto_rta_271_d1,Ruby General Hospital,1
+auto_rta_280,daily,auto_rta_280_d0,Tollygunge Tram Depot,0
+auto_rta_280,daily,auto_rta_280_d1,Chetla Park,1
+auto_rta_281,daily,auto_rta_281_d0,3A Bus Stand,0
+auto_rta_281,daily,auto_rta_281_d1,Tollygunge Tram Depot,1
+auto_rta_304,daily,auto_rta_304_d0,Bally,0
+auto_rta_304,daily,auto_rta_304_d1,Dunlop,1
+auto_rta_307,daily,auto_rta_307_d0,Birati Station,0
+auto_rta_307,daily,auto_rta_307_d1,Belgharia Station,1
+auto_rta_326,daily,auto_rta_326_d0,Nilganj,0
+auto_rta_326,daily,auto_rta_326_d1,Barrackpore Station,1
+auto_rta_328,daily,auto_rta_328_d0,Dunlop,0
+auto_rta_328,daily,auto_rta_328_d1,Barrackpore Station,1
+auto_rta_340,daily,auto_rta_340_d0,Dunlop,0
+auto_rta_340,daily,auto_rta_340_d1,Sodepur,1
+auto_rta_349,daily,auto_rta_349_d0,Dum Dum Station,0
+auto_rta_349,daily,auto_rta_349_d1,Noapara,1
+auto_rta_353,daily,auto_rta_353_d0,Noapara,0
+auto_rta_353,daily,auto_rta_353_d1,Dunlop,1
+auto_rta_360,daily,auto_rta_360_d0,Nilganj,0
+auto_rta_360,daily,auto_rta_360_d1,Barrackpore Station,1
+auto_rta_366,daily,auto_rta_366_d0,Dunlop,0
+auto_rta_366,daily,auto_rta_366_d1,Kamarhati,1
+auto_rta_367,daily,auto_rta_367_d0,Agarpara Station,0
+auto_rta_367,daily,auto_rta_367_d1,Kamarhati,1
+auto_rta_375,daily,auto_rta_375_d0,Birati,0
+auto_rta_375,daily,auto_rta_375_d1,Belgharia,1
+auto_rta_376,daily,auto_rta_376_d0,Dunlop,0
+auto_rta_376,daily,auto_rta_376_d1,Belgharia,1
+auto_rta_384,daily,auto_rta_384_d0,Dunlop,0
+auto_rta_384,daily,auto_rta_384_d1,Sodepur More,1
+auto_rta_394,daily,auto_rta_394_d0,Barasat,0
+auto_rta_394,daily,auto_rta_394_d1,Barrackpore Station,1
+auto_rta_401,daily,auto_rta_401_d0,Nilganj Bazar,0
+auto_rta_401,daily,auto_rta_401_d1,Barrackpore Station,1
+auto_rta_421,daily,auto_rta_421_d0,Dunlop,0
+auto_rta_421,daily,auto_rta_421_d1,Titagarh,1
+auto_rta_429,daily,auto_rta_429_d0,Kankinara Station,0
+auto_rta_429,daily,auto_rta_429_d1,Shyamnagar Station,1
+auto_rta_438,daily,auto_rta_438_d0,Dunlop,0
+auto_rta_438,daily,auto_rta_438_d1,Agarpara Station,1
+auto_rta_444,daily,auto_rta_444_d0,Jagaddal,0
+auto_rta_444,daily,auto_rta_444_d1,Kankinara,1
+auto_rta_469,daily,auto_rta_469_d0,Palta Station,0
+auto_rta_469,daily,auto_rta_469_d1,Barrackpore Station,1
+auto_rta_481,daily,auto_rta_481_d0,Clive House,0
+auto_rta_481,daily,auto_rta_481_d1,Lake Town,1
+auto_rta_482,daily,auto_rta_482_d0,Dum Dum Station,0
+auto_rta_482,daily,auto_rta_482_d1,Lake Town,1
+auto_news2025_dumdum_nagerbazar,daily,auto_news2025_dumdum_nagerbazar_d0,Nagerbazar,0
+auto_news2025_dumdum_nagerbazar,daily,auto_news2025_dumdum_nagerbazar_d1,Dum Dum Station,1

@@ -11,7 +11,7 @@ MIRRORS = [
     "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
     "https://overpass.kumi.systems/api/interpreter",
 ]
-UA = {"User-Agent": "calcutta-transport-dataset/0.1 (personal research)"}
+UA = {"User-Agent": "calcutta-transport-dataset/0.2 (open transit dataset; +https://github.com/arkodeepg/calcutta-transport)"}
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 

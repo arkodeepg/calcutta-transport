@@ -8,7 +8,8 @@ Raw responses are appended to sources/raw/rail/erail_cache.jsonl as {"kind","key
 Usage: venv/bin/python scripts/erail_suburban.py [--workers 3] [--expand]
   --expand adds a closure round over every consecutive stop pair already seen (getTrains results are
   partial per pair, so the union over many pairs gives better coverage).
-Data is community/aggregator grade (erail.in). Personal use; be polite (small worker count).
+Data is community/aggregator grade (erail.in); only facts (train numbers, stops, times, run days) are kept.
+Be polite: small worker count, everything cached so a rebuild does not refetch.
 """
 import sys, json, time, pathlib, threading, datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -16,7 +17,9 @@ import requests
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CACHE = ROOT / "sources" / "raw" / "rail" / "erail_cache.jsonl"
-UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
+# Honest, descriptive User-Agent (no personal details). The first harvest (2026-10-05) was made with a
+# browser-style User-Agent; this was corrected after the October 2026 accuracy audit (F-36).
+UA = {"User-Agent": "calcutta-transport-dataset/0.2 (open transit dataset; +https://github.com/arkodeepg/calcutta-transport)",
       "Referer": "https://erail.in/"}
 LOCAL_TYPES = {"EMU", "MEMU", "DEMU"}
 

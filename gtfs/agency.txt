@@ -6,5 +6,5 @@ other_ferry,Other Hooghly ferry operators,https://transport.wb.gov.in/,Asia/Kolk
 private_bus,Private bus operators (Kolkata),https://transport.wb.gov.in/,Asia/Kolkata,en
 ser,South Eastern Railway,https://ser.indianrailways.gov.in/,Asia/Kolkata,en
 share_auto,Share auto route operators (Kolkata),https://transport.wb.gov.in/,Asia/Kolkata,en
-wbstc_ferry,West Bengal Surface Transport Corporation (WBTC ferry),https://wbtc.co.in/ferry-service/,Asia/Kolkata,en
-wbtc,West Bengal Transport Corporation (WBTC),https://wbtc.co.in/,Asia/Kolkata,en
+wbstc_ferry,West Bengal Surface Transport Corporation (WBTC ferry),https://wbtconline.in/,Asia/Kolkata,en
+wbtc,West Bengal Transport Corporation (WBTC),https://wbtconline.in/,Asia/Kolkata,en

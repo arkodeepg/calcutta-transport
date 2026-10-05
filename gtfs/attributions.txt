@@ -1,0 +1,11 @@
+attribution_id,organization_name,is_producer,is_operator,is_authority,attribution_url
+attr_1,Calcutta Transport contributors (ODbL 1.0),1,0,0,https://github.com/arkodeepg/calcutta-transport
+attr_2,OpenStreetMap contributors (ODbL 1.0),1,0,0,https://www.openstreetmap.org/copyright
+attr_3,Metro Railway Kolkata (timetables),1,0,0,https://mtp.indianrailways.gov.in/
+attr_4,erail.in (Indian Railways suburban timetables),1,0,0,https://erail.in/
+attr_5,Kolkata Bus-O-Pedia Foundation (bus route lists),1,0,0,https://www.kolbusopedia.com/
+attr_6,"West Bengal Transport Corporation (route lists, ferry fares)",1,0,0,https://wbtconline.in/
+attr_7,"RTA Kolkata, Transport Department, Government of West Bengal (auto routes, via wbxpress.com)",1,0,0,https://wbxpress.com/rta-kolkata-limit-permits-auto-rickshaw/
+attr_8,GeoNames (CC BY 4.0),1,0,0,https://www.geonames.org/
+attr_9,Wikidata (CC0),1,0,0,https://www.wikidata.org/
+attr_10,"Wikipedia contributors (CC BY-SA 4.0, facts only)",1,0,0,https://en.wikipedia.org/

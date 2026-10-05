@@ -1,15 +1,26 @@
 """Build the GTFS feed in gtfs/ from the data/ CSVs.
 
 Inputs (read only): data/{bus,metro,rail,auto,ferry,tram}/{routes,stops,route_stops}.csv,
-data/rail/{timetable,trip_days}.csv. Fares are taken from route-level fare_min_inr/fare_max_inr only.
-Outputs: gtfs/*.txt, gtfs/BUILD_REPORT.md, gtfs/calcutta-transport-gtfs.zip.
+data/rail/{timetable,trip_days}.csv, optional data/{mode}/service_periods.csv, data/interchanges.csv,
+LICENSE-DATA. Fares are taken from route-level fare_min_inr/fare_max_inr only.
+Outputs: gtfs/*.txt, gtfs/BUILD_REPORT.md, gtfs/calcutta-transport-gtfs.zip (the zip also carries
+LICENSE-DATA.txt and ATTRIBUTION.txt, the ODbL notice).
 
 Modelling decisions (also written into BUILD_REPORT.md):
 - Rail: real trips from timetable.csv, one calendar service per days_mask_mon_to_sun (Mon..Sun order;
   confirmed by the Saturday-only "SAO" train being 0000010).
-- Every other mode: one template trip per route and direction plus frequencies.txt rows (exact_times=0).
-  Peak headway applies 07:00-10:00 and 17:00-20:00, off-peak headway elsewhere. Blank headway or
-  first/last service falls back to DEFAULT_HEADWAY_MIN / DEFAULT_WINDOW and is listed in the report.
+- Every other mode: one template trip per route, direction and service period, plus frequencies.txt rows
+  (exact_times=0). Peak headway applies 07:00-10:00 and 17:00-20:00, off-peak headway elsewhere. The last
+  frequency window ends END_PAD_S after the last departure so that departure is included.
+- Service periods: data/{mode}/service_periods.csv (columns route_id, direction (blank = both),
+  days_mask_mon_to_sun, first_service, last_service, headway_min_peak, headway_min_offpeak, source_id, notes)
+  gives per-day and per-direction windows, one calendar service per days mask (e.g. Orange Line Mon-Fri
+  only, Purple Line Mon-Fri plus Saturday afternoon). A route without rows there runs daily on its
+  routes.csv window.
+- Defaults: blank headway or first/last service falls back to DEFAULT_HEADWAY_MIN / DEFAULT_WINDOW only for
+  DEFAULT_OK_MODES (bus, minibus, auto), where service is known to run all day but no source publishes it.
+  Routes of other modes (metro, ferry, tram) with no sourced headway and window are kept in data/ but left
+  out of the feed, so no service is invented (e.g. ferry_rsv_circuit). Every default is listed in the report.
 - Template stop times: travel_min_from_start where given (anchors), otherwise straight-line distance x
   DETOUR / SPEED_KMH per mode, interpolated between anchors.
 - Stops without coordinates are dropped from the stop sequence; a route-direction left with < 2 located
@@ -18,7 +29,12 @@ Modelling decisions (also written into BUILD_REPORT.md):
   consumer compatibility. Data has direction 0 only; MIRROR_AUTO adds the reverse as direction 1.
 - Fares v1 only for ferry routes with a single flat fare (fare_min == fare_max). Distance-slab fares (bus,
   metro, rail) need along-track km between stop pairs, which the data does not carry, so they are skipped.
-- transfers.txt links metro/rail/ferry/tram stops that share a name and are within TRANSFER_MAX_M.
+- transfers.txt links metro/rail/ferry/tram stops that share a name and are within TRANSFER_MAX_M, plus
+  every pair in the reviewable table data/interchanges.csv (different spellings or names, e.g. Majerhat /
+  Majherhat, Kavi Subhash / New Garia), up to INTERCHANGE_MAX_M.
+- Bus stops with coord_method=interpolated (an estimated point, only produced by bus_build.py --interpolate)
+  are treated as unlocated: stops.txt cannot flag an estimated coordinate.
+- Stop and route names are cleaned of invisible characters (U+200E and similar).
 
 Usage: venv/bin/python scripts/build_gtfs.py [--publisher-url URL] [--date YYYYMMDD] [--days 365]
 Re-runnable: clears gtfs/*.txt before writing.
@@ -35,6 +51,25 @@ TZ = "Asia/Kolkata"
 ROUTE_TYPE = {"metro": 1, "rail": 2, "bus": 3, "minibus": 3, "ferry": 4, "tram": 0, "auto": 3}
 DEFAULT_HEADWAY_MIN = {"bus": 15, "minibus": 15, "auto": 10, "tram": 20, "ferry": 20, "metro": 10}
 DEFAULT_WINDOW = ("06:00", "21:00")
+DEFAULT_OK_MODES = {"bus", "minibus", "auto"}  # service known to run all day; no published headways
+END_PAD_S = 60  # frequency window ends this long after the last departure, so that departure is included
+INTERCHANGE_MAX_M = 1000
+SERVICE_NAMES = {"1111111": "daily", "1111100": "weekdays", "0000010": "saturday", "0000001": "sunday",
+                 "1111110": "mon_to_sat", "0000011": "weekends"}
+INVISIBLE = re.compile("[\u200b-\u200f\u202a-\u202e\u2060-\u2064\ufeff\u00ad]")
+PUBLISHER = "Calcutta Transport contributors"
+ATTRIBUTIONS = [  # (organization_name, url): data sources credited in attributions.txt (see CREDITS.md)
+    ("OpenStreetMap contributors (ODbL 1.0)", "https://www.openstreetmap.org/copyright"),
+    ("Metro Railway Kolkata (timetables)", "https://mtp.indianrailways.gov.in/"),
+    ("erail.in (Indian Railways suburban timetables)", "https://erail.in/"),
+    ("Kolkata Bus-O-Pedia Foundation (bus route lists)", "https://www.kolbusopedia.com/"),
+    ("West Bengal Transport Corporation (route lists, ferry fares)", "https://wbtconline.in/"),
+    ("RTA Kolkata, Transport Department, Government of West Bengal (auto routes, via wbxpress.com)",
+     "https://wbxpress.com/rta-kolkata-limit-permits-auto-rickshaw/"),
+    ("GeoNames (CC BY 4.0)", "https://www.geonames.org/"),
+    ("Wikidata (CC0)", "https://www.wikidata.org/"),
+    ("Wikipedia contributors (CC BY-SA 4.0, facts only)", "https://en.wikipedia.org/"),
+]
 SPEED_KMH = {"bus": 15, "minibus": 15, "auto": 18, "tram": 10, "ferry": 10, "metro": 33}
 DETOUR = 1.3  # straight-line to road/track distance factor
 MIN_HOP_S = 30  # minimum estimated seconds between consecutive stops
@@ -51,14 +86,14 @@ METRO_COLORS = {"metro_blue": ("1E5AA8", "FFFFFF"), "metro_green": ("1B8A4A", "F
                 "metro_yellow": ("F2C300", "000000")}
 
 AGENCY_URLS = {
-    "wbtc": ("West Bengal Transport Corporation (WBTC)", "https://wbtc.co.in/"),
+    "wbtc": ("West Bengal Transport Corporation (WBTC)", "https://wbtconline.in/"),  # wbtc.co.in refused connections (2026-10-05)
     "private_bus": ("Private bus operators (Kolkata)", "https://transport.wb.gov.in/"),
     "minibus": ("Private minibus operators (Kolkata)", "https://transport.wb.gov.in/"),
     "share_auto": ("Share auto route operators (Kolkata)", "https://transport.wb.gov.in/"),
     "mrk": ("Metro Railway Kolkata", "https://mtp.indianrailways.gov.in/"),
     "er": ("Eastern Railway", "https://er.indianrailways.gov.in/"),
     "ser": ("South Eastern Railway", "https://ser.indianrailways.gov.in/"),
-    "wbstc_ferry": ("West Bengal Surface Transport Corporation (WBTC ferry)", "https://wbtc.co.in/ferry-service/"),
+    "wbstc_ferry": ("West Bengal Surface Transport Corporation (WBTC ferry)", "https://wbtconline.in/"),
     "other_ferry": ("Other Hooghly ferry operators", "https://transport.wb.gov.in/"),
 }
 
@@ -103,6 +138,14 @@ def haversine_m(a, b):
     return 2 * 6371000 * math.asin(math.sqrt(h))
 
 
+def clean(n):
+    return re.sub(r"\s+", " ", INVISIBLE.sub("", n or "")).strip()
+
+
+def service_id_for(mask):
+    return SERVICE_NAMES.get(mask, f"days_{mask}")
+
+
 def norm_name(n):
     n = n.lower()
     n = re.sub(r"\(.*?\)", " ", n)
@@ -131,6 +174,8 @@ class Report:
         self.defaults = defaultdict(list)
         self.warn = []
         self.dropped_routes = defaultdict(list)
+        self.excluded = defaultdict(list)  # mode -> [(route_id, reason)]: no sourced service, kept in data only
+        self.period_routes = defaultdict(list)  # mode -> route_ids using service_periods.csv
 
     def w(self, msg):
         self.warn.append(msg)
@@ -149,6 +194,7 @@ def freq_windows(r, mode, rep):
     a, b = hms_to_s(first), hms_to_s(last)
     if b <= a:
         b += 86400  # after-midnight last service
+    b += END_PAD_S
     hp, ho = r.get("headway_min_peak", "").strip(), r.get("headway_min_offpeak", "").strip()
     if not hp and not ho:
         hp = ho = str(DEFAULT_HEADWAY_MIN[mode])
@@ -207,10 +253,40 @@ def template_times(seq, coords, mode, rep, key):
     return out
 
 
+def has_sourced_service(r):
+    """True when a routes.csv row (or service period) carries a headway and both ends of the window."""
+    return bool((r.get("headway_min_peak", "").strip() or r.get("headway_min_offpeak", "").strip())
+                and r.get("first_service", "").strip() and r.get("last_service", "").strip())
+
+
+def load_periods(mode, rep):
+    p = DATA / mode / "service_periods.csv"
+    out = defaultdict(list)
+    if not p.exists():
+        return out
+    for x in read(p):
+        m = x["days_mask_mon_to_sun"].strip()
+        if not re.fullmatch(r"[01]{7}", m) or m == "0000000":
+            rep.w(f"{mode} service_periods: bad days mask '{m}' for {x['route_id']}, row skipped")
+            continue
+        if not has_sourced_service(x):
+            rep.w(f"{mode} service_periods: {x['route_id']} {m} lacks headway or window, row skipped")
+            continue
+        out[x["route_id"].strip()].append(x)
+    for rid, rows in out.items():
+        for d in ("0", "1"):
+            masks = [r["days_mask_mon_to_sun"] for r in rows if r.get("direction", "").strip() in ("", d)]
+            for i, a in enumerate(masks):
+                for b in masks[i + 1:]:
+                    if any(x == y == "1" for x, y in zip(a, b)):
+                        rep.w(f"{mode} service_periods: {rid} direction {d} has overlapping days {a} and {b}")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--publisher-url", default="https://www.openstreetmap.org/copyright",
-                    help="feed_publisher_url (replace with the project URL once one exists)")
+    ap.add_argument("--publisher-url", default="https://github.com/arkodeepg/calcutta-transport",
+                    help="feed_publisher_url and feed_contact_url")
     ap.add_argument("--date", default=dt.date.today().strftime("%Y%m%d"), help="build date YYYYMMDD")
     ap.add_argument("--days", type=int, default=365, help="calendar validity from build date")
     args = ap.parse_args()
@@ -231,6 +307,7 @@ def main():
         routes = read(d / "routes.csv")
         stops = read(d / "stops.csv")
         rstops = read(d / "route_stops.csv")
+        periods = load_periods(mode, rep)
         c = rep.mode[mode]
         c["routes_in"] = len(routes)
         c["stops_in"] = len(stops)
@@ -239,9 +316,13 @@ def main():
             if sid in stops_all:
                 rep.w(f"duplicate stop_id across modes: {sid}")
                 continue
+            s = dict(s, stop_name=clean(s["stop_name"]))
             stops_all[sid] = s
             stop_mode[sid] = mode
             try:
+                if (s.get("coord_method") or "").strip() == "interpolated":
+                    c["stops_interpolated_skipped"] += 1
+                    raise ValueError
                 lat, lon = float(s["lat"]), float(s["lon"])
                 if not (21.0 < lat < 24.0 and 87.0 < lon < 90.0):
                     rep.w(f"{sid}: coordinate outside the region box, treated as unlocated")
@@ -264,6 +345,12 @@ def main():
         for r in routes:
             rid = r["route_id"]
             rmode = (r.get("mode") or mode).strip() or mode
+            rper = periods.get(rid, [])
+            if not rper and rmode not in DEFAULT_OK_MODES and not has_sourced_service(r):
+                rep.excluded[mode].append((rid, "no sourced headway and service window in routes.csv or "
+                                                "service_periods.csv; kept in data/, not in the feed"))
+                c["routes_excluded_no_service_data"] += 1
+                continue
             if rmode not in ROUTE_TYPE:
                 rep.w(f"{rid}: unknown mode '{rmode}', treated as {mode}")
                 rmode = mode
@@ -306,20 +393,33 @@ def main():
             c["routes_out"] += 1
             if rmode == "minibus":
                 c["of_which_minibus"] += 1
-            wins = freq_windows(r, mode, rep)
-            services["daily"] = "1111111"
+            if rper:
+                rep.period_routes[mode].append(rid)
+            else:
+                wins_daily = freq_windows(r, mode, rep)
             for di, kept in sorted(pats.items()):
-                tid = f"{rid}_d{di}"
+                if rper:
+                    plist = [(p["days_mask_mon_to_sun"].strip(), freq_windows(dict(p, route_id=rid), mode, rep))
+                             for p in rper if p.get("direction", "").strip() in ("", di)]
+                    if not plist:
+                        rep.w(f"{rid} dir {di}: service_periods.csv has no row for this direction; direction left out")
+                        continue
+                else:
+                    plist = [("1111111", wins_daily)]
                 times = template_times(kept, coords, speed_mode, rep, f"{rid} dir {di}")
-                trips_out.append([rid, "daily", tid, stops_all[kept[-1][0]]["stop_name"], int(di)])
-                t0 = wins[0][0]
-                for i, ((sid, _), (t, anchor)) in enumerate(zip(kept, times)):
-                    hms = s_to_hms(t0 + t)
-                    st_out.append([tid, hms, hms, sid, i + 1, 1 if anchor else 0])
-                    used_stops.add(sid)
-                for s, e, h in wins:
-                    freq_out.append([tid, s_to_hms(s), s_to_hms(e), h, 0])
-                c["trips_out"] += 1
+                for mask, wins in plist:
+                    svc = service_id_for(mask)
+                    services[svc] = mask
+                    tid = f"{rid}_d{di}" if not rper else f"{rid}_d{di}_{svc}"
+                    trips_out.append([rid, svc, tid, stops_all[kept[-1][0]]["stop_name"], int(di)])
+                    t0 = wins[0][0]
+                    for i, ((sid, _), (t, anchor)) in enumerate(zip(kept, times)):
+                        hms = s_to_hms(t0 + t)
+                        st_out.append([tid, hms, hms, sid, i + 1, 1 if anchor else 0])
+                        used_stops.add(sid)
+                    for s, e, h in wins:
+                        freq_out.append([tid, s_to_hms(s), s_to_hms(e), h, 0])
+                    c["trips_out"] += 1
                 if any(a for _, a in times):
                     c["directions_with_given_times"] += 1
                 else:
@@ -345,7 +445,24 @@ def main():
             if dist <= TRANSFER_MAX_M and names_match(stops_all[a]["stop_name"], stops_all[b]["stop_name"]):
                 mtt = int(math.ceil((120 + dist / 1.0) / 60) * 60)  # 2 min + walk at 1 m/s
                 transfers += [[a, b, 2, mtt], [b, a, 2, mtt]]
-                pairs.append((a, b, int(dist), mtt))
+                pairs.append((a, b, int(dist), mtt, "name match"))
+    done = {frozenset(x[:2]) for x in pairs}
+    ic_path = DATA / "interchanges.csv"
+    for x in (read(ic_path) if ic_path.exists() else []):
+        a, b = x["from_stop_id"].strip(), x["to_stop_id"].strip()
+        if frozenset((a, b)) in done:
+            continue
+        if a not in used_stops or b not in used_stops:
+            rep.w(f"interchanges.csv: {a} / {b} not both in the feed, skipped")
+            continue
+        dist = haversine_m(coords[a], coords[b])
+        if dist > INTERCHANGE_MAX_M:
+            rep.w(f"interchanges.csv: {a} / {b} are {dist:.0f} m apart (over {INTERCHANGE_MAX_M} m), skipped")
+            continue
+        mtt = int(math.ceil((120 + dist / 1.0) / 60) * 60)
+        transfers += [[a, b, 2, mtt], [b, a, 2, mtt]]
+        pairs.append((a, b, int(dist), mtt, "interchanges.csv"))
+        done.add(frozenset((a, b)))
 
     write("agency.txt", ["agency_id", "agency_name", "agency_url", "agency_timezone", "agency_lang"],
           [[a, AGENCY_URLS[a][0], AGENCY_URLS[a][1], TZ, "en"] for a in sorted(agencies_used)])
@@ -360,8 +477,12 @@ def main():
                            "sunday", "start_date", "end_date"],
           [[sid] + list(m) + [start, end] for sid, m in sorted(services.items())])
     write("feed_info.txt", ["feed_publisher_name", "feed_publisher_url", "feed_lang", "feed_start_date",
-                            "feed_end_date", "feed_version"],
-          [["Calcutta Transport contributors", args.publisher_url, "en", start, end, start]])
+                            "feed_end_date", "feed_version", "feed_contact_url"],
+          [[PUBLISHER, args.publisher_url, "en", start, end, start, args.publisher_url]])
+    write("attributions.txt", ["attribution_id", "organization_name", "is_producer", "is_operator",
+                               "is_authority", "attribution_url"],
+          [[f"attr_{i}", n, 1, 0, 0, u] for i, (n, u) in enumerate([(PUBLISHER + " (ODbL 1.0)", args.publisher_url)]
+                                                                     + ATTRIBUTIONS, 1)])
     if transfers:
         write("transfers.txt", ["from_stop_id", "to_stop_id", "transfer_type", "min_transfer_time"], transfers)
     if fares_attr:
@@ -374,11 +495,31 @@ def main():
     with zipfile.ZipFile(zp, "w", zipfile.ZIP_DEFLATED) as z:
         for f in files:
             z.write(f, f.name)
+        z.write(ROOT / "LICENSE-DATA", "LICENSE-DATA.txt")
+        z.writestr("ATTRIBUTION.txt", attribution_notice(args.publisher_url))
 
     write_report(rep, start, end, routes_out, trips_out, st_out, freq_out, stops_rows, transfers, pairs,
                  fares_attr, services, args.publisher_url, stops_all)
     print(f"built {len(routes_out)} routes, {len(trips_out)} trips, {len(st_out)} stop_times, "
           f"{len(stops_rows)} stops, {len(freq_out)} frequencies, {len(transfers)} transfers -> {zp}")
+
+
+def attribution_notice(url):
+    return "\n".join([
+        "Calcutta Transport GTFS feed",
+        "",
+        f"Contains information from Calcutta Transport ({url}), which is made available under the",
+        "Open Database License (ODbL) 1.0: https://opendatacommons.org/licenses/odbl/1-0/ (full text in",
+        "LICENSE-DATA.txt).",
+        "",
+        "Includes data (c) OpenStreetMap contributors, available under the ODbL",
+        "(https://www.openstreetmap.org/copyright).",
+        "",
+        "Also derived from facts published by the sources listed in attributions.txt and in CREDITS.md at the",
+        "URL above, including GeoNames (geonames.org, CC BY 4.0), Wikidata (CC0) and Wikipedia contributors",
+        "(CC BY-SA 4.0, facts only). Schedules for buses and autos, and some stop times, are estimates; see",
+        "BUILD_REPORT.md in the repository.",
+        ""])
 
 
 def check_geometry(kept, coords, stops_all, rid, rep, c):
@@ -397,7 +538,7 @@ def check_geometry(kept, coords, stops_all, rid, rep, c):
 
 
 def route_names(mode, r):
-    name, o, de = r["route_name"].strip(), r.get("origin", "").strip(), r.get("destination", "").strip()
+    name, o, de = clean(r["route_name"]), clean(r.get("origin", "")), clean(r.get("destination", ""))
     od = f"{o} - {de}" if o and de else name
     if mode == "bus":
         if " - " in name or name.lower() == od.lower():
@@ -484,7 +625,7 @@ def build_rail(routes, rep, c, coords, routes_out, trips_out, st_out, used_stops
         tid = f"rail_{trip}"
         dirn = rows[0].get("direction", "0") or "0"
         name = td[trip].get("train_name", "").strip()
-        trips_out.append([rid, sid_, tid, stops_all[kept[-1]["stop_id"]]["stop_name"], int(dirn)])
+        trips_out.append([rid, sid_, tid, clean(stops_all[kept[-1]["stop_id"]]["stop_name"]), int(dirn)])
         for i, (x, (a, d)) in enumerate(zip(kept, times)):
             st_out.append([tid, s_to_hms(a), s_to_hms(d), x["stop_id"], i + 1, 1])
             used_stops.add(x["stop_id"])
@@ -498,7 +639,7 @@ def build_rail(routes, rep, c, coords, routes_out, trips_out, st_out, used_stops
             continue
         ag = agency_for("rail", r.get("operator"))
         agencies_used.add(ag)
-        routes_out.append([rid, ag, "", r["route_name"].strip(), ROUTE_TYPE["rail"], "", ""])
+        routes_out.append([rid, ag, "", clean(r["route_name"]), ROUTE_TYPE["rail"], "", ""])
         c["routes_out"] += 1
     rep.rail_masks = masks
 
@@ -522,7 +663,8 @@ def write_report(rep, start, end, routes_out, trips_out, st_out, freq_out, stops
         for k in ["of_which_minibus", "route_stop_rows_in", "route_stop_rows_dropped_unlocated",
                   "directions_dropped_lt2", "directions_mirrored", "directions_with_given_times",
                   "directions_estimated_times", "stop_time_rows_dropped_unlocated", "trips_skipped",
-                  "trips_time_order_fixed", "suspect_stop_spikes", "hops_over_20km"]:
+                  "trips_time_order_fixed", "suspect_stop_spikes", "hops_over_20km",
+                  "routes_excluded_no_service_data", "stops_interpolated_skipped"]:
             if c.get(k):
                 notes.append(f"{k}={c[k]}")
         L.append(f"| {m} | {c['routes_in']} | {c['routes_out']} | {c['routes_dropped']} | {c['stops_in']} | "
@@ -536,12 +678,19 @@ def write_report(rep, start, end, routes_out, trips_out, st_out, freq_out, stops
           "- Rail: real trips from data/rail/timetable.csv; one service per days mask (Mon..Sun order, confirmed "
           "by the Saturday-only train HWH-BWN LOCAL SAO having mask 0000010). Masks: " +
           ", ".join(f"{k} x{v}" for k, v in sorted(getattr(rep, 'rail_masks', {}).items())) + ".",
-          "- Other modes: one template trip per route direction, frequencies.txt with exact_times=0. Peak headway "
-          "07:00-10:00 and 17:00-20:00, off-peak elsewhere. The same calendar (daily) is used for all days; "
-          "weekend differences (e.g. metro Sunday 09:00 start) are not modelled.",
-          f"- Default headways when both headway columns are blank: " +
-          ", ".join(f"{k} {v} min" for k, v in DEFAULT_HEADWAY_MIN.items()) +
-          f". Default service window when first/last is blank: {DEFAULT_WINDOW[0]} to {DEFAULT_WINDOW[1]}.",
+          "- Other modes: one template trip per route, direction and service period, frequencies.txt with "
+          "exact_times=0. Peak headway 07:00-10:00 and 17:00-20:00, off-peak elsewhere. Each window ends "
+          f"{END_PAD_S} s after the last departure so that departure is included.",
+          "- Service days: routes listed in data/{mode}/service_periods.csv get one trip per days mask and direction "
+          "(services: " + ", ".join(f"{k} = {v}" for k, v in sorted(services.items()) if not k.startswith("rail_")) +
+          "; masks are Mon..Sun). Routes using it: " +
+          "; ".join(f"{m}: {', '.join(v)}" for m, v in sorted(rep.period_routes.items())) +
+          ". Every other non-rail route runs daily on its routes.csv window.",
+          f"- Defaults are applied only to {', '.join(sorted(DEFAULT_OK_MODES))} routes, where service is known to run "
+          "all day but no source publishes headways or hours: headway " +
+          ", ".join(f"{k} {DEFAULT_HEADWAY_MIN[k]} min" for k in sorted(DEFAULT_OK_MODES)) +
+          f", window {DEFAULT_WINDOW[0]} to {DEFAULT_WINDOW[1]}. Metro, ferry and tram routes without a sourced "
+          "headway and window are left out of the feed (listed below), so no service is invented.",
           f"- Estimated stop times: straight-line distance x {DETOUR} at " +
           ", ".join(f"{k} {v} km/h" for k, v in SPEED_KMH.items()) +
           f", at least {MIN_HOP_S} s per hop; travel_min_from_start values are used as anchors where present "
@@ -559,18 +708,26 @@ def write_report(rep, start, end, routes_out, trips_out, st_out, freq_out, stops
     for k, lab in labels.items():
         v = rep.defaults.get(k, [])
         by = Counter(x.split("_")[0] for x in v)
+        other = [x for x in v if x.split("_")[0] not in ("bus", "auto")]
         L.append(f"- {lab}: {len(v)} routes ({', '.join(f'{m} {n}' for m, n in sorted(by.items())) or 'none'})"
-                 + (f": {', '.join(v)}" if 0 < len(v) <= 40 else ""))
+                 + (f"; non-bus, non-auto: {', '.join(other)}" if other else "")
+                 + (f": {', '.join(v)}" if 0 < len(v) <= 40 and not other else ""))
+    L += ["", "Bus, minibus and auto routes with a default are all routes of those modes that are in the feed: "
+          "no source publishes their frequencies or hours.", "",
+          "## Routes left out for lack of service data", ""]
+    ex = [(m, rid, why) for m in MODES for rid, why in rep.excluded.get(m, [])]
+    L += [f"- {m}: {rid}: {why}" for m, rid, why in ex] or ["- none"]
     L += ["", "## Dropped routes", ""]
     for m in MODES:
         v = rep.dropped_routes.get(m, [])
         L.append(f"- {m}: {len(v)}" + (f": {', '.join(v)}" if 0 < len(v) <= 60 else ""))
     L += ["", "## Transfers", "",
-          f"{len(pairs)} stop pairs (both directions written, transfer_type 2) among metro, rail, ferry and tram "
-          f"stops with matching names within {TRANSFER_MAX_M} m:", ""]
-    for a, b, dist, mtt in sorted(pairs):
+          f"{len(pairs)} stop pairs (both directions written, transfer_type 2): metro, rail, ferry and tram stops "
+          f"with matching names within {TRANSFER_MAX_M} m, plus the reviewed pairs in data/interchanges.csv "
+          f"(up to {INTERCHANGE_MAX_M} m). Minimum transfer time is 2 min plus the straight-line walk at 1 m/s.", ""]
+    for a, b, dist, mtt, how in sorted(pairs):
         L.append(f"- {stops_all[a]['stop_name']} ({a}) and {stops_all[b]['stop_name']} ({b}): {dist} m, "
-                 f"min {mtt} s")
+                 f"min {mtt} s ({how})")
     L += ["", "## Fares", "",
           f"GTFS fares v1 written only for ferry routes whose fare_min_inr equals fare_max_inr ({len(fares_attr)} "
           "routes, one flat fare per crossing, no transfers). Share auto routes with one fare value are not "
@@ -579,9 +736,12 @@ def write_report(rep, start, end, routes_out, trips_out, st_out, freq_out, stops
           "are documented in data/fares/ and data/{metro,rail}/fares.csv but not encoded in the feed.", "",
           "## Warnings", ""]
     L += [f"- {w}" for w in rep.warn] or ["- none"]
-    L += ["", "## Notes", "",
-          f"- feed_publisher_url is set to {pub_url}; replace it with the project URL once one is published "
-          "(`--publisher-url`).", ""]
+    L += ["", "## Licence and attribution", "",
+          f"- feed_publisher_url and feed_contact_url: {pub_url}.",
+          "- attributions.txt credits the publisher and the data sources (OpenStreetMap contributors under ODbL, "
+          "GeoNames CC BY 4.0, Wikidata, Wikipedia, Metro Railway Kolkata, erail.in, Bus-O-Pedia, WBTC, RTA Kolkata).",
+          "- The zip also carries LICENSE-DATA.txt (ODbL 1.0 full text) and ATTRIBUTION.txt (the ODbL and "
+          "OpenStreetMap notice). These two are not GTFS files; validators report them as unknown files.", ""]
     (OUT / "BUILD_REPORT.md").write_text("\n".join(x for x in L if x is not None) + "\n", encoding="utf-8")
 
 

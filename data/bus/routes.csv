@@ -599,7 +599,7 @@ bus_dn16,DN-16,bus,,Dhapa,Beleghata,,,,,,,osm,community,OSM relation(s) r3221988
 bus_gls11,GLS-11,bus,,Dhapa,Beleghata,,,,,,,osm,community,OSM relation(s) r3221990; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
 bus_ic21,IC-21,bus,,Dhapa,Beleghata,,,,,,,osm,community,OSM relation(s) r3221991; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
 bus_jm2,JM-2,bus,,Dhapa,Beleghata,,,,,,,osm,community,OSM relation(s) r3221992; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
-bus_l30b,L30B,bus,,Esplanade,Dum Dum Airport,,,,,,,osm,community,OSM relation(s) r2900668; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
+bus_l30b,L30B,bus,,Esplanade,Dum Dum Airport,,,,,,,osm,community,"OSM relation(s) r2900668; not in the WBTC or Bus-O-Pedia lists; stop order taken from the relation's way chain, not its member list (r2900668); direction 1 is direction 0 reversed; operator unknown"
 bus_rt007,RT-007,bus,,Dhapa,Beleghata,,,,,,,osm,community,OSM relation(s) r3221993; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
 bus_rt239,RT-239,bus,,Chingrighata,Beleghata,,,,,,,osm,community,OSM relation(s) r3221994; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown
 bus_rt_s_4,RT-S/4,bus,,Dhapa,Saltlake EE Block Bus Stop,,,,,,,osm,community,OSM relation(s) r3221995; not in the WBTC or Bus-O-Pedia lists; direction 1 is direction 0 reversed; operator unknown

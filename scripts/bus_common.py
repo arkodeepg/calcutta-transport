@@ -19,8 +19,10 @@ UPSTREAM_DIR = RAW / "upstream"
 
 UA = "calcutta-transport/0.2 (open Kolkata transit dataset build; low volume, cached)"
 
-# Wide box: Kolkata metro plus the STA suburban termini (Amta, Bagnan, Hasnabad, Taki ...)
-WIDE_BBOX = (21.5, 87.7, 23.4, 89.1)  # S, W, N, E
+# Wide box: Kolkata metro plus the STA and long-distance termini (Amta, Bagnan, Hasnabad, Taki,
+# Digha, Kanthi, Bardhaman, Krishnanagar ...). Widened west to 87.4 and north to 23.6 in the
+# October 2026 coverage pass: Digha (87.5 E) and Krishnanagar (23.4 N) sat outside the old box.
+WIDE_BBOX = (21.5, 87.4, 23.6, 89.1)  # S, W, N, E
 
 
 def ascii_fold(s):
@@ -74,6 +76,79 @@ def loose_key(name):
         s = re.sub(_SUFFIX, "", s)
     s = re.sub(r"(road|street|avenue)$", "", s)
     return s if len(s) >= 4 else norm_key(name)
+
+
+_SKEL = [("gunge", "gunj"), ("gange", "ganj"), ("chh", "c"), ("ch", "c"), ("sh", "s"), ("th", "t"), ("dh", "d"), ("bh", "b"), ("kh", "k"),
+         ("gh", "g"), ("ph", "f"), ("jh", "j"), ("w", "u"), ("v", "b"), ("y", "i"), ("z", "j"), ("q", "k")]
+
+
+def skeleton_key(name):
+    """Consonant skeleton: tolerant of the vowel and w/o/u spellings that differ between Bengali
+    transliterations (Kolkata / Kalakata, Chowrasta / Chourasta). Only used with a length floor and
+    the route check, never on its own."""
+    s = ascii_fold(re.sub(r"\(.*?\)", "", name)).lower()
+    s = re.sub(r"[^a-z0-9]", "", s)
+    for a, b in _SKEL:
+        s = s.replace(a, b)
+    s = re.sub(r"h$", "", s)
+    s = re.sub(r"[aeiou]", "", s)
+    return re.sub(r"(.)\1+", r"\1", s)
+
+
+# Bengali script to a rough Latin spelling. Inherent vowel written as "a"; the skeleton key drops
+# vowels anyway, so only the consonants have to be right.
+_BN_CONS = {
+    "\u0995": "k", "\u0996": "kh", "\u0997": "g", "\u0998": "gh", "\u0999": "ng", "\u099a": "ch",
+    "\u099b": "chh", "\u099c": "j", "\u099d": "jh", "\u099e": "n", "\u099f": "t", "\u09a0": "th",
+    "\u09a1": "d", "\u09a2": "dh", "\u09a3": "n", "\u09a4": "t", "\u09a5": "th", "\u09a6": "d",
+    "\u09a7": "dh", "\u09a8": "n", "\u09aa": "p", "\u09ab": "ph", "\u09ac": "b", "\u09ad": "bh",
+    "\u09ae": "m", "\u09af": "j", "\u09b0": "r", "\u09b2": "l", "\u09b6": "sh", "\u09b7": "sh",
+    "\u09b8": "s", "\u09b9": "h", "\u09dc": "r", "\u09dd": "rh", "\u09df": "y",
+}
+_BN_VOW = {
+    "\u0985": "a", "\u0986": "a", "\u0987": "i", "\u0988": "i", "\u0989": "u", "\u098a": "u",
+    "\u098b": "ri", "\u098f": "e", "\u0990": "oi", "\u0993": "o", "\u0994": "ou",
+}
+_BN_SIGN = {
+    "\u09be": "a", "\u09bf": "i", "\u09c0": "i", "\u09c1": "u", "\u09c2": "u", "\u09c3": "ri",
+    "\u09c7": "e", "\u09c8": "oi", "\u09cb": "o", "\u09cc": "ou",
+}
+_BN_OTHER = {"\u0982": "ng", "\u0983": "h", "\u09ce": "t", "\u0981": ""}
+_BN_DIGITS = {chr(0x09E6 + i): str(i) for i in range(10)}
+_VIRAMA, _YA = "\u09cd", "\u09af"
+
+
+def bn_to_latin(s):
+    """Rough phonetic Latin spelling of a Bengali-script string (None if it has no Bengali)."""
+    s = unicodedata.normalize("NFC", s)
+    s = s.replace("\u09a1\u09bc", "\u09dc").replace("\u09a2\u09bc", "\u09dd").replace("\u09af\u09bc", "\u09df")
+    if not re.search(r"[\u0980-\u09ff]", s):
+        return None
+    out = []
+    chars = list(s)
+    for i, c in enumerate(chars):
+        nxt = chars[i + 1] if i + 1 < len(chars) else ""
+        if c in _BN_CONS:
+            out.append(_BN_CONS[c])
+            if nxt in _BN_CONS:
+                out.append("a")  # inherent vowel between consonants (dropped at word end)
+        elif c in _BN_VOW:
+            out.append(_BN_VOW[c])
+        elif c in _BN_SIGN:
+            out.append(_BN_SIGN[c])
+        elif c in _BN_OTHER:
+            out.append(_BN_OTHER[c])
+        elif c in _BN_DIGITS:
+            out.append(_BN_DIGITS[c])
+        elif c == _VIRAMA:
+            if nxt == _YA:  # ya-phala: a y glide, not a consonant
+                out.append("y")
+                chars[i + 1] = ""
+        elif c.isspace() or c in "-,.()/":
+            out.append(" " if c.isspace() else c)
+        elif ord(c) < 128:
+            out.append(c)
+    return re.sub(r"\s+", " ", "".join(out)).strip()
 
 
 def haversine_km(a, b):

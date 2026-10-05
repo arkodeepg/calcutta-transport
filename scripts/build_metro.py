@@ -4,6 +4,9 @@ Station order and coordinates: OSM route=subway relations (sources/raw/osm_subwa
 Service figures: official Metro Railway Kolkata timetable PDFs parsed by metro_tt_parse.py (S-MR-03),
 otherwise Wikipedia line articles (S-MR-04). Values are hand-entered below with their source ids.
 Usage: venv/bin/python scripts/build_metro.py
+NOTE: data/metro/routes.csv and fares.csv was edited by hand after this script last ran (2026-10-05: official
+timetables and the October 2026 accuracy audit). The CSVs are the source of truth; rerunning this script
+overwrites those edits, so diff the output before keeping it.
 """
 import csv, json, re, pathlib, statistics
 
@@ -134,5 +137,5 @@ with open(OUT / "fares.csv", "w", newline="") as f:
         w.writerow(["metro_blue", a, b, p, "S-MR-04", "community", "Wikipedia fare table citing MTP fare page (archived 2019); not reconfirmed on live MTP site (fare page empty 2026-10-05)"])
     for a, b, p in [(0, 2, 5), (2, 5, 10), (5, 10, 20), (10, "", 30)]:
         w.writerow(["metro_green;metro_purple;metro_orange;metro_yellow", a, b, p, "S-MR-04", "community", "Wikipedia 'Other lines' fare table; not reconfirmed on live MTP site"])
-    w.writerow(["smart_card", "", "", "", "S-MR-04", "community", "General smart card: Rs 60 refundable security deposit, common across lines; 10% bonus on value loaded per community sites (S-MR-09). Tourist cards Rs 250 (1 day) and Rs 550 (3 days) per Wikipedia. Paper QR and mobile QR (Aamar Kolkata Metro app) tickets on all lines; tokens withdrawn from Jan 2025."])
+    w.writerow(["smart_card", "", "", "", "AF-THEWEEK-METRO;S-MR-04", "community", "Smart card terms from 2025-09-25 (AF-THEWEEK-METRO, AF-MPOST-METRO): refundable security deposit Rs 50 (was Rs 80 from Nov 2021, Rs 60 before), minimum issue price Rs 100 (Rs 50 deposit plus Rs 52 ride value including a Rs 2 bonus), 5 percent bonus on recharge value continues, validity 10 years counted from the first gate swipe (existing cards extended to 10 years at their next recharge). Tourist cards Rs 250 (1 day) and Rs 550 (3 days) per Wikipedia (deposit not reconfirmed). Paper QR and mobile QR (Aamar Kolkata Metro app) tickets on all lines; tokens withdrawn from Jan 2025."])
 print("stops", len(stops), "route_stops", len(route_stops))

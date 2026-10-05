@@ -1,0 +1,26 @@
+stop_name,alias,evidence,reason
+Dalhousie,B. B. D. Bagh,OSM node/1189036944 (place=suburb B. B. D. Bagh); Wikidata Q3349530; Wikipedia B. B. D. Bagh,"Wikipedia: B. B. D. Bagh was formerly called Dalhousie Square; Kolkata bus lists still say Dalhousie"
+Dalhousie,B.B.D. Bag,OSM node/4178731066 (station B.B.D. Bag),same place as above
+Wellington,Subodh Mullick Square,OSM node/10082130647 (Subodh Mullick Square); Wikipedia Subodh Chandra Mullick,"Wikipedia: Wellington Square was renamed Raja Subodh Mallik Square; the Wellington bus stop is at that square"
+PTS,Kolkata Police Training School,OSM way/122925156 (amenity=college Kolkata Police Training School),"PTS is the Police Training School on A.J.C. Bose Road (not Park Circus); route lists place it between Fort William and Bhawani Bhawan, which matches the OSM feature; route-checked"
+P.T.S. More,Kolkata Police Training School,OSM way/122925156,same place as PTS
+Medical College,Calcutta Medical College & Hospital,OSM node/1189036837 (amenity=hospital); Wikipedia Medical College and Hospital Kolkata,"Wikipedia: Medical College Kolkata, also known as Calcutta Medical College, 88 College Street; bus lists put the stop between College Street and Bowbazar"
+Tata Cancer Hospital,Tata Medical,OSM node/5044212193 (bus stop Tata Medical); Wikipedia Tata Medical Center,"Wikipedia: Tata Medical Center in New Town specialises in cancer care; the OSM bus stop outside it is named Tata Medical"
+Tata Cancer Hospital,Tata Medical Centre,OSM way/514421523 (amenity=hospital Tata Medical Centre),same place as above
+Behala 14no,14 No Bus Stop,OSM node/1274128861 and bus stops nearby (14 No Bus Stop at Behala),"same stop, OSM spells out the number (Behala 14 number bus stand on Diamond Harbour Road); route-checked"
+Bhasa Swami Narayan Temple,Bhasha 14 No. Swami Narayan Temple,Wikidata Q101805279,"the Wikidata item is the Swaminarayan temple at Bhasha 14 No., the stop named after it"
+Bhasha 14no,Bhasha 14 No. Swami Narayan Temple,Wikidata Q101805279,"the temple item's own name places it at Bhasha 14 No.; route-checked"
+Ajaynagar,Ajoynagar,OSM node/5210341588 (place=neighbourhood) and bus stops node/11971705727 node/11971705745; Wikidata Q24951816 Ajoy Nagar,spelling variant (Ajay/Ajoy) of the same neighbourhood
+Dhapa Mathpukur,Mathpukur,OSM node/2461251724 (bus stop Mathpukur) next to node bus stop Dhapa,"the stop is Mathpukur on the road to Dhapa; OSM has the Mathpukur and Dhapa bus stops 100 m apart"
+Madhyamgram Chowmatha,Madhyamgram Choumatha,OSM node/570084754 (junction Madhyamgram Choumatha),spelling variant (Chowmatha/Choumatha)
+Japani Gate,Japani Gate Salt Lake Mini Bus Terminus,OSM node/2460737276 (bus stop),OSM gives the full name of the same stop
+Reckjuani,Rajarhat Rekjoani,OSM node/2288913453 (bus stop Rajarhat Rekjoani),spelling variant of Rekjoani (Rajarhat)
+Danesh Shaikh Lane,Danesh Sheikh Lane,OSM node/7597556249 (bus stop),spelling variant (Shaikh/Sheikh)
+Airport 1no,Airport No. 1 Gate,OSM node/2457678690 node/5567031303 (bus stops Airport No. 1 Gate),same stop (Airport gate number 1 on Jessore Road)
+Airport Gate 1,Airport No. 1 Gate,OSM node/2457678690,same stop
+Airport 1 No. Gate,Airport No. 1 Gate,OSM node/2457678690,same stop
+Airport Gate No. 1,Airport No. 1 Gate,OSM node/2457678690,same stop
+Ultadanga HUDCO,Hudco,OSM node/9567534817 (bus stop Hudco near Ultadanga),the name itself says HUDCO at Ultadanga; route-checked
+Sushrut Eye hospital,Sushrut,OSM node/12076417086 (bus stop Sushrut in Salt Lake),OSM bus stop named after the Susrut eye hospital
+Saltlake Karunamoyee,Karunamoyee,OSM node/2460767454 (bus stop Karunamoyee in Salt Lake),"the name itself says Salt Lake; there is a different Karunamoyee near Tollygunge, so this alias is route-checked like everything else"
+Kanthi,Contai,OSM node/245699585 (place=town Contai); Wikipedia Contai,"Wikipedia: Contai, also known as Kanthi; OSM names the town Contai"

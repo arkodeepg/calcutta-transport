@@ -13,7 +13,7 @@ Open `validator-output/report.html` for the full report. Any ERROR is a builder 
 
 ## Latest result
 
-Run on 2026-10-05 with validator 8.0.1, on the feed built the same day (calendar 2026-10-05 to 2027-10-05).
+Run on 2026-10-06 with validator 8.0.1, on the feed built the same day (calendar 2026-10-06 to 2027-10-06), after the auto stand coordinate reuse pass (156 auto routes in the feed).
 
 | severity | count | notices |
 |---|---|---|

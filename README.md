@@ -18,7 +18,7 @@ Open route data for getting around Kolkata: buses, minibuses, metro, local train
 | Suburban rail | 27 lines | 355 | Real timetables, 1,637 trains |
 | Metro | 5 lines | 57 | Official timetables for all 5 lines, per weekday, Saturday and Sunday (`data/metro/service_periods.csv`): Orange runs Monday to Friday only, Purple Monday to Friday plus Saturday afternoon |
 | Bus and minibus | 603 | 1,177 | Default 15 min headway, times estimated from distance |
-| Auto | 105 of 514 | 122 | Default 10 min headway. 492 routes from RTA Kolkata's official 2018 list |
+| Auto | 156 of 514 | 184 | Default 10 min headway. 492 routes from RTA Kolkata's official 2018 list |
 | Ferry | 8 | 15 | Community-sourced frequencies and hours (no official timetable found); flat fares where one value is known. Routes with no service data are kept in `data/` but left out of the feed |
 | Tram | 2 | 12 | 30 min headway (Wikipedia, undated); service is irregular, times are indicative |
 
@@ -26,7 +26,7 @@ Fares and passes for every mode are in `data/fares/` (distance slabs are not yet
 
 ## Known gaps, help welcome
 
-- About 1,185 bus stops and 490 auto stops have no coordinates in any open source, so they are left out of the feed (bus stops located: 74% weighted by how often routes use them). Adding the missing names to OpenStreetMap is the best fix; well-known examples are Moulali, Chandni Market, Khanna Cinema and Tollygunge Phari.
+- About 1,185 bus stops and 419 auto stops have no coordinates in any open source, so they are left out of the feed (bus stops located: 74% weighted by how often routes use them). Adding the missing names to OpenStreetMap is the best fix; well-known examples are Moulali, Chandni Market, Khanna Cinema and Tollygunge Phari.
 - RTA Kolkata's notification 5673-WT of December 2018 lists 489 authorised auto routes (a 2018 count, not a current one). They are transcribed in `data/auto/`, but many of their stops have no coordinates yet, so most are not in the feed.
 - No source publishes bus or auto frequencies, so defaults are used for those two modes only; every default is listed in `gtfs/BUILD_REPORT.md`. No other mode gets invented service.
 - Rail timetables are community-sourced and may miss some trains.

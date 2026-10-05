@@ -3,9 +3,14 @@
 Inputs: hand-entered community routes and March 2026 fare news (in this file), the official RTA Kolkata list
 (sources/raw/auto_fares/rta_kolkata_5673wt_routes_transcribed.psv, 489 routes, notification 5673-WT of 10 Dec 2018),
 2025-26 press items, and an Overpass dump of named OSM features (sources/raw/auto_fares/osm_nf_*.json).
-Stop coordinates come only from OpenStreetMap-derived, ODbL data: (1) the earlier Nominatim answers kept in
+Stop coordinates come from OpenStreetMap-derived, ODbL data: (1) the earlier Nominatim answers kept in
 sources/cache/nominatim_cache.json, (2) exact or locality name matches in the Overpass dump (name, name:en, alt_name,
-old_name, official_name, short_name), (3) Nominatim with strict normalised name equality, (4) Photon as a last fallback.
+old_name, official_name, short_name), (3) Nominatim with strict normalised name equality, (4) Photon as a last fallback, then (5) reuse: a stand still blank
+takes the coordinate of a located stop of the same normalised name (or a reviewed alias, or a close spelling) in
+data/{bus,metro,rail,ferry,tram}/stops.csv (source AF-XMODE), recorded as coord_method reused_{mode} with the source
+stop id in notes and the source confidence inherited (capped at medium for loose or fuzzy matches, never raised).
+Reused stands must sit in the route's area and within 8 km (12 km for north serials) of every other located stop of
+every route that uses them; homonyms are kept only when exactly one candidate fits.
 Plausibility: stops outside the route's expected area, or implausibly far from the other stops, are left blank.
 Nominatim is called at most once per second; the User-Agent carries no personal data.
 
@@ -441,26 +446,216 @@ def plausibility(chosen):
             if v>=top*0.99: rejected.add(n); log('PLAUSIBILITY reject %s (score %.1f, corroborated by %d routes)'%(n,v,support.get(n,0)))
     return rejected
 
+# ======================================================================
+# reuse tier: stands still unlocated after the OSM tiers take the coordinate of a located stop with the same
+# (normalised) name in another mode of this dataset: bus (data/bus/stops.csv, homonyms split as _2/_3), metro,
+# rail, ferry, tram, plus the reviewed bus alias table. Order: exact normalised name, then alias, then the name
+# without generic suffix words (more, station, stand ...), then a consonant-skeleton fuzzy match. Every reused
+# coordinate must lie in the route's box and within REUSE_KM of every other located stop of every auto route
+# using that stand; homonyms are kept only when exactly one candidate passes. Confidence is inherited from the
+# source stop and capped at medium for suffix-dropped and fuzzy matches (never upgraded).
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from bus_common import norm_key as _bnk, loose_key as _blk, skeleton_key as _bsk
+REUSE_MODES=('bus','metro','rail','ferry','tram')
+REUSE_TIER={'exact':0,'alias':1,'alias_loose':2,'loose':2,'fuzzy':3}
+REUSE_CAP_MEDIUM={'alias_loose','loose','fuzzy'}   # matches that drop a qualifier or a spelling: at most medium
+# reviewed pairs (auto name without its bracketed qualifier, other-mode stop name)
+REUSE_ALIASES=[('City Center-I','City Centre')]   # City Centre I mall, Salt Lake DC Block; the bus stop is that mall
+REUSE_GENERIC={'salt lake','saltlake','chowrasta'}   # a whole township or a bare word for crossing: too coarse for one stand
+# reviewed rejections: the other-mode coordinate itself is doubtful
+REUSE_REJECT={'4 No Tank':'bus 4 No. Tank and 10 No. Tank share one OSM way (237520349), so at least one is misplaced',
+              '10 No Tank':'bus 4 No. Tank and 10 No. Tank share one OSM way (237520349), so at least one is misplaced'}
+SEQ_NEIGH_KM=4   # on a sequenced route (3+ stops) a reused stand must be this close to its nearest located neighbour
+_NUM=re.compile(r'\b(\d+|i{1,3}|iv|v|vi)\b')
+def num_tokens(n): return set(_NUM.findall(re.sub(r'[^a-z0-9]+',' ',n.lower())))
+def load_river():
+    """Hooghly centreline segments from sources/raw/osm_water.json (scripts/osm_pbf_extract.py --water), if present."""
+    fn=os.path.join(ROOT,'sources','raw','osm_water.json')
+    if not os.path.exists(fn): log('REUSE: no osm_water.json, Hooghly crossing check skipped'); return []
+    els=json.load(open(fn,encoding='utf-8'))['elements']
+    co={e['id']:(e['lat'],e['lon']) for e in els if e['type']=='node'}
+    seg=[]
+    for w in els:
+        if w['type']=='way' and w.get('tags',{}).get('kind')=='river':
+            pts=[co[n] for n in w['nodes'] if n in co]
+            seg+=list(zip(pts,pts[1:]))
+    return seg
+def _cross(p1,p2,q1,q2):
+    def o(a,b,c): return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])
+    return o(p1,p2,q1)*o(p1,p2,q2)<0 and o(q1,q2,p1)*o(q1,q2,p2)<0
+def crosses_river(a,b,seg):
+    lo=(min(a[0],b[0]),min(a[1],b[1])); hi=(max(a[0],b[0]),max(a[1],b[1]))
+    for q1,q2 in seg:
+        if max(q1[0],q2[0])<lo[0] or min(q1[0],q2[0])>hi[0] or max(q1[1],q2[1])<lo[1] or min(q1[1],q2[1])>hi[1]: continue
+        if _cross(a,b,q1,q2): return True
+    return False
+CONF_RANK={'low':0,'medium':1,'high':2}
+def reuse_limit(r):
+    if r['rid'] in LONG: return 30
+    return 12 if route_box(r)==BOX_NORTH else 8   # autos are short haul; north serials run longer stretches
+def load_reuse_pool():
+    pool=[]
+    for m in REUSE_MODES:
+        fn=os.path.join(ROOT,'data',m,'stops.csv')
+        if not os.path.exists(fn): continue
+        for x in csv.DictReader(open(fn,encoding='utf-8')):
+            if not x.get('lat') or not x.get('lon'): continue
+            if (x.get('coord_method') or '').strip()=='interpolated': continue   # estimated point, not a place
+            conf=(x.get('coord_confidence') or '').strip() or 'high'   # metro, rail, ferry, tram: curated station positions
+            pool.append(dict(mode=m,id=x['stop_id'],name=x['stop_name'],lat=float(x['lat']),lon=float(x['lon']),conf=conf,
+                             method=(x.get('coord_method') or '').strip()))
+    return pool
+def reuse_candidates(pool,aliases):
+    byk={'exact':{},'loose':{},'fuzzy':{}}
+    for q in pool:
+        nm=re.sub(r'\s*\(.*?\)','',q['name']) if q['mode']!='bus' else q['name']
+        for nmv in {q['name'],nm}:
+            byk['exact'].setdefault(_bnk(nmv),[]).append(q)
+            byk['loose'].setdefault(_blk(nmv),[]).append(q)
+            sk=_bsk(nmv)
+            if len(sk)>=5: byk['fuzzy'].setdefault(sk,[]).append(q)
+    def find(n):
+        k=_bnk(n); kb=_bnk(re.sub(r'\s*\(.*?\)','',n))
+        if k in byk['exact']: return 'exact',byk['exact'][k]
+        for kind,key in (('alias',k),('alias_loose',kb)):
+            al=[]
+            nk=num_tokens(re.sub(r'\(.*?\)','',n) if kind=='alias_loose' else n)
+            for a,b in aliases:   # numbers must agree too: norm_key folds City Center-II into City Center-I
+                if _bnk(a)==key and num_tokens(a)==nk: al+=byk['exact'].get(_bnk(b),[])
+                if _bnk(b)==key and num_tokens(b)==nk: al+=byk['exact'].get(_bnk(a),[])
+            if al: return kind,al
+        nt=num_tokens(re.sub(r'\(.*?\)','',n))
+        same_num=lambda cs:[q for q in cs if num_tokens(re.sub(r'\(.*?\)','',q['name']))==nt]   # City Centre II is not City Centre
+        lk=_blk(n)
+        if len(lk)>=4 and same_num(byk['loose'].get(lk,[])): return 'loose',same_num(byk['loose'][lk])
+        sk=_bsk(n)
+        if len(sk)>=5 and same_num(byk['fuzzy'].get(sk,[])): return 'fuzzy',same_num(byk['fuzzy'][sk])
+        return None,[]
+    return find
+def cluster(cs):
+    """Group candidate stops lying within 1.5 km of each other: one place under several modes or spellings."""
+    out=[]
+    for q in cs:
+        for g in out:
+            if hav((q['lat'],q['lon']),(g[0]['lat'],g[0]['lon']))<1.5: g.append(q); break
+        else: out.append([q])
+    return out
+def pick_rep(n,g):
+    """Representative stop of one cluster: a station-like name prefers rail then metro, others prefer bus."""
+    st=bool(re.search(r'\b(station|stn|rly|railway)\b',n.lower()))
+    order=('rail','metro','bus','ferry','tram') if st else ('bus','metro','rail','tram','ferry')
+    return sorted(g,key=lambda q:(order.index(q['mode']),-CONF_RANK.get(q['conf'],0),q['id']))[0]
+def reuse_tier(chosen,rej):
+    """Fill stands left blank by the OSM tiers. Returns {name: candidate dict} for accepted reuses."""
+    pool=load_reuse_pool()
+    aliases=[]
+    af=os.path.join(ROOT,'data','bus','stop_aliases.csv')
+    if os.path.exists(af): aliases=[(x['stop_name'],x['alias']) for x in csv.DictReader(open(af,encoding='utf-8'))]
+    aliases+=REUSE_ALIASES
+    river=load_river()
+    find=reuse_candidates(pool,aliases)
+    located=lambda n: chosen.get(n) and n not in rej
+    routes_of={}
+    for r in R:
+        for s in r['stops']: routes_of.setdefault(cn(s),[]).append(r)
+    prop={}; homs={}
+    for n in names:
+        if located(n) or nkey(n) in GENERIC: continue
+        if {nkey(re.sub(r'\(.*?\)','',n)),nkey_core(re.sub(r'\(.*?\)','',n))}&REUSE_GENERIC: log('REUSE skipped, name too generic: '+n); continue
+        if n in REUSE_REJECT: log('REUSE skipped, reviewed reject: %s (%s)'%(n,REUSE_REJECT[n])); continue
+        kind,cs=find(n)
+        if not cs: continue
+        gs=cluster(cs)
+        if len(gs)==1: prop[n]=(kind,pick_rep(n,gs[0]))
+        else: homs[n]=(kind,[pick_rep(n,g) for g in gs])
+    def anchors(n,extra):
+        out=[]
+        for r in routes_of.get(n,[]):
+            for s in r['stops']:
+                p=cn(s)
+                if p==n: continue
+                if located(p): out.append((r,(chosen[p]['lat'],chosen[p]['lon'])))
+                elif p in extra: q=extra[p][1]; out.append((r,(q['lat'],q['lon'])))
+        return out
+    def fits(n,q,extra):
+        for r in routes_of.get(n,[]):
+            if not in_box(q,route_box(r)): return False,'outside route area of %s'%r['rid']
+        for r,a in anchors(n,extra):
+            d=hav((q['lat'],q['lon']),a)
+            if d>reuse_limit(r): return False,'%.1f km from a stop of %s'%(d,r['rid'])
+            if river and crosses_river((q['lat'],q['lon']),a,river): return False,'across the Hooghly from a stop of %s'%r['rid']
+        for r in routes_of.get(n,[]):   # sequenced routes: close to the nearest located stop before or after it
+            ss=[cn(s) for s in r['stops']]
+            if len(ss)<3: continue
+            i=ss.index(n); near=[]
+            for seq in (ss[:i][::-1],ss[i+1:]):
+                for p in seq:
+                    if located(p): near.append((chosen[p]['lat'],chosen[p]['lon'])); break
+                    if p in extra: near.append((extra[p][1]['lat'],extra[p][1]['lon'])); break
+            if near:
+                d=min(hav((q['lat'],q['lon']),a) for a in near)
+                if d>SEQ_NEIGH_KM: return False,'%.1f km from its nearest located neighbour on %s'%(d,r['rid'])
+        return True,''
+    # homonyms: keep only the one candidate that fits the routes' other located stops (OSM tiers and unique reuses)
+    for n,(kind,reps) in homs.items():
+        if not anchors(n,prop): log('REUSE homonym, no route anchor, left blank: %s (%d candidates)'%(n,len(reps))); continue
+        ok=[q for q in reps if fits(n,q,prop)[0]]
+        if len(ok)==1: prop[n]=(kind,ok[0]); log('REUSE homonym resolved by route: %s -> %s'%(n,ok[0]['id']))
+        else: log('REUSE homonym still ambiguous (%d fit), left blank: %s'%(len(ok),n))
+    # suffix-dropped and fuzzy matches need at least one located route partner to confirm them
+    for n in [n for n,(k,q) in prop.items() if k in ('loose','fuzzy') and not anchors(n,{m:v for m,v in prop.items() if v[0] in ('exact','alias')})]:
+        log('REUSE %s match without a located route partner, left blank: %s -> %s'%(prop[n][0],n,prop[n][1]['id'])); del prop[n]
+    # distance checks, one stand at a time: drop the worst offender (outside the area first, then the less certain
+    # match, then the one breaking most routes), recheck, so a wrong partner does not take a right stand down with it
+    while True:
+        bad=[]
+        for n,(kind,q) in prop.items():
+            ok,why=fits(n,q,prop)
+            if ok: continue
+            alone,_=fits(n,q,{})   # against OSM-located stands only
+            nfail=sum(1 for m,v in prop.items() if m!=n and not fits(m,v[1],{n:(kind,q)})[0] and fits(m,v[1],{})[0])
+            bad.append(((why.startswith('outside'),not alone,REUSE_TIER[kind],nfail),n,why))
+        if not bad: break
+        sc,n,why=max(bad)
+        log('REUSE rejected %s -> %s (%s match): %s'%(n,prop[n][1]['id'],prop[n][0],why)); del prop[n]
+    out={}
+    for n,(kind,q) in prop.items():
+        conf=('medium' if CONF_RANK.get(q['conf'],0)>=1 else q['conf']) if kind in REUSE_CAP_MEDIUM else q['conf']
+        meth='reused_'+q['mode']
+        note='coord: reused from %s stop %s ("%s", %s%s), %s name match%s'%(q['mode'],q['id'],q['name'],
+            q['method'] or 'curated station position',' '+q['conf'] if q['method'] else '',kind,
+            '' if kind=='exact' else ' (spelling differs)')
+        out[n]=dict(lat=q['lat'],lon=q['lon'],tier=5,src=meth,note=note,method=meth,conf=conf,from_id=q['id'],kind=kind)
+    return out
+
 def main():
     cand=gather()
     chosen=resolve(cand)
     rej=plausibility(chosen)
+    before={n for n in names if chosen.get(n) and n not in rej}
+    reused=reuse_tier(chosen,rej)
+    for n,g in reused.items(): chosen[n]=g; rej.discard(n)
+    rej=plausibility(chosen)   # the original checks again, over OSM and reused stands together
+    for n in sorted(before):
+        if n in rej: log('CHANGE previously located stand now rejected by plausibility: '+n)
+    for n in sorted(reused):
+        if n in rej: log('REUSE rejected by plausibility re-run: %s -> %s'%(n,reused[n]['from_id']))
     os.makedirs(ROOT+'/data/auto',exist_ok=True)
     srcof={}
     for r in R:
         for s in r['stops']: srcof.setdefault(cn(s),set()).update(r['src'].split('|'))
     ng=0; bysrc={}
     with open(ROOT+'/data/auto/stops.csv','w',newline='',encoding='utf-8') as f:
-        w=csv.writer(f); w.writerow(['stop_id','stop_name','lat','lon','source_id','notes'])
+        w=csv.writer(f); w.writerow(['stop_id','stop_name','lat','lon','source_id','notes','coord_method','coord_confidence'])
         for n in names:
             g=chosen.get(n) if n not in rej else None
-            srcs='|'.join(sorted(srcof[n]))
+            srcs='|'.join(sorted(srcof[n]|({'AF-XMODE'} if g and g.get('method') else set())))
             if g:
                 ng+=1; bysrc[g['src']]=bysrc.get(g['src'],0)+1
-                w.writerow(['auto_'+slug(n),n,'%.6f'%g['lat'],'%.6f'%g['lon'],srcs,g['note']])
+                w.writerow(['auto_'+slug(n),n,'%.6f'%g['lat'],'%.6f'%g['lon'],srcs,g['note'],g.get('method',g['src']),g.get('conf','')])
             else:
                 why='not geocoded: no confident OSM match' if not cand.get(n) else 'not geocoded: OSM match rejected by plausibility or ambiguity checks'
-                w.writerow(['auto_'+slug(n),n,'','',srcs,why])
+                w.writerow(['auto_'+slug(n),n,'','',srcs,why,'',''])
     with open(ROOT+'/data/auto/routes.csv','w',newline='',encoding='utf-8') as f:
         w=csv.writer(f); w.writerow('route_id,route_name,mode,operator,origin,destination,headway_min_peak,headway_min_offpeak,first_service,last_service,fare_min_inr,fare_max_inr,source_id,confidence,notes'.split(','))
         for r in R:

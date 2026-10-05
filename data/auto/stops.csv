@@ -1,662 +1,662 @@
-stop_id,stop_name,lat,lon,source_id,notes
-auto_phoolbagan,Phoolbagan,22.572159,88.389421,AF-AJT|AF-CI|AF-EIM|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2790155767 (neighbourhood), name-matched, in route cluster"
-auto_suktara_cinema,Suktara Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_kadapara,Kadapara,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_subhas_sarovar,Subhas Sarovar,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_orient,Orient,22.570934,88.400031,AF-CI|AF-F3|AF-RTA5673,"coord: OSM node/12761637274 (platform) named ""Orient"", exact name match in Overpass named-feature index"
-auto_89_cinema,89 Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_swabhumi,Swabhumi,22.571091,88.401251,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/359505037 (cinema), name-matched, in route cluster"
-auto_bypass,Bypass,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_salt_lake_stadium,Salt Lake Stadium,22.573111,88.403089,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/7976140069 (station), name-matched, in route cluster"
-auto_purbachal,Purbachal,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_13_no_tank,13 No. Tank,22.574881,88.409029,AF-AJT|AF-CI|AF-EIM|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/174252530 (yes), name-matched, in route cluster"
-auto_bijan_bhawan,Bijan Bhawan,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_hb_island,HB Island,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_gd_island,GD Island,22.576419,88.413673,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/11971707027 (bus_stop), name-matched, in route cluster"
-auto_fd_block,FD Block,22.582405,88.412323,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/158511211 (city_block), name-matched, in route cluster"
-auto_netaji_park,Netaji Park,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_central_park,Central Park,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_karunamoyee,Karunamoyee,22.586380,88.421531,AF-BART|AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/7976140059 (station), name-matched, in route cluster"
-auto_kali_mandir,Kali Mandir,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_allahabad_bank,Allahabad Bank,22.569274,88.390918,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4676042686 (bank), name-matched, in route cluster"
-auto_trikon_park,Trikon Park,22.567426,88.392490,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096522 (bus_stop), name-matched, in route cluster"
-auto_devine_nursing_home,Devine Nursing Home,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_ratna_kebin,Ratna Kebin,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_cit_more,CIT More,22.562851,88.396263,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2790155771 (bus_stop), name-matched, in route cluster"
-auto_id_hospital,ID Hospital,22.564503,88.398403,AF-CI|AF-F3|AF-RTA5673,"coord: OSM node/10679793548 (hospital) named ""ID Hospital"", exact name match in Overpass named-feature index"
-auto_jora_mandir,Jora Mandir,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_ragini_cinema,Ragini Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_cit_building_more,CIT Building More,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_sishu_hospital,Sishu Hospital,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_chanditala,Chanditala,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_rail_quarter,Rail Quarter,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_sasthitala,Sasthitala,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_narkeldanga_post_office,Narkeldanga Post Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_rajabazar_khaal_pool,Rajabazar Khaal Pool,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_tasbir_mahal_cinema,Tasbir Mahal Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_sealdah_station,Sealdah Station,22.567966,88.371105,AF-CI,"coord: OSM Nominatim node/252584722 (station), name-matched, in route cluster"
-auto_pantaloons,Pantaloons,22.575072,88.389359,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/191117573 (mall), name-matched, in route cluster"
-auto_vip_market,VIP Market,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_kathgola,Kathgola,22.576715,88.389986,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096534 (bus_stop), name-matched, in route cluster"
-auto_kankurgachi,Kankurgachi,22.579931,88.390565,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096539 (bus_stop), name-matched, in route cluster"
-auto_rail_bridge,Rail Bridge,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_marwari_bagan,Marwari Bagan,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_bagmari_bazar,Bagmari Bazar,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_manicktala_khaal_pool,Manicktala Khaal Pool,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_manicktala_post_office,Manicktala Post Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_blood_bank,Blood Bank,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match
-auto_manicktala_more,Manicktala More,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match
-auto_hedua,Hedua,22.587744,88.368849,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/102015159 (park), name-matched, in route cluster"
-auto_girish_park,Girish Park,22.587145,88.362942,AF-AJT|AF-CI|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/5421546475 (station), name-matched, in route cluster"
-auto_ganesh_talkies,Ganesh Talkies,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match
-auto_kmc_ward_office,KMC Ward Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_paresnath_temple,Paresnath Temple,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_gauri_bari,Gauri Bari,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_ayurvedic_hospital,Ayurvedic Hospital,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_deshbandhu_park,Deshbandhu Park,22.600010,88.377070,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/9677133275 (park), name-matched, in route cluster"
-auto_park_institution,Park Institution,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_rg_kar_hospital,RG Kar Hospital,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_raja_bazar,Raja Bazar,22.572778,88.371679,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2720342347 (tram_stop), name-matched, in route cluster"
-auto_amherst_street_crossing,Amherst Street Crossing,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_college_street_bata,College Street Bata,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_mg_road_metro,MG Road Metro,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_beliaghata,Beliaghata,22.550656,88.403917,AF-CI,"coord: OSM Nominatim way/535333484 (train_station), name-matched, in route cluster"
-auto_rashmani_bazar,Rashmani Bazar,,,AF-CI,not geocoded: no confident OSM match
-auto_deshbandhu_school,Deshbandhu School,,,AF-CI,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_alochaya,Alochaya,22.564317,88.388854,AF-CI,"coord: OSM Nominatim node/12761560755 (bus_stop), name-matched, in route cluster"
-auto_sarkar_bazar,Sarkar Bazar,22.565012,88.385389,AF-CI,"coord: OSM Nominatim node/13605749839 (bus_stop), name-matched, in route cluster"
-auto_borof_kol,Borof Kol,,,AF-CI,not geocoded: no confident OSM match
-auto_khal_pool,Khal Pool,,,AF-CI,not geocoded: no confident OSM match
-auto_sales_tax,Sales Tax,22.566055,88.379999,AF-CI,"coord: OSM Nominatim node/12761560751 (bus_stop), name-matched, in route cluster"
-auto_ultadanga,Ultadanga,22.596128,88.385283,AF-AJT|AF-BART|AF-CI|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/1310971686 (suburb), name-matched, in route cluster"
-auto_kolaghata,Kolaghata,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match
-auto_sreebhumi,Sreebhumi,,,AF-CI|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_lake_town,Lake Town,22.605728,88.402961,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/2012850135 (suburb), name-matched, in route cluster"
-auto_bangur,Bangur,22.605919,88.411109,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/190279711 (tertiary), name-matched, in route cluster"
-auto_dum_dum_park,Dum Dum Park,22.603428,88.423038,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/535333444 (yes), name-matched, in route cluster"
-auto_keshtopur,Keshtopur,22.597333,88.433852,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/11126031785 (suburb), name-matched, in route cluster"
-auto_narayantala,Narayantala,,,AF-CI|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_baguiati,Baguiati,22.609668,88.427683,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/10010962802 (suburb), name-matched, in route cluster"
-auto_howrah_station,Howrah Station,22.583365,88.340345,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/11699268224 (station), name-matched, in route cluster"
-auto_botanical_garden,Botanical Garden,22.558202,88.289232,AF-CI,"coord: OSM Nominatim way/52097541 (park), name-matched, in route cluster"
-auto_sai_complex,SAI Complex,22.564436,88.411582,AF-CI,"coord: OSM Nominatim node/2461201418 (sports_centre), name-matched, in route cluster"
-auto_columbia_asia_hospital,Columbia Asia Hospital,22.572260,88.412760,AF-CI,"coord: OSM Nominatim way/173731205 (hospital), name-matched, in route cluster"
-auto_ezcc,EZCC,,,AF-CI,not geocoded: no confident OSM match
-auto_ahiritola,Ahiritola,22.596397,88.353298,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/1189457648 (ferry_terminal), name-matched, in route cluster"
-auto_bk_pal,BK Pal,22.593457,88.357116,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/1127684588 (secondary), name-matched, in route cluster"
-auto_ballygunge_station,Ballygunge Station,22.519341,88.371978,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/651805730 (station), name-matched, in route cluster"
-auto_gariahat,Gariahat,22.519779,88.365430,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4198894040 (bus_stop), name-matched, in route cluster"
-auto_triangular_park,Triangular Park,22.517997,88.357720,AF-F3|AF-RTA5673,"coord: OSM Nominatim way/118484371 (park), name-matched, in route cluster"
-auto_deshopriyo_park,Deshopriyo Park,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_rashbehari,Rashbehari,22.517172,88.345564,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1983446893 (bus_stop), name-matched, in route cluster"
-auto_kalighat_metro,Kalighat Metro,22.519103,88.346118,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4178731060 (information), name-matched, in route cluster"
-auto_sp_mukherjee_road,SP Mukherjee Road,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_hazra,Hazra,22.522723,88.349924,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1577087782 (suburb), name-matched, in route cluster"
-auto_kalighat,Kalighat,22.515331,88.347705,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/419289392 (suburb), name-matched, in route cluster"
-auto_tollygunge_phari,Tollygunge Phari,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_mahabir_tala,Mahabir Tala,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match
-auto_new_alipore,New Alipore,22.511165,88.328112,AF-F3|AF-RTA5673,"coord: OSM Nominatim way/1172951427 (suburb), name-matched, in route cluster"
-auto_taratala,Taratala,22.507686,88.320384,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/10296539476 (station), name-matched, in route cluster"
-auto_ajanta_cinema,Ajanta Cinema,22.508112,88.320228,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/3365872348 (cinema), name-matched, in route cluster"
-auto_behala_thana,Behala Thana,22.503528,88.319003,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/3363195847 (police), name-matched, in route cluster"
-auto_behala_tram_depot,Behala Tram Depot,22.499411,88.317797,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1272967207 (bus_stop), name-matched, in route cluster"
-auto_chetla,Chetla,22.514325,88.336958,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2015875098 (suburb), name-matched, in route cluster"
-auto_taratala_crossing,Taratala Crossing,,,AF-F3,not geocoded: no confident OSM match
-auto_chetla_park,Chetla Park,22.517176,88.336246,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/190981117 (park), name-matched, in route cluster"
-auto_behala_chowrasta,Behala Chowrasta,22.487355,88.313379,AF-BART|AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/9321292345 (station), name-matched, in route cluster"
-auto_sector_v,Sector V,22.575454,88.432257,AF-AJT|AF-BART|AF-RTA5673,"coord: OSM node/10792425145 (suburb) named ""Sector V"", exact name match in Overpass named-feature index"
-auto_bikash_bhavan,Bikash Bhavan,22.591142,88.416944,AF-BART|AF-RTA5673,"coord: OSM Nominatim way/153790971 (government), name-matched, in route cluster"
-auto_tank_no_12_salt_lake,Tank No 12 Salt Lake,,,AF-AJT|AF-EIM,not geocoded: no confident OSM match
-auto_maniktala,Maniktala,22.588090,88.385283,AF-AJT|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/1307115411 (suburb), name-matched, in route cluster"
-auto_sarsuna,Sarsuna,22.480999,88.284838,AF-BART|AF-RTA5673,"coord: OSM Nominatim way/358768807 (college), name-matched, in route cluster"
-auto_chingrighata,Chingrighata,22.558656,88.410802,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM Nominatim node/2461214063 (bus_stop), name-matched, in route cluster"
-auto_sdf_building_salt_lake,SDF Building Salt Lake,22.568880,88.431054,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM Nominatim node/2454098345 (yes), name-matched, in route cluster"
-auto_garia,Garia,22.466016,88.392848,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM node/10594566755 (suburb) named ""Garia"", exact name match in Overpass named-feature index"
-auto_baruipur,Baruipur,22.360715,88.432558,AF-BHUNT|AF-SUBK,"coord: OSM Nominatim way/1138105859 (city), name-matched, in route cluster"
-auto_sonarpur,Sonarpur,22.440875,88.424637,AF-BHUNT,"coord: OSM Nominatim way/1139413343 (city), name-matched, in route cluster"
-auto_dakshin_barasat,Dakshin Barasat,,,AF-SUBK,not geocoded: no confident OSM match
-auto_julpia,Julpia,22.365273,88.351970,AF-SUBK,"coord: OSM Nominatim node/7199853213 (hospital), name-matched, in route cluster"
-auto_howrah_maidan,Howrah Maidan,22.581973,88.333308,AF-RTA5673,"coord: OSM node/11231291700 (suburb) named ""Howrah Maidan"", exact name match in Overpass named-feature index"
-auto_salkia_chowrasta,Salkia Chowrasta,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_donbosco,Donbosco,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_belgachia,Belgachia,22.605670,88.384708,AF-RTA5673,"coord: OSM node/2014908445 (tram_stop) named ""Belgachia"", exact name match in Overpass named-feature index"
-auto_bamangachi_b_and_c,Bamangachi B and C,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bandhaghat,Bandhaghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kadamtala,Kadamtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_parijat_cinema,Parijat (Cinema),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bally_khal,Bally Khal,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shibpur_tram_depot,Shibpur Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_belur_station,Belur Station,22.635732,88.339822,AF-RTA5673,"coord: OSM node/664468001 (station) named ""Belur"", locality or station match after dropping generic words; position approximate"
-auto_nischinda_chandmari,Nischinda Chandmari,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bhattanagar_daspara,Bhattanagar Daspara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_liluah_station,Liluah Station,22.620903,88.339404,AF-RTA5673,"coord: OSM node/664468000 (station) named ""Liluah"", locality or station match after dropping generic words; position approximate"
-auto_bakultala_bus_stand,Bakultala Bus Stand,22.564026,88.284995,AF-RTA5673,"coord: OSM node/7692782149 (neighbourhood) named ""BAKULTALA"", locality or station match after dropping generic words; position approximate"
-auto_santragachi_station,Santragachi Station,22.584699,88.283072,AF-RTA5673,"coord: OSM node/600756813 (station) named ""Santragachi Junction"", locality or station match after dropping generic words; position approximate"
-auto_shibpur_ferry_ghat,Shibpur Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ichapur_khudiram_statue,Ichapur Khudiram Statue,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nazirganj_ferry_ghat,Nazirganj Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tikia_para_bus_stand,Tikia Para Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ghusuri_hit_park,Ghusuri HIT Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mouri_mill_gate,Mouri Mill Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ramrajatala_station,Ramrajatala Station,22.588661,88.296666,AF-RTA5673,"coord: OSM node/664455694 (station) named ""Ramrajatala"", locality or station match after dropping generic words; position approximate"
-auto_baltikuri,Baltikuri,22.609402,88.296129,AF-RTA5673,"coord: OSM Nominatim node/6813908137 (technical_station) named ""Baltikuri"", normalised name equal"
-auto_santragachi_railway_colony,Santragachi Railway Colony,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_benepole,Benepole,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_liluah_station_east,Liluah Station (East),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_belur_launch_ghat,Belur Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dhakuria_bridge,Dhakuria Bridge,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kasba,Kasba,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ruby,Ruby,22.513316,88.401317,AF-RTA5673,"coord: OSM node/4195415967 (platform) named ""Ruby"", exact name match in Overpass named-feature index"
-auto_baghajatin,Baghajatin,22.483881,88.375445,AF-RTA5673,"coord: OSM node/10676754548 (suburb) named ""Baghajatin"", exact name match in Overpass named-feature index"
-auto_kayasthapara,Kayasthapara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ranikuthi,Ranikuthi,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jadavpur,Jadavpur,22.495499,88.370901,AF-RTA5673,"coord: OSM node/419275337 (suburb) named ""Jadavpur"", exact name match in Overpass named-feature index"
-auto_14_no_bus_stand,14 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chanditala_charaktala,Chanditala Charaktala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_joyshree_park,Joyshree Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_behala,Behala,22.501572,88.320943,AF-RTA5673,"coord: OSM node/4524946631 (suburb) named ""Behala"", exact name match in Overpass named-feature index"
-auto_manton,Manton,22.494863,88.316607,AF-RTA5673,"coord: OSM node/11971705760 (bus_stop) named ""Manton"", exact name match in Overpass named-feature index"
-auto_chanditala_jhilpar,Chanditala Jhilpar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_12_1_mahabirtola,12/1 Mahabirtola,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tollygunge,Tollygunge,22.498636,88.345391,AF-RTA5673,"coord: OSM node/1350661689 (suburb) named ""Tollygunge"", exact name match in Overpass named-feature index"
-auto_panchanantala,Panchanantala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_parnashree_park,Parnashree Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jadavpur_police_station,Jadavpur Police Station,22.502768,88.367729,AF-RTA5673,"coord: OSM node/651795823 (police) named ""Jadavpur Police Station"", exact name match in Overpass named-feature index"
-auto_ramlal_bazar,Ramlal Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jadavpur_station,Jadavpur Station,22.495052,88.374971,AF-RTA5673,"coord: OSM node/5768054688 (station) named ""Jadavpur"", locality or station match after dropping generic words; position approximate"
-auto_thakurpukur_bazar,Thakurpukur Bazar,22.462537,88.315526,AF-RTA5673,"coord: OSM node/7154718362 (suburb) named ""Thakurpukur"", locality or station match after dropping generic words; position approximate"
-auto_kalagachia,Kalagachia,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kabardanga,Kabardanga,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tollygunge_tram_depot,Tollygunge Tram Depot,22.493976,88.346172,AF-RTA5673,"coord: OSM node/12293455201 (bus_station) named ""Tollygunge Tram Depot"", exact name match in Overpass named-feature index"
-auto_anandanagar,Anandanagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sakherbazar,Sakherbazar,22.474894,88.309938,AF-RTA5673,"coord: OSM node/10296539473 (stop) named ""Sakher bazar"", exact name match in Overpass named-feature index"
-auto_sikhar_sangha,Sikhar Sangha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nepalganj,Nepalganj,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_3a_bus_stand,3A Bus Stand,22.456729,88.304576,AF-RTA5673,"coord: OSM way/412641079 (bus_station) named ""3A bus stand"", exact name match in Overpass named-feature index"
-auto_thakurpukur_3a_bus_stand,Thakurpukur 3A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_silpala,Silpala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chandraply,Chandraply,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_joka,Joka,22.453350,88.302520,AF-RTA5673,"coord: OSM node/9914301355 (suburb) named ""Joka"", exact name match in Overpass named-feature index"
-auto_devi_nagar_bagpota,Devi Nagar (Bagpota),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bansdroni_chakdaha,Bansdroni Chakdaha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gachtala,Gachtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bansdroni_lock_gate,Bansdroni Lock Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rania,Rania,22.447586,88.350647,AF-RTA5673,"coord: OSM node/10694669516 (suburb) named ""Rania"", exact name match in Overpass named-feature index"
-auto_bansdroni,Bansdroni,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_raniya_sitala_park,Raniya Sitala Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_behala_police_station,Behala Police Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_parnasree,Parnasree,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rabindranagar,Rabindranagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_zinzira_bazar,Zinzira Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chakkendua,Chakkendua,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_joy_jala,Joy Jala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sen_pally,Sen Pally,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chandra_pally,Chandra Pally,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_silpara,Silpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chowrasta,Chowrasta,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dakghar,Dakghar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_diamond_park,Diamond Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gitanagar,Gitanagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gopalnagar,Gopalnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_mukundapur,Mukundapur,22.492141,88.396436,AF-RTA5673,"coord: OSM node/11971705726 (bus_stop) named ""Mukundapur"", exact name match in Overpass named-feature index"
-auto_garia_station,Garia Station,22.465639,88.405515,AF-RTA5673,"coord: OSM node/2339753229 (station) named ""Garia"", locality or station match after dropping generic words; position approximate"
-auto_tollygunge_metro,Tollygunge Metro,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_radha_housing,Radha Housing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kalibazar,Kalibazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khidderpore,Khidderpore,22.538698,88.317565,AF-RTA5673,"coord: OSM node/1558124157 (tram_stop) named ""Khidderpore"", exact name match in Overpass named-feature index"
-auto_metiabruz,Metiabruz,22.543570,88.267934,AF-RTA5673,"coord: OSM node/10692982851 (suburb) named ""Metiabruz"", exact name match in Overpass named-feature index"
-auto_mollagate,Mollagate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rajabagan,Rajabagan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_purba_anandapally,Purba Anandapally,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gachhatala,Gachhatala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ramnagar,Ramnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_akrafatak,Akrafatak,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_river_side,River Side,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sailo_sree,Sailo Sree,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ruby_general_hospital,Ruby General Hospital,22.513531,88.403047,AF-RTA5673,"coord: OSM way/224922460 (hospital) named ""Ruby General Hospital"", exact name match in Overpass named-feature index"
-auto_chowbaga,Chowbaga,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sarsuna_college,Sarsuna College,22.480999,88.284838,AF-RTA5673,"coord: OSM Nominatim way/358768807 (college) named ""Sarsuna College"", normalised name equal"
-auto_santoshpur_ramnagar,"Santoshpur, Ramnagar",,,AF-RTA5673,not geocoded: no confident OSM match
-auto_thakurpukur,Thakurpukur,22.462537,88.315526,AF-RTA5673,"coord: OSM node/7154718362 (suburb) named ""Thakurpukur"", exact name match in Overpass named-feature index"
-auto_nayabad,Nayabad,22.477646,88.439981,AF-RTA5673,"coord: OSM node/10595677223 (suburb) named ""Nayabad"", exact name match in Overpass named-feature index"
-auto_joka_khalpole,Joka Khalpole,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_badartala,Badartala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_belgachia_metro,Belgachia Metro,22.606129,88.386867,AF-RTA5673,"coord: OSM node/5311861532 (platform) named ""Belgachia Metro"", exact name match in Overpass named-feature index"
-auto_shyamnagar,Shyamnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_shanti_nagar,Shanti Nagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_chhay_nabhi,Chhay Nabhi,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_beliaghata_bypass,Beliaghata Bypass,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rajarhat,Rajarhat,22.602023,88.477997,AF-RTA5673,"coord: OSM Nominatim relation/10372171 (administrative) named ""Rajarhat"", normalised name equal"
-auto_salt_lake_near_baroda_bank,Salt Lake (near Baroda Bank),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_10_no_tank,10 No Tank,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_new_town_eco_park_1_no_gate,New Town Eco Park 1 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jagatpur,Jagatpur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gouranga_nagar_newtown,Gouranga Nagar Newtown,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_vip_krishnapur,VIP Krishnapur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chinar_park,Chinar Park,22.623620,88.441016,AF-RTA5673,"coord: OSM node/2453444447 (platform) named ""Chinar Park"", exact name match in Overpass named-feature index"
-auto_bangur_avenue_vip,"Bangur Avenue, VIP",,,AF-RTA5673,not geocoded: no confident OSM match
-auto_narkelbagan,Narkelbagan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_city_center_ii,City Center-II,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hudco,HUDCO,22.590024,88.393302,AF-RTA5673,"coord: OSM node/9567534817 (platform) named ""Hudco"", exact name match in Overpass named-feature index"
-auto_pride_hotel,Pride Hotel,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_art_gallery,Art Gallery,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_vedic_village_sikharpur_junior_high_school,Vedic Village (Sikharpur Junior High School),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hazra_tala_mandir,Hazra Tala Mandir,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_highland,Highland,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_karigari_bhavan,Karigari Bhavan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sapurji_pallonji_more,Sapurji Pallonji More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kaikhali,Kaikhali,22.634421,88.434617,AF-RTA5673,"coord: OSM node/2453083698 (platform) named ""Kaikhali"", exact name match in Overpass named-feature index"
-auto_new_town,New Town,22.581609,88.452730,AF-RTA5673,"coord: OSM node/5044212195 (platform) named ""New Town"", exact name match in Overpass named-feature index"
-auto_sai_babar_mandir,Sai Babar Mandir,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_4_no_tank,4 No Tank,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_1_no_airport_gate,1 No Airport Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dlf_building,DLF Building,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sdf_building,SDF Building,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_axis_mall,Axis Mall,22.579560,88.459921,AF-RTA5673,"coord: OSM way/636823925 (mall) named ""Axis Mall"", exact name match in Overpass named-feature index"
-auto_agartala,Agartala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chitpur_station,Chitpur Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_atghara,Atghara,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_dlf_2,DLF-2,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_haldiram,Haldiram,22.627751,88.433514,AF-RTA5673,"coord: OSM node/2453444448 (platform) named ""Haldiram"", exact name match in Overpass named-feature index"
-auto_city_centre_ii,City Centre-II,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_eco_park_4_no_gate,Eco Park 4 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kestopur,Kestopur,22.597333,88.433852,AF-RTA5673,"coord: OSM node/11126031785 (suburb) named ""Keshtopur"", exact name match in Overpass named-feature index"
-auto_mahisbathan,Mahisbathan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sathgachi,Sathgachi,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kalabaria,Kalabaria,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_alia_university,Alia University,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_new_town_bus_stand,New Town Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_green_field,Green Field,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nazrul_park,Nazrul Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shantimay_nagar,Shantimay Nagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jatragachi,Jatragachi,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hatgacha,Hatgacha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bidhannagar_station,Bidhannagar Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_krishnapur,Krishnapur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_vip_thakdari,VIP Thakdari,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hatiara,Hatiara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_8_no_jal_tank,8 No Jal Tank,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_salt_lake,Salt Lake,22.590425,88.416920,AF-RTA5673,"coord: OSM node/11962929957 (city) named ""Bidhannagar"", exact name match in Overpass named-feature index"
-auto_eco_space,Eco Space,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hazra_kali_mandir,Hazra Kali Mandir,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kankurgachi_more,Kankurgachi More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sector_5_college_more,Sector 5 College More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_city_center_i_bhikharam,City Center-I (Bhikharam),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_city_center_i_bata_more,City Center-I (Bata More),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_city_center_i_ca_island,City Center-I (CA Island),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jk_saha_bridge,JK Saha Bridge,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_karunamoyee_housing_1_no_gate,Karunamoyee Housing 1 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_susrut_eye_hospital,Susrut Eye Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_cgo_complex,CGO Complex,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baishakhi_foot_bridge,Baishakhi Foot Bridge,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baishakhi,Baishakhi,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lake_town_foot_bridge_salt_lake_side,Lake Town Foot Bridge (Salt Lake Side),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_madhyamgram,Madhyamgram,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_2_no_bajar_para,2 No Bajar Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_birati_station,Birati Station,22.664320,88.427496,AF-RTA5673,"coord: OSM node/2378510543 (station) named ""Birati"", locality or station match after dropping generic words; position approximate"
-auto_michael_nagar,Michael Nagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bisore_para,Bisore Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_birati_more,Birati More,22.663212,88.427127,AF-RTA5673,"coord: OSM node/8023731058 (suburb) named ""Birati"", locality or station match after dropping generic words; position approximate"
-auto_ahiritola_launch_ghat,Ahiritola Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_beadon_street_a_p_c_road_crossing,Beadon Street A.P.C. Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_maniktala_bidhan_sarani_a_p_c_road_crossing,Maniktala (Bidhan Sarani A.P.C. Road Crossing),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_akra_fatak,Akra Fatak,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_santoshpur,Santoshpur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_bosepukur_gariahat,Bosepukur (Gariahat),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ballygunge_bus_stand,Ballygunge Bus Stand,22.528034,88.365908,AF-RTA5673,"coord: OSM node/10676698127 (suburb) named ""Ballygunge"", locality or station match after dropping generic words; position approximate"
-auto_alipore_judge_court,Alipore Judge Court,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ballygunge_phari,Ballygunge Phari,22.524881,88.365811,AF-RTA5673,"coord: OSM node/419289323 (locality) named ""Ballygunge Phari"", exact name match in Overpass named-feature index"
-auto_picnic_garden,Picnic Garden,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_hazra_more,Hazra More,22.522723,88.349924,AF-RTA5673,"coord: OSM node/1577087782 (suburb) named ""Hazra"", locality or station match after dropping generic words; position approximate"
-auto_b_r_singh_hospital,B.R. Singh Hospital,22.565362,88.371127,AF-RTA5673,"coord: OSM way/383577205 (hospital) named ""B R Singh Hospital"", exact name match in Overpass named-feature index"
-auto_dhapa_math_pukur,Dhapa Math Pukur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baishali,Baishali,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_9_and_15_bus_stand,9 and 15 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_e_s_i_hospital_raja_bazar,E.S.I. Hospital (Raja Bazar),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baman_ghata_bantala,Baman Ghata Bantala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bagbazar_bata,Bagbazar Bata,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baghbazar_launch_ghat,Baghbazar Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bengal_chemical,Bengal Chemical,22.580067,88.401296,AF-RTA5673,"coord: OSM node/7976140066 (station) named ""Bengal Chemical"", exact name match in Overpass named-feature index"
-auto_kaizar_street,Kaizar Street,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_cossipore_4b_bus_stand,Cossipore 4B Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_paikpara_2_no_bus_stand,Paikpara 2 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chiria_more,Chiria More,22.618724,88.379300,AF-RTA5673,"coord: OSM node/5833123085 (platform) named ""Chiria more"", exact name match in Overpass named-feature index"
-auto_dum_dum_g_s_colony,Dum Dum G.S. Colony,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chitrapuri_cinema,Chitrapuri Cinema,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gun_shell_factory,Gun Shell Factory,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dum_dum_station,Dum Dum Station,22.619939,88.394070,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/5080788812 (platform) named ""Dum Dum Station"", exact name match in Overpass named-feature index"
-auto_cossipur_ferry_ghat,Cossipur Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_deshapriya_park,Deshapriya Park,22.518405,88.353515,AF-RTA5673,"coord: OSM way/35875337 (park) named ""Deshapriya Park"", exact name match in Overpass named-feature index"
-auto_lords_bakery,Lords Bakery,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ram_lal_bazar_haltu,Ram Lal Bazar (Haltu),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kasba_golpark,Kasba (Golpark),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_golpark,Golpark,22.516258,88.366235,AF-RTA5673,"coord: OSM way/118137595 (park) named ""Golpark"", exact name match in Overpass named-feature index"
-auto_new_alipore_e_block,New Alipore E Block,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tollygunge_police_station,Tollygunge Police Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hazra_andool_raj_road_crossing,Hazra (Andool Raj Road Crossing),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bondel_gate,Bondel Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khidipur_more,Khidipur More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_c_r_hospital,C.R. Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kasba_lalkhuti,Kasba (Lalkhuti),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kimber_street_park_circus,Kimber Street (Park Circus),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_topsia,Topsia,22.532999,88.396419,AF-RTA5673,"coord: OSM node/13088485704 (station) named ""Ritwik Ghatak"", exact name match in Overpass named-feature index"
-auto_kustia,Kustia,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_ekdalia_road_near_bharat_sevashram,Ekdalia Road near Bharat Sevashram,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lohapool,Lohapool,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dharmatala,Dharmatala,22.560609,88.353166,AF-RTA5673,"coord: OSM node/10172802436 (suburb) named ""Dharmatala"", exact name match in Overpass named-feature index"
-auto_maniktala_beadon_street,Maniktala (Beadon Street),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_beadon_square,Beadon Square,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_anandamayee_tala,Anandamayee Tala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_akra_fatak_road,Akra Fatak Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_metiabruz_police_station,Metiabruz Police Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_raja_bagan_bus_stand,Raja Bagan Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_metiabruz_g_r_s_e_gate,Metiabruz (G.R.S.E Gate),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khidirpore_crossing_chitrapuri_cinema,Khidirpore Crossing (Chitrapuri Cinema),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mudiali,Mudiali,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khidirpore,Khidirpore,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_orient_row,Orient Row,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_park_circus,Park Circus,22.537886,88.368246,AF-RTA5673,"coord: OSM node/10676698126 (suburb) named ""Park Circus"", exact name match in Overpass named-feature index"
-auto_4_no_bridge,4 No Bridge,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ramnagar_more,Ramnagar More,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_badar_tala,Badar Tala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dum_dum_road_30a_bus_stand,Dum Dum Road 30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_raja_bazar_tasbir_mahal,Raja Bazar (Tasbir Mahal),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_pilkhana,Pilkhana,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rashbehari_more_melody,Rashbehari More (Melody),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_r_g_kar_hospital,R. G. Kar Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rashbehari_avenue,Rashbehari Avenue,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rashbehari_avenue_pratapaditya_road_crossing,Rashbehari Avenue Pratapaditya Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chetla_dalminya_park,Chetla Dalminya Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_metiabruz_kanchi_sarak,Metiabruz Kanchi Sarak,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_s_p_mukherjee_road,S.P. Mukherjee Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_cornfield_road,Cornfield Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sahapur,Sahapur,22.505880,88.326403,AF-RTA5673,"coord: OSM Nominatim node/10083642488 (place_of_worship) named ""Sahapur"", normalised name equal"
-auto_sovabazar_launch_ghat,Sovabazar Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sealdah_court_complex,Sealdah Court Complex,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_c_i_t_building,C.I.T. Building,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sealdah_chhabi_ghar,Sealdah (Chhabi Ghar),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bara_bazar_new_howrah_bridge_approach_road,Bara Bazar New Howrah Bridge Approach Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tiljala,Tiljala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ramnagar_crossing,Ramnagar Crossing,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_mollar_gate,Mollar Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ultadanga_station_p_t_qtrs,Ultadanga Station (P&T Qtrs.),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jora_bagan_power_house,Jora Bagan Power House,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sova_bazar,Sova Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lake_town_vip_crossing,"Lake Town, VIP Crossing",,,AF-RTA5673,not geocoded: no confident OSM match
-auto_vip_crossing,VIP Crossing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bose_pukur,Bose Pukur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_southern_avenue_s_p_m_road_crossing,Southern Avenue / S.P.M. Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_southern_avenue_s_p_m_road,Southern Avenue / S.P.M. Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bag_bazar_street_and_rabindra_sarani_crossing,Bag Bazar Street and Rabindra Sarani Crossing,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_b_k_paul_avenue,B. K. Paul Avenue,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_main_gate_of_sports_authority_of_india,Main Gate of Sports Authority of India,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rotary_netralaya,Rotary Netralaya,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chakraberia,Chakraberia,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bijaygarh_college,Bijaygarh College,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_b_k_paul_avenue_opposite_sova_bazar_metro_station,B. K. Paul Avenue (opposite Sova Bazar Metro Station),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_4b_bus_stand_cossipore,4B Bus Stand (Cossipore),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_hazra_road_khirod_ghosh_market,Hazra Road (Khirod Ghosh Market),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_14_bus_stand_behala,14 Bus Stand (Behala),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khidirpur,Khidirpur,22.537618,88.315821,AF-RTA5673,"coord: OSM node/4284367432 (station) named ""Khidirpur"", exact name match in Overpass named-feature index"
-auto_behala_14_no_bus_stand,Behala 14 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_judge_court,Judge Court,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_alipore_police_court,Alipore Police Court,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dhapa,Dhapa,22.547823,88.400231,AF-RTA5673,"coord: OSM node/2461251736 (platform) named ""Dhapa"", exact name match in Overpass named-feature index"
-auto_chittaranjan_hospital,Chittaranjan Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tagore_park,Tagore Park,22.520431,88.398587,AF-RTA5673,"coord: OSM node/11971705720 (bus_stop) named ""Tagore Park"", exact name match in Overpass named-feature index"
-auto_circus_tram_depot,Circus Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sakher_bazar_behala,Sakher Bazar (Behala),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_crossing_of_pratapaditya_road_r_b_avenue,Crossing of Pratapaditya Road (R.B. Avenue),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sailasri_cinema,Sailasri Cinema,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_haltu_kayasta_para,Haltu (Kayasta Para),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rajdanga_bazar,Rajdanga Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_alieya_cinema,Alieya Cinema,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_cit_padma_pukur_entally,CIT Padma Pukur (Entally),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_saatgachi_topsia,Saatgachi (Topsia),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_devs_medical,Devs Medical,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mouchak_golpark,Mouchak (Golpark),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_cancer_hospital_thakur_pukur,Cancer Hospital (Thakur Pukur),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_menoka_cinema,Menoka Cinema,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_milk_colony,Milk Colony,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sinthi_more,Sinthi More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bengal_lamp,Bengal Lamp,22.502958,88.367733,AF-RTA5673,"coord: OSM node/419272419 (platform) named ""Jadavpur Thana"", exact name match in Overpass named-feature index"
-auto_alipore_zoo_garden,Alipore Zoo Garden,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chowbhaga,Chowbhaga,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ultadanga_tram_depot,Ultadanga Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_alochaya_cinema,Alochaya Cinema,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_garden_reach_state_general_hospital,Garden Reach State General Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jhin_jhira_bazar,Jhin Jhira Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_vip_bazar,VIP Bazar,22.524685,88.396233,AF-RTA5673,"coord: OSM node/13088485707 (station) named ""VIP Bazar"", exact name match in Overpass named-feature index"
-auto_kalighat_fire_brigade_station,Kalighat Fire Brigade Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baghajatin_station,Baghajatin Station,22.482739,88.386671,AF-RTA5673,"coord: OSM node/651800191 (station) named ""Baghajatin"", locality or station match after dropping generic words; position approximate"
-auto_khudarabad,Khudarabad,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rabindra_sarobar_tollygunge_tram_depot,Rabindra Sarobar (Tollygunge Tram Depot),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_karunamoyee_bridge,Karunamoyee Bridge,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_garia_5_no_bus_stand,Garia 5 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baghajatin_highland_park,Baghajatin Highland Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dhapa_mathpukur,Dhapa Mathpukur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_topsia_more,Topsia More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sandarpara,Sandarpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nazrul_metro,Nazrul Metro,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_parnasree_padma_pukur_milan_tirtha,Parnasree Padma Pukur (Milan Tirtha),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_majerhat,Majerhat,22.519147,88.323656,AF-RTA5673,"coord: OSM node/11699268226 (station) named ""Majerhat"", exact name match in Overpass named-feature index"
-auto_behala_mv_office_behala_airport,Behala MV Office (Behala Airport),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_b_t_college,B.T. College,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lalpole,Lalpole,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dakshineswar,Dakshineswar,22.655750,88.360642,AF-RTA5673,"coord: OSM node/13426545779 (suburb) named ""Dakshineswar"", exact name match in Overpass named-feature index"
-auto_sastitala,Sastitala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_banerjee_para,Banerjee Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ananya_hall_baranagar,Ananya Hall (Baranagar),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dunlop,Dunlop,22.652496,88.377300,AF-RTA5673,"coord: OSM node/3406668120 (suburb) named ""Dunlop"", exact name match in Overpass named-feature index"
-auto_noapara_metro,Noapara Metro,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_banhooghly,Banhooghly,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dakshineswar_bsf_camp,Dakshineswar BSF Camp,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bally,Bally,22.646958,88.343612,AF-RTA5673,"coord: OSM node/2876930497 (city) named ""Bally"", exact name match in Overpass named-feature index"
-auto_satinsen,Satinsen,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dunlop_anmol,Dunlop Anmol,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_belgharia_station,Belgharia Station,22.661361,88.389214,AF-RTA5673,"coord: OSM node/1765884993 (station) named ""Belgharia"", locality or station match after dropping generic words; position approximate"
-auto_rathtala,Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ramkrishna_park,Ramkrishna Park,22.613790,88.404329,AF-RTA5673,"coord: OSM way/190362868 (park) named ""Ramkrishna Park"", exact name match in Overpass named-feature index"
-auto_promod_nagar,Promod Nagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kheyaghat,Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ariadaha,Ariadaha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ananya_baranagar,Ananya (Baranagar),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kuthighat,Kuthighat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sinthi_more_4b_bus_stand,Sinthi More (4B Bus Stand),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tobin_road,Tobin Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baranagar_police_station,Baranagar Police Station,22.636133,88.378419,AF-RTA5673,"coord: OSM way/1165419277 (police) named ""Baranagar Police Station"", exact name match in Overpass named-feature index"
-auto_kala_bagan,Kala Bagan,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_kancher_mandir,Kancher Mandir,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ariadaha_kheyaghat,Ariadaha Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barrackpore_chiria_more,Barrackpore Chiria More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kamarhati,Kamarhati,22.681025,88.371534,AF-RTA5673,"coord: OSM node/9266694049 (town) named ""Kamarhati"", exact name match in Overpass named-feature index"
-auto_khardaha_station,Khardaha Station,22.724850,88.377710,AF-RTA5673,"coord: OSM node/1691423701 (station) named ""Khardaha"", locality or station match after dropping generic words; position approximate"
-auto_shyamsundar_ghat,Shyamsundar Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_titagarh_bazar,Titagarh Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lakshmighat,Lakshmighat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_titagarh_station,Titagarh Station,22.741126,88.374584,AF-RTA5673,"coord: OSM node/310988176 (station) named ""Titagarh"", locality or station match after dropping generic words; position approximate"
-auto_khas_bagan,Khas Bagan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_2_poisa_ghat,2 Poisa Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barrackpore_station,Barrackpore Station,22.760336,88.371099,AF-RTA5673,"coord: OSM node/7630431371 (station) named ""Barrackpore"", locality or station match after dropping generic words; position approximate"
-auto_nilganj,Nilganj,22.761606,88.429300,AF-RTA5673,"coord: OSM node/11335820909 (village) named ""Nilganj"", exact name match in Overpass named-feature index"
-auto_shyamnagar_chowrangee,Shyamnagar Chowrangee,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_badal_ration_shop,Badal Ration Shop,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barrackpore_14_no_railway_gate,Barrackpore 14 No Railway Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bheri_gate,Bheri Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_patulia_panchyet_office,Patulia Panchyet Office,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chal_bazar,Chal Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kankinara_bazar,Kankinara Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shyamnagar_station,Shyamnagar Station,22.828516,88.380189,AF-RTA5673,"coord: OSM node/310988205 (station) named ""Shyamnagar"", locality or station match after dropping generic words; position approximate"
-auto_basudevpur,Basudevpur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_debitala_ghat,Debitala Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_high_road,High Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ichapur_store_bazar,Ichapur Store Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barrackpore_court,Barrackpore Court,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lake_town_vip,Lake Town VIP,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_muragacha,Muragacha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mayhspota,Mayhspota,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sodepur_station,Sodepur Station,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_sodepur,Sodepur,22.697175,88.380563,AF-RTA5673,"coord: OSM node/1765884857 (suburb) named ""Sodepur"", exact name match in Overpass named-feature index"
-auto_dum_dum_30a_bus_stand,Dum Dum 30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baro_mandir_bottala,Baro Mandir Bottala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kalyani_more,Kalyani More,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_barrackpore,Barrackpore,22.764162,88.377609,AF-RTA5673,"coord: OSM node/2876929391 (city) named ""Barrackpore"", exact name match in Overpass named-feature index"
-auto_kundu_bari,Kundu Bari,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_chalbazar_kundubari,Chalbazar Kundubari,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_2_paisar_ghat,2 Paisar Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sahalayan_bhattacharjee_hospital,Sahalayan Bhattacharjee Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_noa_para_tematha,Noa Para Tematha,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_noapara,Noapara,22.639842,88.394134,AF-RTA5673,"coord: OSM node/5421551283 (station) named ""Noapara"", exact name match in Overpass named-feature index"
-auto_sodepur_more,Sodepur More,22.697175,88.380563,AF-RTA5673,"coord: OSM node/1765884857 (suburb) named ""Sodepur"", locality or station match after dropping generic words; position approximate"
-auto_ramchandrapur,Ramchandrapur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_sodepur_girja_church,Sodepur Girja (Church),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_rahora_bus_stand,Rahora Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_l_9_bus_stand,L-9 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_adyapith_mandir,Adyapith Mandir,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_santi_nagar,Santi Nagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bamtala,Bamtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_manikhola,Manikhola,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gobra,Gobra,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_jagaddal_ghat,Jagaddal Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dhobighat,Dhobighat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_14_no_railgate,14 No Railgate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_patulia,Patulia,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_store_bazar,Store Bazar,22.804925,88.371299,AF-RTA5673,"coord: OSM node/1618831265 (hamlet) named ""Store Bazar"", exact name match in Overpass named-feature index"
-auto_bandipur,Bandipur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_morolpara,Morolpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_saheb_bagan,Saheb Bagan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shyamsundarghat,Shyamsundarghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_agarpara_station,Agarpara Station,22.682878,88.385364,AF-RTA5673,"coord: OSM node/1935597017 (station) named ""Agarpara"", locality or station match after dropping generic words; position approximate"
-auto_india_foil_piturighat,India Foil Piturighat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sagar_dutta_hospital,Sagar Dutta Hospital,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sashtitala_more,Sashtitala More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_beltala_math,Beltala Math,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kamarhati_more,Kamarhati More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_new_basti,New Basti,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_durganagar_station,Durganagar Station,22.650497,88.419215,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/2378503814 (station) named ""Durganagar"", locality or station match after dropping generic words; position approximate"
-auto_majerhat_serial_374_place_not_identified,"Majerhat (serial 374, place not identified)",,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_belgharia,Belgharia,22.665637,88.398004,AF-RTA5673,"coord: OSM node/245708572 (suburb) named ""Belgharia"", exact name match in Overpass named-feature index"
-auto_birati,Birati,22.663212,88.427127,AF-RTA5673,"coord: OSM node/8023731058 (suburb) named ""Birati"", exact name match in Overpass named-feature index"
-auto_agarpara_battala,Agarpara Battala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sashtitala,Sashtitala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_230_bus_stand,230 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_agarpara_tetultala,Agarpara Tetultala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_old_post_office,Old Post Office,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sodepur_more_b_t_road,"Sodepur More, B.T. Road",,,AF-RTA5673,not geocoded: no confident OSM match
-auto_madhyamgram_chowmatha,Madhyamgram Chowmatha,,,AF-MPOST-N24P|AF-RTA5673,not geocoded: no confident OSM match
-auto_panihati_kheyaghat,Panihati Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sreepally,Sreepally,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mallickpara,Mallickpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kalavangarh,Kalavangarh,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_musalmanpara,Musalmanpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bankimpally,Bankimpally,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shyamghat,Shyamghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_khardah_station,Khardah Station,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barasat,Barasat,22.719107,88.482623,AF-RTA5673,"coord: OSM node/570086096 (city) named ""Barasat"", exact name match in Overpass named-feature index"
-auto_30a_bus_stand,30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_satitala_rathtala,Satitala Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kamarhati_pitulia_ghat,Kamarhati Pitulia Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bonhooghly_b_t_road_more,Bonhooghly B.T. Road More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nilganj_bazar,Nilganj Bazar,22.761606,88.429300,AF-RTA5673,"coord: OSM node/11335820909 (village) named ""Nilganj"", locality or station match after dropping generic words; position approximate"
-auto_34c_bus_stand,34C Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_birati_station_paik_para,Birati Station Paik Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_naihati_station,Naihati Station,22.887006,88.417653,AF-RTA5673,"coord: OSM node/310989031 (station) named ""Naihati Junction"", locality or station match after dropping generic words; position approximate"
-auto_hukumchand_jute_mill,Hukumchand Jute Mill,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_patharpur_bazar,Patharpur Bazar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_new_barrackpore_station,New Barrackpore Station,22.686764,88.444617,AF-RTA5673,"coord: OSM node/2378518670 (station) named ""New Barrackpore"", locality or station match after dropping generic words; position approximate"
-auto_lelingarh,Lelingarh,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gontrahat,Gontrahat,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_gorabazar,Gorabazar,22.634647,88.413346,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/11844894647 (suburb) named ""Gorabazar"", exact name match in Overpass named-feature index"
-auto_piplighat,Piplighat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_new_barrackpore,New Barrackpore,22.686068,88.444641,AF-RTA5673,"coord: OSM node/4381101087 (city) named ""New Barrackpore"", exact name match in Overpass named-feature index"
-auto_bilkanda_boardghat,Bilkanda Boardghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_majipara_gazipirhat,Majipara Gazipirhat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kanchrapara,Kanchrapara,22.949643,88.437884,AF-RTA5673,"coord: OSM node/3910302436 (town) named ""Kanchrapara"", exact name match in Overpass named-feature index"
-auto_sarat_colony,Sarat Colony,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bandipur_mondal_para,Bandipur Mondal Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_garubhanga_ngp,Garubhanga (NGP),,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ghosal_bagan,Ghosal Bagan,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_6_no_rail_gate,6 No Rail Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_birati_jessore_road,Birati Jessore Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_titagarh,Titagarh,22.741920,88.379201,AF-RTA5673,"coord: OSM node/2270284915 (town) named ""Titagarh"", exact name match in Overpass named-feature index"
-auto_11_no_bus_stand,11 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_baily_khal,Baily Khal,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bangpur,Bangpur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dum_dum_cant_health_centre,Dum Dum Cant. Health Centre,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mathkalhal,Mathkalhal,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kanchrapara_station,Kanchrapara Station,22.946239,88.451378,AF-RTA5673,"coord: OSM node/5088208928 (station) named ""Kanchrapara"", locality or station match after dropping generic words; position approximate"
-auto_jagulia,Jagulia,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kalitala,Kalitala,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_ninta_paikpara,Ninta Paikpara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kankinara_station,Kankinara Station,22.866753,88.405593,AF-RTA5673,"coord: OSM node/7630434488 (station) named ""Kankinara"", locality or station match after dropping generic words; position approximate"
-auto_b_t_rd_bonhooghly_more,B.T. Rd. Bonhooghly More,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_goalghar_park,Goalghar Park,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_basudebpur,Basudebpur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_3_no_rail_gate,3 No Rail Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_garubhanga,Garubhanga,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_ghosal_bhaban,Ghosal Bhaban,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_nabajiban,Nabajiban,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jagaddal,Jagaddal,22.854818,88.389720,AF-RTA5673,"coord: OSM node/1672312674 (suburb) named ""Jagaddal"", exact name match in Overpass named-feature index"
-auto_mondal_para,Mondal Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_d_p_nagar,D.P. Nagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sukchar,Sukchar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mohipota,Mohipota,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_saktipur_das_para,Saktipur Das Para,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_jagaddal_station,Jagaddal Station,22.851679,88.395407,AF-RTA5673,"coord: OSM node/1672312673 (station) named ""Jagaddal"", locality or station match after dropping generic words; position approximate"
-auto_jagaddal_ferry_ghat,Jagaddal Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kankinara,Kankinara,22.866753,88.405593,AF-RTA5673,"coord: OSM node/7630434488 (station) named ""Kankinara"", exact name match in Overpass named-feature index"
-auto_sajirhat,Sajirhat,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match
-auto_panpur,Panpur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_sodepur_b_t_road,Sodepur B.T. Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bagmore,Bagmore,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_health_institution,Health Institution,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gouribari,Gouribari,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_l_9_b_t_road,L-9 B.T. Road,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ferry_ghat,Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_bhatpara_garpar,Bhatpara Garpar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_goalghar,Goalghar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gajipur_hat,Gajipur Hat,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_paikpara,Paikpara,22.612051,88.385565,AF-RTA5673,"coord: OSM node/2301637813 (suburb) named ""Paikpara"", exact name match in Overpass named-feature index"
-auto_naihati,Naihati,22.886608,88.424196,AF-RTA5673,"coord: OSM node/570090082 (city) named ""Naihati"", exact name match in Overpass named-feature index"
-auto_aryasamaj,Aryasamaj,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_dum_dum_cant_health_inst,Dum Dum Cant. Health Inst,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_shivtala,Shivtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_patulia_panchayet,Patulia Panchayet,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_barrackpore_4_no_gate,Barrackpore 4 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kendu,Kendu,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_gounagar,Gounagar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_paikpara_bus_stand,Paikpara Bus Stand,22.612051,88.385565,AF-RTA5673,"coord: OSM node/2301637813 (suburb) named ""Paikpara"", locality or station match after dropping generic words; position approximate"
-auto_palta_station,Palta Station,22.782629,88.370275,AF-RTA5673,"coord: OSM node/1616546521 (station) named ""Palta"", locality or station match after dropping generic words; position approximate"
-auto_sodepur_traffic_more,Sodepur Traffic More,22.700777,88.374823,AF-RTA5673,"coord: OSM node/4440995392 (platform) named ""Sodepur Traffic More"", exact name match in Overpass named-feature index"
-auto_barrackpore_high_rd_junc,Barrackpore High Rd. Junc,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_health,Health,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_mathcol_dum_dum_cantonment,Mathcol Dum Dum Cantonment,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_brmm_bus_stand,BRMM Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_tentultala_bus_stand,Tentultala Bus Stand,22.944988,88.418930,AF-RTA5673,"coord: OSM node/3454995128 (locality) named ""TENTULTALA"", locality or station match after dropping generic words; position approximate"
-auto_patulia_bandipur,Patulia Bandipur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_titagrah_bus_stand,Titagrah Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kankinara_rathtala,Kankinara Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_halisahar,Halisahar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_bolday,Bolday,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_taipukur,Taipukur,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_kharbhanga,Kharbhanga,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_lalkuthi,Lalkuthi,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_clive_house,Clive House,22.626496,88.416146,AF-RTA5673,"coord: OSM Nominatim way/1044255702 (yes) named ""Clive House"", normalised name equal"
-auto_cantonment,Cantonment,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_durganagar,Durganagar,22.650497,88.419215,AF-RTA5673,"coord: OSM node/2378503814 (station) named ""Durganagar"", exact name match in Overpass named-feature index"
-auto_sapuipara,Sapuipara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_ghola_kazipara,Ghola Kazipara,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nagerbajar,Nagerbajar,,,AF-RTA5673,not geocoded: no confident OSM match
-auto_nagerbazar,Nagerbazar,22.622835,88.413932,AF-INDIAHOOD,"coord: OSM node/11227831829 (suburb) named ""Nagerbazar"", exact name match in Overpass named-feature index"
-auto_madhyamgram_station,Madhyamgram Station,22.694784,88.453018,AF-INDIAHOOD,"coord: OSM node/2378546217 (station) named ""Madhyamgram"", locality or station match after dropping generic words; position approximate"
-auto_b_t_road,B.T. Road,,,AF-INDIAHOOD,not geocoded: no confident OSM match
-auto_chawal_patty,Chawal Patty,,,AF-HOWRAH-NOTICE,not geocoded: no confident OSM match
-auto_belanagar_railway_station,Belanagar Railway Station,22.661234,88.317079,AF-HOWRAH-NOTICE,"coord: OSM node/6954276376 (station) named ""Belanagar"", locality or station match after dropping generic words; position approximate"
-auto_bada,Bada,,,AF-MPOST-N24P,not geocoded: no confident OSM match
-auto_kholapota,Kholapota,,,AF-MPOST-N24P,not geocoded: OSM match rejected by plausibility or ambiguity checks
-auto_72_no_bus_stand,72 No Bus Stand,,,AF-MPOST-N24P,not geocoded: no confident OSM match
-auto_malancha,Malancha,22.912022,88.435617,AF-MPOST-N24P,"coord: OSM Nominatim way/759840704 (residential) named ""MALANCHA"", normalised name equal"
-auto_sarberia,Sarberia,,,AF-MPOST-N24P,not geocoded: no confident OSM match
-auto_habra,Habra,,,AF-MPOST-N24P,not geocoded: no confident OSM match
-auto_nagarukhra,Nagarukhra,,,AF-MPOST-N24P,not geocoded: no confident OSM match
-auto_ghoshpur,Ghoshpur,,,AF-MPOST-N24P,not geocoded: no confident OSM match
+stop_id,stop_name,lat,lon,source_id,notes,coord_method,coord_confidence
+auto_phoolbagan,Phoolbagan,22.572159,88.389421,AF-AJT|AF-CI|AF-EIM|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2790155767 (neighbourhood), name-matched, in route cluster",nominatim-legacy,
+auto_suktara_cinema,Suktara Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kadapara,Kadapara,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_subhas_sarovar,Subhas Sarovar,22.568360,88.400880,AF-CI|AF-F3|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_subhash_sarobar (""Subhash Sarobar"", osm_any high), exact name match",reused_bus,high
+auto_orient,Orient,22.570934,88.400031,AF-CI|AF-F3|AF-RTA5673,"coord: OSM node/12761637274 (platform) named ""Orient"", exact name match in Overpass named-feature index",osm-index,
+auto_89_cinema,89 Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_swabhumi,Swabhumi,22.571091,88.401251,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/359505037 (cinema), name-matched, in route cluster",nominatim-legacy,
+auto_bypass,Bypass,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_salt_lake_stadium,Salt Lake Stadium,22.573111,88.403089,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/7976140069 (station), name-matched, in route cluster",nominatim-legacy,
+auto_purbachal,Purbachal,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_13_no_tank,13 No. Tank,22.574881,88.409029,AF-AJT|AF-CI|AF-EIM|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/174252530 (yes), name-matched, in route cluster",nominatim-legacy,
+auto_bijan_bhawan,Bijan Bhawan,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hb_island,HB Island,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gd_island,GD Island,22.576419,88.413673,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/11971707027 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_fd_block,FD Block,22.582405,88.412323,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/158511211 (city_block), name-matched, in route cluster",nominatim-legacy,
+auto_netaji_park,Netaji Park,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_central_park,Central Park,22.590470,88.415620,AF-CI|AF-F3|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_central_park (""Central Park"", osm_place high), exact name match",reused_bus,high
+auto_karunamoyee,Karunamoyee,22.586380,88.421531,AF-BART|AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/7976140059 (station), name-matched, in route cluster",nominatim-legacy,
+auto_kali_mandir,Kali Mandir,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_allahabad_bank,Allahabad Bank,22.569274,88.390918,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4676042686 (bank), name-matched, in route cluster",nominatim-legacy,
+auto_trikon_park,Trikon Park,22.567426,88.392490,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096522 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_devine_nursing_home,Devine Nursing Home,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ratna_kebin,Ratna Kebin,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cit_more,CIT More,22.562851,88.396263,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2790155771 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_id_hospital,ID Hospital,22.564503,88.398403,AF-CI|AF-F3|AF-RTA5673,"coord: OSM node/10679793548 (hospital) named ""ID Hospital"", exact name match in Overpass named-feature index",osm-index,
+auto_jora_mandir,Jora Mandir,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_ragini_cinema,Ragini Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cit_building_more,CIT Building More,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sishu_hospital,Sishu Hospital,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_chanditala,Chanditala,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_rail_quarter,Rail Quarter,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sasthitala,Sasthitala,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_narkeldanga_post_office,Narkeldanga Post Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rajabazar_khaal_pool,Rajabazar Khaal Pool,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tasbir_mahal_cinema,Tasbir Mahal Cinema,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sealdah_station,Sealdah Station,22.567966,88.371105,AF-CI,"coord: OSM Nominatim node/252584722 (station), name-matched, in route cluster",nominatim-legacy,
+auto_pantaloons,Pantaloons,22.575072,88.389359,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/191117573 (mall), name-matched, in route cluster",nominatim-legacy,
+auto_vip_market,VIP Market,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kathgola,Kathgola,22.576715,88.389986,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096534 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_kankurgachi,Kankurgachi,22.579931,88.390565,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/13612096539 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_rail_bridge,Rail Bridge,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_marwari_bagan,Marwari Bagan,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bagmari_bazar,Bagmari Bazar,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_manicktala_khaal_pool,Manicktala Khaal Pool,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_manicktala_post_office,Manicktala Post Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_blood_bank,Blood Bank,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_manicktala_more,Manicktala More,22.584150,88.378900,AF-CI|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_manicktala (""Manicktala"", osm_landmark high), loose name match (spelling differs)",reused_bus,medium
+auto_hedua,Hedua,22.587744,88.368849,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/102015159 (park), name-matched, in route cluster",nominatim-legacy,
+auto_girish_park,Girish Park,22.587145,88.362942,AF-AJT|AF-CI|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/5421546475 (station), name-matched, in route cluster",nominatim-legacy,
+auto_ganesh_talkies,Ganesh Talkies,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kmc_ward_office,KMC Ward Office,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_paresnath_temple,Paresnath Temple,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gauri_bari,Gauri Bari,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ayurvedic_hospital,Ayurvedic Hospital,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_deshbandhu_park,Deshbandhu Park,22.600010,88.377070,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/9677133275 (park), name-matched, in route cluster",nominatim-legacy,
+auto_park_institution,Park Institution,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rg_kar_hospital,RG Kar Hospital,22.604480,88.378410,AF-CI|AF-F3|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_r_g_kar_hospital (""R.G.Kar Hospital"", nominatim high), exact name match",reused_bus,high
+auto_raja_bazar,Raja Bazar,22.572778,88.371679,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2720342347 (tram_stop), name-matched, in route cluster",nominatim-legacy,
+auto_amherst_street_crossing,Amherst Street Crossing,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_college_street_bata,College Street Bata,,,AF-CI|AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mg_road_metro,MG Road Metro,22.580860,88.361400,AF-CI|AF-F3|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_mg_road_metro (""MG Road Metro"", wikidata high), exact name match",reused_bus,high
+auto_beliaghata,Beliaghata,22.550656,88.403917,AF-CI,"coord: OSM Nominatim way/535333484 (train_station), name-matched, in route cluster",nominatim-legacy,
+auto_rashmani_bazar,Rashmani Bazar,22.563660,88.392190,AF-CI|AF-XMODE,"coord: reused from bus stop bus_rashmoni_bazar (""Rashmoni Bazar"", osm_stop high), fuzzy name match (spelling differs)",reused_bus,medium
+auto_deshbandhu_school,Deshbandhu School,,,AF-CI,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_alochaya,Alochaya,22.564317,88.388854,AF-CI,"coord: OSM Nominatim node/12761560755 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_sarkar_bazar,Sarkar Bazar,22.565012,88.385389,AF-CI,"coord: OSM Nominatim node/13605749839 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_borof_kol,Borof Kol,,,AF-CI,not geocoded: no confident OSM match,,
+auto_khal_pool,Khal Pool,,,AF-CI,not geocoded: no confident OSM match,,
+auto_sales_tax,Sales Tax,22.566055,88.379999,AF-CI,"coord: OSM Nominatim node/12761560751 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_ultadanga,Ultadanga,22.596128,88.385283,AF-AJT|AF-BART|AF-CI|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/1310971686 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_kolaghata,Kolaghata,,,AF-CI|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sreebhumi,Sreebhumi,22.598110,88.403610,AF-CI|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sreebhumi (""Sreebhumi"", osm_stop high), exact name match",reused_bus,high
+auto_lake_town,Lake Town,22.605728,88.402961,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/2012850135 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_bangur,Bangur,22.605919,88.411109,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/190279711 (tertiary), name-matched, in route cluster",nominatim-legacy,
+auto_dum_dum_park,Dum Dum Park,22.603428,88.423038,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/535333444 (yes), name-matched, in route cluster",nominatim-legacy,
+auto_keshtopur,Keshtopur,22.597333,88.433852,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/11126031785 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_narayantala,Narayantala,,,AF-CI|AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_baguiati,Baguiati,22.609668,88.427683,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/10010962802 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_howrah_station,Howrah Station,22.583365,88.340345,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/11699268224 (station), name-matched, in route cluster",nominatim-legacy,
+auto_botanical_garden,Botanical Garden,22.558202,88.289232,AF-CI,"coord: OSM Nominatim way/52097541 (park), name-matched, in route cluster",nominatim-legacy,
+auto_sai_complex,SAI Complex,22.564436,88.411582,AF-CI,"coord: OSM Nominatim node/2461201418 (sports_centre), name-matched, in route cluster",nominatim-legacy,
+auto_columbia_asia_hospital,Columbia Asia Hospital,22.572260,88.412760,AF-CI,"coord: OSM Nominatim way/173731205 (hospital), name-matched, in route cluster",nominatim-legacy,
+auto_ezcc,EZCC,,,AF-CI,not geocoded: no confident OSM match,,
+auto_ahiritola,Ahiritola,22.596397,88.353298,AF-CI|AF-RTA5673,"coord: OSM Nominatim node/1189457648 (ferry_terminal), name-matched, in route cluster",nominatim-legacy,
+auto_bk_pal,BK Pal,22.593457,88.357116,AF-CI|AF-RTA5673,"coord: OSM Nominatim way/1127684588 (secondary), name-matched, in route cluster",nominatim-legacy,
+auto_ballygunge_station,Ballygunge Station,22.519341,88.371978,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/651805730 (station), name-matched, in route cluster",nominatim-legacy,
+auto_gariahat,Gariahat,22.519779,88.365430,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4198894040 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_triangular_park,Triangular Park,22.517997,88.357720,AF-F3|AF-RTA5673,"coord: OSM Nominatim way/118484371 (park), name-matched, in route cluster",nominatim-legacy,
+auto_deshopriyo_park,Deshopriyo Park,22.518290,88.353550,AF-F3|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_deshoprio_park (""Deshoprio Park"", wikidata high), exact name match",reused_bus,high
+auto_rashbehari,Rashbehari,22.517172,88.345564,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1983446893 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_kalighat_metro,Kalighat Metro,22.519103,88.346118,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/4178731060 (information), name-matched, in route cluster",nominatim-legacy,
+auto_sp_mukherjee_road,SP Mukherjee Road,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hazra,Hazra,22.522723,88.349924,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1577087782 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_kalighat,Kalighat,22.515331,88.347705,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/419289392 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_tollygunge_phari,Tollygunge Phari,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mahabir_tala,Mahabir Tala,,,AF-F3|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_alipore,New Alipore,22.511165,88.328112,AF-F3|AF-RTA5673,"coord: OSM Nominatim way/1172951427 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_taratala,Taratala,22.507686,88.320384,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/10296539476 (station), name-matched, in route cluster",nominatim-legacy,
+auto_ajanta_cinema,Ajanta Cinema,22.508112,88.320228,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/3365872348 (cinema), name-matched, in route cluster",nominatim-legacy,
+auto_behala_thana,Behala Thana,22.503528,88.319003,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/3363195847 (police), name-matched, in route cluster",nominatim-legacy,
+auto_behala_tram_depot,Behala Tram Depot,22.499411,88.317797,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/1272967207 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_chetla,Chetla,22.514325,88.336958,AF-F3|AF-RTA5673,"coord: OSM Nominatim node/2015875098 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_taratala_crossing,Taratala Crossing,22.507700,88.320360,AF-F3|AF-XMODE,"coord: reused from bus stop bus_taratala_xing (""Taratala Xing"", nominatim high), exact name match",reused_bus,high
+auto_chetla_park,Chetla Park,22.517176,88.336246,AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim way/190981117 (park), name-matched, in route cluster",nominatim-legacy,
+auto_behala_chowrasta,Behala Chowrasta,22.487355,88.313379,AF-BART|AF-CI|AF-F3|AF-RTA5673,"coord: OSM Nominatim node/9321292345 (station), name-matched, in route cluster",nominatim-legacy,
+auto_sector_v,Sector V,22.575454,88.432257,AF-AJT|AF-BART|AF-RTA5673,"coord: OSM node/10792425145 (suburb) named ""Sector V"", exact name match in Overpass named-feature index",osm-index,
+auto_bikash_bhavan,Bikash Bhavan,22.591142,88.416944,AF-BART|AF-RTA5673,"coord: OSM Nominatim way/153790971 (government), name-matched, in route cluster",nominatim-legacy,
+auto_tank_no_12_salt_lake,Tank No 12 Salt Lake,,,AF-AJT|AF-EIM,not geocoded: no confident OSM match,,
+auto_maniktala,Maniktala,22.588090,88.385283,AF-AJT|AF-EIM|AF-RTA5673,"coord: OSM Nominatim node/1307115411 (suburb), name-matched, in route cluster",nominatim-legacy,
+auto_sarsuna,Sarsuna,22.480999,88.284838,AF-BART|AF-RTA5673,"coord: OSM Nominatim way/358768807 (college), name-matched, in route cluster",nominatim-legacy,
+auto_chingrighata,Chingrighata,22.558656,88.410802,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM Nominatim node/2461214063 (bus_stop), name-matched, in route cluster",nominatim-legacy,
+auto_sdf_building_salt_lake,SDF Building Salt Lake,22.568880,88.431054,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM Nominatim node/2454098345 (yes), name-matched, in route cluster",nominatim-legacy,
+auto_garia,Garia,22.466016,88.392848,AF-BHUNT|AF-RTA5673|AF-SUBK,"coord: OSM node/10594566755 (suburb) named ""Garia"", exact name match in Overpass named-feature index",osm-index,
+auto_baruipur,Baruipur,22.360715,88.432558,AF-BHUNT|AF-SUBK,"coord: OSM Nominatim way/1138105859 (city), name-matched, in route cluster",nominatim-legacy,
+auto_sonarpur,Sonarpur,22.440875,88.424637,AF-BHUNT,"coord: OSM Nominatim way/1139413343 (city), name-matched, in route cluster",nominatim-legacy,
+auto_dakshin_barasat,Dakshin Barasat,22.226440,88.452540,AF-SUBK|AF-XMODE,"coord: reused from bus stop bus_dakshin_barasat (""Dakshin Barasat"", osm_place medium), exact name match",reused_bus,medium
+auto_julpia,Julpia,22.365273,88.351970,AF-SUBK,"coord: OSM Nominatim node/7199853213 (hospital), name-matched, in route cluster",nominatim-legacy,
+auto_howrah_maidan,Howrah Maidan,22.581973,88.333308,AF-RTA5673,"coord: OSM node/11231291700 (suburb) named ""Howrah Maidan"", exact name match in Overpass named-feature index",osm-index,
+auto_salkia_chowrasta,Salkia Chowrasta,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_donbosco,Donbosco,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_belgachia,Belgachia,22.605670,88.384708,AF-RTA5673,"coord: OSM node/2014908445 (tram_stop) named ""Belgachia"", exact name match in Overpass named-feature index",osm-index,
+auto_bamangachi_b_and_c,Bamangachi B and C,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bandhaghat,Bandhaghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kadamtala,Kadamtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_parijat_cinema,Parijat (Cinema),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bally_khal,Bally Khal,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shibpur_tram_depot,Shibpur Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_belur_station,Belur Station,22.635732,88.339822,AF-RTA5673,"coord: OSM node/664468001 (station) named ""Belur"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_nischinda_chandmari,Nischinda Chandmari,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bhattanagar_daspara,Bhattanagar Daspara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_liluah_station,Liluah Station,22.620903,88.339404,AF-RTA5673,"coord: OSM node/664468000 (station) named ""Liluah"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_bakultala_bus_stand,Bakultala Bus Stand,22.564026,88.284995,AF-RTA5673,"coord: OSM node/7692782149 (neighbourhood) named ""BAKULTALA"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_santragachi_station,Santragachi Station,22.584699,88.283072,AF-RTA5673,"coord: OSM node/600756813 (station) named ""Santragachi Junction"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_shibpur_ferry_ghat,Shibpur Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ichapur_khudiram_statue,Ichapur Khudiram Statue,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nazirganj_ferry_ghat,Nazirganj Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tikia_para_bus_stand,Tikia Para Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ghusuri_hit_park,Ghusuri HIT Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mouri_mill_gate,Mouri Mill Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ramrajatala_station,Ramrajatala Station,22.588661,88.296666,AF-RTA5673,"coord: OSM node/664455694 (station) named ""Ramrajatala"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_baltikuri,Baltikuri,22.609402,88.296129,AF-RTA5673,"coord: OSM Nominatim node/6813908137 (technical_station) named ""Baltikuri"", normalised name equal",nominatim,
+auto_santragachi_railway_colony,Santragachi Railway Colony,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_benepole,Benepole,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_liluah_station_east,Liluah Station (East),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_belur_launch_ghat,Belur Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dhakuria_bridge,Dhakuria Bridge,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kasba,Kasba,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ruby,Ruby,22.513316,88.401317,AF-RTA5673,"coord: OSM node/4195415967 (platform) named ""Ruby"", exact name match in Overpass named-feature index",osm-index,
+auto_baghajatin,Baghajatin,22.483881,88.375445,AF-RTA5673,"coord: OSM node/10676754548 (suburb) named ""Baghajatin"", exact name match in Overpass named-feature index",osm-index,
+auto_kayasthapara,Kayasthapara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ranikuthi,Ranikuthi,22.484200,88.354300,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_ranikuthi (""Ranikuthi"", wikidata high), exact name match",reused_bus,high
+auto_jadavpur,Jadavpur,22.495499,88.370901,AF-RTA5673,"coord: OSM node/419275337 (suburb) named ""Jadavpur"", exact name match in Overpass named-feature index",osm-index,
+auto_14_no_bus_stand,14 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chanditala_charaktala,Chanditala Charaktala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_joyshree_park,Joyshree Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_behala,Behala,22.501572,88.320943,AF-RTA5673,"coord: OSM node/4524946631 (suburb) named ""Behala"", exact name match in Overpass named-feature index",osm-index,
+auto_manton,Manton,22.494863,88.316607,AF-RTA5673,"coord: OSM node/11971705760 (bus_stop) named ""Manton"", exact name match in Overpass named-feature index",osm-index,
+auto_chanditala_jhilpar,Chanditala Jhilpar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_12_1_mahabirtola,12/1 Mahabirtola,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tollygunge,Tollygunge,22.498636,88.345391,AF-RTA5673,"coord: OSM node/1350661689 (suburb) named ""Tollygunge"", exact name match in Overpass named-feature index",osm-index,
+auto_panchanantala,Panchanantala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_parnashree_park,Parnashree Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jadavpur_police_station,Jadavpur Police Station,22.502768,88.367729,AF-RTA5673,"coord: OSM node/651795823 (police) named ""Jadavpur Police Station"", exact name match in Overpass named-feature index",osm-index,
+auto_ramlal_bazar,Ramlal Bazar,22.507530,88.385150,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_ramlal_bazar (""Ramlal Bazar"", nominatim high), exact name match",reused_bus,high
+auto_jadavpur_station,Jadavpur Station,22.495052,88.374971,AF-RTA5673,"coord: OSM node/5768054688 (station) named ""Jadavpur"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_thakurpukur_bazar,Thakurpukur Bazar,22.462537,88.315526,AF-RTA5673,"coord: OSM node/7154718362 (suburb) named ""Thakurpukur"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_kalagachia,Kalagachia,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kabardanga,Kabardanga,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tollygunge_tram_depot,Tollygunge Tram Depot,22.493976,88.346172,AF-RTA5673,"coord: OSM node/12293455201 (bus_station) named ""Tollygunge Tram Depot"", exact name match in Overpass named-feature index",osm-index,
+auto_anandanagar,Anandanagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sakherbazar,Sakherbazar,22.474894,88.309938,AF-RTA5673,"coord: OSM node/10296539473 (stop) named ""Sakher bazar"", exact name match in Overpass named-feature index",osm-index,
+auto_sikhar_sangha,Sikhar Sangha,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nepalganj,Nepalganj,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_3a_bus_stand,3A Bus Stand,22.456729,88.304576,AF-RTA5673,"coord: OSM way/412641079 (bus_station) named ""3A bus stand"", exact name match in Overpass named-feature index",osm-index,
+auto_thakurpukur_3a_bus_stand,Thakurpukur 3A Bus Stand,22.462540,88.315530,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_thakurpukur_3a_bus_stand (""Thakurpukur 3A Bus Stand"", nominatim medium), exact name match",reused_bus,medium
+auto_silpala,Silpala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chandraply,Chandraply,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_joka,Joka,22.453350,88.302520,AF-RTA5673,"coord: OSM node/9914301355 (suburb) named ""Joka"", exact name match in Overpass named-feature index",osm-index,
+auto_devi_nagar_bagpota,Devi Nagar (Bagpota),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bansdroni_chakdaha,Bansdroni Chakdaha,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gachtala,Gachtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bansdroni_lock_gate,Bansdroni Lock Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rania,Rania,22.447586,88.350647,AF-RTA5673,"coord: OSM node/10694669516 (suburb) named ""Rania"", exact name match in Overpass named-feature index",osm-index,
+auto_bansdroni,Bansdroni,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_raniya_sitala_park,Raniya Sitala Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_behala_police_station,Behala Police Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_parnasree,Parnasree,22.509020,88.299140,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_parnashree (""Parnashree"", nominatim high), exact name match",reused_bus,high
+auto_rabindranagar,Rabindranagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_zinzira_bazar,Zinzira Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chakkendua,Chakkendua,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_joy_jala,Joy Jala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sen_pally,Sen Pally,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chandra_pally,Chandra Pally,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_silpara,Silpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chowrasta,Chowrasta,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dakghar,Dakghar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_diamond_park,Diamond Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gitanagar,Gitanagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gopalnagar,Gopalnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_mukundapur,Mukundapur,22.492141,88.396436,AF-RTA5673,"coord: OSM node/11971705726 (bus_stop) named ""Mukundapur"", exact name match in Overpass named-feature index",osm-index,
+auto_garia_station,Garia Station,22.465639,88.405515,AF-RTA5673,"coord: OSM node/2339753229 (station) named ""Garia"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_tollygunge_metro,Tollygunge Metro,22.494690,88.345480,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_tollygunge_metro (""Tollygunge Metro"", osm_stop high), exact name match",reused_bus,high
+auto_radha_housing,Radha Housing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kalibazar,Kalibazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_khidderpore,Khidderpore,22.538698,88.317565,AF-RTA5673,"coord: OSM node/1558124157 (tram_stop) named ""Khidderpore"", exact name match in Overpass named-feature index",osm-index,
+auto_metiabruz,Metiabruz,22.543570,88.267934,AF-RTA5673,"coord: OSM node/10692982851 (suburb) named ""Metiabruz"", exact name match in Overpass named-feature index",osm-index,
+auto_mollagate,Mollagate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rajabagan,Rajabagan,22.553420,88.269560,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_rajabagan (""Rajabagan"", wikidata high), exact name match",reused_bus,high
+auto_purba_anandapally,Purba Anandapally,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gachhatala,Gachhatala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ramnagar,Ramnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_akrafatak,Akrafatak,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_river_side,River Side,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sailo_sree,Sailo Sree,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ruby_general_hospital,Ruby General Hospital,22.513531,88.403047,AF-RTA5673,"coord: OSM way/224922460 (hospital) named ""Ruby General Hospital"", exact name match in Overpass named-feature index",osm-index,
+auto_chowbaga,Chowbaga,22.532630,88.403020,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_chowbaga (""Chowbaga"", nominatim high), exact name match",reused_bus,high
+auto_sarsuna_college,Sarsuna College,22.480999,88.284838,AF-RTA5673,"coord: OSM Nominatim way/358768807 (college) named ""Sarsuna College"", normalised name equal",nominatim,
+auto_santoshpur_ramnagar,"Santoshpur, Ramnagar",,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_thakurpukur,Thakurpukur,22.462537,88.315526,AF-RTA5673,"coord: OSM node/7154718362 (suburb) named ""Thakurpukur"", exact name match in Overpass named-feature index",osm-index,
+auto_nayabad,Nayabad,22.477646,88.439981,AF-RTA5673,"coord: OSM node/10595677223 (suburb) named ""Nayabad"", exact name match in Overpass named-feature index",osm-index,
+auto_joka_khalpole,Joka Khalpole,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_badartala,Badartala,22.555520,88.260560,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_badartala (""Badartala"", wikidata high), exact name match",reused_bus,high
+auto_belgachia_metro,Belgachia Metro,22.606129,88.386867,AF-RTA5673,"coord: OSM node/5311861532 (platform) named ""Belgachia Metro"", exact name match in Overpass named-feature index",osm-index,
+auto_shyamnagar,Shyamnagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_shanti_nagar,Shanti Nagar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_chhay_nabhi,Chhay Nabhi,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_beliaghata_bypass,Beliaghata Bypass,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rajarhat,Rajarhat,22.602023,88.477997,AF-RTA5673,"coord: OSM Nominatim relation/10372171 (administrative) named ""Rajarhat"", normalised name equal",nominatim,
+auto_salt_lake_near_baroda_bank,Salt Lake (near Baroda Bank),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_10_no_tank,10 No Tank,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_town_eco_park_1_no_gate,New Town Eco Park 1 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jagatpur,Jagatpur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gouranga_nagar_newtown,Gouranga Nagar Newtown,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_vip_krishnapur,VIP Krishnapur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chinar_park,Chinar Park,22.623620,88.441016,AF-RTA5673,"coord: OSM node/2453444447 (platform) named ""Chinar Park"", exact name match in Overpass named-feature index",osm-index,
+auto_bangur_avenue_vip,"Bangur Avenue, VIP",,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_narkelbagan,Narkelbagan,22.578580,88.471670,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_narkelbagan (""Narkelbagan"", osm_landmark high), exact name match",reused_bus,high
+auto_city_center_ii,City Center-II,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hudco,HUDCO,22.590024,88.393302,AF-RTA5673,"coord: OSM node/9567534817 (platform) named ""Hudco"", exact name match in Overpass named-feature index",osm-index,
+auto_pride_hotel,Pride Hotel,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_art_gallery,Art Gallery,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_vedic_village_sikharpur_junior_high_school,Vedic Village (Sikharpur Junior High School),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hazra_tala_mandir,Hazra Tala Mandir,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_highland,Highland,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_karigari_bhavan,Karigari Bhavan,22.559290,88.491540,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_karigari_bhawan (""Karigari Bhawan"", osm_any high), exact name match",reused_bus,high
+auto_sapurji_pallonji_more,Sapurji Pallonji More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kaikhali,Kaikhali,22.634421,88.434617,AF-RTA5673,"coord: OSM node/2453083698 (platform) named ""Kaikhali"", exact name match in Overpass named-feature index",osm-index,
+auto_new_town,New Town,22.581609,88.452730,AF-RTA5673,"coord: OSM node/5044212195 (platform) named ""New Town"", exact name match in Overpass named-feature index",osm-index,
+auto_sai_babar_mandir,Sai Babar Mandir,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_4_no_tank,4 No Tank,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_1_no_airport_gate,1 No Airport Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dlf_building,DLF Building,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sdf_building,SDF Building,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_axis_mall,Axis Mall,22.579560,88.459921,AF-RTA5673,"coord: OSM way/636823925 (mall) named ""Axis Mall"", exact name match in Overpass named-feature index",osm-index,
+auto_agartala,Agartala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chitpur_station,Chitpur Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_atghara,Atghara,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_dlf_2,DLF-2,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_haldiram,Haldiram,22.627751,88.433514,AF-RTA5673,"coord: OSM node/2453444448 (platform) named ""Haldiram"", exact name match in Overpass named-feature index",osm-index,
+auto_city_centre_ii,City Centre-II,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_eco_park_4_no_gate,Eco Park 4 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kestopur,Kestopur,22.597333,88.433852,AF-RTA5673,"coord: OSM node/11126031785 (suburb) named ""Keshtopur"", exact name match in Overpass named-feature index",osm-index,
+auto_mahisbathan,Mahisbathan,22.578690,88.454920,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_mahishbathan (""Mahishbathan"", wikidata high), exact name match",reused_bus,high
+auto_sathgachi,Sathgachi,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kalabaria,Kalabaria,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_alia_university,Alia University,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_town_bus_stand,New Town Bus Stand,22.578680,88.474860,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_newtown_bus_stand (""Newtown Bus Stand"", nominatim high), exact name match",reused_bus,high
+auto_green_field,Green Field,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nazrul_park,Nazrul Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shantimay_nagar,Shantimay Nagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jatragachi,Jatragachi,22.598650,88.466340,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_jatragachi (""Jatragachi"", wikidata high), exact name match",reused_bus,high
+auto_hatgacha,Hatgacha,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bidhannagar_station,Bidhannagar Station,22.591150,88.391260,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_bidhannagar_station (""Bidhannagar Station"", osm_any high), exact name match",reused_bus,high
+auto_krishnapur,Krishnapur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_vip_thakdari,VIP Thakdari,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hatiara,Hatiara,22.616690,88.449420,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_hatiara (""Hatiara"", nominatim high), exact name match",reused_bus,high
+auto_8_no_jal_tank,8 No Jal Tank,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_salt_lake,Salt Lake,22.590425,88.416920,AF-RTA5673,"coord: OSM node/11962929957 (city) named ""Bidhannagar"", exact name match in Overpass named-feature index",osm-index,
+auto_eco_space,Eco Space,22.586640,88.490630,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_ecospace (""Ecospace"", osm_any high), exact name match",reused_bus,high
+auto_hazra_kali_mandir,Hazra Kali Mandir,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kankurgachi_more,Kankurgachi More,22.580210,88.390430,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_kankurgachi (""Kankurgachi"", osm_stop high), loose name match (spelling differs)",reused_bus,medium
+auto_sector_5_college_more,Sector 5 College More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_city_center_i_bhikharam,City Center-I (Bhikharam),22.589950,88.408410,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_city_centre (""City Centre"", osm_stop high), alias_loose name match (spelling differs)",reused_bus,medium
+auto_city_center_i_bata_more,City Center-I (Bata More),22.589950,88.408410,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_city_centre (""City Centre"", osm_stop high), alias_loose name match (spelling differs)",reused_bus,medium
+auto_city_center_i_ca_island,City Center-I (CA Island),22.589950,88.408410,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_city_centre (""City Centre"", osm_stop high), alias_loose name match (spelling differs)",reused_bus,medium
+auto_jk_saha_bridge,JK Saha Bridge,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_karunamoyee_housing_1_no_gate,Karunamoyee Housing 1 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_susrut_eye_hospital,Susrut Eye Hospital,22.575760,88.417920,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sushrut_eye_hospital (""Sushrut Eye hospital"", osm_stop high), exact name match",reused_bus,high
+auto_cgo_complex,CGO Complex,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baishakhi_foot_bridge,Baishakhi Foot Bridge,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baishakhi,Baishakhi,22.597080,88.421520,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_baisakhi (""Baisakhi"", osm_stop high), exact name match",reused_bus,high
+auto_lake_town_foot_bridge_salt_lake_side,Lake Town Foot Bridge (Salt Lake Side),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_madhyamgram,Madhyamgram,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_2_no_bajar_para,2 No Bajar Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_birati_station,Birati Station,22.664320,88.427496,AF-RTA5673,"coord: OSM node/2378510543 (station) named ""Birati"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_michael_nagar,Michael Nagar,22.676400,88.442000,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_michael_nagar (""Michael Nagar"", wikidata high), exact name match",reused_bus,high
+auto_bisore_para,Bisore Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_birati_more,Birati More,22.663212,88.427127,AF-RTA5673,"coord: OSM node/8023731058 (suburb) named ""Birati"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_ahiritola_launch_ghat,Ahiritola Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_beadon_street_a_p_c_road_crossing,Beadon Street A.P.C. Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_maniktala_bidhan_sarani_a_p_c_road_crossing,Maniktala (Bidhan Sarani A.P.C. Road Crossing),22.588090,88.385280,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_maniktala (""Maniktala"", osm_place high), loose name match (spelling differs)",reused_bus,medium
+auto_akra_fatak,Akra Fatak,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_santoshpur,Santoshpur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_bosepukur_gariahat,Bosepukur (Gariahat),22.519230,88.385040,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_bosepukur (""Bosepukur"", nominatim high), loose name match (spelling differs)",reused_bus,medium
+auto_ballygunge_bus_stand,Ballygunge Bus Stand,22.528034,88.365908,AF-RTA5673,"coord: OSM node/10676698127 (suburb) named ""Ballygunge"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_alipore_judge_court,Alipore Judge Court,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ballygunge_phari,Ballygunge Phari,22.524881,88.365811,AF-RTA5673,"coord: OSM node/419289323 (locality) named ""Ballygunge Phari"", exact name match in Overpass named-feature index",osm-index,
+auto_picnic_garden,Picnic Garden,22.530690,88.381790,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_picnic_garden (""Picnic Garden"", wikidata high), exact name match",reused_bus,high
+auto_hazra_more,Hazra More,22.522723,88.349924,AF-RTA5673,"coord: OSM node/1577087782 (suburb) named ""Hazra"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_b_r_singh_hospital,B.R. Singh Hospital,22.565362,88.371127,AF-RTA5673,"coord: OSM way/383577205 (hospital) named ""B R Singh Hospital"", exact name match in Overpass named-feature index",osm-index,
+auto_dhapa_math_pukur,Dhapa Math Pukur,22.548670,88.400520,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_dhapa_mathpukur (""Dhapa Mathpukur"", osm_stop high), exact name match",reused_bus,high
+auto_baishali,Baishali,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_9_and_15_bus_stand,9 and 15 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_e_s_i_hospital_raja_bazar,E.S.I. Hospital (Raja Bazar),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baman_ghata_bantala,Baman Ghata Bantala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bagbazar_bata,Bagbazar Bata,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baghbazar_launch_ghat,Baghbazar Launch Ghat,22.604514,88.363939,AF-RTA5673|AF-XMODE,"coord: reused from ferry stop ferry_bagbazar (""Bagbazar Launch Ghat"", curated station position), exact name match",reused_ferry,high
+auto_bengal_chemical,Bengal Chemical,22.580067,88.401296,AF-RTA5673,"coord: OSM node/7976140066 (station) named ""Bengal Chemical"", exact name match in Overpass named-feature index",osm-index,
+auto_kaizar_street,Kaizar Street,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cossipore_4b_bus_stand,Cossipore 4B Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_paikpara_2_no_bus_stand,Paikpara 2 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chiria_more,Chiria More,22.618724,88.379300,AF-RTA5673,"coord: OSM node/5833123085 (platform) named ""Chiria more"", exact name match in Overpass named-feature index",osm-index,
+auto_dum_dum_g_s_colony,Dum Dum G.S. Colony,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chitrapuri_cinema,Chitrapuri Cinema,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gun_shell_factory,Gun Shell Factory,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dum_dum_station,Dum Dum Station,22.619939,88.394070,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/5080788812 (platform) named ""Dum Dum Station"", exact name match in Overpass named-feature index",osm-index,
+auto_cossipur_ferry_ghat,Cossipur Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_deshapriya_park,Deshapriya Park,22.518405,88.353515,AF-RTA5673,"coord: OSM way/35875337 (park) named ""Deshapriya Park"", exact name match in Overpass named-feature index",osm-index,
+auto_lords_bakery,Lords Bakery,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ram_lal_bazar_haltu,Ram Lal Bazar (Haltu),22.507530,88.385150,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_ramlal_bazar (""Ramlal Bazar"", nominatim high), loose name match (spelling differs)",reused_bus,medium
+auto_kasba_golpark,Kasba (Golpark),22.530970,88.392730,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_kasba_ps (""Kasba PS"", osm_any high), loose name match (spelling differs)",reused_bus,medium
+auto_golpark,Golpark,22.516258,88.366235,AF-RTA5673,"coord: OSM way/118137595 (park) named ""Golpark"", exact name match in Overpass named-feature index",osm-index,
+auto_new_alipore_e_block,New Alipore E Block,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tollygunge_police_station,Tollygunge Police Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hazra_andool_raj_road_crossing,Hazra (Andool Raj Road Crossing),22.522720,88.349920,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_hazra (""Hazra"", osm_place high), loose name match (spelling differs)",reused_bus,medium
+auto_bondel_gate,Bondel Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_khidipur_more,Khidipur More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_c_r_hospital,C.R. Hospital,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kasba_lalkhuti,Kasba (Lalkhuti),22.530970,88.392730,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_kasba_ps (""Kasba PS"", osm_any high), loose name match (spelling differs)",reused_bus,medium
+auto_kimber_street_park_circus,Kimber Street (Park Circus),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_topsia,Topsia,22.532999,88.396419,AF-RTA5673,"coord: OSM node/13088485704 (station) named ""Ritwik Ghatak"", exact name match in Overpass named-feature index",osm-index,
+auto_kustia,Kustia,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_ekdalia_road_near_bharat_sevashram,Ekdalia Road near Bharat Sevashram,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_lohapool,Lohapool,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dharmatala,Dharmatala,22.560609,88.353166,AF-RTA5673,"coord: OSM node/10172802436 (suburb) named ""Dharmatala"", exact name match in Overpass named-feature index",osm-index,
+auto_maniktala_beadon_street,Maniktala (Beadon Street),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_beadon_square,Beadon Square,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_anandamayee_tala,Anandamayee Tala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_akra_fatak_road,Akra Fatak Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_metiabruz_police_station,Metiabruz Police Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_raja_bagan_bus_stand,Raja Bagan Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_metiabruz_g_r_s_e_gate,Metiabruz (G.R.S.E Gate),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_khidirpore_crossing_chitrapuri_cinema,Khidirpore Crossing (Chitrapuri Cinema),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mudiali,Mudiali,22.510080,88.346540,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_mudiali (""Mudiali"", nominatim high), exact name match",reused_bus,high
+auto_khidirpore,Khidirpore,22.535380,88.320610,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_khidirpore (""Khidirpore"", osm_bn medium), exact name match",reused_bus,medium
+auto_orient_row,Orient Row,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_park_circus,Park Circus,22.537886,88.368246,AF-RTA5673,"coord: OSM node/10676698126 (suburb) named ""Park Circus"", exact name match in Overpass named-feature index",osm-index,
+auto_4_no_bridge,4 No Bridge,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ramnagar_more,Ramnagar More,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_badar_tala,Badar Tala,22.555520,88.260560,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_badartala (""Badartala"", wikidata high), exact name match",reused_bus,high
+auto_dum_dum_road_30a_bus_stand,Dum Dum Road 30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_raja_bazar_tasbir_mahal,Raja Bazar (Tasbir Mahal),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_pilkhana,Pilkhana,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rashbehari_more_melody,Rashbehari More (Melody),22.517170,88.345560,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_rashbehari (""Rashbehari"", osm_stop high), loose name match (spelling differs)",reused_bus,medium
+auto_r_g_kar_hospital,R. G. Kar Hospital,22.604480,88.378410,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_r_g_kar_hospital (""R.G.Kar Hospital"", nominatim high), exact name match",reused_bus,high
+auto_rashbehari_avenue,Rashbehari Avenue,22.516790,88.345780,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_rash_behari_avenue (""Rash Behari Avenue"", osm_any medium), exact name match",reused_bus,medium
+auto_rashbehari_avenue_pratapaditya_road_crossing,Rashbehari Avenue Pratapaditya Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chetla_dalminya_park,Chetla Dalminya Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_metiabruz_kanchi_sarak,Metiabruz Kanchi Sarak,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_s_p_mukherjee_road,S.P. Mukherjee Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cornfield_road,Cornfield Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sahapur,Sahapur,22.505880,88.326403,AF-RTA5673,"coord: OSM Nominatim node/10083642488 (place_of_worship) named ""Sahapur"", normalised name equal",nominatim,
+auto_sovabazar_launch_ghat,Sovabazar Launch Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sealdah_court_complex,Sealdah Court Complex,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_c_i_t_building,C.I.T. Building,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sealdah_chhabi_ghar,Sealdah (Chhabi Ghar),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bara_bazar_new_howrah_bridge_approach_road,Bara Bazar New Howrah Bridge Approach Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tiljala,Tiljala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ramnagar_crossing,Ramnagar Crossing,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_mollar_gate,Mollar Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ultadanga_station_p_t_qtrs,Ultadanga Station (P&T Qtrs.),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jora_bagan_power_house,Jora Bagan Power House,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sova_bazar,Sova Bazar,22.594030,88.362510,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sovabazar (""Sovabazar"", osm_place high), exact name match",reused_bus,high
+auto_lake_town_vip_crossing,"Lake Town, VIP Crossing",,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_vip_crossing,VIP Crossing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bose_pukur,Bose Pukur,22.519230,88.385040,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_bosepukur (""Bosepukur"", nominatim high), exact name match",reused_bus,high
+auto_southern_avenue_s_p_m_road_crossing,Southern Avenue / S.P.M. Road Crossing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_southern_avenue_s_p_m_road,Southern Avenue / S.P.M. Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bag_bazar_street_and_rabindra_sarani_crossing,Bag Bazar Street and Rabindra Sarani Crossing,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_b_k_paul_avenue,B. K. Paul Avenue,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_main_gate_of_sports_authority_of_india,Main Gate of Sports Authority of India,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rotary_netralaya,Rotary Netralaya,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chakraberia,Chakraberia,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bijaygarh_college,Bijaygarh College,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_b_k_paul_avenue_opposite_sova_bazar_metro_station,B. K. Paul Avenue (opposite Sova Bazar Metro Station),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_4b_bus_stand_cossipore,4B Bus Stand (Cossipore),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_hazra_road_khirod_ghosh_market,Hazra Road (Khirod Ghosh Market),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_14_bus_stand_behala,14 Bus Stand (Behala),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_khidirpur,Khidirpur,22.537618,88.315821,AF-RTA5673,"coord: OSM node/4284367432 (station) named ""Khidirpur"", exact name match in Overpass named-feature index",osm-index,
+auto_behala_14_no_bus_stand,Behala 14 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_judge_court,Judge Court,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_alipore_police_court,Alipore Police Court,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dhapa,Dhapa,22.547823,88.400231,AF-RTA5673,"coord: OSM node/2461251736 (platform) named ""Dhapa"", exact name match in Overpass named-feature index",osm-index,
+auto_chittaranjan_hospital,Chittaranjan Hospital,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tagore_park,Tagore Park,22.520431,88.398587,AF-RTA5673,"coord: OSM node/11971705720 (bus_stop) named ""Tagore Park"", exact name match in Overpass named-feature index",osm-index,
+auto_circus_tram_depot,Circus Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sakher_bazar_behala,Sakher Bazar (Behala),22.474850,88.309960,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sakherbazar_behala (""Sakherbazar (Behala)"", osm_place high), exact name match",reused_bus,high
+auto_crossing_of_pratapaditya_road_r_b_avenue,Crossing of Pratapaditya Road (R.B. Avenue),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sailasri_cinema,Sailasri Cinema,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_haltu_kayasta_para,Haltu (Kayasta Para),22.510780,88.381870,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_haltu (""Haltu"", osm_stop high), loose name match (spelling differs)",reused_bus,medium
+auto_rajdanga_bazar,Rajdanga Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_alieya_cinema,Alieya Cinema,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cit_padma_pukur_entally,CIT Padma Pukur (Entally),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_saatgachi_topsia,Saatgachi (Topsia),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_devs_medical,Devs Medical,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mouchak_golpark,Mouchak (Golpark),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_cancer_hospital_thakur_pukur,Cancer Hospital (Thakur Pukur),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_menoka_cinema,Menoka Cinema,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_milk_colony,Milk Colony,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sinthi_more,Sinthi More,22.631930,88.377870,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sinthee_more (""Sinthee More"", nominatim high), exact name match",reused_bus,high
+auto_bengal_lamp,Bengal Lamp,22.502958,88.367733,AF-RTA5673,"coord: OSM node/419272419 (platform) named ""Jadavpur Thana"", exact name match in Overpass named-feature index",osm-index,
+auto_alipore_zoo_garden,Alipore Zoo Garden,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chowbhaga,Chowbhaga,22.532630,88.403020,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_chowbaga (""Chowbaga"", nominatim high), exact name match",reused_bus,high
+auto_ultadanga_tram_depot,Ultadanga Tram Depot,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_alochaya_cinema,Alochaya Cinema,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_garden_reach_state_general_hospital,Garden Reach State General Hospital,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jhin_jhira_bazar,Jhin Jhira Bazar,22.517230,88.297810,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_jhinjhira_bazar (""Jhinjhira Bazar"", osm_stop high), exact name match",reused_bus,high
+auto_vip_bazar,VIP Bazar,22.524685,88.396233,AF-RTA5673,"coord: OSM node/13088485707 (station) named ""VIP Bazar"", exact name match in Overpass named-feature index",osm-index,
+auto_kalighat_fire_brigade_station,Kalighat Fire Brigade Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baghajatin_station,Baghajatin Station,22.482739,88.386671,AF-RTA5673,"coord: OSM node/651800191 (station) named ""Baghajatin"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_khudarabad,Khudarabad,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rabindra_sarobar_tollygunge_tram_depot,Rabindra Sarobar (Tollygunge Tram Depot),22.507220,88.345490,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_rabindra_sarovar (""Rabindra Sarovar"", osm_place high), loose name match (spelling differs)",reused_bus,medium
+auto_karunamoyee_bridge,Karunamoyee Bridge,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_garia_5_no_bus_stand,Garia 5 No Bus Stand,22.466430,88.378440,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_garia_5no_bus_stand (""Garia 5no. Bus Stand"", nominatim high), exact name match",reused_bus,high
+auto_baghajatin_highland_park,Baghajatin Highland Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dhapa_mathpukur,Dhapa Mathpukur,22.548670,88.400520,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_dhapa_mathpukur (""Dhapa Mathpukur"", osm_stop high), exact name match",reused_bus,high
+auto_topsia_more,Topsia More,22.541800,88.386960,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_topsia_more (""Topsia More"", osm_stop high), exact name match",reused_bus,high
+auto_sandarpara,Sandarpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nazrul_metro,Nazrul Metro,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_parnasree_padma_pukur_milan_tirtha,Parnasree Padma Pukur (Milan Tirtha),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_majerhat,Majerhat,22.519147,88.323656,AF-RTA5673,"coord: OSM node/11699268226 (station) named ""Majerhat"", exact name match in Overpass named-feature index",osm-index,
+auto_behala_mv_office_behala_airport,Behala MV Office (Behala Airport),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_b_t_college,B.T. College,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_lalpole,Lalpole,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dakshineswar,Dakshineswar,22.655750,88.360642,AF-RTA5673,"coord: OSM node/13426545779 (suburb) named ""Dakshineswar"", exact name match in Overpass named-feature index",osm-index,
+auto_sastitala,Sastitala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_banerjee_para,Banerjee Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ananya_hall_baranagar,Ananya Hall (Baranagar),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dunlop,Dunlop,22.652496,88.377300,AF-RTA5673,"coord: OSM node/3406668120 (suburb) named ""Dunlop"", exact name match in Overpass named-feature index",osm-index,
+auto_noapara_metro,Noapara Metro,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_banhooghly,Banhooghly,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dakshineswar_bsf_camp,Dakshineswar BSF Camp,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bally,Bally,22.646958,88.343612,AF-RTA5673,"coord: OSM node/2876930497 (city) named ""Bally"", exact name match in Overpass named-feature index",osm-index,
+auto_satinsen,Satinsen,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dunlop_anmol,Dunlop Anmol,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_belgharia_station,Belgharia Station,22.661361,88.389214,AF-RTA5673,"coord: OSM node/1765884993 (station) named ""Belgharia"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_rathtala,Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ramkrishna_park,Ramkrishna Park,22.613790,88.404329,AF-RTA5673,"coord: OSM way/190362868 (park) named ""Ramkrishna Park"", exact name match in Overpass named-feature index",osm-index,
+auto_promod_nagar,Promod Nagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kheyaghat,Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ariadaha,Ariadaha,22.667220,88.367320,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_ariadaha (""Ariadaha"", nominatim medium), exact name match",reused_bus,medium
+auto_ananya_baranagar,Ananya (Baranagar),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kuthighat,Kuthighat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sinthi_more_4b_bus_stand,Sinthi More (4B Bus Stand),22.631930,88.377870,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sinthee_more (""Sinthee More"", nominatim high), loose name match (spelling differs)",reused_bus,medium
+auto_tobin_road,Tobin Road,22.638340,88.375910,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_tobin_road (""Tobin Road"", nominatim high), exact name match",reused_bus,high
+auto_baranagar_police_station,Baranagar Police Station,22.636133,88.378419,AF-RTA5673,"coord: OSM way/1165419277 (police) named ""Baranagar Police Station"", exact name match in Overpass named-feature index",osm-index,
+auto_kala_bagan,Kala Bagan,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_kancher_mandir,Kancher Mandir,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ariadaha_kheyaghat,Ariadaha Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barrackpore_chiria_more,Barrackpore Chiria More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kamarhati,Kamarhati,22.681025,88.371534,AF-RTA5673,"coord: OSM node/9266694049 (town) named ""Kamarhati"", exact name match in Overpass named-feature index",osm-index,
+auto_khardaha_station,Khardaha Station,22.724850,88.377710,AF-RTA5673,"coord: OSM node/1691423701 (station) named ""Khardaha"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_shyamsundar_ghat,Shyamsundar Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_titagarh_bazar,Titagarh Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_lakshmighat,Lakshmighat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_titagarh_station,Titagarh Station,22.741126,88.374584,AF-RTA5673,"coord: OSM node/310988176 (station) named ""Titagarh"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_khas_bagan,Khas Bagan,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_2_poisa_ghat,2 Poisa Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barrackpore_station,Barrackpore Station,22.760336,88.371099,AF-RTA5673,"coord: OSM node/7630431371 (station) named ""Barrackpore"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_nilganj,Nilganj,22.761606,88.429300,AF-RTA5673,"coord: OSM node/11335820909 (village) named ""Nilganj"", exact name match in Overpass named-feature index",osm-index,
+auto_shyamnagar_chowrangee,Shyamnagar Chowrangee,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_badal_ration_shop,Badal Ration Shop,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barrackpore_14_no_railway_gate,Barrackpore 14 No Railway Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bheri_gate,Bheri Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_patulia_panchyet_office,Patulia Panchyet Office,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chal_bazar,Chal Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kankinara_bazar,Kankinara Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shyamnagar_station,Shyamnagar Station,22.828516,88.380189,AF-RTA5673,"coord: OSM node/310988205 (station) named ""Shyamnagar"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_basudevpur,Basudevpur,22.815520,88.417750,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_basudebpur (""Basudebpur"", wikidata_fuzzy medium), exact name match",reused_bus,medium
+auto_debitala_ghat,Debitala Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_high_road,High Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ichapur_store_bazar,Ichapur Store Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barrackpore_court,Barrackpore Court,22.762290,88.363610,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_barrackpore_court (""Barrackpore Court"", nominatim high), exact name match",reused_bus,high
+auto_lake_town_vip,Lake Town VIP,22.609750,88.402640,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_laketown_vip (""Laketown(VIP)"", osm_stop high), exact name match",reused_bus,high
+auto_muragacha,Muragacha,22.694500,88.416580,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_muragacha (""Muragacha"", wikidata high), exact name match",reused_bus,high
+auto_mayhspota,Mayhspota,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sodepur_station,Sodepur Station,22.697180,88.380560,AF-INDIAHOOD|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sodepur_station (""Sodepur Station"", osm_place high), exact name match",reused_bus,high
+auto_sodepur,Sodepur,22.697175,88.380563,AF-RTA5673,"coord: OSM node/1765884857 (suburb) named ""Sodepur"", exact name match in Overpass named-feature index",osm-index,
+auto_dum_dum_30a_bus_stand,Dum Dum 30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baro_mandir_bottala,Baro Mandir Bottala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kalyani_more,Kalyani More,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_barrackpore,Barrackpore,22.764162,88.377609,AF-RTA5673,"coord: OSM node/2876929391 (city) named ""Barrackpore"", exact name match in Overpass named-feature index",osm-index,
+auto_kundu_bari,Kundu Bari,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_chalbazar_kundubari,Chalbazar Kundubari,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_2_paisar_ghat,2 Paisar Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sahalayan_bhattacharjee_hospital,Sahalayan Bhattacharjee Hospital,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_noa_para_tematha,Noa Para Tematha,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_noapara,Noapara,22.639842,88.394134,AF-RTA5673,"coord: OSM node/5421551283 (station) named ""Noapara"", exact name match in Overpass named-feature index",osm-index,
+auto_sodepur_more,Sodepur More,22.697175,88.380563,AF-RTA5673,"coord: OSM node/1765884857 (suburb) named ""Sodepur"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_ramchandrapur,Ramchandrapur,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_sodepur_girja_church,Sodepur Girja (Church),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_rahora_bus_stand,Rahora Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_l_9_bus_stand,L-9 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_adyapith_mandir,Adyapith Mandir,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_santi_nagar,Santi Nagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bamtala,Bamtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_manikhola,Manikhola,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gobra,Gobra,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_jagaddal_ghat,Jagaddal Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dhobighat,Dhobighat,22.764809,88.344968,AF-RTA5673|AF-XMODE,"coord: reused from ferry stop ferry_dhobi_ghat (""Dhobi Ghat (east bank, Barrackpore side)"", curated station position), exact name match",reused_ferry,high
+auto_14_no_railgate,14 No Railgate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_patulia,Patulia,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_store_bazar,Store Bazar,22.804925,88.371299,AF-RTA5673,"coord: OSM node/1618831265 (hamlet) named ""Store Bazar"", exact name match in Overpass named-feature index",osm-index,
+auto_bandipur,Bandipur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_morolpara,Morolpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_saheb_bagan,Saheb Bagan,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shyamsundarghat,Shyamsundarghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_agarpara_station,Agarpara Station,22.682878,88.385364,AF-RTA5673,"coord: OSM node/1935597017 (station) named ""Agarpara"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_india_foil_piturighat,India Foil Piturighat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sagar_dutta_hospital,Sagar Dutta Hospital,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sashtitala_more,Sashtitala More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_beltala_math,Beltala Math,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kamarhati_more,Kamarhati More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_basti,New Basti,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_durganagar_station,Durganagar Station,22.650497,88.419215,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/2378503814 (station) named ""Durganagar"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_majerhat_serial_374_place_not_identified,"Majerhat (serial 374, place not identified)",,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_belgharia,Belgharia,22.665637,88.398004,AF-RTA5673,"coord: OSM node/245708572 (suburb) named ""Belgharia"", exact name match in Overpass named-feature index",osm-index,
+auto_birati,Birati,22.663212,88.427127,AF-RTA5673,"coord: OSM node/8023731058 (suburb) named ""Birati"", exact name match in Overpass named-feature index",osm-index,
+auto_agarpara_battala,Agarpara Battala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sashtitala,Sashtitala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_230_bus_stand,230 Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_agarpara_tetultala,Agarpara Tetultala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_old_post_office,Old Post Office,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sodepur_more_b_t_road,"Sodepur More, B.T. Road",,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_madhyamgram_chowmatha,Madhyamgram Chowmatha,22.692390,88.465410,AF-MPOST-N24P|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_madhyamgram_chowmatha (""Madhyamgram Chowmatha"", osm_landmark high), exact name match",reused_bus,high
+auto_panihati_kheyaghat,Panihati Kheyaghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sreepally,Sreepally,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mallickpara,Mallickpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kalavangarh,Kalavangarh,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_musalmanpara,Musalmanpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bankimpally,Bankimpally,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shyamghat,Shyamghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_khardah_station,Khardah Station,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barasat,Barasat,22.719107,88.482623,AF-RTA5673,"coord: OSM node/570086096 (city) named ""Barasat"", exact name match in Overpass named-feature index",osm-index,
+auto_30a_bus_stand,30A Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_satitala_rathtala,Satitala Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kamarhati_pitulia_ghat,Kamarhati Pitulia Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bonhooghly_b_t_road_more,Bonhooghly B.T. Road More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nilganj_bazar,Nilganj Bazar,22.761606,88.429300,AF-RTA5673,"coord: OSM node/11335820909 (village) named ""Nilganj"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_34c_bus_stand,34C Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_birati_station_paik_para,Birati Station Paik Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_naihati_station,Naihati Station,22.887006,88.417653,AF-RTA5673,"coord: OSM node/310989031 (station) named ""Naihati Junction"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_hukumchand_jute_mill,Hukumchand Jute Mill,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_patharpur_bazar,Patharpur Bazar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_barrackpore_station,New Barrackpore Station,22.686764,88.444617,AF-RTA5673,"coord: OSM node/2378518670 (station) named ""New Barrackpore"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_lelingarh,Lelingarh,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gontrahat,Gontrahat,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gorabazar,Gorabazar,22.634647,88.413346,AF-INDIAHOOD|AF-RTA5673,"coord: OSM node/11844894647 (suburb) named ""Gorabazar"", exact name match in Overpass named-feature index",osm-index,
+auto_piplighat,Piplighat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_new_barrackpore,New Barrackpore,22.686068,88.444641,AF-RTA5673,"coord: OSM node/4381101087 (city) named ""New Barrackpore"", exact name match in Overpass named-feature index",osm-index,
+auto_bilkanda_boardghat,Bilkanda Boardghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_majipara_gazipirhat,Majipara Gazipirhat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kanchrapara,Kanchrapara,22.949643,88.437884,AF-RTA5673,"coord: OSM node/3910302436 (town) named ""Kanchrapara"", exact name match in Overpass named-feature index",osm-index,
+auto_sarat_colony,Sarat Colony,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bandipur_mondal_para,Bandipur Mondal Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_garubhanga_ngp,Garubhanga (NGP),,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ghosal_bagan,Ghosal Bagan,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_6_no_rail_gate,6 No Rail Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_birati_jessore_road,Birati Jessore Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_titagarh,Titagarh,22.741920,88.379201,AF-RTA5673,"coord: OSM node/2270284915 (town) named ""Titagarh"", exact name match in Overpass named-feature index",osm-index,
+auto_11_no_bus_stand,11 No Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_baily_khal,Baily Khal,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bangpur,Bangpur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dum_dum_cant_health_centre,Dum Dum Cant. Health Centre,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mathkalhal,Mathkalhal,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kanchrapara_station,Kanchrapara Station,22.946239,88.451378,AF-RTA5673,"coord: OSM node/5088208928 (station) named ""Kanchrapara"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_jagulia,Jagulia,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kalitala,Kalitala,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_ninta_paikpara,Ninta Paikpara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kankinara_station,Kankinara Station,22.866753,88.405593,AF-RTA5673,"coord: OSM node/7630434488 (station) named ""Kankinara"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_b_t_rd_bonhooghly_more,B.T. Rd. Bonhooghly More,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_goalghar_park,Goalghar Park,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_basudebpur,Basudebpur,22.815520,88.417750,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_basudebpur (""Basudebpur"", wikidata_fuzzy medium), exact name match",reused_bus,medium
+auto_3_no_rail_gate,3 No Rail Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_garubhanga,Garubhanga,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ghosal_bhaban,Ghosal Bhaban,,,AF-INDIAHOOD|AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nabajiban,Nabajiban,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jagaddal,Jagaddal,22.854818,88.389720,AF-RTA5673,"coord: OSM node/1672312674 (suburb) named ""Jagaddal"", exact name match in Overpass named-feature index",osm-index,
+auto_mondal_para,Mondal Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_d_p_nagar,D.P. Nagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sukchar,Sukchar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mohipota,Mohipota,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_saktipur_das_para,Saktipur Das Para,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_jagaddal_station,Jagaddal Station,22.851679,88.395407,AF-RTA5673,"coord: OSM node/1672312673 (station) named ""Jagaddal"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_jagaddal_ferry_ghat,Jagaddal Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kankinara,Kankinara,22.866753,88.405593,AF-RTA5673,"coord: OSM node/7630434488 (station) named ""Kankinara"", exact name match in Overpass named-feature index",osm-index,
+auto_sajirhat,Sajirhat,22.696260,88.440070,AF-INDIAHOOD|AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_sajirhat (""Sajirhat"", nominatim high), exact name match",reused_bus,high
+auto_panpur,Panpur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_sodepur_b_t_road,Sodepur B.T. Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bagmore,Bagmore,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_health_institution,Health Institution,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gouribari,Gouribari,22.594550,88.378260,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_gouribari (""Gouribari"", nominatim high), exact name match",reused_bus,high
+auto_l_9_b_t_road,L-9 B.T. Road,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ferry_ghat,Ferry Ghat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_bhatpara_garpar,Bhatpara Garpar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_goalghar,Goalghar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gajipur_hat,Gajipur Hat,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_paikpara,Paikpara,22.612051,88.385565,AF-RTA5673,"coord: OSM node/2301637813 (suburb) named ""Paikpara"", exact name match in Overpass named-feature index",osm-index,
+auto_naihati,Naihati,22.886608,88.424196,AF-RTA5673,"coord: OSM node/570090082 (city) named ""Naihati"", exact name match in Overpass named-feature index",osm-index,
+auto_aryasamaj,Aryasamaj,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_dum_dum_cant_health_inst,Dum Dum Cant. Health Inst,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_shivtala,Shivtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_patulia_panchayet,Patulia Panchayet,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_barrackpore_4_no_gate,Barrackpore 4 No Gate,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kendu,Kendu,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_gounagar,Gounagar,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_paikpara_bus_stand,Paikpara Bus Stand,22.612051,88.385565,AF-RTA5673,"coord: OSM node/2301637813 (suburb) named ""Paikpara"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_palta_station,Palta Station,22.782629,88.370275,AF-RTA5673,"coord: OSM node/1616546521 (station) named ""Palta"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_sodepur_traffic_more,Sodepur Traffic More,22.700777,88.374823,AF-RTA5673,"coord: OSM node/4440995392 (platform) named ""Sodepur Traffic More"", exact name match in Overpass named-feature index",osm-index,
+auto_barrackpore_high_rd_junc,Barrackpore High Rd. Junc,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_health,Health,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_mathcol_dum_dum_cantonment,Mathcol Dum Dum Cantonment,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_brmm_bus_stand,BRMM Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_tentultala_bus_stand,Tentultala Bus Stand,22.944988,88.418930,AF-RTA5673,"coord: OSM node/3454995128 (locality) named ""TENTULTALA"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_patulia_bandipur,Patulia Bandipur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_titagrah_bus_stand,Titagrah Bus Stand,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kankinara_rathtala,Kankinara Rathtala,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_halisahar,Halisahar,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_bolday,Bolday,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_taipukur,Taipukur,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_kharbhanga,Kharbhanga,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_lalkuthi,Lalkuthi,,,AF-RTA5673,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_clive_house,Clive House,22.626496,88.416146,AF-RTA5673,"coord: OSM Nominatim way/1044255702 (yes) named ""Clive House"", normalised name equal",nominatim,
+auto_cantonment,Cantonment,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_durganagar,Durganagar,22.650497,88.419215,AF-RTA5673,"coord: OSM node/2378503814 (station) named ""Durganagar"", exact name match in Overpass named-feature index",osm-index,
+auto_sapuipara,Sapuipara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_ghola_kazipara,Ghola Kazipara,,,AF-RTA5673,not geocoded: no confident OSM match,,
+auto_nagerbajar,Nagerbajar,22.622810,88.414130,AF-RTA5673|AF-XMODE,"coord: reused from bus stop bus_nagerbazar (""Nagerbazar"", osm_route high), exact name match",reused_bus,high
+auto_nagerbazar,Nagerbazar,22.622835,88.413932,AF-INDIAHOOD,"coord: OSM node/11227831829 (suburb) named ""Nagerbazar"", exact name match in Overpass named-feature index",osm-index,
+auto_madhyamgram_station,Madhyamgram Station,22.694784,88.453018,AF-INDIAHOOD,"coord: OSM node/2378546217 (station) named ""Madhyamgram"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_b_t_road,B.T. Road,,,AF-INDIAHOOD,not geocoded: no confident OSM match,,
+auto_chawal_patty,Chawal Patty,,,AF-HOWRAH-NOTICE,not geocoded: no confident OSM match,,
+auto_belanagar_railway_station,Belanagar Railway Station,22.661234,88.317079,AF-HOWRAH-NOTICE,"coord: OSM node/6954276376 (station) named ""Belanagar"", locality or station match after dropping generic words; position approximate",osm-index,
+auto_bada,Bada,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,
+auto_kholapota,Kholapota,,,AF-MPOST-N24P,not geocoded: OSM match rejected by plausibility or ambiguity checks,,
+auto_72_no_bus_stand,72 No Bus Stand,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,
+auto_malancha,Malancha,22.912022,88.435617,AF-MPOST-N24P,"coord: OSM Nominatim way/759840704 (residential) named ""MALANCHA"", normalised name equal",nominatim,
+auto_sarberia,Sarberia,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,
+auto_habra,Habra,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,
+auto_nagarukhra,Nagarukhra,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,
+auto_ghoshpur,Ghoshpur,,,AF-MPOST-N24P,not geocoded: no confident OSM match,,

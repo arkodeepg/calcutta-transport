@@ -1,2 +1,2 @@
 feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_url
-Calcutta Transport contributors,https://github.com/arkodeepg/calcutta-transport,en,20261005,20271005,20261005,https://github.com/arkodeepg/calcutta-transport
+Calcutta Transport contributors,https://github.com/arkodeepg/calcutta-transport,en,20261006,20271006,20261006,https://github.com/arkodeepg/calcutta-transport

@@ -2894,9 +2894,9 @@ auto_r17,daily,auto_r17_d0,Sealdah Station,0
 auto_r17,daily,auto_r17_d1,Phoolbagan,1
 auto_r59,daily,auto_r59_d0,Girish Park,0
 auto_r59,daily,auto_r59_d1,Phoolbagan,1
-auto_r80,daily,auto_r80_d0,Deshbandhu Park,0
+auto_r80,daily,auto_r80_d0,RG Kar Hospital,0
 auto_r80,daily,auto_r80_d1,ID Hospital,1
-auto_r44,daily,auto_r44_d0,Raja Bazar,0
+auto_r44,daily,auto_r44_d0,MG Road Metro,0
 auto_r44,daily,auto_r44_d1,Phoolbagan,1
 auto_r73,daily,auto_r73_d0,Sealdah Station,0
 auto_r73,daily,auto_r73_d1,Beliaghata,1
@@ -2909,7 +2909,7 @@ auto_r94,daily,auto_r94_d1,Kankurgachi,1
 auto_r93,daily,auto_r93_d0,Karunamoyee,0
 auto_r93,daily,auto_r93_d1,SAI Complex,1
 auto_r14,daily,auto_r14_d0,BK Pal,0
-auto_r14,daily,auto_r14_d1,Ahiritola,1
+auto_r14,daily,auto_r14_d1,MG Road Metro,1
 auto_ballygunge_judges_court,daily,auto_ballygunge_judges_court_d0,Kalighat,0
 auto_ballygunge_judges_court,daily,auto_ballygunge_judges_court_d1,Ballygunge Station,1
 auto_tollygunge_phari_behala_td,daily,auto_tollygunge_phari_behala_td_d0,Behala Tram Depot,0
@@ -2940,6 +2940,8 @@ auto_garia_baruipur,daily,auto_garia_baruipur_d0,Baruipur,0
 auto_garia_baruipur,daily,auto_garia_baruipur_d1,Garia,1
 auto_sonarpur_garia,daily,auto_sonarpur_garia_d0,Garia,0
 auto_sonarpur_garia,daily,auto_sonarpur_garia_d1,Sonarpur,1
+auto_baruipur_dakshin_barasat,daily,auto_baruipur_dakshin_barasat_d0,Dakshin Barasat,0
+auto_baruipur_dakshin_barasat,daily,auto_baruipur_dakshin_barasat_d1,Baruipur,1
 auto_baruipur_julpia,daily,auto_baruipur_julpia_d0,Julpia,0
 auto_baruipur_julpia,daily,auto_baruipur_julpia_d1,Baruipur,1
 auto_rta_011,daily,auto_rta_011_d0,Santragachi Station,0
@@ -2948,12 +2950,18 @@ auto_rta_016,daily,auto_rta_016_d0,Baltikuri,0
 auto_rta_016,daily,auto_rta_016_d1,Ramrajatala Station,1
 auto_rta_020,daily,auto_rta_020_d0,Baghajatin,0
 auto_rta_020,daily,auto_rta_020_d1,Ruby,1
+auto_rta_022,daily,auto_rta_022_d0,Baghajatin,0
+auto_rta_022,daily,auto_rta_022_d1,Ranikuthi,1
+auto_rta_023,daily,auto_rta_023_d0,Jadavpur,0
+auto_rta_023,daily,auto_rta_023_d1,Ranikuthi,1
 auto_rta_029,daily,auto_rta_029_d0,Tollygunge,0
 auto_rta_029,daily,auto_rta_029_d1,Behala Chowrasta,1
 auto_rta_030,daily,auto_rta_030_d0,Sarsuna,0
 auto_rta_030,daily,auto_rta_030_d1,Behala Tram Depot,1
 auto_rta_032,daily,auto_rta_032_d0,Ruby,0
 auto_rta_032,daily,auto_rta_032_d1,Jadavpur Police Station,1
+auto_rta_033,daily,auto_rta_033_d0,Jadavpur Station,0
+auto_rta_033,daily,auto_rta_033_d1,Ramlal Bazar,1
 auto_rta_036,daily,auto_rta_036_d0,Tollygunge Tram Depot,0
 auto_rta_036,daily,auto_rta_036_d1,Behala Chowrasta,1
 auto_rta_039,daily,auto_rta_039_d0,Tollygunge Tram Depot,0
@@ -2972,10 +2980,16 @@ auto_rta_063,daily,auto_rta_063_d0,Garia Station,0
 auto_rta_063,daily,auto_rta_063_d1,Jadavpur Station,1
 auto_rta_064,daily,auto_rta_064_d0,Garia,0
 auto_rta_064,daily,auto_rta_064_d1,Jadavpur,1
+auto_rta_065,daily,auto_rta_065_d0,Tollygunge Metro,0
+auto_rta_065,daily,auto_rta_065_d1,Jadavpur,1
 auto_rta_068,daily,auto_rta_068_d0,Metiabruz,0
 auto_rta_068,daily,auto_rta_068_d1,Khidderpore,1
+auto_rta_070,daily,auto_rta_070_d0,Metiabruz,0
+auto_rta_070,daily,auto_rta_070_d1,Rajabagan,1
 auto_rta_074,daily,auto_rta_074_d0,Garia Station,0
 auto_rta_074,daily,auto_rta_074_d1,Ruby General Hospital,1
+auto_rta_075,daily,auto_rta_075_d0,Chowbaga,0
+auto_rta_075,daily,auto_rta_075_d1,Ruby,1
 auto_rta_076,daily,auto_rta_076_d0,Behala Tram Depot,0
 auto_rta_076,daily,auto_rta_076_d1,Sarsuna College,1
 auto_rta_077,daily,auto_rta_077_d0,Taratala,0
@@ -3002,26 +3016,58 @@ auto_rta_105,daily,auto_rta_105_d0,Kaikhali,0
 auto_rta_105,daily,auto_rta_105_d1,Rajarhat,1
 auto_rta_109,daily,auto_rta_109_d0,Ultadanga,0
 auto_rta_109,daily,auto_rta_109_d1,Lake Town,1
+auto_rta_120,daily,auto_rta_120_d0,Mahisbathan,0
+auto_rta_120,daily,auto_rta_120_d1,Kestopur,1
 auto_rta_125,daily,auto_rta_125_d0,Karunamoyee,0
 auto_rta_125,daily,auto_rta_125_d1,New Town,1
+auto_rta_131,daily,auto_rta_131_d0,Jatragachi,0
+auto_rta_131,daily,auto_rta_131_d1,Baguiati,1
+auto_rta_134,daily,auto_rta_134_d0,Hatiara,0
+auto_rta_134,daily,auto_rta_134_d1,Baguiati,1
 auto_rta_136,daily,auto_rta_136_d0,Salt Lake,0
 auto_rta_136,daily,auto_rta_136_d1,HUDCO,1
+auto_rta_137,daily,auto_rta_137_d0,Eco Space,0
+auto_rta_137,daily,auto_rta_137_d1,New Town,1
+auto_rta_139,daily,auto_rta_139_d0,Karunamoyee,0
+auto_rta_139,daily,auto_rta_139_d1,Kankurgachi More,1
 auto_rta_141,daily,auto_rta_141_d0,Karunamoyee,0
 auto_rta_141,daily,auto_rta_141_d1,Ultadanga,1
+auto_rta_142,daily,auto_rta_142_d0,City Center-I (Bhikharam),0
+auto_rta_142,daily,auto_rta_142_d1,Ultadanga,1
+auto_rta_143,daily,auto_rta_143_d0,City Center-I (Bata More),0
+auto_rta_143,daily,auto_rta_143_d1,Ultadanga,1
+auto_rta_144,daily,auto_rta_144_d0,City Center-I (CA Island),0
+auto_rta_144,daily,auto_rta_144_d1,Ultadanga,1
 auto_rta_145,daily,auto_rta_145_d0,Karunamoyee,0
 auto_rta_145,daily,auto_rta_145_d1,Ultadanga,1
+auto_rta_148,daily,auto_rta_148_d0,Susrut Eye Hospital,0
+auto_rta_148,daily,auto_rta_148_d1,Ultadanga,1
 auto_rta_153,daily,auto_rta_153_d0,13 No. Tank,0
 auto_rta_153,daily,auto_rta_153_d1,Ultadanga,1
+auto_rta_154,daily,auto_rta_154_d0,Sector V,0
+auto_rta_154,daily,auto_rta_154_d1,Baishakhi,1
 auto_rta_159,daily,auto_rta_159_d0,Birati Station,0
 auto_rta_159,daily,auto_rta_159_d1,Birati More,1
+auto_rta_162,daily,auto_rta_162_d0,Maniktala (Bidhan Sarani A.P.C. Road Crossing),0
+auto_rta_162,daily,auto_rta_162_d1,Ahiritola,1
+auto_rta_165,daily,auto_rta_165_d0,Behala,0
+auto_rta_165,daily,auto_rta_165_d1,Bosepukur (Gariahat),1
+auto_rta_167,daily,auto_rta_167_d0,Picnic Garden,0
+auto_rta_167,daily,auto_rta_167_d1,Ballygunge Phari,1
 auto_rta_168,daily,auto_rta_168_d0,Hazra More,0
 auto_rta_168,daily,auto_rta_168_d1,Ballygunge Phari,1
 auto_rta_169,daily,auto_rta_169_d0,Hazra More,0
 auto_rta_169,daily,auto_rta_169_d1,Ballygunge Station,1
+auto_rta_170,daily,auto_rta_170_d0,Dhapa Math Pukur,0
+auto_rta_170,daily,auto_rta_170_d1,B.R. Singh Hospital,1
 auto_rta_178,daily,auto_rta_178_d0,Gariahat,0
 auto_rta_178,daily,auto_rta_178_d1,Chetla,1
 auto_rta_182,daily,auto_rta_182_d0,Chiria More,0
 auto_rta_182,daily,auto_rta_182_d1,Dum Dum Station,1
+auto_rta_185,daily,auto_rta_185_d0,Ram Lal Bazar (Haltu),0
+auto_rta_185,daily,auto_rta_185_d1,Gariahat,1
+auto_rta_186,daily,auto_rta_186_d0,Kasba (Golpark),0
+auto_rta_186,daily,auto_rta_186_d1,Gariahat,1
 auto_rta_187,daily,auto_rta_187_d0,Gariahat,0
 auto_rta_187,daily,auto_rta_187_d1,Golpark,1
 auto_rta_190,daily,auto_rta_190_d0,Behala,0
@@ -3030,42 +3076,84 @@ auto_rta_191,daily,auto_rta_191_d0,13 No. Tank,0
 auto_rta_191,daily,auto_rta_191_d1,HUDCO,1
 auto_rta_192,daily,auto_rta_192_d0,Karunamoyee,0
 auto_rta_192,daily,auto_rta_192_d1,HUDCO,1
+auto_rta_195,daily,auto_rta_195_d0,Ballygunge Phari,0
+auto_rta_195,daily,auto_rta_195_d1,Hazra (Andool Raj Road Crossing),1
 auto_rta_197,daily,auto_rta_197_d0,Taratala,0
 auto_rta_197,daily,auto_rta_197_d1,Jadavpur Police Station,1
+auto_rta_198,daily,auto_rta_198_d0,Gariahat,0
+auto_rta_198,daily,auto_rta_198_d1,Kasba (Lalkhuti),1
+auto_rta_211,daily,auto_rta_211_d0,Khidirpore,0
+auto_rta_211,daily,auto_rta_211_d1,Mudiali,1
+auto_rta_223,daily,auto_rta_223_d0,Behala Tram Depot,0
+auto_rta_223,daily,auto_rta_223_d1,Rashbehari More (Melody),1
+auto_rta_225,daily,auto_rta_225_d0,Tollygunge Tram Depot,0
+auto_rta_225,daily,auto_rta_225_d1,Rashbehari Avenue,1
+auto_rta_240,daily,auto_rta_240_d0,Sova Bazar,0
+auto_rta_240,daily,auto_rta_240_d1,Ultadanga,1
 auto_rta_241,daily,auto_rta_241_d0,13 No. Tank,0
 auto_rta_241,daily,auto_rta_241_d1,Ultadanga,1
+auto_rta_246,daily,auto_rta_246_d0,Bose Pukur,0
+auto_rta_246,daily,auto_rta_246_d1,Park Circus,1
+auto_rta_249,daily,auto_rta_249_d0,Gariahat,0
+auto_rta_249,daily,auto_rta_249_d1,Bose Pukur,1
 auto_rta_257,daily,auto_rta_257_d0,Khidirpur,0
 auto_rta_257,daily,auto_rta_257_d1,Chetla Park,1
 auto_rta_261,daily,auto_rta_261_d0,Jadavpur Police Station,0
 auto_rta_261,daily,auto_rta_261_d1,Ruby General Hospital,1
 auto_rta_263,daily,auto_rta_263_d0,Golpark,0
 auto_rta_263,daily,auto_rta_263_d1,Garia Station,1
+auto_rta_265,daily,auto_rta_265_d0,Sakher Bazar (Behala),0
+auto_rta_265,daily,auto_rta_265_d1,Triangular Park,1
 auto_rta_268,daily,auto_rta_268_d0,Tollygunge Tram Depot,0
 auto_rta_268,daily,auto_rta_268_d1,Deshapriya Park,1
 auto_rta_269,daily,auto_rta_269_d0,Garia Station,0
 auto_rta_269,daily,auto_rta_269_d1,Ruby General Hospital,1
+auto_rta_270,daily,auto_rta_270_d0,Behala Tram Depot,0
+auto_rta_270,daily,auto_rta_270_d1,Haltu (Kayasta Para),1
 auto_rta_271,daily,auto_rta_271_d0,Jadavpur Police Station,0
 auto_rta_271,daily,auto_rta_271_d1,Ruby General Hospital,1
+auto_rta_278,daily,auto_rta_278_d0,Karunamoyee,0
+auto_rta_278,daily,auto_rta_278_d1,RG Kar Hospital,1
 auto_rta_280,daily,auto_rta_280_d0,Tollygunge Tram Depot,0
 auto_rta_280,daily,auto_rta_280_d1,Chetla Park,1
 auto_rta_281,daily,auto_rta_281_d0,3A Bus Stand,0
 auto_rta_281,daily,auto_rta_281_d1,Tollygunge Tram Depot,1
+auto_rta_284,daily,auto_rta_284_d0,Chowbhaga,0
+auto_rta_284,daily,auto_rta_284_d1,Ruby,1
+auto_rta_290,daily,auto_rta_290_d0,Behala Tram Depot,0
+auto_rta_290,daily,auto_rta_290_d1,Rabindra Sarobar (Tollygunge Tram Depot),1
+auto_rta_293,daily,auto_rta_293_d0,Topsia More,0
+auto_rta_293,daily,auto_rta_293_d1,Dhapa Mathpukur,1
 auto_rta_304,daily,auto_rta_304_d0,Bally,0
 auto_rta_304,daily,auto_rta_304_d1,Dunlop,1
 auto_rta_307,daily,auto_rta_307_d0,Birati Station,0
 auto_rta_307,daily,auto_rta_307_d1,Belgharia Station,1
+auto_rta_314,daily,auto_rta_314_d0,Dunlop,0
+auto_rta_314,daily,auto_rta_314_d1,Sinthi More (4B Bus Stand),1
+auto_rta_316,daily,auto_rta_316_d0,Dum Dum Station,0
+auto_rta_316,daily,auto_rta_316_d1,Sinthi More,1
+auto_rta_321,daily,auto_rta_321_d0,Sinthi More,0
+auto_rta_321,daily,auto_rta_321_d1,Kamarhati,1
 auto_rta_326,daily,auto_rta_326_d0,Nilganj,0
 auto_rta_326,daily,auto_rta_326_d1,Barrackpore Station,1
 auto_rta_328,daily,auto_rta_328_d0,Dunlop,0
 auto_rta_328,daily,auto_rta_328_d1,Barrackpore Station,1
+auto_rta_334,daily,auto_rta_334_d0,Basudevpur,0
+auto_rta_334,daily,auto_rta_334_d1,Shyamnagar Station,1
+auto_rta_337,daily,auto_rta_337_d0,Lake Town VIP,0
+auto_rta_337,daily,auto_rta_337_d1,Dum Dum Station,1
 auto_rta_340,daily,auto_rta_340_d0,Dunlop,0
 auto_rta_340,daily,auto_rta_340_d1,Sodepur,1
 auto_rta_349,daily,auto_rta_349_d0,Dum Dum Station,0
 auto_rta_349,daily,auto_rta_349_d1,Noapara,1
 auto_rta_353,daily,auto_rta_353_d0,Noapara,0
 auto_rta_353,daily,auto_rta_353_d1,Dunlop,1
+auto_rta_359,daily,auto_rta_359_d0,Dhobighat,0
+auto_rta_359,daily,auto_rta_359_d1,Barrackpore Station,1
 auto_rta_360,daily,auto_rta_360_d0,Nilganj,0
 auto_rta_360,daily,auto_rta_360_d1,Barrackpore Station,1
+auto_rta_362,daily,auto_rta_362_d0,Store Bazar,0
+auto_rta_362,daily,auto_rta_362_d1,Barrackpore Court,1
 auto_rta_366,daily,auto_rta_366_d0,Dunlop,0
 auto_rta_366,daily,auto_rta_366_d1,Kamarhati,1
 auto_rta_367,daily,auto_rta_367_d0,Agarpara Station,0
@@ -3080,6 +3168,8 @@ auto_rta_394,daily,auto_rta_394_d0,Barasat,0
 auto_rta_394,daily,auto_rta_394_d1,Barrackpore Station,1
 auto_rta_401,daily,auto_rta_401_d0,Nilganj Bazar,0
 auto_rta_401,daily,auto_rta_401_d1,Barrackpore Station,1
+auto_rta_412,daily,auto_rta_412_d0,Kamarhati,0
+auto_rta_412,daily,auto_rta_412_d1,Tobin Road,1
 auto_rta_421,daily,auto_rta_421_d0,Dunlop,0
 auto_rta_421,daily,auto_rta_421_d1,Titagarh,1
 auto_rta_429,daily,auto_rta_429_d0,Kankinara Station,0
@@ -3088,11 +3178,23 @@ auto_rta_438,daily,auto_rta_438_d0,Dunlop,0
 auto_rta_438,daily,auto_rta_438_d1,Agarpara Station,1
 auto_rta_444,daily,auto_rta_444_d0,Jagaddal,0
 auto_rta_444,daily,auto_rta_444_d1,Kankinara,1
+auto_rta_445,daily,auto_rta_445_d0,Sajirhat,0
+auto_rta_445,daily,auto_rta_445_d1,Sodepur Station,1
+auto_rta_454,daily,auto_rta_454_d0,Kamarhati,0
+auto_rta_454,daily,auto_rta_454_d1,Sinthi More,1
+auto_rta_459,daily,auto_rta_459_d0,Sodepur Station,0
+auto_rta_459,daily,auto_rta_459_d1,Paikpara,1
+auto_rta_467,daily,auto_rta_467_d0,Muragacha,0
+auto_rta_467,daily,auto_rta_467_d1,Paikpara Bus Stand,1
 auto_rta_469,daily,auto_rta_469_d0,Palta Station,0
 auto_rta_469,daily,auto_rta_469_d1,Barrackpore Station,1
+auto_rta_479,daily,auto_rta_479_d0,Dunlop,0
+auto_rta_479,daily,auto_rta_479_d1,Sodepur Station,1
 auto_rta_481,daily,auto_rta_481_d0,Clive House,0
 auto_rta_481,daily,auto_rta_481_d1,Lake Town,1
 auto_rta_482,daily,auto_rta_482_d0,Dum Dum Station,0
 auto_rta_482,daily,auto_rta_482_d1,Lake Town,1
 auto_news2025_dumdum_nagerbazar,daily,auto_news2025_dumdum_nagerbazar_d0,Nagerbazar,0
 auto_news2025_dumdum_nagerbazar,daily,auto_news2025_dumdum_nagerbazar_d1,Dum Dum Station,1
+auto_news2025_sodepur_madhyamgram,daily,auto_news2025_sodepur_madhyamgram_d0,Madhyamgram Station,0
+auto_news2025_sodepur_madhyamgram,daily,auto_news2025_sodepur_madhyamgram_d1,Sodepur Station,1

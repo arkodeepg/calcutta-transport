@@ -6,8 +6,10 @@ auto_ahiritola,Ahiritola,22.596397,88.353298,0
 auto_ajanta_cinema,Ajanta Cinema,22.508112,88.320228,0
 auto_allahabad_bank,Allahabad Bank,22.569274,88.390918,0
 auto_alochaya,Alochaya,22.564317,88.388854,0
+auto_b_r_singh_hospital,B.R. Singh Hospital,22.565362,88.371127,0
 auto_baghajatin,Baghajatin,22.483881,88.375445,0
 auto_baguiati,Baguiati,22.609668,88.427683,0
+auto_baishakhi,Baishakhi,22.597080,88.421520,0
 auto_bakultala_bus_stand,Bakultala Bus Stand,22.564026,88.284995,0
 auto_bally,Bally,22.646958,88.343612,0
 auto_ballygunge_phari,Ballygunge Phari,22.524881,88.365811,0
@@ -15,8 +17,10 @@ auto_ballygunge_station,Ballygunge Station,22.519341,88.371978,0
 auto_baltikuri,Baltikuri,22.609402,88.296129,0
 auto_bangur,Bangur,22.605919,88.411109,0
 auto_barasat,Barasat,22.719107,88.482623,0
+auto_barrackpore_court,Barrackpore Court,22.762290,88.363610,0
 auto_barrackpore_station,Barrackpore Station,22.760336,88.371099,0
 auto_baruipur,Baruipur,22.360715,88.432558,0
+auto_basudevpur,Basudevpur,22.815520,88.417750,0
 auto_behala,Behala,22.501572,88.320943,0
 auto_behala_chowrasta,Behala Chowrasta,22.487355,88.313379,0
 auto_behala_thana,Behala Thana,22.503528,88.319003,0
@@ -30,20 +34,34 @@ auto_birati,Birati,22.663212,88.427127,0
 auto_birati_more,Birati More,22.663212,88.427127,0
 auto_birati_station,Birati Station,22.664320,88.427496,0
 auto_bk_pal,BK Pal,22.593457,88.357116,0
+auto_bose_pukur,Bose Pukur,22.519230,88.385040,0
+auto_bosepukur_gariahat,Bosepukur (Gariahat),22.519230,88.385040,0
 auto_botanical_garden,Botanical Garden,22.558202,88.289232,0
+auto_central_park,Central Park,22.590470,88.415620,0
 auto_chetla,Chetla,22.514325,88.336958,0
 auto_chetla_park,Chetla Park,22.517176,88.336246,0
 auto_chinar_park,Chinar Park,22.623620,88.441016,0
 auto_chingrighata,Chingrighata,22.558656,88.410802,0
 auto_chiria_more,Chiria More,22.618724,88.379300,0
+auto_chowbaga,Chowbaga,22.532630,88.403020,0
+auto_chowbhaga,Chowbhaga,22.532630,88.403020,0
 auto_cit_more,CIT More,22.562851,88.396263,0
+auto_city_center_i_bata_more,City Center-I (Bata More),22.589950,88.408410,0
+auto_city_center_i_bhikharam,City Center-I (Bhikharam),22.589950,88.408410,0
+auto_city_center_i_ca_island,City Center-I (CA Island),22.589950,88.408410,0
 auto_clive_house,Clive House,22.626496,88.416146,0
 auto_columbia_asia_hospital,Columbia Asia Hospital,22.572260,88.412760,0
+auto_dakshin_barasat,Dakshin Barasat,22.226440,88.452540,0
 auto_deshapriya_park,Deshapriya Park,22.518405,88.353515,0
 auto_deshbandhu_park,Deshbandhu Park,22.600010,88.377070,0
+auto_deshopriyo_park,Deshopriyo Park,22.518290,88.353550,0
+auto_dhapa_math_pukur,Dhapa Math Pukur,22.548670,88.400520,0
+auto_dhapa_mathpukur,Dhapa Mathpukur,22.548670,88.400520,0
+auto_dhobighat,Dhobighat,22.764809,88.344968,0
 auto_dum_dum_park,Dum Dum Park,22.603428,88.423038,0
 auto_dum_dum_station,Dum Dum Station,22.619939,88.394070,0
 auto_dunlop,Dunlop,22.652496,88.377300,0
+auto_eco_space,Eco Space,22.586640,88.490630,0
 auto_fd_block,FD Block,22.582405,88.412323,0
 auto_garia,Garia,22.466016,88.392848,0
 auto_garia_station,Garia Station,22.465639,88.405515,0
@@ -51,7 +69,10 @@ auto_gariahat,Gariahat,22.519779,88.365430,0
 auto_gd_island,GD Island,22.576419,88.413673,0
 auto_girish_park,Girish Park,22.587145,88.362942,0
 auto_golpark,Golpark,22.516258,88.366235,0
+auto_haltu_kayasta_para,Haltu (Kayasta Para),22.510780,88.381870,0
+auto_hatiara,Hatiara,22.616690,88.449420,0
 auto_hazra,Hazra,22.522723,88.349924,0
+auto_hazra_andool_raj_road_crossing,Hazra (Andool Raj Road Crossing),22.522720,88.349920,0
 auto_hazra_more,Hazra More,22.522723,88.349924,0
 auto_hedua,Hedua,22.587744,88.368849,0
 auto_howrah_station,Howrah Station,22.583365,88.340345,0
@@ -61,6 +82,7 @@ auto_jadavpur,Jadavpur,22.495499,88.370901,0
 auto_jadavpur_police_station,Jadavpur Police Station,22.502768,88.367729,0
 auto_jadavpur_station,Jadavpur Station,22.495052,88.374971,0
 auto_jagaddal,Jagaddal,22.854818,88.389720,0
+auto_jatragachi,Jatragachi,22.598650,88.466340,0
 auto_joka,Joka,22.453350,88.302520,0
 auto_julpia,Julpia,22.365273,88.351970,0
 auto_kaikhali,Kaikhali,22.634421,88.434617,0
@@ -70,15 +92,28 @@ auto_kamarhati,Kamarhati,22.681025,88.371534,0
 auto_kankinara,Kankinara,22.866753,88.405593,0
 auto_kankinara_station,Kankinara Station,22.866753,88.405593,0
 auto_kankurgachi,Kankurgachi,22.579931,88.390565,0
+auto_kankurgachi_more,Kankurgachi More,22.580210,88.390430,0
 auto_karunamoyee,Karunamoyee,22.586380,88.421531,0
+auto_kasba_golpark,Kasba (Golpark),22.530970,88.392730,0
+auto_kasba_lalkhuti,Kasba (Lalkhuti),22.530970,88.392730,0
 auto_kathgola,Kathgola,22.576715,88.389986,0
 auto_keshtopur,Keshtopur,22.597333,88.433852,0
+auto_kestopur,Kestopur,22.597333,88.433852,0
 auto_khidderpore,Khidderpore,22.538698,88.317565,0
+auto_khidirpore,Khidirpore,22.535380,88.320610,0
 auto_khidirpur,Khidirpur,22.537618,88.315821,0
 auto_lake_town,Lake Town,22.605728,88.402961,0
+auto_lake_town_vip,Lake Town VIP,22.609750,88.402640,0
+auto_madhyamgram_station,Madhyamgram Station,22.694784,88.453018,0
+auto_mahisbathan,Mahisbathan,22.578690,88.454920,0
+auto_manicktala_more,Manicktala More,22.584150,88.378900,0
 auto_maniktala,Maniktala,22.588090,88.385283,0
+auto_maniktala_bidhan_sarani_a_p_c_road_crossing,Maniktala (Bidhan Sarani A.P.C. Road Crossing),22.588090,88.385280,0
 auto_metiabruz,Metiabruz,22.543570,88.267934,0
+auto_mg_road_metro,MG Road Metro,22.580860,88.361400,0
+auto_mudiali,Mudiali,22.510080,88.346540,0
 auto_mukundapur,Mukundapur,22.492141,88.396436,0
+auto_muragacha,Muragacha,22.694500,88.416580,0
 auto_nagerbazar,Nagerbazar,22.622835,88.413932,0
 auto_nayabad,Nayabad,22.477646,88.439981,0
 auto_new_alipore,New Alipore,22.511165,88.328112,0
@@ -87,16 +122,31 @@ auto_nilganj,Nilganj,22.761606,88.429300,0
 auto_nilganj_bazar,Nilganj Bazar,22.761606,88.429300,0
 auto_noapara,Noapara,22.639842,88.394134,0
 auto_orient,Orient,22.570934,88.400031,0
+auto_paikpara,Paikpara,22.612051,88.385565,0
+auto_paikpara_bus_stand,Paikpara Bus Stand,22.612051,88.385565,0
 auto_palta_station,Palta Station,22.782629,88.370275,0
 auto_pantaloons,Pantaloons,22.575072,88.389359,0
+auto_park_circus,Park Circus,22.537886,88.368246,0
 auto_phoolbagan,Phoolbagan,22.572159,88.389421,0
+auto_picnic_garden,Picnic Garden,22.530690,88.381790,0
+auto_rabindra_sarobar_tollygunge_tram_depot,Rabindra Sarobar (Tollygunge Tram Depot),22.507220,88.345490,0
 auto_raja_bazar,Raja Bazar,22.572778,88.371679,0
+auto_rajabagan,Rajabagan,22.553420,88.269560,0
 auto_rajarhat,Rajarhat,22.602023,88.477997,0
+auto_ram_lal_bazar_haltu,Ram Lal Bazar (Haltu),22.507530,88.385150,0
+auto_ramlal_bazar,Ramlal Bazar,22.507530,88.385150,0
 auto_ramrajatala_station,Ramrajatala Station,22.588661,88.296666,0
+auto_ranikuthi,Ranikuthi,22.484200,88.354300,0
 auto_rashbehari,Rashbehari,22.517172,88.345564,0
+auto_rashbehari_avenue,Rashbehari Avenue,22.516790,88.345780,0
+auto_rashbehari_more_melody,Rashbehari More (Melody),22.517170,88.345560,0
+auto_rashmani_bazar,Rashmani Bazar,22.563660,88.392190,0
+auto_rg_kar_hospital,RG Kar Hospital,22.604480,88.378410,0
 auto_ruby,Ruby,22.513316,88.401317,0
 auto_ruby_general_hospital,Ruby General Hospital,22.513531,88.403047,0
 auto_sai_complex,SAI Complex,22.564436,88.411582,0
+auto_sajirhat,Sajirhat,22.696260,88.440070,0
+auto_sakher_bazar_behala,Sakher Bazar (Behala),22.474850,88.309960,0
 auto_sakherbazar,Sakherbazar,22.474894,88.309938,0
 auto_sales_tax,Sales Tax,22.566055,88.379999,0
 auto_salt_lake,Salt Lake,22.590425,88.416920,0
@@ -109,15 +159,27 @@ auto_sdf_building_salt_lake,SDF Building Salt Lake,22.568880,88.431054,0
 auto_sealdah_station,Sealdah Station,22.567966,88.371105,0
 auto_sector_v,Sector V,22.575454,88.432257,0
 auto_shyamnagar_station,Shyamnagar Station,22.828516,88.380189,0
+auto_sinthi_more,Sinthi More,22.631930,88.377870,0
+auto_sinthi_more_4b_bus_stand,Sinthi More (4B Bus Stand),22.631930,88.377870,0
 auto_sodepur,Sodepur,22.697175,88.380563,0
 auto_sodepur_more,Sodepur More,22.697175,88.380563,0
+auto_sodepur_station,Sodepur Station,22.697180,88.380560,0
 auto_sonarpur,Sonarpur,22.440875,88.424637,0
+auto_sova_bazar,Sova Bazar,22.594030,88.362510,0
+auto_sreebhumi,Sreebhumi,22.598110,88.403610,0
+auto_store_bazar,Store Bazar,22.804925,88.371299,0
+auto_subhas_sarovar,Subhas Sarovar,22.568360,88.400880,0
+auto_susrut_eye_hospital,Susrut Eye Hospital,22.575760,88.417920,0
 auto_swabhumi,Swabhumi,22.571091,88.401251,0
 auto_taratala,Taratala,22.507686,88.320384,0
+auto_taratala_crossing,Taratala Crossing,22.507700,88.320360,0
 auto_thakurpukur,Thakurpukur,22.462537,88.315526,0
 auto_titagarh,Titagarh,22.741920,88.379201,0
+auto_tobin_road,Tobin Road,22.638340,88.375910,0
 auto_tollygunge,Tollygunge,22.498636,88.345391,0
+auto_tollygunge_metro,Tollygunge Metro,22.494690,88.345480,0
 auto_tollygunge_tram_depot,Tollygunge Tram Depot,22.493976,88.346172,0
+auto_topsia_more,Topsia More,22.541800,88.386960,0
 auto_triangular_park,Triangular Park,22.517997,88.357720,0
 auto_trikon_park,Trikon Park,22.567426,88.392490,0
 auto_ultadanga,Ultadanga,22.596128,88.385283,0

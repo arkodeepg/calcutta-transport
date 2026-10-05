@@ -1,0 +1,1301 @@
+stop_id,stop_name,stop_lat,stop_lon,location_type
+auto_13_no_tank,13 No. Tank,22.574881,88.409029,0
+auto_ahiritola,Ahiritola,22.596397,88.353298,0
+auto_ajanta_cinema,Ajanta Cinema,22.508112,88.320228,0
+auto_allahabad_bank,Allahabad Bank,22.569274,88.390918,0
+auto_alochaya,Alochaya,22.564317,88.388854,0
+auto_baguiati,Baguiati,22.609668,88.427683,0
+auto_ballygunge_station,Ballygunge Station,22.519341,88.371978,0
+auto_bangur,Bangur,22.605919,88.411109,0
+auto_baruipur,Baruipur,22.360715,88.432558,0
+auto_behala_chowrasta,Behala Chowrasta,22.487355,88.313379,0
+auto_behala_thana,Behala Thana,22.503528,88.319003,0
+auto_behala_tram_depot,Behala Tram Depot,22.499411,88.317797,0
+auto_beliaghata,Beliaghata,22.550656,88.403917,0
+auto_bikash_bhavan,Bikash Bhavan,22.591142,88.416944,0
+auto_bk_pal,BK Pal,22.593457,88.357116,0
+auto_botanical_garden,Botanical Garden,22.558202,88.289232,0
+auto_chetla,Chetla,22.514325,88.336958,0
+auto_chetla_park,Chetla Park,22.517176,88.336246,0
+auto_chingrighata,Chingrighata,22.558656,88.410802,0
+auto_cit_more,CIT More,22.562851,88.396263,0
+auto_columbia_asia_hospital,Columbia Asia Hospital,22.572260,88.412760,0
+auto_deshbandhu_park,Deshbandhu Park,22.600010,88.377070,0
+auto_dum_dum_park,Dum Dum Park,22.603428,88.423038,0
+auto_fd_block,FD Block,22.582405,88.412323,0
+auto_gariahat,Gariahat,22.519779,88.365430,0
+auto_gd_island,GD Island,22.576419,88.413673,0
+auto_girish_park,Girish Park,22.587145,88.362942,0
+auto_hazra,Hazra,22.522723,88.349924,0
+auto_hedua,Hedua,22.587744,88.368849,0
+auto_howrah_station,Howrah Station,22.583365,88.340345,0
+auto_julpia,Julpia,22.365273,88.351970,0
+auto_kalighat,Kalighat,22.515331,88.347705,0
+auto_kalighat_metro,Kalighat Metro,22.519103,88.346118,0
+auto_kankurgachi,Kankurgachi,22.579931,88.390565,0
+auto_karunamoyee,Karunamoyee,22.586380,88.421531,0
+auto_kathgola,Kathgola,22.576715,88.389986,0
+auto_keshtopur,Keshtopur,22.597333,88.433852,0
+auto_lake_town,Lake Town,22.605728,88.402961,0
+auto_maniktala,Maniktala,22.588090,88.385283,0
+auto_new_alipore,New Alipore,22.511165,88.328112,0
+auto_pantaloons,Pantaloons,22.575072,88.389359,0
+auto_phoolbagan,Phoolbagan,22.572159,88.389421,0
+auto_raja_bazar,Raja Bazar,22.572778,88.371679,0
+auto_rashbehari,Rashbehari,22.517172,88.345564,0
+auto_sai_complex,SAI Complex,22.564436,88.411582,0
+auto_sales_tax,Sales Tax,22.566055,88.379999,0
+auto_salt_lake_stadium,Salt Lake Stadium,22.573111,88.403089,0
+auto_sarkar_bazar,Sarkar Bazar,22.565012,88.385389,0
+auto_sarsuna,Sarsuna,22.480999,88.284838,0
+auto_sdf_building_salt_lake,SDF Building Salt Lake,22.568880,88.431054,0
+auto_sealdah_station,Sealdah Station,22.567966,88.371105,0
+auto_swabhumi,Swabhumi,22.571091,88.401251,0
+auto_taratala,Taratala,22.507686,88.320384,0
+auto_triangular_park,Triangular Park,22.517997,88.357720,0
+auto_trikon_park,Trikon Park,22.567426,88.392490,0
+auto_ultadanga,Ultadanga,22.596128,88.385283,0
+bus_10_no_tank,10 No. Tank,22.596250,88.428090,0
+bus_2_no_tank,2 No. Tank,22.596250,88.428090,0
+bus_3a_bus_stand,3A Bus Stand,22.456730,88.304580,0
+bus_45_bus_stand,45 bus stand,22.471250,88.377250,0
+bus_4_no_tank,4 No. Tank,22.596250,88.428090,0
+bus_achipur,Achipur,22.450970,88.129060,0
+bus_acropolis,Acropolis,22.515200,88.393260,0
+bus_acropolis_mall,Acropolis Mall,22.515320,88.393240,0
+bus_adhata,Adhata,22.868280,88.533450,0
+bus_adhata_more,Adhata More,22.868280,88.533450,0
+bus_agarpara,Agarpara,22.682880,88.385360,0
+bus_agarpara_station,Agarpara Station,22.682880,88.385360,0
+bus_ahiritola,Ahiritola,22.595910,88.356890,0
+bus_airport,Airport,22.643510,88.431220,0
+bus_airport_covers_all_4_gates,Airport (Covers All 4 Gates),22.513260,88.302340,0
+bus_airport_gate,Airport Gate,22.643700,88.433200,0
+bus_airport_no_1_gate,Airport No. 1 Gate,22.641570,88.431290,0
+bus_ajoynagar,Ajoynagar,22.490040,88.395120,0
+bus_akankha,Akankha,22.619250,88.464380,0
+bus_akankha_more,Akankha More,22.619250,88.464380,0
+bus_akanksha_more,Akanksha More,22.621780,88.468860,0
+bus_akra_station,Akra Station,22.514740,88.249280,0
+bus_aliah,Aliah,22.590440,88.485720,0
+bus_aliah_university,Aliah University,22.590470,88.485870,0
+bus_alipore_court,Alipore Court,22.523790,88.332720,0
+bus_alipore_zoo,Alipore Zoo,22.536840,88.331830,0
+bus_alochaya,Alochaya,22.564320,88.388850,0
+bus_amherst_street,Amherst Street,22.573400,88.367320,0
+bus_amjhara,Amjhara,22.316250,88.713800,0
+bus_amrabati,Amrabati,21.574250,88.260460,0
+bus_amri_hospital,AMRI Hospital,22.568330,88.411660,0
+bus_amtala,Amtala,22.366880,88.277750,0
+bus_ananda_palit,Ananda Palit,22.555580,88.373230,0
+bus_anandapur,Anandapur,22.512530,88.408600,0
+bus_anantapur,Anantapur,22.584270,88.558750,0
+bus_antila,Antila,22.446040,87.973880,0
+bus_anwar_shah_road,Anwar Shah Road,22.501280,88.351640,0
+bus_apollo_hospital,Apollo Hospital,22.574570,88.401600,0
+bus_aquatica,Aquatica,22.562690,88.464690,0
+bus_arapanch,Arapanch,22.434770,88.471830,0
+bus_ariadaha,Ariadaha,22.667220,88.367320,0
+bus_ariadaha_dakshineswar,Ariadaha (Dakshineswar),22.667220,88.367320,0
+bus_ashoknagar_station,Ashoknagar Station,22.826760,88.628620,0
+bus_avani_mall,Avani Mall,22.563200,88.323600,0
+bus_axis_mall,Axis Mall,22.579560,88.459920,0
+bus_b_e_college,B.E. College,22.557550,88.306820,0
+bus_b_garden,B.Garden,22.557180,88.301040,0
+bus_b_n_r_hospital,B.N.R. Hospital,22.546110,88.310250,0
+bus_babubazar,Babubazar,22.538090,88.319100,0
+bus_babughat,Babughat,22.565090,88.339710,0
+bus_bagbazar,Bagbazar,22.601590,88.363660,0
+bus_baghajatin,Baghajatin,22.483990,88.375580,0
+bus_bagjola,Bagjola,22.628480,88.405290,0
+bus_bagpota,Bagpota,22.461050,88.279470,0
+bus_baguiati,Baguiati,22.610220,88.427970,0
+bus_baguihati,Baguihati,22.605860,88.432440,0
+bus_baharu,Baharu,22.204030,88.428270,0
+bus_baikunthapur,Baikunthapur,22.379250,88.414390,0
+bus_baisakhi,Baisakhi,22.597080,88.421520,0
+bus_baisakhi_more,Baisakhi More,22.597080,88.421520,0
+bus_baishnabghata,Baishnabghata,22.471000,88.371590,0
+bus_bajkul,Bajkul,22.024530,87.821410,0
+bus_bakeshwar,Bakeshwar,22.427900,88.344860,0
+bus_bakhrahat,Bakhrahat,22.395070,88.205230,0
+bus_bakkhali,Bakkhali,21.560770,88.267320,0
+bus_baksara,Baksara,22.577240,88.290410,0
+bus_bakultala,Bakultala,22.484020,88.302390,0
+bus_balakhali,Balakhali,22.358340,88.339230,0
+bus_balia,Balia,22.459170,88.391300,0
+bus_bally_bridge,Bally bridge,22.654950,88.347600,0
+bus_bally_halt_station,Bally halt station,22.651450,88.340820,0
+bus_ballyghat,Ballyghat,22.652430,88.347910,0
+bus_ballygunge,Ballygunge,22.528030,88.365910,0
+bus_ballygunge_phari,Ballygunge Phari,22.527670,88.366100,0
+bus_ballygunge_s_t_n,Ballygunge S.T.N,22.528030,88.365910,0
+bus_ballygunge_station,Ballygunge Station,22.528030,88.365910,0
+bus_ballyhalt,Ballyhalt,22.652330,88.338540,0
+bus_balti,Balti,22.818760,88.943040,0
+bus_baltikuri,Baltikuri,22.609400,88.296130,0
+bus_baltikuri_more,Baltikuri more,22.609400,88.296130,0
+bus_baluhati,Baluhati,22.659210,88.266950,0
+bus_bandar,Bandar,22.647310,88.437300,0
+bus_bangur,Bangur,22.611130,88.409180,0
+bus_bangur_avenue,Bangur Avenue,22.607790,88.410400,0
+bus_bangur_hospital,Bangur hospital,22.499440,88.346460,0
+bus_bank_of_india,Bank of India,22.570790,88.365120,0
+bus_bansdroni,Bansdroni,22.470770,88.361810,0
+bus_bantul_more,Bantul More,22.443860,87.990460,0
+bus_barabazar,Barabazar,22.580180,88.352810,0
+bus_baranagar_road_station,Baranagar Road Station,22.653490,88.378860,0
+bus_barasat,Barasat,22.719110,88.482620,0
+bus_barasat_champadali,Barasat Champadali,22.721940,88.481970,0
+bus_barasat_district_hospital,Barasat District Hospital,22.721760,88.492520,0
+bus_barasat_titumir_bus_stand,Barasat Titumir Bus Stand,22.719110,88.482620,0
+bus_barda,Barda,22.152390,88.087580,0
+bus_bardhaman,Bardhaman,23.249570,87.868180,0
+bus_baria,Baria,22.296900,88.770830,0
+bus_barisha,Barisha,22.475600,88.308580,0
+bus_barrackpore,Barrackpore,22.762250,88.374350,0
+bus_barrackpore_court,Barrackpore Court,22.762290,88.363610,0
+bus_bartala_bazar,Bartala Bazar,22.582590,88.353710,0
+bus_baruipur,Baruipur,22.360720,88.432560,0
+bus_baruipur_hospital,Baruipur Hospital,22.361230,88.433290,0
+bus_baruipur_station,Baruipur Station,22.360720,88.432560,0
+bus_basantapur,Basantapur,22.640410,88.044120,0
+bus_basanti,Basanti,22.198330,88.713910,0
+bus_basubati,Basubati,22.782540,88.203040,0
+bus_bata_more,Bata More,22.499470,88.231530,0
+bus_batanagar,Batanagar,22.513270,88.222990,0
+bus_battala,Battala,22.450590,88.386510,0
+bus_bbd_bag,BBD Bag,22.571600,88.350260,0
+bus_beckbagan,Beckbagan,22.540830,88.359220,0
+bus_behala,Behala,22.501570,88.320940,0
+bus_behala_14,Behala 14,22.501570,88.320940,0
+bus_behala_14_number,Behala 14 number,22.501570,88.320940,0
+bus_behala_airport,Behala Airport,22.505440,88.294010,0
+bus_behala_chowrasta,Behala Chowrasta,22.486920,88.312990,0
+bus_behala_p_s,Behala P.S,22.501570,88.320940,0
+bus_behala_tram_depot,Behala Tram Depot,22.499410,88.317800,0
+bus_belaghata,Belaghata,22.565650,88.390720,0
+bus_beleghata,Beleghata,22.562190,88.407970,0
+bus_belepole,Belepole,22.578130,88.305460,0
+bus_belgachi,Belgachi,22.346910,88.587240,0
+bus_belgachia,Belgachia,22.605250,88.384050,0
+bus_belgachia_metro,Belgachia Metro,22.606130,88.386870,0
+bus_belgharia,Belgharia,22.661360,88.389210,0
+bus_belgharia_station,Belgharia Station,22.661360,88.389210,0
+bus_belghoria_expressway,Belghoria Expressway,22.654940,88.421840,0
+bus_beliaghata,Beliaghata,22.550660,88.403920,0
+bus_beliaghata_main_road,Beliaghata Main Road,22.565680,88.382160,0
+bus_belilious_road,Belilious Road,22.587610,88.334350,0
+bus_belsingha,Belsingha,22.300330,88.148100,0
+bus_beltala,Beltala,22.748690,88.384500,0
+bus_belurmath,Belurmath,22.631300,88.350580,0
+bus_bengal_chemical,Bengal Chemical,22.580070,88.401300,0
+bus_berachampa_crossing,Berachampa Crossing,22.694650,88.679230,0
+bus_betaitala,Betaitala,22.562010,88.312730,0
+bus_bhagabanpur_more,Bhagabanpur More,22.302240,88.215930,0
+bus_bharat_sevashram_hospital,Bharat Sevashram Hospital,22.439870,88.293450,0
+bus_bhavan,Bhavan,22.577580,88.404630,0
+bus_bhawanipur,Bhawanipur,22.526110,88.347800,0
+bus_bhogali,Bhogali,22.555120,88.614260,0
+bus_bhowanipore,Bhowanipore,22.532580,88.345440,0
+bus_bhubaneshwari,Bhubaneshwari,21.940690,88.532010,0
+bus_bichali_ghat,Bichali Ghat,22.550240,88.285330,0
+bus_bidhan_nagar_college,Bidhan Nagar College,22.584470,88.405430,0
+bus_bidhannagar_road_station,Bidhannagar Road Station,22.591260,88.390960,0
+bus_bidhannagar_station,Bidhannagar Station,22.590420,88.416920,0
+bus_bidhannagar_station_circular_route,Bidhannagar Station (Circular Route),22.590420,88.416920,0
+bus_bijoygarh,Bijoygarh,22.487270,88.368560,0
+bus_binodpur,Binodpur,21.902960,88.536970,0
+bus_birati,Birati,22.663770,88.427310,0
+bus_birati_more,Birati More,22.663770,88.427310,0
+bus_birati_station,Birati Station,22.663770,88.427310,0
+bus_birlapur,Birlapur,22.421650,88.155980,0
+bus_birshibpur,Birshibpur,22.473300,88.051100,0
+bus_bishnupur,Bishnupur,22.381180,88.268020,0
+bus_bishnupur_ps,Bishnupur PS,22.381180,88.268020,0
+bus_biswanathpur,Biswanathpur,21.856490,88.378170,0
+bus_bnr,BNR,22.544250,88.310770,0
+bus_bodra,Bodra,22.444580,88.615270,0
+bus_bosepukur,Bosepukur,22.519230,88.385040,0
+bus_botanical_garden,Botanical Garden,22.563890,88.288610,0
+bus_botanical_garden_b_garden,Botanical Garden (B garden),22.563890,88.288610,0
+bus_boubazar,Boubazar,22.580210,88.354540,0
+bus_bowbazar,Bowbazar,22.570490,88.361560,0
+bus_brace_bridge,Brace Bridge,22.517920,88.301140,0
+bus_brajalalchak,Brajalalchak,22.089590,88.041330,0
+bus_brindabanpur,Brindabanpur,22.375270,88.178770,0
+bus_broad_street,Broad Street,22.532080,88.369840,0
+bus_budge_budge,Budge Budge,22.473660,88.173930,0
+bus_building_more,Building More,22.561470,88.408800,0
+bus_burdwan,Burdwan,23.249570,87.868180,0
+bus_burrabazar,Burrabazar,22.580820,88.357790,0
+bus_burul,Burul,22.364940,88.113530,0
+bus_c_i_t_road,C.I.T. Road,22.573930,88.389740,0
+bus_camac_street,Camac Street,22.541540,88.351870,0
+bus_canning,Canning,22.313620,88.668690,0
+bus_canning_station,Canning Station,22.310370,88.657900,0
+bus_canning_street,Canning Street,22.579140,88.346920,0
+bus_carry_road,Carry Road,22.571640,88.305620,0
+bus_casurina_ave,Casurina Ave,22.549700,88.342100,0
+bus_central,Central,22.572490,88.358740,0
+bus_central_avenue,Central Avenue,22.572070,88.358600,0
+bus_central_jail,Central Jail,22.632700,88.416990,0
+bus_central_park,Central Park,22.590470,88.415620,0
+bus_chaitanyapur,Chaitanyapur,22.136130,88.083780,0
+bus_chakdulalpur,Chakdulalpur,22.039930,88.232830,0
+bus_chakla,Chakla,22.756830,88.688800,0
+bus_champadali,Champadali,22.719700,88.487820,0
+bus_chamrail,Chamrail,22.639850,88.300200,0
+bus_chanda,Chanda,22.211970,88.229910,0
+bus_chandaneshwar,Chandaneshwar,22.438950,88.576260,0
+bus_chandkhali,Chandkhali,22.312090,88.463030,0
+bus_chandni_chowk,Chandni Chowk,22.565520,88.357490,0
+bus_chandpur,Chandpur,22.405220,88.251680,0
+bus_chandra,Chandra,22.558200,88.289230,0
+bus_chapra,Chapra,22.874130,88.622270,0
+bus_charapole,Charapole,22.927410,88.466990,0
+bus_charial,Charial,22.463170,88.184680,0
+bus_charial_more,Charial More,22.463170,88.184680,0
+bus_charnock_hospital,Charnock Hospital,22.625770,88.435080,0
+bus_chaulkhola,Chaulkhola,22.367160,88.194190,0
+bus_chetla,Chetla,22.517400,88.337440,0
+bus_chetla_park,Chetla Park,22.517250,88.336250,0
+bus_chhatakal,Chhatakal,22.621670,88.404610,0
+bus_chinar_park,Chinar Park,22.623620,88.441020,0
+bus_chingrighata,Chingrighata,22.555910,88.412200,0
+bus_chiria_more,Chiria More,22.618450,88.379240,0
+bus_chouhati,Chouhati,22.404950,88.407670,0
+bus_chowbaga,Chowbaga,22.532630,88.403020,0
+bus_chowrasta,Chowrasta,22.487320,88.313330,0
+bus_christopher_road,Christopher Road,22.551320,88.375020,0
+bus_chunakhali,Chunakhali,22.304710,88.794860,0
+bus_cit_more,CIT More,22.562950,88.396290,0
+bus_city_center,City Center,22.062420,88.083360,0
+bus_city_centre,City Centre,22.589950,88.408410,0
+bus_city_centre_1,City Centre 1,22.588190,88.407650,0
+bus_city_centre_2,City Centre 2,22.622850,88.450360,0
+bus_city_centre_ii,City Centre II,22.586950,88.407940,0
+bus_coal_india,Coal India,22.580980,88.445860,0
+bus_college_ghat,College ghat,22.562040,88.306070,0
+bus_college_more,College More,22.574760,88.433750,0
+bus_college_street,College Street,22.577110,88.364030,0
+bus_college_street_xing,College Street Xing,22.572580,88.362170,0
+bus_colony_more,Colony More,22.723160,88.478470,0
+bus_cossipore,Cossipore,22.617350,88.373730,0
+bus_curzon_park,Curzon Park,22.564970,88.349690,0
+bus_dakbunglow_more,Dakbunglow More,22.711390,88.475490,0
+bus_dakshin_barasat,Dakshin Barasat,22.226440,88.452540,0
+bus_dakshin_battala,Dakshin Battala,22.180430,88.753250,0
+bus_dakshin_durgapur,Dakshin Durgapur,22.011570,88.577100,0
+bus_dakshin_ramkrishnapur,Dakshin Ramkrishnapur,22.056440,88.249200,0
+bus_dakshineswar,Dakshineswar,22.652700,88.363160,0
+bus_dalalpukur,Dalalpukur,22.582940,88.311430,0
+bus_darga_road,Darga Road,22.543400,88.371030,0
+bus_dasnagar,Dasnagar,22.598000,88.308400,0
+bus_decathlon,Decathlon,22.543880,88.361050,0
+bus_delhi_road,Delhi Road,22.680550,88.302440,0
+bus_derozio_college,Derozio College,22.633450,88.458300,0
+bus_deshapriya_park,Deshapriya Park,22.517480,88.352710,0
+bus_deshbandhu,Deshbandhu,22.564050,88.390040,0
+bus_deshbandhu_road,Deshbandhu Road,22.647330,88.365170,0
+bus_deuli,Deuli,22.334770,88.294650,0
+bus_deulti,Deulti,22.453350,87.914660,0
+bus_dhakuria,Dhakuria,22.507810,88.367050,0
+bus_dhamua,Dhamua,22.287250,88.394460,0
+bus_dhanmath,Dhanmath,22.520910,88.389680,0
+bus_dhanpota,Dhanpota,22.215470,88.366880,0
+bus_dhapa,Dhapa,22.547820,88.400230,0
+bus_dhapa_road,Dhapa Road,22.547820,88.400230,0
+bus_dharampur,Dharampur,22.886680,88.668390,0
+bus_dhopagachi,Dhopagachi,22.366300,88.405130,0
+bus_dhukrijhara,Dhukrijhara,22.262450,88.145360,0
+bus_diamond_harbour,Diamond Harbour,22.192630,88.190300,0
+bus_diamond_plaza,Diamond Plaza,22.615440,88.412470,0
+bus_diamond_plaza_mall,Diamond plaza Mall,22.615490,88.412470,0
+bus_dlf,DLF,22.581450,88.449650,0
+bus_dlf1,DLF1,22.581380,88.450770,0
+bus_domjur,Domjur,22.636270,88.219830,0
+bus_domjur_bus_stand,Domjur bus Stand,22.636270,88.219830,0
+bus_domjur_hospital_more,Domjur hospital more,22.632950,88.224520,0
+bus_don_bosco_crossing,Don Bosco Crossing,22.544040,88.371890,0
+bus_don_bosco_more,Don Bosco More,22.544020,88.371850,0
+bus_dongaria,Dongaria,22.397740,88.162240,0
+bus_dum_dum,Dum Dum,22.621110,88.392900,0
+bus_dumdum_park,Dumdum Park,22.611420,88.410190,0
+bus_dumdum_station,Dumdum Station,22.619940,88.394070,0
+bus_dumurjola,Dumurjola,22.583960,88.308890,0
+bus_dunlop,Dunlop,22.652500,88.377300,0
+bus_dunlop_baranagar_road_station,Dunlop (Baranagar road Station),22.652500,88.377300,0
+bus_dunlop_more,Dunlop More,22.652500,88.377300,0
+bus_durganagar,Durganagar,22.650500,88.419220,0
+bus_duttabagan,Duttabagan,22.607390,88.390980,0
+bus_dwariknagar,Dwariknagar,21.720030,88.263790,0
+bus_eco_park,Eco Park,22.602980,88.469200,0
+bus_eco_tourism_park,Eco Tourism Park,22.600430,88.470530,0
+bus_ecospace,Ecospace,22.586020,88.489790,0
+bus_ekbalpur,Ekbalpur,22.533740,88.320640,0
+bus_elgin,Elgin,22.537580,88.349380,0
+bus_elgin_crossing,Elgin Crossing,22.537580,88.349380,0
+bus_elgin_road,Elgin Road,22.537800,88.351570,0
+bus_entally,Entally,22.555140,88.368000,0
+bus_espl,Espl,22.563680,88.350610,0
+bus_esplanade,Esplanade,22.565030,88.350720,0
+bus_esplanade_l20,Esplanade L20,22.563290,88.350360,0
+bus_exide,Exide,22.541750,88.347440,0
+bus_exide_crossing,Exide Crossing,22.541400,88.347230,0
+bus_falta,Falta,22.293330,88.105470,0
+bus_falta_sector_1,Falta Sector 1,22.293330,88.105470,0
+bus_fancy_market,Fancy Market,22.539040,88.323000,0
+bus_fd_park,FD Park,22.584020,88.412040,0
+bus_fire_brigade,Fire Brigade,22.567860,88.432530,0
+bus_foreshore_road,Foreshore Road,22.581300,88.339820,0
+bus_fort_william,Fort William,22.554500,88.338010,0
+bus_fortis,Fortis,22.520340,88.401040,0
+bus_fortis_hospital,Fortis hospital,22.520320,88.400950,0
+bus_frasergunj,Frasergunj,21.582490,88.258290,0
+bus_furfura_sharif,Furfura Sharif,22.748380,88.133400,0
+bus_gabbuni,Gabbuni,22.349500,88.773630,0
+bus_gadkhali,Gadkhali,23.068690,89.048410,0
+bus_gaighata_habra,Gaighata (Habra),22.942380,88.640270,0
+bus_gandhi_colony,Gandhi Colony,22.485050,88.358380,0
+bus_gangadharpur,Gangadharpur,21.845910,88.294490,0
+bus_gangarampur,Gangarampur,22.338430,88.265790,0
+bus_garcha,Garcha,22.524780,88.363670,0
+bus_garcha_road,Garcha Road,22.525750,88.364570,0
+bus_garden_reach,Garden Reach,22.545050,88.317270,0
+bus_garfa_road,Garfa Road,22.499660,88.380570,0
+bus_garia,Garia,22.466020,88.392850,0
+bus_garia_5no_bus_stand,Garia 5no. Bus Stand,22.466430,88.378440,0
+bus_garia_6no_bus_stand,Garia 6no. Bus stand,22.466020,88.392850,0
+bus_garia_bus_stand,Garia Bus Stand,22.466020,88.392850,0
+bus_garia_metro,Garia Metro,22.490860,88.395860,0
+bus_garia_more,Garia More,22.466020,88.392850,0
+bus_garia_station,Garia Station,22.466020,88.392850,0
+bus_garia_station_naktala,Garia Station (Naktala),22.466020,88.392850,0
+bus_gariahat,Gariahat,22.519780,88.365430,0
+bus_gazipur,Gazipur,22.604330,88.552510,0
+bus_gd_island,GD Island,22.576570,88.413410,0
+bus_ghasiara,Ghasiara,22.439240,88.443190,0
+bus_girish_park,Girish Park,22.587070,88.363470,0
+bus_gobinda_khatik_road,Gobinda Khatik Road,22.548250,88.385690,0
+bus_gobindapur,Gobindapur,22.391080,88.411000,0
+bus_gocharan,Gocharan,22.278670,88.456340,0
+bus_godrej_waterside,Godrej Waterside,22.573400,88.437700,0
+bus_gokulpur,Gokulpur,22.457000,88.633640,0
+bus_golf_green,Golf Green,22.491330,88.361840,0
+bus_golpark,Golpark,22.515580,88.366770,0
+bus_gopalpur,Gopalpur,22.439680,88.469050,0
+bus_gopalpur_more,Gopalpur More,22.439680,88.469050,0
+bus_gouribari,Gouribari,22.594550,88.378260,0
+bus_gp_block,GP Block,22.569980,88.434110,0
+bus_gpo,GPO,22.572960,88.347750,0
+bus_greenfield_city,Greenfield City,22.495320,88.274270,0
+bus_gurudaspur,Gurudaspur,21.930890,88.366300,0
+bus_gurusaday_road,Gurusaday Road,22.536170,88.360170,0
+bus_haldia,Haldia,22.044610,88.065460,0
+bus_haldiram,Haldiram,22.627750,88.433510,0
+bus_halisahar,Halisahar,22.920970,88.436980,0
+bus_haltu,Haltu,22.510780,88.381870,0
+bus_hapania,Hapania,22.923770,88.646260,0
+bus_haraharitala,Haraharitala,22.412410,88.418310,0
+bus_haridashpur,Haridashpur,23.038300,88.867900,0
+bus_haridevpur,Haridevpur,22.465300,88.331130,0
+bus_harinavi,Harinavi,22.412520,88.418580,0
+bus_haripara,Haripara,22.947850,88.655260,0
+bus_haroa,Haroa,22.606480,88.678290,0
+bus_hastings,Hastings,22.548980,88.328010,0
+bus_hatiara,Hatiara,22.616690,88.449420,0
+bus_hatibagan,Hatibagan,22.594960,88.370930,0
+bus_hatishala,Hatishala,22.543630,88.524610,0
+bus_hatugunge,Hatugunge,22.176600,88.253090,0
+bus_hazra,Hazra,22.522720,88.349920,0
+bus_hazra_more,Hazra More,22.522720,88.349920,0
+bus_hazra_xing,Hazra xing,22.522720,88.349920,0
+bus_hedua_more,Hedua More,22.587920,88.368910,0
+bus_heria,Heria,22.318080,88.376340,0
+bus_hide_road,Hide Road,22.517510,88.303610,0
+bus_high_court,High Court,22.568580,88.343500,0
+bus_highland_park,Highland Park,22.484190,88.390130,0
+bus_hiland_park,Hiland Park,22.484750,88.388630,0
+bus_hind_cinema,Hind Cinema,22.564890,88.359080,0
+bus_hingalgunge,Hingalgunge,22.472750,88.987110,0
+bus_hiranmoypur,Hiranmoypur,22.127470,88.678870,0
+bus_howrah,Howrah,22.583360,88.340350,0
+bus_howrah_bridge,Howrah Bridge,22.585070,88.346890,0
+bus_howrah_bridge_east,Howrah Bridge East,22.585070,88.346890,0
+bus_howrah_bus_stand_executive,Howrah bus stand (Executive),22.586180,88.342980,0
+bus_howrah_court,Howrah Court,22.581030,88.336550,0
+bus_howrah_maidan,Howrah Maidan,22.582920,88.333650,0
+bus_howrah_maidan_amtala_phari,Howrah Maidan (Amtala Phari),22.582920,88.333650,0
+bus_howrah_station,Howrah Station,22.583360,88.340350,0
+bus_howrah_station_30_min_stop,Howrah Station (30 min stop),22.583360,88.340350,0
+bus_hridaypur,Hridaypur,22.711000,88.470000,0
+bus_hridaypur_more,Hridaypur More,22.711000,88.470000,0
+bus_hudco,HUDCO,22.590020,88.393300,0
+bus_hudco_more,Hudco More,22.590020,88.393300,0
+bus_hyatt_regency,Hyatt Regency,22.570390,88.405220,0
+bus_ibm,IBM,22.571840,88.434550,0
+bus_ichapur_more,Ichapur More,22.592640,88.305930,0
+bus_id_hospital,ID Hospital,22.564980,88.397270,0
+bus_iim_joka,IIM Joka,22.443180,88.303130,0
+bus_indian_statistical_institute,Indian Statistical Institute,22.649070,88.376590,0
+bus_indranarayanpur,Indranarayanpur,21.906280,88.381190,0
+bus_infospace,Infospace,22.575050,88.483060,0
+bus_jadavpur,Jadavpur,22.495280,88.372940,0
+bus_jadavpur_8b,Jadavpur 8B,22.495650,88.370610,0
+bus_jadavpur_ps,Jadavpur PS,22.495280,88.372940,0
+bus_jadavpur_thana,Jadavpur Thana,22.502960,88.367730,0
+bus_jadavpur_university,Jadavpur University,22.500210,88.369590,0
+bus_jafarpur_barasat,Jafarpur(Barasat),22.417620,88.487450,0
+bus_jagatballavpur,Jagatballavpur,22.684350,88.106580,0
+bus_jagulgachi,Jagulgachi,22.485120,88.615300,0
+bus_jaleswar,Jaleswar,22.930930,88.706760,0
+bus_jalilpur,Jalilpur,22.361780,88.327840,0
+bus_james_long_crossing,James long Crossing,22.477720,88.313060,0
+bus_jamirgachi,Jamirgachi,22.554560,88.626170,0
+bus_jamtala,Jamtala,22.093210,88.573990,0
+bus_janakalyan,Janakalyan,22.484620,88.312660,0
+bus_jaynagar_post_office,Jaynagar Post office,22.177440,88.422730,0
+bus_jharkhali,Jharkhali,22.049710,88.668740,0
+bus_jhikra_battala,Jhikra Battala,22.887000,88.647430,0
+bus_jhinjhira_bazar,Jhinjhira Bazar,22.517230,88.297810,0
+bus_jodhpur_park,Jodhpur Park,22.505610,88.363670,0
+bus_jogesh_chandra_college,Jogesh Chandra College,22.501300,88.350300,0
+bus_jora_girja,Jora Girja,22.554950,88.364780,0
+bus_jorabagan,Jorabagan,22.591760,88.356580,0
+bus_joramandir,Joramandir,22.613240,88.429700,0
+bus_jyangra,Jyangra,22.617650,88.434640,0
+bus_jyotishpur,Jyotishpur,22.131250,88.711160,0
+bus_kachari_bazar,Kachari Bazar,22.366370,88.428090,0
+bus_kaikhali,Kaikhali,22.634420,88.434620,0
+bus_kajla,Kajla,22.877620,88.651690,0
+bus_kakdwip_station_bamuner_more,Kakdwip Station (Bamuner More),21.870760,88.185780,0
+bus_kalidanga,Kalidanga,22.182260,88.716630,0
+bus_kalighat,Kalighat,22.517000,88.346220,0
+bus_kalikapur,Kalikapur,22.502640,88.400700,0
+bus_kalinagar_more,Kalinagar More,22.424260,88.204540,0
+bus_kalindi,Kalindi,22.609430,88.400550,0
+bus_kalindi_more,Kalindi More,22.609430,88.400550,0
+bus_kalyan_nagar,Kalyan Nagar,22.718530,88.389220,0
+bus_kalyangarh,Kalyangarh,22.838740,88.624600,0
+bus_kalyangarh_more,Kalyangarh More,22.838740,88.624600,0
+bus_kamalgazi,Kamalgazi,22.446780,88.390260,0
+bus_kamarhati,Kamarhati,22.681020,88.371530,0
+bus_kampa_more,Kampa More,22.933440,88.457080,0
+bus_kanchrapara,Kanchrapara,22.946240,88.451380,0
+bus_kankurgachi,Kankurgachi,22.580210,88.390430,0
+bus_kantaltala,Kantaltala,22.942460,88.644720,0
+bus_kanthalberia,Kanthalberia,22.304230,88.696110,0
+bus_karbala,Karbala,22.539050,88.267750,0
+bus_karigari_bhawan,Karigari Bhawan,22.559220,88.491560,0
+bus_karunamoyee,Karunamoyee,22.585990,88.420910,0
+bus_kasba,Kasba,22.504440,88.372170,0
+bus_kasba_thana,Kasba Thana,22.519590,88.376980,0
+bus_kashinagar,Kashinagar,21.905010,88.200800,0
+bus_kashipur,Kashipur,22.123790,88.330280,0
+bus_kashtodanga,Kashtodanga,22.969830,88.629350,0
+bus_katlia_more,Katlia More,22.616170,88.253840,0
+bus_kayrapur,Kayrapur,22.791990,88.392350,0
+bus_kendua,Kendua,22.476750,88.381020,0
+bus_kestopur,Kestopur,22.603820,88.424280,0
+bus_khalisani,Khalisani,22.512510,88.130120,0
+bus_khalore_more,Khalore More,22.458070,87.972850,0
+bus_khandalia,Khandalia,22.258950,88.107760,0
+bus_khardah,Khardah,22.725280,88.372820,0
+bus_khardaha,Khardaha,22.715700,88.381580,0
+bus_kharibari,Kharibari,22.646300,88.552040,0
+bus_khariberia,Khariberia,22.397920,88.277370,0
+bus_khashmallik,Khashmallik,22.377980,88.421350,0
+bus_khiddirpur,Khiddirpur,22.537620,88.315820,0
+bus_khulna,Khulna,22.556480,88.355910,0
+bus_kidderpore,Kidderpore,22.535380,88.320610,0
+bus_kolkata_leather_complex,Kolkata Leather Complex,22.497110,88.515900,0
+bus_kolkata_station,Kolkata Station,22.601510,88.382210,0
+bus_kona,Kona,22.618470,88.296880,0
+bus_kona_expressway,Kona Expressway,22.596760,88.263080,0
+bus_kona_expressway_more,Kona Expressway More,22.596760,88.263080,0
+bus_kona_xing,Kona Xing,22.617920,88.304290,0
+bus_kudghat,Kudghat,22.481370,88.345820,0
+bus_kudghat_2,Kudghat,22.481370,88.345820,0
+bus_kulgachia,Kulgachia,22.472090,88.020600,0
+bus_kustia_more,Kustia More,22.523410,88.379680,0
+bus_laboni,Laboni,22.582970,88.405620,0
+bus_lake_gardens,Lake Gardens,22.506900,88.355020,0
+bus_lake_mall,Lake Mall,22.516460,88.348850,0
+bus_lake_road,Lake Road,22.510930,88.366120,0
+bus_lake_town_jaya_cinema,Lake Town (Jaya Cinema),22.599420,88.406400,0
+bus_lake_town_jessore_road,Lake Town Jessore Road,22.609590,88.398050,0
+bus_lake_town_xing,Lake Town Xing,22.605730,88.402960,0
+bus_laketown,Laketown,22.609750,88.402640,0
+bus_laketown_vip,Laketown(VIP),22.609750,88.402640,0
+bus_lakshmikantapur_station,Lakshmikantapur Station,22.371220,88.329010,0
+bus_lalbaba_college,Lalbaba College,22.636490,88.351770,0
+bus_lansdowne,Lansdowne,22.525910,88.352540,0
+bus_laxmi_bazar,Laxmi Bazar,22.533760,88.353160,0
+bus_layalka,Layalka,22.485540,88.369610,0
+bus_lebutala,Lebutala,22.666700,88.639940,0
+bus_library_more,Library More,22.532560,88.333480,0
+bus_liluah,Liluah,22.620900,88.339400,0
+bus_liluah_station,Liluah Station,22.620900,88.339400,0
+bus_m_r_bangur_hospital,M.R Bangur Hospital,22.499230,88.346450,0
+bus_madhabpur_more,Madhabpur More,22.046590,88.565760,0
+bus_madhyamgram,Madhyamgram,22.698880,88.467690,0
+bus_maidan,Maidan,22.550010,88.345130,0
+bus_maipith,Maipith,21.918940,88.549120,0
+bus_majherhat,Majherhat,22.519100,88.322890,0
+bus_makardaha,Makardaha,22.628690,88.236680,0
+bus_makrampur,Makrampur,22.419080,88.520230,0
+bus_mallick_bazar,Mallick Bazar,22.546800,88.361400,0
+bus_mandabtala,Mandabtala,22.147530,88.315280,0
+bus_mandirbazar,Mandirbazar,22.162150,88.319670,0
+bus_mani_square,Mani Square,22.577840,88.400570,0
+bus_manicktala,Manicktala,22.584150,88.378900,0
+bus_maniktala,Maniktala,22.588090,88.385280,0
+bus_manoharpukur,Manoharpukur,22.519830,88.350100,0
+bus_manton,Manton,22.494860,88.316610,0
+bus_matgaran,Matgaran,22.176600,88.734140,0
+bus_mathkal,Mathkal,22.651990,88.402230,0
+bus_mathpukur,Mathpukur,22.548670,88.400520,0
+bus_matla_bridge,Matla Bridge,22.305590,88.679340,0
+bus_mayapur,Mayapur,22.869020,87.867190,0
+bus_mayo_road,Mayo Road,22.558610,88.349070,0
+bus_mayo_road_crossing,Mayo Road crossing,22.558610,88.349070,0
+bus_medica_hospital,Medica Hospital,22.494100,88.401000,0
+bus_metiabruz,Metiabruz,22.543570,88.267930,0
+bus_metro_cash_and_carry,Metro cash and carry,22.496760,88.398940,0
+bus_metropolitan,Metropolitan,22.552390,88.406400,0
+bus_middle_rd,Middle Rd,22.548750,88.328330,0
+bus_mint,Mint,22.515970,88.322950,0
+bus_minto_park,Minto Park,22.541810,88.354720,0
+bus_mirhati,Mirhati,22.775280,88.497350,0
+bus_mirhati_more,Mirhati More,22.775280,88.497350,0
+bus_mission_pally,Mission Pally,22.439730,88.418050,0
+bus_mission_row_xing,Mission Row Xing,22.569620,88.353270,0
+bus_mominpore,Mominpore,22.527050,88.326100,0
+bus_mominpur,Mominpur,22.524590,88.321880,0
+bus_moonbeam,Moonbeam,22.630120,88.467400,0
+bus_muchipara,Muchipara,22.566660,88.365340,0
+bus_mudiali,Mudiali,22.510080,88.346540,0
+bus_mugkalyan,Mugkalyan,22.412600,87.977400,0
+bus_mukundapur,Mukundapur,22.492060,88.396770,0
+bus_nabadiganta,Nabadiganta,22.576640,88.438970,0
+bus_nabadiganta_bus_terminus,Nabadiganta Bus Terminus,22.576640,88.438970,0
+bus_nabanna,Nabanna,22.567570,88.313690,0
+bus_nachinda,Nachinda,21.873800,87.752160,0
+bus_nadial,Nadial,22.555350,88.263310,0
+bus_nafargange,Nafargange,22.108790,88.654190,0
+bus_nagarukhra,Nagarukhra,22.937240,88.639590,0
+bus_nagarukhra_more,Nagarukhra More,22.844510,88.659940,0
+bus_nagerbazar,Nagerbazar,22.622810,88.414130,0
+bus_naihati,Naihati,22.886610,88.424200,0
+bus_naihati_bus_terminus,Naihati Bus terminus,22.886610,88.424200,0
+bus_nainan,Nainan,22.274780,88.350640,0
+bus_naktala,Naktala,22.473870,88.361970,0
+bus_naktala_garia,Naktala ( Garia ),22.473870,88.361970,0
+bus_nalmuri,Nalmuri,22.491020,88.597460,0
+bus_narayantala,Narayantala,22.267940,88.696160,0
+bus_narendrapur,Narendrapur,22.439110,88.396750,0
+bus_narkelbagan,Narkelbagan,22.578580,88.471670,0
+bus_narkelbagan_biswa_bangla,Narkelbagan (Biswa Bangla),22.578580,88.471670,0
+bus_natagachi,Natagachi,22.428660,88.480240,0
+bus_nazrul_tirtha,Nazrul Tirtha,22.581950,88.448510,0
+bus_neelgunge,Neelgunge,22.748250,88.419730,0
+bus_new_alipore,New Alipore,22.510530,88.335430,0
+bus_new_alipore_petrol_pump,New Alipore Petrol pump,22.509030,88.332840,0
+bus_new_barrackpore,New Barrackpore,22.686420,88.444630,0
+bus_new_garia_metro,New garia metro,22.490860,88.395860,0
+bus_new_market,New Market,22.559570,88.353950,0
+bus_new_town_bus_depot,New Town Bus Depot,22.582660,88.453920,0
+bus_newtown,Newtown,22.581610,88.452730,0
+bus_newtown_bus_stand,Newtown Bus Stand,22.578680,88.474860,0
+bus_newtown_bus_terminus,Newtown Bus Terminus,22.581610,88.452730,0
+bus_nicco_park,Nicco Park,22.572150,88.420830,0
+bus_nimpith,Nimpith,22.157210,88.439780,0
+bus_nimta,Nimta,22.667210,88.386480,0
+bus_nimta_bazar,Nimta Bazar,22.653660,88.397350,0
+bus_nimtala_ghat,Nimtala Ghat,22.593550,88.351710,0
+bus_nimtala_ghat_st,Nimtala Ghat St,22.592310,88.356560,0
+bus_nonapukur,Nonapukur,22.550430,88.362860,0
+bus_noorpur,Noorpur,22.216670,88.079650,0
+bus_novotel,Novotel,22.579650,88.461450,0
+bus_nrs_hospital,NRS Hospital,22.564900,88.368440,0
+bus_om_dayal,Om Dayal,22.588660,88.361860,0
+bus_padmerhat_hospital,Padmerhat Hospital,22.244870,88.447390,0
+bus_paikpara,Paikpara,22.616050,88.379100,0
+bus_palmer_bazar,Palmer Bazar,22.562820,88.378000,0
+bus_palta,Palta,22.781480,88.368310,0
+bus_paltapara,Paltapara,22.805460,88.393340,0
+bus_panchasayar,Panchasayar,22.476050,88.397080,0
+bus_panchpota,Panchpota,22.468120,88.419650,0
+bus_pantihal,pantihal,22.658900,88.113460,0
+bus_paribesh_bhavan,Paribesh Bhavan,22.561470,88.408800,0
+bus_park_circus,Park Circus,22.539330,88.371060,0
+bus_park_circus_7_point,Park Circus 7 Point,22.543320,88.366130,0
+bus_park_circus_7_point_crossing,Park Circus 7 Point crossing,22.543320,88.366130,0
+bus_park_circus_ruby_hospital,Park Circus (Ruby Hospital),22.539330,88.371060,0
+bus_park_circus_station,Park Circus Station,22.540780,88.373880,0
+bus_park_circus_tram_depot,Park Circus tram Depot,22.541910,88.366670,0
+bus_park_street,Park Street,22.554890,88.350220,0
+bus_parnashree,Parnashree,22.509020,88.299140,0
+bus_paschim_tajpur,Paschim Tajpur,22.757060,88.188110,0
+bus_patharberia_more,Patharberia More,22.368630,88.209590,0
+bus_patharghata,Patharghata,22.568460,88.501900,0
+bus_patipukur,Patipukur,22.606550,88.395250,0
+bus_patuli,Patuli,22.471900,88.389770,0
+bus_patuli_more,Patuli More,22.471900,88.389770,0
+bus_peerless,Peerless,22.480980,88.393760,0
+bus_peerless_hospital,Peerless Hospital,22.480980,88.393760,0
+bus_pg_hospital,PG Hospital,22.539950,88.342350,0
+bus_phoolbagan,Phoolbagan,22.572090,88.389640,0
+bus_phulia,Phulia,23.232050,88.496750,0
+bus_pitambara,Pitambara,22.256730,88.169620,0
+bus_pk_st,Pk St,22.550640,88.355870,0
+bus_pnb,PNB,22.591390,88.399790,0
+bus_pnb_island,PNB island,22.591490,88.399680,0
+bus_pnb_more,PNB More,22.583860,88.404350,0
+bus_podra,Podra,22.564420,88.269700,0
+bus_post_office,Post Office,22.519540,88.376210,0
+bus_prachi_cinema_hall,Prachi Cinema Hall,22.564880,88.368260,0
+bus_prafulla_nagar,Prafulla Nagar,22.615990,88.405140,0
+bus_prince_anwar_shah_road,Prince Anwar Shah Road,22.501350,88.344930,0
+bus_princep_ghat,Princep Ghat,22.556670,88.331200,0
+bus_purandarpur,Purandarpur,22.367930,88.420520,0
+bus_purshura,Purshura,22.840820,87.966180,0
+bus_quest_mall,Quest Mall,22.539050,88.365730,0
+bus_r_g_kar_hospital,R.G.Kar Hospital,22.604480,88.378410,0
+bus_r_s_software,R.S Software,22.576860,88.434930,0
+bus_rabindra_bharati_university,Rabindra Bharati University,22.627080,88.380520,0
+bus_rabindra_sadan,Rabindra Sadan,22.541490,88.347350,0
+bus_rabindra_sadan_diamond_park,Rabindra Sadan (Diamond Park),22.541490,88.347350,0
+bus_rabindra_sadan_exide_more,Rabindra Sadan ( Exide More),22.541490,88.347350,0
+bus_rabindra_sadan_kidderpore,Rabindra Sadan (Kidderpore),22.541490,88.347350,0
+bus_rabindra_sadan_parnasree,Rabindra Sadan (Parnasree),22.541490,88.347350,0
+bus_rabindra_sarobar_stadium,Rabindra Sarobar Stadium,22.511650,88.352250,0
+bus_rabindra_sarovar,Rabindra Sarovar,22.507220,88.345490,0
+bus_rabindra_tirtha,Rabindra Tirtha,22.579250,88.473210,0
+bus_radhanagar,Radhanagar,22.128900,88.223160,0
+bus_radhapur,Radhapur,22.245090,87.997540,0
+bus_raghunathpur,Raghunathpur,22.618830,88.432430,0
+bus_rahara_bazar,Rahara Bazar,22.723900,88.386810,0
+bus_raichak,Raichak,22.209070,88.123540,0
+bus_raidighi,Raidighi,22.484610,88.295900,0
+bus_rajabazar,Rajabazar,22.574240,88.373440,0
+bus_rajabazar_science_college,Rajabazar Science College,22.579110,88.372850,0
+bus_rajabazar_tram_depot,Rajabazar Tram Depot,22.574210,88.373800,0
+bus_rajarhat_chowmatha,Rajarhat Chowmatha,22.626690,88.488980,0
+bus_rajchandrapur,Rajchandrapur,22.652910,88.321310,0
+bus_rajchandrapur_ballyhalt,Rajchandrapur (Ballyhalt),22.652910,88.321310,0
+bus_rajdanga,Rajdanga,22.514370,88.392810,0
+bus_rajpur,Rajpur,22.422990,88.411200,0
+bus_rajpur_bazar,Rajpur Bazar,22.422790,88.410620,0
+bus_rambati,Rambati,22.138800,88.381950,0
+bus_ramdhari,Ramdhari,22.339470,88.567120,0
+bus_ramgarh,Ramgarh,22.476090,88.374690,0
+bus_ramlal_bazar,Ramlal Bazar,22.507530,88.385150,0
+bus_rampur,Rampur,22.421270,88.463060,0
+bus_ramrajatala,Ramrajatala,22.588660,88.296670,0
+bus_raniganj,Raniganj,23.241630,87.865950,0
+bus_rasapunja,Rasapunja,22.438060,88.267540,0
+bus_rash_behari_avenue,Rash Behari Avenue,22.518440,88.358400,0
+bus_rashbehari,Rashbehari,22.517170,88.345560,0
+bus_rashbehari_crossing_kalighat,Rashbehari Crossing ( Kalighat ),22.517170,88.345560,0
+bus_rashbehari_xing,Rashbehari Xing,22.521220,88.370300,0
+bus_rashmoni_bazar,Rashmoni Bazar,22.563660,88.392190,0
+bus_regentpark,Regentpark,22.488450,88.356010,0
+bus_ring_road,Ring Road,22.567250,88.436310,0
+bus_ripon_street,Ripon Street,22.550360,88.359890,0
+bus_rishra,Rishra,22.724710,88.343440,0
+bus_ruby,Ruby,22.513640,88.401570,0
+bus_ruby_crossing,Ruby Crossing,22.513630,88.400520,0
+bus_ruby_hospital,Ruby Hospital,22.513010,88.402180,0
+bus_s_d_f_more,S.D.F. More,22.568810,88.430620,0
+bus_sabedabagan,Sabedabagan,22.653050,88.373140,0
+bus_saduli,Saduli,22.554900,88.569780,0
+bus_safuipara,Safuipara,22.502360,88.384380,0
+bus_sahitya_parishad,Sahitya Parishad,22.591190,88.372480,0
+bus_saihati,Saihati,22.473440,88.604710,0
+bus_sajirhat,Sajirhat,22.696260,88.440070,0
+bus_sajnaberia,Sajnaberia,22.441380,88.331180,0
+bus_sakher_bazar,Sakher Bazar,22.474850,88.309960,0
+bus_sakherbazar_behala,Sakherbazar (Behala),22.474850,88.309960,0
+bus_sales_tax,Sales Tax,22.566060,88.380000,0
+bus_saltlake,Saltlake,22.590420,88.416920,0
+bus_saltlake_206,Saltlake 206,22.590420,88.416920,0
+bus_saltlake_ee_block_bus_stop,Saltlake EE Block Bus Stop,22.582240,88.424210,0
+bus_saltlake_gate,Saltlake Gate,22.589860,88.396800,0
+bus_saltlake_stadium,Saltlake Stadium,22.568990,88.411520,0
+bus_sankizahan,Sankizahan,22.050070,88.588070,0
+bus_sankrail,Sankrail,22.558780,88.228280,0
+bus_sankrail_station,Sankrail Station,22.558780,88.228280,0
+bus_santoshpur,Santoshpur,22.496050,88.382230,0
+bus_santoshpur_2,Santoshpur,22.775840,88.499910,0
+bus_santoshpur_station,Santoshpur Station,22.524060,88.271070,0
+bus_santragachi,Santragachi,22.585470,88.282940,0
+bus_santragachi_bus_terminus,Santragachi Bus Terminus,22.585470,88.282940,0
+bus_santragachi_newtown_version,Santragachi (Newtown Version),22.585470,88.282940,0
+bus_santragachi_station,Santragachi Station,22.585470,88.282940,0
+bus_sarasberia,Sarasberia,21.995400,88.322130,0
+bus_sarisha_246_more,Sarisha 246 more,22.245870,88.188830,0
+bus_sarkar_bazar,Sarkar Bazar,22.565010,88.385390,0
+bus_sarsuna,Sarsuna,22.470320,88.281100,0
+bus_sarsuna_bus_terminus,Sarsuna Bus terminus,22.470320,88.281100,0
+bus_science_city,Science City,22.539670,88.397570,0
+bus_sdf,SDF,22.569100,88.430700,0
+bus_sealdah,Sealdah,22.570020,88.369410,0
+bus_sealdah_court,Sealdah Court,22.565550,88.369680,0
+bus_sealdah_rajabajar,Sealdah(Rajabajar),22.566950,88.369760,0
+bus_sealdah_rajabazar_t_d,Sealdah (Rajabazar T.D. ),22.566950,88.369760,0
+bus_sealdah_station,Sealdah Station,22.565420,88.369940,0
+bus_sec_v,Sec V,22.575450,88.432260,0
+bus_sech_bhawan,Sech Bhawan,22.575090,88.433770,0
+bus_sector_5,Sector 5,22.580350,88.429630,0
+bus_sector_v,Sector V,22.573900,88.438750,0
+bus_sector_v_saltlake,Sector V (Saltlake),22.573710,88.438630,0
+bus_serampore,Serampore,22.754790,88.339990,0
+bus_seva_hospital,Seva Hospital,22.591000,88.410820,0
+bus_shakuntala_park,Shakuntala Park,22.485080,88.289580,0
+bus_shalimar,Shalimar,22.560840,88.311340,0
+bus_shalimar_station,Shalimar Station,22.562350,88.310040,0
+bus_shamali,Shamali,22.416880,88.263160,0
+bus_shapoorji,Shapoorji,22.566330,88.514080,0
+bus_sherpur_kalibari,Sherpur Kalibari,22.832730,88.627940,0
+bus_shibalaya,Shibalaya,22.773270,88.518050,0
+bus_shibgunge,Shibgunge,22.167350,88.709960,0
+bus_shibpur_bazar,Shibpur Bazar,22.565760,88.323220,0
+bus_shibrampur,Shibrampur,22.482880,88.271960,0
+bus_shibtala,Shibtala,22.572110,88.322440,0
+bus_shibtala_math,Shibtala Math,22.545050,88.378050,0
+bus_shimultala,Shimultala,22.444280,88.409830,0
+bus_shrikrishnapur,Shrikrishnapur,22.393400,88.537050,0
+bus_shyambazar,Shyambazar,22.599660,88.370990,0
+bus_singhabari,Singhabari,22.501200,88.400220,0
+bus_sinthee_more,Sinthee More,22.631930,88.377870,0
+bus_sinthi,Sinthi,22.630990,88.380230,0
+bus_sirishbagan,Sirishbagan,22.567460,88.481940,0
+bus_sishu_mangal,Sishu Mangal,22.523580,88.352100,0
+bus_sishu_mangal_kasba,Sishu Mangal (Kasba),22.523580,88.352100,0
+bus_situri,Situri,22.446840,88.590100,0
+bus_sodepur,Sodepur,22.697180,88.380560,0
+bus_sodepur_station,Sodepur Station,22.697180,88.380560,0
+bus_sodepur_traffic_more,Sodepur Traffic more,22.700780,88.374820,0
+bus_sonakhali,Sonakhali,22.204720,88.716270,0
+bus_sonakhali_bus_stand,Sonakhali Bus Stand,22.221730,88.692860,0
+bus_sonarpur,Sonarpur,22.400230,88.176030,0
+bus_sonarpur_station,Sonarpur Station,22.443190,88.430340,0
+bus_sondalia_station,Sondalia Station,22.681820,88.582300,0
+bus_south_city,South City,22.495260,88.338530,0
+bus_sovabazar,Sovabazar,22.594030,88.362510,0
+bus_sreebhumi,Sreebhumi,22.598110,88.403610,0
+bus_srichanda,Srichanda,22.284380,88.271790,0
+bus_state_garage,State Garage,22.514760,88.305620,0
+bus_strand_road,Strand Road,22.577560,88.347670,0
+bus_subhash_sarobar,Subhash Sarobar,22.568400,88.400920,0
+bus_subodh_mullick_square,Subodh Mullick Square,22.563860,88.359690,0
+bus_sujapur,Sujapur,22.309270,88.137470,0
+bus_sukanta_setu,Sukanta Setu,22.491230,88.372310,0
+bus_sukhobrishti,Sukhobrishti,22.570040,88.510840,0
+bus_sukhobrishti_more,Sukhobrishti More,22.570040,88.510840,0
+bus_sukiya_street,Sukiya Street,22.581780,88.374030,0
+bus_sulekha,Sulekha,22.491330,88.372660,0
+bus_sundia,Sundia,22.437730,88.537860,0
+bus_sutahata,Sutahata,22.121390,88.109600,0
+bus_swabhumi,Swabhumi,22.570860,88.401150,0
+bus_swasthya_bhawan,Swasthya Bhawan,22.570840,88.426390,0
+bus_t_depot,T.DEPOT,22.533480,88.310600,0
+bus_taldi,Taldi,22.344260,88.610410,0
+bus_talikhola,Talikhola,23.195420,88.850810,0
+bus_talpukur,Talpukur,22.748780,88.378940,0
+bus_tangra,Tangra,22.543990,88.389300,0
+bus_tangra_more,Tangra More,22.543990,88.389300,0
+bus_tank_10,Tank 10,22.582210,88.424090,0
+bus_tank_4,Tank 4,22.597140,88.409320,0
+bus_tank_no_10,Tank No.10,22.582180,88.423970,0
+bus_tank_no_4,Tank no. 4,22.597190,88.409290,0
+bus_taratala,Taratala,22.513250,88.322550,0
+bus_taratala_more,Taratala More,22.513180,88.322520,0
+bus_taratala_xing,Taratala Xing,22.507700,88.320360,0
+bus_tata_medical,Tata Medical,22.576350,88.479110,0
+bus_techno_india,Techno India,22.576830,88.429350,0
+bus_technopolis,Technopolis,22.580380,88.438010,0
+bus_tegharia,Tegharia,22.621400,88.432770,0
+bus_teghoria,Teghoria,22.625820,88.434780,0
+bus_thakdari,Thakdari,22.585930,88.437040,0
+bus_thakurpukur,Thakurpukur,22.463450,88.311530,0
+bus_thakurpukur_3a,Thakurpukur 3A,22.462540,88.315530,0
+bus_thakurpukur_3a_bus_stand,Thakurpukur 3A Bus Stand,22.462540,88.315530,0
+bus_thakurpukur_bazar,Thakurpukur Bazar,22.463230,88.306750,0
+bus_thakurpukur_cancer_hospital,Thakurpukur cancer hospital,22.459020,88.319500,0
+bus_the_westin,The Westin,22.595990,88.473470,0
+bus_tikiapara,Tikiapara,22.598580,88.324030,0
+bus_titagarh,Titagarh,22.741520,88.376890,0
+bus_titagarh_p_s,Titagarh P.S,22.741520,88.376890,0
+bus_tobin_road,Tobin Road,22.638340,88.375910,0
+bus_tollygunge,Tollygunge,22.507750,88.347720,0
+bus_tollygunge_metro,Tollygunge Metro,22.494690,88.345480,0
+bus_tollygunj_tram_depot,Tollygunj Tram Depot,22.493980,88.346170,0
+bus_topsia,Topsia,22.541800,88.386960,0
+bus_topsia_more,Topsia More,22.541800,88.386960,0
+bus_topsia_road_xing,Topsia Road Xing,22.536420,88.382300,0
+bus_ultadanga,Ultadanga,22.596130,88.385280,0
+bus_ultadanga_salt_lake_ultadanga,Ultadanga - Salt Lake-Ultadanga,22.587870,88.397690,0
+bus_ultadanga_station,Ultadanga station,22.596130,88.385280,0
+bus_unitech,Unitech,22.575050,88.483060,0
+bus_unitech_gate_1,Unitech Gate 1,22.574450,88.479960,0
+bus_unitech_gate_2,Unitech Gate 2,22.575050,88.483060,0
+bus_unitech_gate_no_1,Unitech Gate No. 1,22.575050,88.483060,0
+bus_usthi,Usthi,22.232260,88.272880,0
+bus_uttar_chandipur,Uttar Chandipur,22.149960,88.254640,0
+bus_uttar_durgapur,Uttar Durgapur,22.187650,88.429480,0
+bus_uttar_panchannagram,Uttar Panchannagram,22.530670,88.395420,0
+bus_uttar_ramkrishnapur,Uttar Ramkrishnapur,22.146070,88.226060,0
+bus_uttar_sonakhali,Uttar Sonakhali,22.239270,88.693280,0
+bus_uttarbhag,Uttarbhag,22.347620,88.493960,0
+bus_uttarpara,Uttarpara,22.667050,88.341150,0
+bus_vip_bazar,VIP Bazar,22.526090,88.395670,0
+bus_vivekananda_bridge,Vivekananda Bridge,22.652970,88.353860,0
+bus_vivekananda_road,Vivekananda Road,22.584480,88.377100,0
+bus_watgangemore,Watgangemore,22.542330,88.321860,0
+bus_webel,Webel,22.571970,88.432280,0
+bus_westin,Westin,22.595990,88.473470,0
+bus_wipro,Wipro,22.579000,88.426700,0
+bus_wipro_more,Wipro More,22.578950,88.426620,0
+bus_zeeshan_crossing,Zeeshan Crossing,22.541330,88.365900,0
+ferry_ahiritola,Ahiritola Ghat,22.596397,88.353298,0
+ferry_babughat,Babughat / Chandpal Ghat,22.568108,88.340771,0
+ferry_bagbazar,Bagbazar Launch Ghat,22.604514,88.363939,0
+ferry_belur_math,Belur Math Ghat,22.630232,88.358677,0
+ferry_dakshineswar,Dakshineswar Ghat,22.653648,88.357549,0
+ferry_dhobi_ghat,"Dhobi Ghat (east bank, Barrackpore side)",22.764809,88.344968,0
+ferry_dui_paisar_ghat,"Dui Paisar Ghat (east bank, Barrackpore side)",22.777448,88.333516,0
+ferry_fairlie,Fairlie Ghat (Fairlie Place),22.576229,88.345555,0
+ferry_howrah,Howrah Station Ghat (Howrah Launch Ghat),22.582663,88.343791,0
+ferry_jugal_auddy_ghat,"Jugal Auddy Ferry Ghat (west bank, Serampore side)",22.759080,88.342317,0
+ferry_khardah,Khardah Ghat,22.722721,88.361983,0
+ferry_millennium_park,Millennium Park (Shipping) Jetty,22.572706,88.343749,0
+ferry_rishra,Rishra Ferry Ghat,22.721267,88.355140,0
+ferry_sheoraphuli,Sheoraphuli Ghat,22.777377,88.329996,0
+ferry_shobhabazar,Shobhabazar Ghat,22.599299,88.356603,0
+metro_baranagar,Baranagar,22.653095,88.380680,0
+metro_barun_sengupta,Barun Sengupta,22.543806,88.399273,0
+metro_behala_bazar,Behala Bazar,22.498801,88.317336,0
+metro_behala_chowrasta,Behala Chowrasta,22.487412,88.313316,0
+metro_beleghata,Beleghata,22.550704,88.403993,0
+metro_belgachia,Belgachia,22.606021,88.386378,0
+metro_bengal_chemical,Bengal Chemical,22.579975,88.401360,0
+metro_central,Central,22.572468,88.358729,0
+metro_central_park,Central Park,22.590379,88.415640,0
+metro_chandni_chowk,Chandni Chowk,22.567007,88.354182,0
+metro_city_centre,City Centre,22.586971,88.407929,0
+metro_dakshineswar,Dakshineswar,22.654033,88.363754,0
+metro_dum_dum,Dum Dum,22.620919,88.392840,0
+metro_dum_dum_cantonment,Dum Dum Cantonment,22.637595,88.412164,0
+metro_esplanade_blue,Esplanade,22.563645,88.351138,0
+metro_esplanade_green,Esplanade,22.564157,88.350246,0
+metro_girish_park,Girish Park,22.587066,88.362919,0
+metro_gitanjali,Gitanjali,22.469392,88.370018,0
+metro_hemanta_mukhopadhyay,Hemanta Mukhopadhyay,22.514852,88.401432,0
+metro_howrah,Howrah,22.583342,88.340153,0
+metro_howrah_maidan,Howrah Maidan,22.583766,88.334029,0
+metro_jai_hind,Jai Hind,22.647303,88.437303,0
+metro_jatin_das_park,Jatin Das Park,22.524112,88.346468,0
+metro_jessore_road,Jessore Road,22.639264,88.429773,0
+metro_joka,Joka,22.452387,88.301827,0
+metro_jyotirindra_nandi,Jyotirindra Nandi,22.495624,88.398450,0
+metro_kalighat,Kalighat,22.516928,88.345795,0
+metro_karunamoyee,Karunamoyee,22.586284,88.421546,0
+metro_kavi_nazrul,Kavi Nazrul,22.464186,88.380581,0
+metro_kavi_subhash_orange,Kavi Subhash,22.471018,88.398198,0
+metro_kavi_sukanta,Kavi Sukanta,22.505300,88.400997,0
+metro_mahakaran,Mahakaran,22.572057,88.350517,0
+metro_mahanayak_uttam_kumar,Mahanayak Uttam Kumar,22.494779,88.344963,0
+metro_mahatma_gandhi_road,Mahatma Gandhi Road,22.580944,88.361327,0
+metro_maidan,Maidan,22.549542,88.348736,0
+metro_majerhat,Majerhat,22.519071,88.323642,0
+metro_masterda_surya_sen,Masterda Surya Sen,22.473441,88.360847,0
+metro_netaji,Netaji,22.481003,88.346005,0
+metro_netaji_bhavan,Netaji Bhavan,22.533236,88.345934,0
+metro_noapara_blue,Noapara,22.639974,88.394083,0
+metro_noapara_yellow,Noapara,22.639938,88.394247,0
+metro_park_street,Park Street,22.555128,88.350044,0
+metro_phoolbagan,Phoolbagan,22.572058,88.390264,0
+metro_rabindra_sadan,Rabindra Sadan,22.541608,88.347232,0
+metro_rabindra_sarobar,Rabindra Sarobar,22.507405,88.345455,0
+metro_ritwik_ghatak,Ritwik Ghatak,22.532996,88.396425,0
+metro_sakher_bazar,Sakher Bazar,22.474895,88.309913,0
+metro_salt_lake_sector_v,Salt Lake Sector V,22.580918,88.429034,0
+metro_salt_lake_stadium,Salt Lake Stadium,22.572970,88.403104,0
+metro_satyajit_ray,Satyajit Ray,22.484677,88.392648,0
+metro_sealdah,Sealdah,22.566445,88.370037,0
+metro_shahid_khudiram,Shahid Khudiram,22.465955,88.391683,0
+metro_shobhabazar_sutanuti,Shobhabazar Sutanuti,22.595833,88.365069,0
+metro_shyambazar,Shyambazar,22.601418,88.372478,0
+metro_taratala,Taratala,22.507703,88.320330,0
+metro_thakurpukur,Thakurpukur,22.464414,88.307508,0
+metro_vip_bazar,VIP Bazar,22.524685,88.396241,0
+rail_abada,Abada,22.547871,88.199521,0
+rail_adisaptagram,Adisaptagram,22.954922,88.378957,0
+rail_agarpara,Agarpara,22.682878,88.385364,0
+rail_akaipur,Akaipur,23.095252,88.717382,0
+rail_akra,Akra,22.514737,88.249279,0
+rail_ambika_kalna,Ambika Kalna,23.212637,88.353870,0
+rail_amta,Amta,22.574403,88.018885,0
+rail_amta_amz,Amta,22.574403,88.018885,0
+rail_andul,Andul,22.575702,88.239446,0
+rail_arambag,Arambag,22.888193,87.791574,0
+rail_aranghata,Aranghata,23.242173,88.613518,0
+rail_ashoknagar_road,Ashoknagar Road,22.826755,88.628623,0
+rail_badkulla,Badkulla,23.305505,88.526126,0
+rail_bagbazar,Bagbazar,22.605491,88.365506,0
+rail_baghajatin,Baghajatin,22.482739,88.386671,0
+rail_baghnapara,Baghnapara,23.242185,88.328988,0
+rail_bagila,Bagila,23.158328,88.126004,0
+rail_bagnan,Bagnan,22.462563,87.970121,0
+rail_bagula,Bagula,23.334970,88.645799,0
+rail_bahadurpur,Bahadurpur,23.438834,88.464062,0
+rail_baharu,Baharu,22.204738,88.444184,0
+rail_bahir_khanda,Bahir Khanda,22.853295,88.068158,0
+rail_bahira_kalibari,Bahira Kalibari,22.685971,88.564894,0
+rail_bahirgachhi,Bahirgachhi,23.275572,88.634272,0
+rail_bahirpuya_halt,Bahirpuya Halt,22.229912,88.349072,0
+rail_baidyabati,Baidyabati,22.794910,88.331772,0
+rail_bainchi,Bainchi,23.119663,88.196758,0
+rail_bainchigram,Bainchigram,23.106842,88.215674,0
+rail_balagarh,Balagarh,23.122116,88.452961,0
+rail_balarambati,Balarambati,22.808053,88.211684,0
+rail_bally,Bally,22.655065,88.340303,0
+rail_bally_chord,Bally Chord,22.655180,88.340024,0
+rail_bally_ghat,Bally Ghat,22.652430,88.347909,0
+rail_bally_halt,Bally Halt,22.652328,88.338538,0
+rail_ballygunge,Ballygunge Junction,22.519341,88.371978,0
+rail_bamangachi,Bamangachi,22.749007,88.509976,0
+rail_bandar,Bandar,22.052957,88.088537,0
+rail_bandel,Bandel Junction,22.923669,88.378286,0
+rail_bangaon,Bangaon Junction,23.030572,88.832973,0
+rail_banka_nayabaz,Banka Nayabaz,22.595421,88.277558,0
+rail_bankim_nagar,Bankim Nagar,23.209047,88.591604,0
+rail_banpas,Banpas,23.403125,87.747565,0
+rail_banpur,Banpur,23.451567,88.761520,0
+rail_bansh_baria,Bansh Baria,22.957871,88.395337,0
+rail_baranagar_road,Baranagar Road,22.653486,88.378858,0
+rail_barasat,Barasat Junction,22.724194,88.483783,0
+rail_barda,Barda,22.152392,88.087581,0
+rail_barddhaman,Barddhaman Junction,23.249913,87.869835,0
+rail_bargachia,Bargachia,22.666749,88.138070,0
+rail_barra_bazar,Barra Bazar,22.590157,88.351176,0
+rail_barrackpore,Barrackpore,22.760336,88.371099,0
+rail_baruipara,Baruipara,22.766897,88.237047,0
+rail_baruipur,Baruipur Junction,22.366329,88.431278,0
+rail_basirhat,Basirhat,22.650185,88.869347,0
+rail_basuldanga,Basuldanga,22.203748,88.233940,0
+rail_basulya_sutahata,Basulya Sutahata,22.120161,88.130576,0
+rail_bathna_krittibas,Bathna Krittibas,23.246509,88.463015,0
+rail_bauria,Bauria,22.502522,88.163288,0
+rail_bbd_bagh,BBD Bagh,22.576842,88.346628,0
+rail_begampur,Begampur,22.738409,88.255110,0
+rail_behula,Behula,23.180707,88.428936,0
+rail_belanagar,Belanagar,22.661234,88.317079,0
+rail_belgharia,Belgharia,22.661361,88.389214,0
+rail_beliaghata_road,Beliaghata Road,22.674796,88.607681,0
+rail_belmuri,Belmuri,22.932421,88.152418,0
+rail_belur,Belur,22.635732,88.339822,0
+rail_belur_math,Belur Math,22.631302,88.350583,0
+rail_betberia_ghola,Betberia Ghola,22.350756,88.574728,0
+rail_bhadreshwar,Bhadreshwar,22.828202,88.341494,0
+rail_bhandartikuri,Bhandartikuri,23.432899,88.330027,0
+rail_bhasila,Bhasila,22.665271,88.658274,0
+rail_bhayna,Bhayna,23.311988,88.641423,0
+rail_bhogpur,Bhogpur,22.402261,87.809144,0
+rail_bhyabla_halt,Bhyabla Halt,22.655344,88.853745,0
+rail_bibhuti_bhushan_halt,Bibhuti Bhushan Halt,23.000217,88.803885,0
+rail_bidhannagar_road,Bidhannagar Road,22.591260,88.390964,0
+rail_bidyadharpur,Bidyadharpur,22.424699,88.454013,0
+rail_bira,Bira,22.789751,88.572234,0
+rail_birati,Birati,22.664320,88.427496,0
+rail_birnagar,Birnagar,23.236237,88.551732,0
+rail_birshibpur,Birshibpur,22.474007,88.053773,0
+rail_bisharpara_kodalia,Bisharpara Kodalia,22.676678,88.434954,0
+rail_bishnupriya,Bishnupriya,23.414045,88.355476,0
+rail_brace_bridge,Brace Bridge,22.517921,88.301137,0
+rail_canning,Canning,22.313617,88.668694,0
+rail_chakdaha,Chakdaha,23.078719,88.529800,0
+rail_champahati,Champahati,22.401883,88.493643,0
+rail_champapukur,Champapukur,22.656351,88.807764,0
+rail_chanchai,Chanchai,23.158228,88.026060,0
+rail_chandannagar,Chandannagar,22.867071,88.354080,0
+rail_chandanpur,Chandanpur,22.881314,88.175903,0
+rail_chandpara,Chandpara,22.961669,88.785180,0
+rail_chengail,Chengail,22.486390,88.138953,0
+rail_cheragram,Cheragram,22.988027,88.128537,0
+rail_chuchura,Chuchura,22.890912,88.370284,0
+rail_coopers_halt,Coopers Halt,23.162457,88.573837,0
+rail_dakshin_barasat,Dakshin Barasat‎,22.226438,88.452538,0
+rail_dakshin_durgapur,Dakshin Durgapur,22.325819,88.406271,0
+rail_dakshinbar,Dakshinbar,22.656070,88.182500,0
+rail_dakshineshwar,Dakshineshwar,22.653848,88.363756,0
+rail_dankuni,Dankuni,22.677961,88.290763,0
+rail_dansi,Dansi,22.622124,88.266113,0
+rail_dashnagar,Dashnagar,22.597997,88.308404,0
+rail_dattapukur,Dattapukur,22.768514,88.539816,0
+rail_debipur,Debipur,23.143543,88.157373,0
+rail_deshapran,Deshapran,22.029851,87.817984,0
+rail_deula,Deula,22.214560,88.281367,0
+rail_deulti,Deulti,22.453354,87.914664,0
+rail_dhakuria,Dhakuria,22.509107,88.371131,0
+rail_dhamua,Dhamua,22.290328,88.392169,0
+rail_dhaniakhali_halt,Dhaniakhali Halt,22.950995,88.143874,0
+rail_dhapdhapi,Dhapdhapi,22.315939,88.460301,0
+rail_dhatrigram,Dhatrigram,23.277971,88.311922,0
+rail_dhubulia,Dhubulia,23.485947,88.440349,0
+rail_diamond_harbour,Diamond Harbour,22.192580,88.191112,0
+rail_diara,Diara,22.798526,88.281169,0
+rail_dignagar,Dignagar,23.318876,88.455907,0
+rail_domjur,Domjur,22.643163,88.209549,0
+rail_domjur_road,Domjur Road,22.636013,88.221501,0
+rail_dum_dum,Dum Dum Junction,22.621931,88.393188,0
+rail_dum_dum_cantonment,Dum Dum Cantonment,22.636490,88.412023,0
+rail_dumurdaha,Dumurdaha,23.040696,88.433030,0
+rail_durga_chak,Durga Chak,22.082096,88.155432,0
+rail_durga_chak_town,Durga Chak Town,22.066333,88.135329,0
+rail_durganagar,Durganagar,22.650497,88.419215,0
+rail_eden_gardens,Eden Gardens,22.563915,88.338321,0
+rail_fuleswar,Fuleswar,22.477436,88.115644,0
+rail_gangnapur,Gangnapur,23.131652,88.639897,0
+rail_gangpur,Gangpur,23.223619,87.926521,0
+rail_garia,Garia,22.465639,88.405515,0
+rail_garifa,Garifa,22.908327,88.412615,0
+rail_gede,Gede,23.490999,88.786935,0
+rail_ghora_ras_ghona,Ghora Ras Ghona,22.651776,88.782393,0
+rail_ghoraghata,Ghoraghata,22.458112,87.943826,0
+rail_ghutiari_sharif,Ghutiari Sharif,22.367901,88.552771,0
+rail_gobardanga_railway_station,Gobardanga Railway Station,22.879511,88.760993,0
+rail_gobra,Gobra,22.696116,88.279390,0
+rail_gocharan,Gocharan,22.278133,88.458613,0
+rail_goghat,Goghat,22.898722,87.707950,0
+rail_gopalnagar,Gopalnagar,23.062585,88.745686,0
+rail_gourdaha_halt,Gourdaha Halt,22.378301,88.534772,0
+rail_guma,Guma,22.808582,88.600893,0
+rail_guptipara,Guptipara,23.196931,88.418217,0
+rail_gurap,Gurap,23.025068,88.112199,0
+rail_gurudas_nagar,Gurudas Nagar,22.199708,88.215793,0
+rail_guskara,Guskara,23.490385,87.733691,0
+rail_habibpur,Habibpur,23.211744,88.538963,0
+rail_habra,Habra,22.840869,88.657583,0
+rail_hajigarh,Hajigarh,23.006328,88.121583,0
+rail_haldia,Haldia,22.044614,88.065459,0
+rail_halisahar,Halisahar,22.920966,88.436979,0
+rail_haripal,Haripal,22.831620,88.119146,0
+rail_harish_nagar_halt,Harish Nagar Halt,23.469840,88.778053,0
+rail_harishdapur,Harishdapur,22.574967,88.043571,0
+rail_harua_road,Harua Road,22.661933,88.690570,0
+rail_hasnabad,Hasnabad,22.571082,88.913531,0
+rail_hazi_md_mohsin_halt,Hazi Md Mohsin Halt,22.972322,88.395309,0
+rail_henria,Henria,21.971826,87.794424,0
+rail_hind_motor,Hind Motor,22.683651,88.341799,0
+rail_hogla,Hogla,22.255021,88.452010,0
+rail_hooghly,Hooghly,22.905211,88.376064,0
+rail_hooghly_ghat,Hooghly Ghat,22.904902,88.396563,0
+rail_hotar,Hotar,22.309355,88.399748,0
+rail_howrah,Howrah Junction,22.582871,88.342811,0
+rail_hridaypur,Hridaypur,22.710997,88.469999,0
+rail_ichhapur,Ichhapur,22.799826,88.373910,0
+rail_ishan_chandi_halt,Ishan Chandi Halt,23.334245,87.738969,0
+rail_jadavpur,Jadavpur,22.495052,88.374971,0
+rail_jagaddal,Jagaddal,22.851679,88.395407,0
+rail_jalal_khali,Jalal Khali,23.347148,88.514017,0
+rail_jalasi,Jalasi,22.588166,88.057763,0
+rail_janai_road,Janai Road,22.721437,88.265300,0
+rail_jaugram,Jaugram,23.079475,88.080063,0
+rail_jaynagar_majilpur,Jaynagar Majilpur,22.169473,88.416004,0
+rail_jhaluarbar,Jhaluarbar,22.627527,88.252172,0
+rail_jhapandanga,Jhapandanga,23.063863,88.091110,0
+rail_jhapater_dhal,Jhapater Dhal,23.353049,87.750550,0
+rail_jirat,Jirat,23.097519,88.461565,0
+rail_kaikala,Kaikala,22.840951,88.090838,0
+rail_kakdwip,Kakdwip,21.881292,88.193995,0
+rail_kalikapur,Kalikapur,22.412052,88.476031,0
+rail_kalinagar,Kalinagar,23.365889,88.335908,0
+rail_kalinarayanpur,Kalinarayanpur Junction,23.208055,88.573187,0
+rail_kalyani_ghoshpara,Kalyani Ghoshpara,22.981926,88.439420,0
+rail_kalyani_main,Kalyani Main,22.969159,88.467418,0
+rail_kalyani_shilpanchal,Kalyani Shilpanchal,22.976325,88.456410,0
+rail_kalyani_simanta,Kalyani Simanta,22.987689,88.427960,0
+rail_kalyanpur,Kalyanpur,22.343456,88.414597,0
+rail_kamarkundu,Kamarkundu,22.821077,88.203256,0
+rail_kamarkundu_kqu,Kamarkundu,22.821677,88.204730,0
+rail_kanchrapara,Kanchrapara,22.946239,88.451378,0
+rail_kankinara,Kankinara,22.866753,88.405593,0
+rail_kankra_mirzanagar,Kankra Mirzanagar,22.658371,88.721830,0
+rail_kankurgachhi_road,Kankurgachhi Road Jn,22.578283,88.385750,0
+rail_kanthi,Kanthi,21.788462,87.733908,0
+rail_karanjali,Karanjali,22.034817,88.245697,0
+rail_karea_kadambagachhi,Karea Kadambagachhi,22.704641,88.534992,0
+rail_kashinagar,Kashinagar,21.905006,88.200802,0
+rail_kazipara,Kazipara,22.722650,88.508366,0
+rail_keshabpur,Keshabpur,22.220776,87.950054,0
+rail_khamargachhi,Khamargachhi,23.054111,88.443944,0
+rail_khana,Khana Junction,23.321364,87.769568,0
+rail_khanyan,Khanyan,23.046717,88.315177,0
+rail_khardaha,Khardaha,22.724850,88.377710,0
+rail_khidirpur,Khidirpur,22.537618,88.315821,0
+rail_kolaghat,Kolaghat,22.433776,87.881805,0
+rail_kolaghat_qgt,Kolaghat,22.435141,87.880907,0
+rail_kolkata,Kolkata,22.601277,88.384147,0
+rail_komagata_maru_budge_budge,Komagata Maru Budge Budge,22.492890,88.194858,0
+rail_kona,Kona,22.618466,88.296875,0
+rail_konnagar,Konnagar,22.701260,88.342511,0
+rail_krishna_mohan,Krishna Mohan,22.329540,88.450589,0
+rail_krishnanagar_city,Krishnanagar City Junction,23.388667,88.493535,0
+rail_kulgachia,Kulgachia,22.472091,88.020600,0
+rail_kulpi,Kulpi,22.076521,88.255760,0
+rail_kuntighat,Kuntighat,23.017102,88.413587,0
+rail_laban_satyagrah_smarak,Laban Satyagrah Smarak,22.114927,87.871621,0
+rail_lake_gardens,Lake Gardens,22.508055,88.353329,0
+rail_lakshmikantapur,Lakshmikantapur,22.110052,88.321897,0
+rail_lebutala,Lebutala,22.666696,88.639940,0
+rail_liluah,Liluah,22.620903,88.339404,0
+rail_loknath,Loknath,22.872022,88.033305,0
+rail_machhlandapur,Machhlandapur,22.856483,88.745193,0
+rail_madanpur,Madanpur,23.005411,88.489806,0
+rail_madhabnagar,Madhabnagar,21.937549,88.219461,0
+rail_madhabpur,Madhabpur,22.120230,88.348717,0
+rail_madhu_sudanpur,Madhu Sudanpur,22.845448,88.192730,0
+rail_madhyamgram,Madhyamgram,22.694784,88.453018,0
+rail_madhyampur,Madhyampur,22.620364,88.896665,0
+rail_magra,Magra,22.983868,88.368337,0
+rail_magra_hat,Magra Hat,22.240443,88.372355,0
+rail_mahendralalnagar,Mahendralalnagar,22.643508,88.091484,0
+rail_mahisadal,Mahisadal,22.176143,88.010415,0
+rail_majhdia,Majhdia,23.414846,88.719535,0
+rail_majhergram,Majhergram,23.108989,88.688020,0
+rail_majherhat,Majherhat,22.519054,88.322131,0
+rail_maju,Maju,22.616008,88.078834,0
+rail_makardaha,Makardaha,22.628688,88.236682,0
+rail_malatipur,Malatipur,22.651678,88.762602,0
+rail_maliya_halt,Maliya Halt,22.831668,88.137498,0
+rail_mallikpur,Mallikpur,22.396586,88.433122,0
+rail_mankundu,Mankundu,22.847312,88.347130,0
+rail_masagram,Masagram Junction,23.135084,88.042668,0
+rail_matania_anantapur,Matania Anantapur,22.635966,88.886403,0
+rail_mathurapur_road,Mathurapur Road,22.140539,88.390568,0
+rail_matla_halt,Matla Halt,22.333092,88.630260,0
+rail_mayapur,Mayapur,22.869022,87.867193,0
+rail_mayurhat,Mayurhat,23.362782,88.660819,0
+rail_mecheda,Mecheda,22.413583,87.856981,0
+rail_memari,Memari,23.172683,88.095980,0
+rail_mertala_phaleya,Mertala Phaleya,23.479578,88.320792,0
+rail_mirzapur_bankipur,Mirzapur Bankipur,22.790802,88.222445,0
+rail_mourigram,Mourigram,22.580265,88.256030,0
+rail_munsirhat,Munsirhat,22.649034,88.095453,0
+rail_naba_raynagar,Naba Raynagar,23.148321,88.604293,0
+rail_nabadwip_dham,Nabadwip Dham,23.397546,88.356700,0
+rail_nabagram,Nabagram,23.111600,88.057542,0
+rail_nachinda,Nachinda,21.873804,87.752164,0
+rail_naihati,Naihati Junction,22.887006,88.417653,0
+rail_nalikul,Nalikul,22.830471,88.166823,0
+rail_nalpur,Nalpur,22.529101,88.186061,0
+rail_namkhana,Namkhana,21.771765,88.238991,0
+rail_nandai_gram,Nandai Gram,23.307454,88.315212,0
+rail_nandaigajan,Nandaigajan,22.404157,87.832707,0
+rail_nandakumar,Nandakumar,22.190659,87.927636,0
+rail_nangi,Nangi,22.500213,88.223354,0
+rail_narayan_pakuria_murail,Narayan Pakuria Murail,22.399867,87.774236,0
+rail_narendrapur,Narendrapur,22.453901,88.418490,0
+rail_nasibpur,Nasibpur,22.804641,88.263673,0
+rail_netra,Netra,22.208428,88.254476,0
+rail_new_alipore,New Alipore,22.510533,88.335426,0
+rail_new_barrackpore,New Barrackpore,22.686764,88.444617,0
+rail_new_garia,New Garia,22.472658,88.397751,0
+rail_nimdanri,Nimdanri,22.608293,88.905487,0
+rail_nimo,Nimo,23.180734,88.068541,0
+rail_nischintapur_market,Nischintapur Market,21.987909,88.217555,0
+rail_nishchintapur,Nishchintapur,21.973427,88.214238,0
+rail_noadar_dhal,Noadar Dhal,23.446035,87.743118,0
+rail_padmapukur,Padmapukur,22.568257,88.305743,0
+rail_palla_road_station,Palla Road Station,23.179074,88.009361,0
+rail_palpara,Palpara,23.060469,88.521298,0
+rail_palsit,Palsit,23.196377,88.003140,0
+rail_palta,Palta,22.782629,88.370275,0
+rail_pancheberia,Pancheberia,23.220464,88.599423,0
+rail_panskura,Panskura Junction,22.392694,87.742741,0
+rail_panskura_east,Panskura East,22.392837,87.742589,0
+rail_pantihal,Pantihal,22.658895,88.113461,0
+rail_park_circus,Park Circus,22.540780,88.373881,0
+rail_patipukur,Patipukur,22.606551,88.395245,0
+rail_payradanga_rail_station,Payradanga Rail Station,23.128482,88.545507,0
+rail_phulia,Phulia,23.229962,88.497402,0
+rail_piali,Piali,22.387313,88.518888,0
+rail_porabazar,Porabazar,22.917398,88.159338,0
+rail_prinsep_ghat,Prinsep Ghat,22.556593,88.331407,0
+rail_pundooah,Pundooah,23.070673,88.269673,0
+rail_purbasthali,Purbasthali,23.452598,88.324863,0
+rail_raghunathbari,Raghunathbari,22.353567,87.797320,0
+rail_rajagoda,Rajagoda,22.324096,87.866486,0
+rail_rajchandrapur,Rajchandrapur,22.652914,88.321314,0
+rail_ramrajatala,Ramrajatala,22.588661,88.296666,0
+rail_ranaghat,Ranaghat Junction,23.174769,88.569079,0
+rail_rasulpur,Rasulpur,23.187442,88.040853,0
+rail_remount_road,Remount Road,22.525986,88.316708,0
+rail_rishra,Rishra,22.724706,88.343435,0
+rail_saheed_matangini,Saheed Matangini,22.300339,87.908362,0
+rail_saktigarh,Saktigarh,23.207033,87.968880,0
+rail_samudra_garh,Samudra Garh,23.335763,88.324866,0
+rail_sangrampur,Sangrampur,22.225533,88.329860,0
+rail_sanhati_halt,Sanhati Halt,22.845876,88.704595,0
+rail_sankrail,Sankrail,22.562344,88.210446,0
+rail_santoshpur,Santoshpur,22.524057,88.271066,0
+rail_santragachi,Santragachi Junction,22.584699,88.283072,0
+rail_satberia_halt,Satberia Halt,23.047781,88.791404,0
+rail_satish_samanta,Satish Samanta,22.193092,87.990009,0
+rail_sealdah,Sealdah,22.567966,88.371105,0
+rail_seoraphuli,Seoraphuli Jn,22.774804,88.328358,0
+rail_serampore,Serampore,22.754579,88.338308,0
+rail_shalimar,Shalimar,22.555154,88.315390,0
+rail_shantinagar_halt,Shantinagar Halt,23.293382,88.637856,0
+rail_shantipur,Shantipur Junction,23.262954,88.435945,0
+rail_shasan_road,Shasan Road,22.347157,88.434902,0
+rail_shyamnagar,Shyamnagar,22.828516,88.380189,0
+rail_sibaichandi,Sibaichandi,22.974652,88.133870,0
+rail_simlagarh,Simlagarh,23.096305,88.231636,0
+rail_simurali,Simurali,23.041183,88.510262,0
+rail_singur,Singur,22.814569,88.229071,0
+rail_sir_gurudas_banerjee_halt,Sir Gurudas Banerjee Halt,22.574175,88.385045,0
+rail_sodpur,Sodpur,22.699640,88.382297,0
+rail_somra_bazar,Somra Bazar,23.138452,88.433004,0
+rail_sonarpur,Sonarpur Junction,22.443192,88.430341,0
+rail_sondalia,Sondalia,22.681816,88.582300,0
+rail_sovabazar_ahiritola,Sovabazar Ahiritola,22.597529,88.354934,0
+rail_subhas_gram,Subhas Gram,22.413182,88.434164,0
+rail_surjyapur,Surjyapur,22.293490,88.466688,0
+rail_taherpur,Taherpur,23.259996,88.543573,0
+rail_taki_road,Taki Road,22.587948,88.915932,0
+rail_takipur_halt,Takipur Halt,22.865554,87.927741,0
+rail_tala,Tala,22.606351,88.378426,0
+rail_talandu,Talandu,23.010791,88.345290,0
+rail_taldi,Taldi,22.342795,88.611156,0
+rail_talit,Talit,23.293351,87.818916,0
+rail_talpur_halt,Talpur Halt,22.875272,87.974646,0
+rail_tamluk,Tamluk,22.274648,87.920116,0
+rail_tarak_nagar,Tarak Nagar,23.380173,88.680501,0
+rail_tarakeswar,Tarakeswar,22.882399,88.014201,0
+rail_thakurnagar,Thakurnagar,22.924734,88.777804,0
+rail_tikiapara,Tikiapara,22.598577,88.324035,0
+rail_titagarh,Titagarh,22.741126,88.374584,0
+rail_tollygunge,Tollygunge,22.507755,88.347722,0
+rail_tribeni,Tribeni,22.990303,88.398261,0
+rail_udairampur,Udairampur,22.100001,88.274686,0
+rail_ukilerhat,Ukilerhat,21.824735,88.230200,0
+rail_uluberia,Uluberia,22.472223,88.093845,0
+rail_uttar_radhanagar,Uttar Radhanagar,22.269188,88.383818,0
+rail_uttarpara,Uttarpara,22.667046,88.341146,0
+tram_acharya_jagadish_chandra_bose_road_elliot_road,Acharya Jagadish Chandra Bose Road / Elliot Road,22.550460,88.362899,0
+tram_bidhan_sarani_sri_aurobindo_sarani,Bidhan Sarani / Sri Aurobindo Sarani,22.594634,88.370888,0
+tram_college_street,College Street,22.577292,88.364176,0
+tram_college_street_bepin_behari_ganguly_street,College Street / Bepin Behari Ganguly Street,22.569591,88.360763,0
+tram_esplanade,Esplanade,22.563015,88.349971,0
+tram_gariahat_depot,Gariahat Depot,22.525888,88.366084,0
+tram_lenin_sarani_nirmal_chandra_dev_street,Lenin Sarani / Nirmal Chandra Dev Street,22.563039,88.358518,0
+tram_nirmal_chandra_dev_street,Nirmal Chandra Dev Street,22.566456,88.359888,0
+tram_park_circus,Park Circus,22.542481,88.365993,0
+tram_park_circus_seven_point,Park Circus - Seven Point,22.543371,88.366027,0
+tram_rafi_ahmad_kidwai_road_elliot_road,Rafi Ahmad Kidwai Road / Elliot Road,22.552566,88.356136,0
+tram_shyambazar,Shyambazar,22.599967,88.372935,0

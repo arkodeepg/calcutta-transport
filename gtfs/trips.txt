@@ -1,0 +1,2888 @@
+route_id,service_id,trip_id,trip_headsign,direction_id
+metro_blue,daily,metro_blue_d0,Shahid Khudiram,0
+metro_blue,daily,metro_blue_d1,Dakshineswar,1
+metro_green,daily,metro_green_d0,Salt Lake Sector V,0
+metro_green,daily,metro_green_d1,Howrah Maidan,1
+metro_purple,daily,metro_purple_d0,Majerhat,0
+metro_purple,daily,metro_purple_d1,Joka,1
+metro_orange,daily,metro_orange_d0,Beleghata,0
+metro_orange,daily,metro_orange_d1,Kavi Subhash,1
+metro_yellow,daily,metro_yellow_d0,Jai Hind,0
+metro_yellow,daily,metro_yellow_d1,Noapara,1
+rail_hwh_kharagpur,rail_1111111,rail_38305,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38031,Santragachi Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38033,Santragachi Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38032,Shalimar,1
+rail_hwh_kharagpur,rail_1111111,rail_38034,Shalimar,1
+rail_hwh_kharagpur,rail_1111110,rail_38036,Shalimar,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37211,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37212,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37213,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37214,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37215,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37216,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37217,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37218,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37221,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37220,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37223,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37222,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37225,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37224,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37227,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37226,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37229,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37228,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37231,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37230,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37233,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37232,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37237,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37234,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37239,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37236,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37245,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37238,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37251,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37240,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37253,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37242,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37255,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37262,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37257,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37246,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37259,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37252,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37261,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37258,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37263,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37260,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37265,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37264,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37267,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37266,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37269,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37268,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37271,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37270,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37273,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37272,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37275,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37274,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37277,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37276,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37281,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37278,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37283,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37280,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37287,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37282,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37289,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37288,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37291,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37244,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37219,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37250,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37235,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37254,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37241,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37284,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37247,Bandel Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36811,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36812,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36813,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36814,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36815,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36816,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36817,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36818,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36819,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36820,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36821,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36824,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36823,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36826,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36825,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36827,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36828,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36829,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36832,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36831,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36834,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36833,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36838,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36840,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36837,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36842,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36839,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36844,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36841,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36846,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36843,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36848,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36845,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36850,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36851,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36854,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36853,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36858,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36855,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36860,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36847,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36836,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36849,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36852,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36856,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36031,Chandanpur,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36032,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36033,Chandanpur,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36034,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36035,Chandanpur,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36036,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36037,Chandanpur,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36038,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37307,Haripal,0
+rail_hwh_tarakeswar,rail_1111111,rail_37308,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37327,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37338,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37653,Memari,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37654,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37655,Memari,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37656,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37911,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37912,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37913,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37917,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37918,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37921,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37923,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37922,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37926,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37927,Purbasthali,0
+rail_hwh_katwa,rail_1111111,rail_37928,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37812,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37811,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37814,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37813,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37816,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37818,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37817,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37820,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37819,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37821,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37823,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37825,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37829,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37832,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37834,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37836,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37838,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37840,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37842,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37848,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37850,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37851,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37852,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37853,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37854,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37855,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_63502,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37857,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37827,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_0000010,rail_37833,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_0000010,rail_37846,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_0000010,rail_36083,Masagram Junction,0
+rail_hwh_bardhaman_chord,rail_0000010,rail_36084,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111110,rail_36081,Masagram Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36088,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36086,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36085,Masagram Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36071,Gurap,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36072,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37611,Pundooah,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37614,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37011,Serampore,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37012,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37013,Serampore,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37014,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37015,Serampore,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37022,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37041,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37042,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37043,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37044,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37045,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37046,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37049,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37050,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37375,Goghat,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37052,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37053,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37054,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37055,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37056,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37057,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37058,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37059,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37060,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37061,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37062,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37063,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37064,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37051,Seoraphuli Jn,0
+rail_hwh_tarakeswar,rail_1111111,rail_37348,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37345,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37376,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37347,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37350,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37349,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37352,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37351,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37378,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37371,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37312,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37359,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37314,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37313,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37316,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37373,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37318,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37315,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37320,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37317,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37322,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37363,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37372,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37321,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37324,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37323,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37326,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37365,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37328,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37325,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37330,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37329,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37332,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37331,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37334,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37333,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37366,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37367,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37336,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37335,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37340,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37337,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37342,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37379,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37344,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37339,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37346,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37341,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37385,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37374,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37657,Memari,0
+rail_hwh_tarakeswar,rail_1111111,rail_37305,Haripal,0
+rail_hwh_katwa,rail_1111111,rail_37915,Mertala Phaleya,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37201,Bandel Junction,0
+rail_hwh_tarakeswar,rail_1111111,rail_37304,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37202,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37658,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36822,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37387,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37377,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37368,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37311,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37362,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37303,Haripal,0
+rail_hwh_tarakeswar,rail_1111111,rail_37306,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111110,rail_36011,Baruipara,0
+rail_hwh_bardhaman_chord,rail_1111110,rail_36012,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37017,Serampore,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37019,Serampore,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37018,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37020,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37047,Seoraphuli Jn,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37048,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37243,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37248,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37286,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37285,Bandel Junction,0
+rail_hwh_tarakeswar,rail_1111111,rail_37369,Arambag,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37279,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37290,Howrah Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_36087,Masagram Junction,0
+rail_hwh_bardhaman_chord,rail_1111110,rail_36082,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37309,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37310,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37319,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37343,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37384,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37364,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37354,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37381,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37382,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37016,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37361,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37389,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37360,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37249,Bandel Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37256,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37356,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37358,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37380,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37302,Howrah Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37301,Haripal,0
+rail_hwh_tarakeswar,rail_1111111,rail_37383,Goghat,0
+rail_sdah_ranaghat,rail_1111111,rail_31617,Ranaghat Junction,0
+rail_sdah_hasnabad,rail_1111111,rail_33513,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33525,Hasnabad,0
+rail_sdah_ranaghat,rail_1111110,rail_31211,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31215,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31217,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31219,Barrackpore,0
+rail_sdah_ranaghat,rail_1111111,rail_31221,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31223,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31227,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31229,Barrackpore,0
+rail_sdah_ranaghat,rail_1111110,rail_31235,Barrackpore,0
+rail_sdah_ranaghat,rail_1111111,rail_31237,Barrackpore,0
+rail_sdah_bangaon,rail_1111111,rail_33815,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33817,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33819,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33821,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33823,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33825,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33827,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33829,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33831,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33833,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33835,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33839,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33841,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33843,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33845,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33847,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33849,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33851,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33853,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33855,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33857,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33859,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33861,Bangaon Junction,0
+rail_sdah_bardhaman,rail_1111111,rail_31151,Barddhaman Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33613,Dattapukur,0
+rail_sdah_bangaon,rail_1111110,rail_33615,Dattapukur,0
+rail_sdah_bangaon,rail_1111111,rail_33617,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33621,Dattapukur,0
+rail_sdah_bangaon,rail_1111111,rail_33623,Dattapukur,0
+rail_sdah_bangaon,rail_1111110,rail_33411,Dum Dum Cantonment,0
+rail_sdah_dankuni,rail_1111111,rail_32211,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32213,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32215,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32217,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32219,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32221,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32223,Dankuni,0
+rail_sdah_dankuni,rail_1111110,rail_32225,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32227,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32231,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32233,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32411,Baruipara,0
+rail_sdah_dankuni,rail_1111111,rail_32237,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32239,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32241,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32243,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32245,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32413,Baruipara,0
+rail_sdah_dankuni,rail_1111111,rail_32247,Dankuni,0
+rail_sdah_dankuni,rail_1111111,rail_32249,Dankuni,0
+rail_sdah_bangaon,rail_1111111,rail_33681,Gobardanga Railway Station,0
+rail_sdah_bangaon,rail_1111111,rail_33685,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33651,Habra,0
+rail_sdah_bangaon,rail_1111111,rail_33653,Habra,0
+rail_sdah_bangaon,rail_1111111,rail_33655,Habra,0
+rail_sdah_bangaon,rail_1111111,rail_33657,Habra,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31311,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31313,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31315,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31317,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31321,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31323,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31325,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31329,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31331,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31333,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31335,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31337,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31339,Kalyani Simanta,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31341,Kalyani Simanta,0
+rail_sdah_katwa,rail_1111111,rail_31111,Mertala Phaleya,0
+rail_sdah_bangaon,rail_1111110,rail_33421,Madhyamgram,0
+rail_sdah_ranaghat,rail_1111111,rail_31411,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31413,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31415,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31417,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31421,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31427,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31429,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31431,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31433,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31435,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31437,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31439,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31441,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31443,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31445,Naihati Junction,0
+rail_sdah_gede,rail_1111111,rail_31911,Gede,0
+rail_sdah_gede,rail_1111111,rail_31913,Gede,0
+rail_sdah_gede,rail_1111111,rail_31915,Gede,0
+rail_sdah_gede,rail_1111111,rail_31917,Gede,0
+rail_sdah_gede,rail_1111111,rail_31919,Gede,0
+rail_sdah_gede,rail_1111111,rail_31921,Gede,0
+rail_sdah_gede,rail_1111111,rail_31923,Gede,0
+rail_sdah_gede,rail_1111111,rail_31925,Gede,0
+rail_sdah_gede,rail_1111111,rail_31929,Gede,0
+rail_sdah_ranaghat,rail_1111111,rail_31611,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31615,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31621,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31623,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31627,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31631,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_63111,Ranaghat Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31511,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31513,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31515,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31517,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31519,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31521,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31523,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31525,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31527,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31529,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31533,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31535,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31537,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31539,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31541,Shantipur Junction,0
+rail_sdah_hasnabad,rail_1111111,rail_33511,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33515,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33517,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33523,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33527,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33531,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33533,Hasnabad,0
+rail_sdah_krishnanagar,rail_1111111,rail_31811,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111110,rail_31813,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31817,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31819,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31821,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31825,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31827,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31829,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31831,Krishnanagar City Junction,0
+rail_sdah_hasnabad,rail_1111111,rail_33431,Hasnabad,0
+rail_sdah_bangaon,rail_1111110,rail_33433,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33435,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33437,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33439,Barasat Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33441,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33443,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33445,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33447,Barasat Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31613,Ranaghat Junction,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31319,Kalyani Simanta,0
+rail_sdah_ranaghat,rail_1111111,rail_31625,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31447,Naihati Junction,0
+rail_sdah_hasnabad,rail_1111110,rail_33521,Hasnabad,0
+rail_sdah_bangaon,rail_1111111,rail_33659,Habra,0
+rail_sdah_bangaon,rail_1111111,rail_33837,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33619,Dattapukur,0
+rail_sdah_hasnabad,rail_1111111,rail_33529,Hasnabad,0
+rail_sdah_bangaon,rail_1111110,rail_33801,Bangaon Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31601,Ranaghat Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31839,Krishnanagar City Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33863,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33611,Dattapukur,0
+rail_sdah_ranaghat,rail_1111110,rail_31225,Barrackpore,0
+rail_sdah_ranaghat,rail_1111111,rail_31233,Barrackpore,0
+rail_sdah_kalyani_simanta,rail_1111110,rail_31327,Kalyani Simanta,0
+rail_sdah_ranaghat,rail_1111110,rail_31423,Naihati Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31425,Naihati Junction,0
+rail_sdah_krishnanagar,rail_1111110,rail_31801,Krishnanagar City Junction,0
+rail_sdah_dankuni,rail_1111110,rail_32229,Dankuni,0
+rail_sdah_bangaon,rail_1111110,rail_33401,Barasat Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31815,Krishnanagar City Junction,0
+rail_sdah_dankuni,rail_1111111,rail_32235,Dankuni,0
+rail_sdah_hasnabad,rail_1111111,rail_33519,Hasnabad,0
+rail_sdah_ranaghat,rail_1111110,rail_31231,Barrackpore,0
+rail_sdah_gede,rail_1111111,rail_31927,Gede,0
+rail_sdah_krishnanagar,rail_1111111,rail_31841,Krishnanagar City Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31239,Barrackpore,0
+rail_sdah_ranaghat,rail_1111111,rail_31419,Naihati Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33683,Gobardanga Railway Station,0
+rail_sdah_krishnanagar,rail_1111111,rail_63103,Dhubulia,0
+rail_sdah_ranaghat,rail_1111111,rail_31629,Ranaghat Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31843,Krishnanagar City Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31637,Ranaghat Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33761,Ranaghat Junction,0
+rail_sdah_krishnanagar,rail_1111110,rail_31845,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_0000001,rail_31847,Krishnanagar City Junction,0
+rail_sdah_ranaghat,rail_1111110,rail_31347,Kalyani Main,0
+rail_sdah_shantipur,rail_1111111,rail_31543,Shantipur Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33449,Bangaon Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31622,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33534,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111110,rail_31326,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31212,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31216,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31218,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31220,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31222,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31224,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31228,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31236,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31238,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31240,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33812,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33814,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33816,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33818,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33820,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33822,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33824,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33826,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33828,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33830,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33832,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33834,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33836,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33838,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33840,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33842,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33844,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33846,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33848,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33850,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33852,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33854,Sealdah,1
+rail_north_south_through,rail_1111111,rail_30112,Ballygunge Junction,1
+rail_north_south_through,rail_1111111,rail_31051,Naihati Junction,0
+rail_north_south_through,rail_1111111,rail_34052,Komagata Maru Budge Budge,1
+rail_north_south_through,rail_1111111,rail_31053,Naihati Junction,0
+rail_north_south_through,rail_1111111,rail_34054,Komagata Maru Budge Budge,1
+rail_north_south_through,rail_1111111,rail_31055,Naihati Junction,0
+rail_sdah_bardhaman,rail_1111111,rail_31152,Sealdah,1
+rail_north_south_through,rail_1111111,rail_34062,Canning,1
+rail_north_south_through,rail_1111111,rail_33061,Barasat Junction,0
+rail_north_south_through,rail_1111111,rail_30152,Majherhat,1
+rail_north_south_through,rail_1111111,rail_30154,Majherhat,1
+rail_north_south_through,rail_1111111,rail_30361,Hasnabad,0
+rail_sdah_bangaon,rail_1111111,rail_33612,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33614,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33616,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33618,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33620,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33622,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33624,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33626,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33628,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33630,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33412,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32212,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32214,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32216,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32218,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32220,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32222,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32224,Sealdah,1
+rail_sdah_dankuni,rail_1111110,rail_32226,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32228,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32232,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32234,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32412,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32238,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32240,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32242,Sealdah,1
+rail_sdah_dankuni,rail_1111110,rail_32244,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32246,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32248,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32414,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32250,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32252,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_33212,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33682,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33686,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33652,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33654,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33656,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33660,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33664,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33658,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31312,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31314,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31316,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31318,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31322,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31324,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31328,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31330,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31332,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31334,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31336,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31338,Sealdah,1
+rail_north_south_through,rail_1111111,rail_34056,Komagata Maru Budge Budge,1
+rail_sdah_katwa,rail_1111111,rail_31112,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33422,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31412,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31414,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31416,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31418,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31420,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31422,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31424,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31426,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31430,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31434,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31436,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31438,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31440,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31442,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31444,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31446,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31448,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31450,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31912,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31916,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31918,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31920,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31922,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31924,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31926,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31612,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31614,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_63112,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31616,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31620,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31628,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31630,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31636,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31624,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31512,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31514,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31516,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31518,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31520,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31522,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31524,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31526,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31528,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31530,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31532,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31536,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31540,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31542,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31538,Sealdah,1
+rail_north_south_through,rail_1111111,rail_30357,Madhyamgram,0
+rail_sdah_hasnabad,rail_1111111,rail_33512,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33514,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33516,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33518,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33520,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33530,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33532,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33536,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31812,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31816,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31818,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31820,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31822,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31824,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31826,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31830,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31832,Sealdah,1
+rail_sdah_krishnanagar,rail_1111110,rail_31838,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33432,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33434,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33436,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33438,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33440,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31844,Sealdah,1
+rail_north_south_through,rail_1111111,rail_30358,Majherhat,1
+rail_sdah_ranaghat,rail_1111110,rail_31634,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31230,Sealdah,1
+rail_sdah_hasnabad,rail_1111110,rail_33526,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33802,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31602,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33860,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31226,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31234,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31428,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31432,Sealdah,1
+rail_sdah_krishnanagar,rail_1111110,rail_31802,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31836,Sealdah,1
+rail_sdah_dankuni,rail_1111110,rail_32230,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33402,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33662,Sealdah,1
+rail_sdah_dankuni,rail_1111111,rail_32236,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33856,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33522,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31914,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33896,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31232,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33684,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_63104,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31632,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31242,Sealdah,1
+rail_sdah_ranaghat,rail_1111111,rail_31638,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31544,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33762,Sealdah,1
+rail_sdah_krishnanagar,rail_1111110,rail_31846,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31340,Sealdah,1
+rail_sdah_krishnanagar,rail_0000001,rail_31848,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31344,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33862,Sealdah,1
+rail_sdah_ranaghat,rail_1111110,rail_31342,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33442,Sealdah,1
+rail_hwh_kharagpur,rail_1111111,rail_38204,Howrah Junction,1
+rail_hwh_haldia,rail_1111111,rail_38051,Haldia,0
+rail_hwh_haldia,rail_1111111,rail_38052,Howrah Junction,1
+rail_hwh_haldia,rail_1111111,rail_38057,Haldia,0
+rail_hwh_haldia,rail_1111111,rail_38058,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38904,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38903,Amta,0
+rail_hwh_amta,rail_1111111,rail_38906,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38905,Amta,0
+rail_hwh_amta,rail_1111111,rail_38908,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38907,Amta,0
+rail_hwh_amta,rail_1111111,rail_38910,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38913,Amta,0
+rail_hwh_amta,rail_1111111,rail_38918,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38915,Amta,0
+rail_hwh_amta,rail_1111111,rail_38920,Howrah Junction,1
+rail_hwh_amta,rail_1111110,rail_38917,Amta,0
+rail_hwh_amta,rail_1111110,rail_38922,Howrah Junction,1
+rail_hwh_amta,rail_1111111,rail_38919,Amta,0
+rail_hwh_kharagpur,rail_1111111,rail_38702,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38706,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38707,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38716,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38711,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38710,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38719,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38720,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38727,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38302,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38304,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38303,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38306,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38308,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38307,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38312,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38311,Mecheda,0
+rail_hwh_kharagpur,rail_1111111,rail_38314,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38313,Mecheda,0
+rail_hwh_kharagpur,rail_1111111,rail_38318,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38317,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38319,Mecheda,0
+rail_hwh_kharagpur,rail_1111111,rail_38455,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38726,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38730,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38801,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38802,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38803,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38804,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38805,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38809,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38810,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38812,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38813,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38817,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38814,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38819,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38816,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38818,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38823,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38822,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38827,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38824,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38829,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38826,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38831,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38828,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38401,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38402,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38405,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38404,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38406,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38409,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38704,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38413,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38412,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38415,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38419,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38414,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38421,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38416,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38423,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38427,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38422,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38429,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38431,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38433,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38426,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38435,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38428,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38437,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38430,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38432,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38456,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38441,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38436,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38445,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38440,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38442,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38449,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38444,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38447,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38446,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38725,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38448,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38450,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38454,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38420,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38315,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38103,Uluberia,0
+rail_hwh_kharagpur,rail_1111110,rail_38105,Uluberia,0
+rail_hwh_kharagpur,rail_1111110,rail_38104,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38106,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38703,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38705,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38403,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38807,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38811,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38501,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38425,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38451,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38723,Panskura Junction,0
+rail_hwh_amta,rail_1111111,rail_38923,Amta,0
+rail_hwh_amta,rail_1111111,rail_38912,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38408,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38502,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38830,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38438,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38728,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38708,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38721,Panskura Junction,0
+rail_hwh_amta,rail_1111111,rail_38921,Amta,0
+rail_hwh_amta,rail_1111111,rail_38924,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38321,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38452,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38825,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38108,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38601,Kolaghat,0
+rail_hwh_kharagpur,rail_1111111,rail_38815,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38717,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38453,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38602,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38820,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38724,Howrah Junction,1
+rail_hwh_haldia,rail_1111111,rail_38053,Haldia,0
+rail_hwh_haldia,rail_1111111,rail_38056,Howrah Junction,1
+rail_hwh_amta,rail_1111110,rail_38916,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38713,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38722,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38202,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38201,Bagnan,0
+rail_hwh_kharagpur,rail_1111110,rail_38417,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38443,Panskura Junction,0
+rail_hwh_amta,rail_1111110,rail_38909,Amta,0
+rail_hwh_amta,rail_1111110,rail_38914,Howrah Junction,1
+rail_sdah_south_short,rail_1111111,rail_34436,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34648,Baruipur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34616,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34622,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34624,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34626,Baruipur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34628,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34632,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34636,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34638,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34640,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34644,Baruipur Junction,0
+rail_sdah_namkhana,rail_1111110,rail_34646,Lakshmikantapur,0
+rail_circular,rail_1111111,rail_30412,BBD Bagh,1
+rail_circular,rail_1111111,rail_30416,BBD Bagh,1
+rail_sdah_canning,rail_1111111,rail_34512,Canning,0
+rail_sdah_canning,rail_1111111,rail_34514,Canning,0
+rail_sdah_canning,rail_1111111,rail_34516,Canning,0
+rail_sdah_canning,rail_1111111,rail_34518,Canning,0
+rail_sdah_canning,rail_1111111,rail_34520,Canning,0
+rail_sdah_canning,rail_1111111,rail_34522,Canning,0
+rail_sdah_canning,rail_1111111,rail_34524,Canning,0
+rail_sdah_canning,rail_1111111,rail_34528,Canning,0
+rail_sdah_canning,rail_1111111,rail_34532,Canning,0
+rail_sdah_canning,rail_1111111,rail_34534,Canning,0
+rail_sdah_canning,rail_1111111,rail_34536,Canning,0
+rail_sdah_canning,rail_1111111,rail_34538,Canning,0
+rail_sdah_canning,rail_1111111,rail_34540,Canning,0
+rail_sdah_canning,rail_1111111,rail_34542,Canning,0
+rail_sdah_canning,rail_1111111,rail_34544,Canning,0
+rail_sdah_canning,rail_1111111,rail_34546,Canning,0
+rail_sdah_canning,rail_1111111,rail_34548,Canning,0
+rail_sdah_canning,rail_1111111,rail_34550,Canning,0
+rail_sdah_canning,rail_1111111,rail_34552,Canning,0
+rail_sdah_canning,rail_1111111,rail_34554,Canning,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34814,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34818,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34820,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34824,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34826,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34828,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34830,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34832,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34836,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34838,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34840,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34842,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34844,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34846,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34848,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34850,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34852,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34854,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34856,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34858,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34834,Diamond Harbour,0
+rail_sdah_budge_budge,rail_1111111,rail_34114,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34116,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34118,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34120,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34124,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34126,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111110,rail_34128,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34130,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34132,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34136,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34140,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34144,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34146,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34148,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34150,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34152,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34154,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34156,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34158,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34160,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34162,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34164,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34166,Komagata Maru Budge Budge,0
+rail_sdah_namkhana,rail_1111111,rail_34712,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34716,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34718,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34720,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34722,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34724,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34726,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34728,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34730,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34732,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34734,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34736,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34738,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34740,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34742,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34744,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34746,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34748,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34750,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34752,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34754,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34782,Kakdwip,0
+rail_sdah_south_short,rail_1111111,rail_34412,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34416,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34418,Sonarpur Junction,0
+rail_sdah_canning,rail_1111110,rail_34420,Canning,0
+rail_sdah_south_short,rail_1111111,rail_34424,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34426,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34428,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34434,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34414,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34642,Baruipur Junction,0
+rail_sdah_namkhana,rail_1111111,rail_34756,Lakshmikantapur,0
+rail_sdah_canning,rail_1111111,rail_34526,Canning,0
+rail_sdah_south_short,rail_1111110,rail_34602,Baruipur Junction,0
+rail_sdah_canning,rail_1111110,rail_34502,Canning,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34860,Diamond Harbour,0
+rail_sdah_namkhana,rail_1111111,rail_34792,Namkhana,0
+rail_sdah_canning,rail_1111110,rail_34530,Canning,0
+rail_sdah_south_short,rail_1111111,rail_34432,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34650,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34438,Sonarpur Junction,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34898,Diamond Harbour,0
+rail_sdah_south_short,rail_1111111,rail_34652,Baruipur Junction,0
+rail_sdah_budge_budge,rail_1111111,rail_34168,Komagata Maru Budge Budge,0
+rail_sdah_canning,rail_1111111,rail_34556,Canning,0
+rail_sdah_south_short,rail_1111110,rail_34440,Sonarpur Junction,0
+rail_sdah_diamond_harbour,rail_1111110,rail_34862,Diamond Harbour,0
+rail_sdah_south_short,rail_1111111,rail_34611,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34613,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34615,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34617,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34619,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34621,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34623,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34625,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34629,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34633,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34637,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34639,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34641,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34643,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34645,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34647,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34627,Sealdah,1
+rail_circular,rail_1111111,rail_30411,Sealdah,0
+rail_sdah_canning,rail_1111111,rail_34511,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34513,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34515,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34517,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34519,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34521,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34523,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34525,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34527,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34529,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34531,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34533,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34537,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34541,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34543,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34545,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34547,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34551,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34553,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34555,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34557,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34549,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34813,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34815,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34819,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34821,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34823,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34825,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34827,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34831,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34833,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34835,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34837,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34839,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34841,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34843,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34845,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34847,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34849,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34851,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34853,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34855,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34857,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34113,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34115,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34117,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34119,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34121,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34123,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34125,Sealdah,1
+rail_sdah_budge_budge,rail_1111110,rail_34127,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34129,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34137,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34141,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34143,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34145,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34147,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34149,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34151,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34153,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34155,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34157,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34159,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34161,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34715,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34717,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34719,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34721,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34723,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34725,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34727,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34729,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34731,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34733,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34735,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34737,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34739,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34741,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34743,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34745,Sealdah,1
+rail_sdah_namkhana,rail_1111110,rail_34749,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34751,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34753,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34757,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34411,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34415,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34417,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34419,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34423,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34425,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34427,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34431,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34413,Sealdah,1
+rail_sdah_canning,rail_1111111,rail_34535,Sealdah,1
+rail_sdah_canning,rail_1111110,rail_34501,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34601,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34859,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34747,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34793,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34133,Sealdah,1
+rail_sdah_canning,rail_1111110,rail_34539,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34429,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34649,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34861,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34899,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34651,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34167,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34795,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111110,rail_34863,Sealdah,1
+rail_sdah_bangaon,rail_1111111,rail_33813,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33361,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111110,rail_33363,Bangaon Junction,0
+rail_circular,rail_1111111,rail_30331,Habra,1
+rail_sdah_bangaon,rail_1111111,rail_33271,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33351,Habra,0
+rail_circular,rail_1111111,rail_30333,Habra,1
+rail_sdah_bangaon,rail_1111111,rail_33367,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33811,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33895,Thakurnagar,0
+rail_sdah_bangaon,rail_1111111,rail_33365,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33369,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33891,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33893,Bangaon Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33865,Bangaon Junction,0
+rail_circular,rail_1111111,rail_30344,Majherhat,0
+rail_circular,rail_1111111,rail_30346,Majherhat,0
+rail_circular,rail_1111110,rail_30116,BBD Bagh,0
+rail_circular,rail_1111111,rail_30128,Majherhat,0
+rail_circular,rail_1111111,rail_30122,Ballygunge Junction,0
+rail_circular,rail_1111111,rail_30142,Majherhat,0
+rail_circular,rail_1111111,rail_30324,Majherhat,0
+rail_circular,rail_1111111,rail_30312,Majherhat,0
+rail_circular,rail_1111111,rail_30322,BBD Bagh,0
+rail_circular,rail_1111111,rail_30332,Majherhat,0
+rail_circular,rail_1111111,rail_30314,Majherhat,0
+rail_circular,rail_1111111,rail_30342,Majherhat,0
+rail_circular,rail_1111111,rail_63102,Kolkata,0
+rail_circular,rail_1111111,rail_30451,Baruipur Junction,0
+rail_sdah_budge_budge,rail_1111111,rail_34112,Komagata Maru Budge Budge,0
+rail_sdah_budge_budge,rail_1111111,rail_34122,Komagata Maru Budge Budge,0
+rail_hwh_kharagpur,rail_1111110,rail_38101,Uluberia,0
+rail_hwh_kharagpur,rail_1111111,rail_38411,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38309,Mecheda,0
+rail_hwh_kharagpur,rail_1111111,rail_38301,Mecheda,0
+rail_hwh_kharagpur,rail_1111110,rail_38407,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38709,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38107,Uluberia,0
+rail_hwh_kharagpur,rail_1111110,rail_38206,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38808,Howrah Junction,1
+rail_sdah_ranaghat,rail_1111110,rail_33291,Dankuni,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37512,Bally,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37824,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37828,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37830,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37612,Howrah Junction,1
+rail_sdah_bardhaman,rail_1111111,rail_63141,Guskara,0
+rail_hwh_kharagpur,rail_1111110,rail_38424,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38718,Santragachi Junction,1
+rail_sdah_ranaghat,rail_1111100,rail_31619,Ranaghat Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31531,Shantipur Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31823,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31833,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31835,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31837,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_63107,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_63105,Dhubulia,0
+rail_sdah_south_short,rail_1111111,rail_34612,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34614,Baruipur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34618,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34620,Baruipur Junction,0
+rail_sdah_south_short,rail_1111110,rail_34630,Baruipur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34634,Baruipur Junction,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34812,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34816,Diamond Harbour,0
+rail_sdah_namkhana,rail_1111111,rail_34714,Lakshmikantapur,0
+rail_sdah_south_short,rail_1111111,rail_34430,Sonarpur Junction,0
+rail_sdah_namkhana,rail_1111111,rail_34794,Namkhana,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34822,Diamond Harbour,0
+rail_sdah_south_short,rail_1111111,rail_34422,Sonarpur Junction,0
+rail_circular,rail_1111111,rail_30321,Hasnabad,1
+rail_circular,rail_1111111,rail_30351,Barasat Junction,1
+rail_circular,rail_1111111,rail_30311,Barasat Junction,1
+rail_circular,rail_1111111,rail_30317,Dattapukur,1
+rail_circular,rail_1111111,rail_30313,Barasat Junction,1
+rail_circular,rail_1111111,rail_30353,Dattapukur,1
+rail_sdah_ranaghat,rail_1111111,rail_31213,Barrackpore,0
+rail_circular,rail_1111111,rail_63101,Dhubulia,1
+rail_circular,rail_1111111,rail_30121,Naihati Junction,1
+rail_circular,rail_1111111,rail_30123,Naihati Junction,1
+rail_circular,rail_1111111,rail_30135,Ranaghat Junction,1
+rail_sdah_ranaghat,rail_1111111,rail_31471,Naihati Junction,0
+rail_circular,rail_1111111,rail_30145,Krishnanagar City Junction,1
+rail_circular,rail_1111110,rail_30113,Kalyani Main,1
+rail_sdah_ranaghat,rail_1111110,rail_31343,Kalyani Main,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37815,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37831,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37845,Barddhaman Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38701,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_68007,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38821,Panskura Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37511,Bandel Junction,0
+rail_hwh_katwa,rail_1111111,rail_37919,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37925,Purbasthali,0
+rail_hwh_bardhaman_main,rail_1111111,rail_63501,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37837,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37839,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37841,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37847,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37849,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37651,Memari,0
+rail_hwh_bardhaman_main,rail_1111101,rail_37835,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37843,Barddhaman Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_36835,Barddhaman Junction,0
+rail_hwh_kharagpur,rail_1111111,rail_38439,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111110,rail_38715,Panskura Junction,0
+rail_hwh_kharagpur,rail_1111100,rail_68001,Panskura Junction,0
+rail_sdah_canning,rail_1111111,rail_30552,Canning,0
+rail_sdah_namkhana,rail_1111111,rail_30712,Lakshmikantapur,0
+rail_sdah_south_short,rail_1111111,rail_34338,Sonarpur Junction,0
+rail_sdah_south_short,rail_1111111,rail_34336,Sonarpur Junction,0
+rail_sdah_bardhaman,rail_1111111,rail_63142,Sealdah,1
+rail_bandel_naihati,rail_1111111,rail_37522,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37524,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37526,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37528,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37530,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37532,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37534,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37536,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37538,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37540,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37544,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37546,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37548,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37550,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37552,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37554,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37556,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37558,Naihati Junction,1
+rail_bandel_naihati,rail_1111111,rail_37542,Naihati Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37415,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37417,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37411,Tarakeswar,0
+rail_hwh_tarakeswar,rail_1111111,rail_37413,Tarakeswar,0
+rail_sdah_hasnabad,rail_1111111,rail_33327,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33313,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33315,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33319,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33323,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33317,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33325,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33311,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33321,Hasnabad,0
+rail_sdah_hasnabad,rail_1111111,rail_33331,Hasnabad,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34882,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34892,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34884,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111111,rail_34886,Diamond Harbour,0
+rail_sdah_diamond_harbour,rail_1111110,rail_34888,Diamond Harbour,0
+rail_sdah_namkhana,rail_1111110,rail_34334,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34332,Lakshmikantapur,0
+rail_sdah_namkhana,rail_1111111,rail_34796,Namkhana,0
+rail_sdah_canning,rail_1111111,rail_34352,Canning,0
+rail_sdah_canning,rail_1111111,rail_34354,Canning,0
+rail_sdah_canning,rail_1111110,rail_34356,Canning,0
+rail_sdah_canning,rail_1111110,rail_34360,Canning,0
+rail_sdah_canning,rail_1111111,rail_34362,Canning,0
+rail_sdah_canning,rail_1111110,rail_34358,Canning,0
+rail_sdah_ranaghat,rail_1111111,rail_31261,Barrackpore,0
+rail_hwh_belur_math,rail_1111111,rail_37112,Howrah Junction,1
+rail_hwh_belur_math,rail_1111111,rail_37114,Howrah Junction,1
+rail_hwh_belur_math,rail_1111111,rail_37116,Howrah Junction,1
+rail_hwh_belur_math,rail_1111111,rail_37118,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37914,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37826,Howrah Junction,1
+rail_hwh_belur_math,rail_1111111,rail_37122,Howrah Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33364,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33382,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33858,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33366,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33362,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33368,Dum Dum Cantonment,1
+rail_sdah_bangaon,rail_1111111,rail_33370,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33372,Barasat Junction,1
+rail_circular,rail_1111111,rail_30111,Barrackpore,1
+rail_circular,rail_1111111,rail_30211,Dum Dum Junction,1
+rail_sdah_budge_budge,rail_1111111,rail_34111,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34163,Sealdah,1
+rail_sdah_budge_budge,rail_1111111,rail_34165,Sealdah,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31320,Sealdah,1
+rail_sdah_gede,rail_1111111,rail_31928,Sealdah,1
+rail_sdah_ranaghat,rail_1111100,rail_31626,Sealdah,1
+rail_sdah_shantipur,rail_1111111,rail_31534,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33524,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33528,Sealdah,1
+rail_sdah_hasnabad,rail_1111111,rail_33538,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31814,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31828,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31834,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31840,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_31842,Sealdah,1
+rail_sdah_krishnanagar,rail_1111111,rail_63106,Sealdah,1
+rail_sdah_south_short,rail_1111110,rail_34631,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34635,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34811,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34817,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34711,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34713,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34755,Sealdah,1
+rail_sdah_south_short,rail_1111111,rail_34421,Sealdah,1
+rail_sdah_namkhana,rail_1111111,rail_34791,Sealdah,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34829,Sealdah,1
+rail_sdah_bangaon,rail_1111110,rail_33262,Dum Dum Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33282,Dum Dum Junction,1
+rail_sdah_ranaghat,rail_1111111,rail_31214,Sealdah,1
+rail_hwh_kharagpur,rail_1111111,rail_68002,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38714,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38806,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37916,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37920,Howrah Junction,1
+rail_hwh_katwa,rail_1111111,rail_37924,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37822,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37652,Howrah Junction,1
+rail_hwh_bardhaman_main,rail_1111101,rail_37844,Howrah Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38712,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38410,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38418,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38310,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111100,rail_68008,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_38316,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38434,Santragachi Junction,1
+rail_hwh_kharagpur,rail_1111110,rail_38102,Santragachi Junction,1
+rail_sdah_canning,rail_1111111,rail_30511,Majherhat,1
+rail_sdah_namkhana,rail_1111111,rail_30711,Majherhat,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34883,Ballygunge Junction,1
+rail_sdah_canning,rail_1111111,rail_34371,Ballygunge Junction,1
+rail_bandel_naihati,rail_1111111,rail_37521,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37523,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37525,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37527,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37529,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37531,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37533,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37535,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37537,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37539,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37543,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37545,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37547,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37549,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37551,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37553,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37555,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37557,Bandel Junction,0
+rail_bandel_naihati,rail_1111111,rail_37541,Bandel Junction,0
+rail_hwh_tarakeswar,rail_1111111,rail_37418,Seoraphuli Jn,1
+rail_hwh_tarakeswar,rail_1111111,rail_37416,Seoraphuli Jn,1
+rail_hwh_tarakeswar,rail_1111111,rail_37414,Seoraphuli Jn,1
+rail_sdah_hasnabad,rail_1111111,rail_33322,Dum Dum Cantonment,1
+rail_sdah_hasnabad,rail_1111111,rail_33314,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33316,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33320,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33312,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33318,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33326,Barasat Junction,1
+rail_sdah_hasnabad,rail_1111111,rail_33328,Barasat Junction,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34891,Baruipur Junction,1
+rail_sdah_diamond_harbour,rail_1111111,rail_34881,Sonarpur Junction,1
+rail_sdah_diamond_harbour,rail_1111110,rail_34885,Sonarpur Junction,1
+rail_sdah_namkhana,rail_1111110,rail_34311,Sonarpur Junction,1
+rail_sdah_namkhana,rail_1111111,rail_34331,Baruipur Junction,1
+rail_sdah_namkhana,rail_1111111,rail_34333,Sonarpur Junction,1
+rail_sdah_canning,rail_1111110,rail_34355,Sonarpur Junction,1
+rail_sdah_canning,rail_1111110,rail_34351,Sonarpur Junction,1
+rail_sdah_canning,rail_1111111,rail_34391,Sonarpur Junction,1
+rail_sdah_canning,rail_1111111,rail_34357,Sonarpur Junction,1
+rail_sdah_canning,rail_1111110,rail_34353,Sonarpur Junction,1
+rail_sdah_canning,rail_1111110,rail_34359,Sonarpur Junction,1
+rail_sdah_south_short,rail_1111111,rail_34313,Sonarpur Junction,1
+rail_sdah_south_short,rail_1111111,rail_34312,Baruipur Junction,0
+rail_sdah_namkhana,rail_1111101,rail_34912,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34914,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34916,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34918,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34920,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34924,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34926,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34928,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34930,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34932,Namkhana,0
+rail_sdah_namkhana,rail_1111110,rail_34934,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34922,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34936,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34981,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111110,rail_34911,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34913,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34915,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34917,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34919,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34923,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34925,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34927,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34929,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34931,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111110,rail_34933,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34921,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34935,Lakshmikantapur,1
+rail_sdah_namkhana,rail_1111111,rail_34938,Namkhana,0
+rail_sdah_namkhana,rail_1111111,rail_34937,Kakdwip,1
+rail_hwh_haldia,rail_1111111,rail_38055,Haldia,0
+rail_hwh_haldia,rail_1111111,rail_38054,Panskura Junction,1
+rail_hwh_kharagpur,rail_1111010,rail_68691,Kanthi,0
+rail_hwh_kharagpur,rail_1111010,rail_68692,Panskura Junction,1
+rail_hwh_kharagpur,rail_1111111,rail_68116,Panskura Junction,1
+rail_hwh_amta,rail_1111110,rail_38902,Santragachi Junction,1
+rail_hwh_amta,rail_1111110,rail_38901,Amta,0
+rail_hwh_amta,rail_1111110,rail_38911,Amta,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37782,Bandel Junction,1
+rail_hwh_bardhaman_main,rail_1111110,rail_37784,Bandel Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37786,Bandel Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37781,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37783,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111111,rail_37785,Barddhaman Junction,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37732,Bandel Junction,1
+rail_hwh_bardhaman_main,rail_1111111,rail_37711,Pundooah,0
+rail_hwh_bardhaman_main,rail_1111110,rail_37731,Memari,0
+rail_hwh_katwa,rail_1111111,rail_37755,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37757,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37741,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37743,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37745,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37747,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37749,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37751,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37753,Mertala Phaleya,0
+rail_hwh_katwa,rail_1111111,rail_37756,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37758,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37744,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37746,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37748,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37750,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37752,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37754,Bandel Junction,1
+rail_hwh_katwa,rail_1111111,rail_37742,Bandel Junction,1
+rail_hwh_tarakeswar,rail_1111111,rail_37391,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37393,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37395,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37423,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37405,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37403,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37401,Goghat,0
+rail_hwh_tarakeswar,rail_1111111,rail_37421,Arambag,0
+rail_hwh_tarakeswar,rail_1111111,rail_37386,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37394,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37388,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37398,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37396,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37390,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37392,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37412,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37424,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37422,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37402,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37410,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37406,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37408,Tarakeswar,1
+rail_hwh_tarakeswar,rail_1111111,rail_37404,Tarakeswar,1
+rail_sdah_bangaon,rail_1111111,rail_33471,Barasat Junction,0
+rail_sdah_bangaon,rail_1111111,rail_33472,Dum Dum Cantonment,1
+rail_sdah_bangaon,rail_1111111,rail_33474,Dum Dum Cantonment,1
+rail_sdah_hasnabad,rail_1111111,rail_33329,Basirhat,0
+rail_sdah_hasnabad,rail_1111111,rail_33324,Barasat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33357,Dattapukur,0
+rail_sdah_canning,rail_1111111,rail_34392,Champahati,0
+rail_ranaghat_bangaon,rail_1111111,rail_33712,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33714,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33716,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33718,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33720,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33722,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33726,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33730,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33732,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33734,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33736,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33738,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33728,Ranaghat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33752,Shantipur Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33740,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33724,Ranaghat Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33742,Ranaghat Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63584,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63582,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63012,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63581,Guskara,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63583,Guskara,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63011,Guskara,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63063,Guskara,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63506,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63508,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63510,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63512,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63514,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63516,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63518,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63520,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63522,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63524,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63526,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63550,Barddhaman Junction,1
+rail_hwh_bardhaman_chord,rail_1111111,rail_63505,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63507,Ishan Chandi Halt,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63509,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63511,Ishan Chandi Halt,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63513,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63515,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63517,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63519,Ishan Chandi Halt,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63521,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63523,Khana Junction,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63525,Ishan Chandi Halt,0
+rail_hwh_bardhaman_chord,rail_1111111,rail_63549,Ishan Chandi Halt,0
+rail_sdah_ranaghat,rail_1111111,rail_33232,Dum Dum Junction,1
+rail_sdah_ranaghat,rail_1111111,rail_33231,Barrackpore,0
+rail_sdah_ranaghat,rail_1111111,rail_31711,Ranaghat Junction,0
+rail_sdah_ranaghat,rail_1111111,rail_31712,Naihati Junction,1
+rail_sdah_kalyani_simanta,rail_1111111,rail_31191,Kalyani Simanta,0
+rail_sdah_ranaghat,rail_1111100,rail_31713,Ranaghat Junction,0
+rail_sdah_kalyani_simanta,rail_1111111,rail_31192,Naihati Junction,1
+rail_sdah_gede,rail_1111111,rail_31746,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31742,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31744,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31748,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31750,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31754,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31756,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31758,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31760,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31752,Ranaghat Junction,1
+rail_sdah_gede,rail_1111111,rail_31749,Gede,0
+rail_sdah_gede,rail_1111111,rail_31741,Gede,0
+rail_sdah_gede,rail_1111111,rail_31743,Gede,0
+rail_sdah_gede,rail_1111111,rail_31747,Gede,0
+rail_sdah_gede,rail_1111111,rail_31751,Gede,0
+rail_sdah_gede,rail_1111111,rail_31755,Gede,0
+rail_sdah_gede,rail_1111111,rail_31745,Gede,0
+rail_sdah_gede,rail_1111111,rail_31757,Gede,0
+rail_sdah_gede,rail_1111111,rail_31759,Gede,0
+rail_sdah_gede,rail_1111111,rail_31753,Gede,0
+rail_sdah_ranaghat,rail_1111100,rail_31714,Naihati Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31781,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31585,Krishnanagar City Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31571,Krishnanagar City Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31783,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31785,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31787,Shantipur Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31782,Ranaghat Junction,1
+rail_sdah_bangaon,rail_1111111,rail_33751,Bangaon Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31784,Ranaghat Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31786,Ranaghat Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31788,Ranaghat Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31790,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31768,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31770,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31772,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31726,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31774,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_63134,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31722,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31728,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31725,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31773,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31723,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31724,Ranaghat Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_63133,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31769,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31721,Krishnanagar City Junction,0
+rail_sdah_krishnanagar,rail_1111111,rail_31771,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31765,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31861,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31865,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31863,Dhubulia,0
+rail_sdah_krishnanagar,rail_1111111,rail_31862,Krishnanagar City Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31864,Krishnanagar City Junction,1
+rail_sdah_krishnanagar,rail_1111111,rail_31866,Krishnanagar City Junction,1
+rail_ranaghat_bangaon,rail_1111111,rail_33733,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33711,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33713,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33715,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33719,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33721,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33723,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33725,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33729,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33731,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33735,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33737,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33739,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33727,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33741,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33717,Bangaon Junction,0
+rail_ranaghat_bangaon,rail_1111111,rail_33743,Bangaon Junction,0
+rail_sdah_shantipur,rail_1111111,rail_31584,Shantipur Junction,1
+rail_sdah_shantipur,rail_1111111,rail_31586,Shantipur Junction,1
+bus_3,daily,bus_3_d0,Sealdah,0
+bus_3,daily,bus_3_d1,Mominpur,1
+bus_15,daily,bus_15_d0,Howrah Station,0
+bus_15,daily,bus_15_d1,Ultadanga,1
+bus_33,daily,bus_33_d0,Paikpara,0
+bus_33,daily,bus_33_d1,Chetla,1
+bus_7a,daily,bus_7a_d0,Howrah Station,0
+bus_7a,daily,bus_7a_d1,Sarsuna Bus terminus,1
+bus_11a,daily,bus_11a_d0,Howrah Station,0
+bus_11a,daily,bus_11a_d1,Dum Dum,1
+bus_14a,daily,bus_14a_d0,Central Park,0
+bus_14a,daily,bus_14a_d1,Bichali Ghat,1
+bus_5_n,daily,bus_5_n_d0,Nabanna,0
+bus_5_n,daily,bus_5_n_d1,Garia,1
+bus_6_n,daily,bus_6_n_d0,Nabanna,0
+bus_6_n,daily,bus_6_n_d1,Garia,1
+bus_12n,daily,bus_12n_d0,Nabanna,0
+bus_12n,daily,bus_12n_d1,Thakurpukur,1
+bus_ac1,daily,bus_ac1_d0,Howrah Station,0
+bus_ac1,daily,bus_ac1_d1,Jadavpur 8B,1
+bus_ac2,daily,bus_ac2_d0,Howrah Station,0
+bus_ac2,daily,bus_ac2_d1,Barasat,1
+bus_ac4,daily,bus_ac4_d0,Howrah,0
+bus_ac4,daily,bus_ac4_d1,Parnashree,1
+bus_ac4a,daily,bus_ac4a_d0,Shapoorji,0
+bus_ac4a,daily,bus_ac4a_d1,Parnashree,1
+bus_ac4b,daily,bus_ac4b_d0,Newtown,0
+bus_ac4b,daily,bus_ac4b_d1,Thakurpukur,1
+bus_ac5,daily,bus_ac5_d0,Howrah Station,0
+bus_ac5,daily,bus_ac5_d1,Garia 5no. Bus Stand,1
+bus_ac6,daily,bus_ac6_d0,Howrah Station,0
+bus_ac6,daily,bus_ac6_d1,Garia 6no. Bus stand,1
+bus_ac9,daily,bus_ac9_d0,City Centre,0
+bus_ac9,daily,bus_ac9_d1,Jadavpur,1
+bus_ac9b,daily,bus_ac9b_d0,Ecospace,0
+bus_ac9b,daily,bus_ac9b_d1,Jadavpur,1
+bus_ac12,daily,bus_ac12_d0,Howrah Station,0
+bus_ac12,daily,bus_ac12_d1,Unitech Gate 1,1
+bus_ac12d,daily,bus_ac12d_d0,Howrah Station,0
+bus_ac12d,daily,bus_ac12d_d1,Thakurpukur Bazar,1
+bus_ac14,daily,bus_ac14_d0,Central Park,0
+bus_ac14,daily,bus_ac14_d1,Baruipur Hospital,1
+bus_ac20,daily,bus_ac20_d0,Santragachi Bus Terminus,0
+bus_ac20,daily,bus_ac20_d1,Titagarh,1
+bus_ac23a,daily,bus_ac23a_d0,Rajchandrapur (Ballyhalt),0
+bus_ac23a,daily,bus_ac23a_d1,Wipro,1
+bus_ac24,daily,bus_ac24_d0,Howrah Station,0
+bus_ac24,daily,bus_ac24_d1,Patuli,1
+bus_ac24a,daily,bus_ac24a_d0,Howrah Station,0
+bus_ac24a,daily,bus_ac24a_d1,Kamalgazi,1
+bus_ac30,daily,bus_ac30_d0,Howrah Station,0
+bus_ac30,daily,bus_ac30_d1,Lake Town (Jaya Cinema),1
+bus_ac30s_it_spl,daily,bus_ac30s_it_spl_d0,Ecospace,0
+bus_ac30s_it_spl,daily,bus_ac30s_it_spl_d1,Bidhannagar Station,1
+bus_ac31,daily,bus_ac31_d0,Jadavpur 8B,0
+bus_ac31,daily,bus_ac31_d1,Behala Chowrasta,1
+bus_ac37,daily,bus_ac37_d0,Garia Bus Stand,0
+bus_ac37,daily,bus_ac37_d1,Barasat Champadali,1
+bus_ac37a,daily,bus_ac37a_d0,Garia Bus Stand,0
+bus_ac37a,daily,bus_ac37a_d1,Kaikhali,1
+bus_ac38,daily,bus_ac38_d0,Tank 10,0
+bus_ac38,daily,bus_ac38_d1,Dumdum Station,1
+bus_ac39,daily,bus_ac39_d0,Howrah Station,0
+bus_ac39,daily,bus_ac39_d1,Kaikhali,1
+bus_ac40,daily,bus_ac40_d0,Howrah Maidan,0
+bus_ac40,daily,bus_ac40_d1,Central Jail,1
+bus_ac43,daily,bus_ac43_d0,Kaikhali,0
+bus_ac43,daily,bus_ac43_d1,Golf Green,1
+bus_ac47,daily,bus_ac47_d0,Tollygunge Metro,0
+bus_ac47,daily,bus_ac47_d1,Kudghat,1
+bus_ac50a,daily,bus_ac50a_d0,Garia Bus Stand,0
+bus_ac50a,daily,bus_ac50a_d1,Rajchandrapur (Ballyhalt),1
+bus_ac52,daily,bus_ac52_d0,Howrah Station,0
+bus_ac52,daily,bus_ac52_d1,Amtala,1
+bus_c2a,daily,bus_c2a_d0,Nalmuri,0
+bus_c2a,daily,bus_c2a_d1,Tollygunge,1
+bus_c7,daily,bus_c7_d0,Garden Reach,0
+bus_c7,daily,bus_c7_d1,Howrah,1
+bus_c8,daily,bus_c8_d0,Thakurpukur 3A,0
+bus_c8,daily,bus_c8_d1,Champadali,1
+bus_c23,daily,bus_c23_d0,Park Circus tram Depot,0
+bus_c23,daily,bus_c23_d1,Rajchandrapur,1
+bus_c24,daily,bus_c24_d0,Howrah,0
+bus_c24,daily,bus_c24_d1,Rajabazar,1
+bus_c26,daily,bus_c26_d0,Baruipur Hospital,0
+bus_c26,daily,bus_c26_d1,Howrah Station,1
+bus_c28,daily,bus_c28_d0,Barrackpore Court,0
+bus_c28,daily,bus_c28_d1,Howrah Station,1
+bus_c29,daily,bus_c29_d0,Barasat,0
+bus_c29,daily,bus_c29_d1,Neelgunge,1
+bus_c31,daily,bus_c31_d0,Belurmath,0
+bus_c31,daily,bus_c31_d1,Karunamoyee,1
+bus_c36,daily,bus_c36_d0,Bakultala,0
+bus_c36,daily,bus_c36_d1,Rajabazar Tram Depot,1
+bus_c37,daily,bus_c37_d0,Amtala,0
+bus_c37,daily,bus_c37_d1,Howrah Station,1
+bus_c42,daily,bus_c42_d0,Howrah,0
+bus_c42,daily,bus_c42_d1,Birati,1
+bus_c43,daily,bus_c43_d0,Garia Bus Stand,0
+bus_c43,daily,bus_c43_d1,Barasat Champadali,1
+bus_c46,daily,bus_c46_d0,Nabanna,0
+bus_c46,daily,bus_c46_d1,Hastings,1
+bus_c48,daily,bus_c48_d0,Baruipur,0
+bus_c48,daily,bus_c48_d1,Madhyamgram,1
+bus_d17,daily,bus_d17_d0,Santragachi,0
+bus_d17,daily,bus_d17_d1,Garia,1
+bus_d1a,daily,bus_d1a_d0,Tollygunge,0
+bus_d1a,daily,bus_d1a_d1,Barasat,1
+bus_e1,daily,bus_e1_d0,Howrah Station,0
+bus_e1,daily,bus_e1_d1,Jadavpur 8B,1
+bus_e4,daily,bus_e4_d0,Howrah bus stand (Executive),0
+bus_e4,daily,bus_e4_d1,Parnashree,1
+bus_e32,daily,bus_e32_d0,Howrah Station,0
+bus_e32,daily,bus_e32_d1,Chiria More,1
+bus_e36,daily,bus_e36_d0,Santragachi,0
+bus_e36,daily,bus_e36_d1,Barasat,1
+bus_e_36_spl,daily,bus_e_36_spl_d0,Santragachi,0
+bus_e_36_spl,daily,bus_e_36_spl_d1,Barasat,1
+bus_e_37a,daily,bus_e_37a_d0,Esplanade,0
+bus_e_37a,daily,bus_e_37a_d1,Barasat,1
+bus_e43a,daily,bus_e43a_d0,Battala,0
+bus_e43a,daily,bus_e43a_d1,Howrah,1
+bus_e75,daily,bus_e75_d0,Baruipur,0
+bus_e75,daily,bus_e75_d1,Barasat,1
+bus_e77,daily,bus_e77_d0,Jagatballavpur,0
+bus_e77,daily,bus_e77_d1,Esplanade,1
+bus_eb1,daily,bus_eb1_d0,Newtown,0
+bus_eb1,daily,bus_eb1_d1,Nabanna,1
+bus_eb3,daily,bus_eb3_d0,Ecospace,0
+bus_eb3,daily,bus_eb3_d1,Tollygunge,1
+bus_eb12,daily,bus_eb12_d0,Shapoorji,0
+bus_eb12,daily,bus_eb12_d1,Barasat,1
+bus_eb14,daily,bus_eb14_d0,Ecospace,0
+bus_eb14,daily,bus_eb14_d1,Santragachi,1
+bus_m7b,daily,bus_m7b_d0,Howrah Station,0
+bus_m7b,daily,bus_m7b_d1,Shibrampur,1
+bus_m7c,daily,bus_m7c_d0,Howrah Station,0
+bus_m7c,daily,bus_m7c_d1,Bakultala,1
+bus_m7d,daily,bus_m7d_d0,Kankurgachi,0
+bus_m7d,daily,bus_m7d_d1,Sarsuna,1
+bus_m7e,daily,bus_m7e_d0,Howrah Station,0
+bus_m7e,daily,bus_m7e_d1,Bagpota,1
+bus_m7k,daily,bus_m7k_d0,Sealdah (Rajabazar T.D. ),0
+bus_m7k,daily,bus_m7k_d1,Sarsuna,1
+bus_m14,daily,bus_m14_d0,Newtown,0
+bus_m14,daily,bus_m14_d1,Behala,1
+bus_m24,daily,bus_m24_d0,Howrah Station,0
+bus_m24,daily,bus_m24_d1,Shibtala Math,1
+bus_midi_1,daily,bus_midi_1_d0,Rajabazar Tram Depot,0
+bus_midi_1,daily,bus_midi_1_d1,Howrah Maidan,1
+bus_s2,daily,bus_s2_d0,Howrah Station,0
+bus_s2,daily,bus_s2_d1,Kudghat,1
+bus_s3a,daily,bus_s3a_d0,Sealdah(Rajabajar),0
+bus_s3a,daily,bus_s3a_d1,Thakurpukur,1
+bus_s3b,daily,bus_s3b_d0,Kankurgachi,0
+bus_s3b,daily,bus_s3b_d1,Behala 14 number,1
+bus_s3w,daily,bus_s3w_d0,Unitech Gate 2,0
+bus_s3w,daily,bus_s3w_d1,Thakurpukur Bazar,1
+bus_s4,daily,bus_s4_d0,Baisakhi,0
+bus_s4,daily,bus_s4_d1,Parnashree,1
+bus_s4c,daily,bus_s4c_d0,Howrah Station,0
+bus_s4c,daily,bus_s4c_d1,Haridevpur,1
+bus_s4d,daily,bus_s4d_d0,Newtown Bus Stand,0
+bus_s4d,daily,bus_s4d_d1,Parnashree,1
+bus_s5,daily,bus_s5_d0,Howrah Station,0
+bus_s5,daily,bus_s5_d1,Garia 5no. Bus Stand,1
+bus_s7,daily,bus_s7_d0,Howrah Station,0
+bus_s7,daily,bus_s7_d1,Garia 6no. Bus stand,1
+bus_s9,daily,bus_s9_d0,Central Park,0
+bus_s9,daily,bus_s9_d1,Jadavpur,1
+bus_s9a,daily,bus_s9a_d0,Ballygunge Station,0
+bus_s9a,daily,bus_s9a_d1,Dunlop,1
+bus_s9c,daily,bus_s9c_d0,Ecospace,0
+bus_s9c,daily,bus_s9c_d1,Kamalgazi,1
+bus_s10,daily,bus_s10_d0,Hastings,0
+bus_s10,daily,bus_s10_d1,Central Jail,1
+bus_s10a,daily,bus_s10a_d0,Howrah Station,0
+bus_s10a,daily,bus_s10a_d1,Ballygunge Station,1
+bus_s11,daily,bus_s11_d0,Esplanade L20,0
+bus_s11,daily,bus_s11_d1,Chiria More,1
+bus_s12,daily,bus_s12_d0,Howrah Station,0
+bus_s12,daily,bus_s12_d1,Newtown Bus Stand,1
+bus_s12d,daily,bus_s12d_d0,Howrah Station,0
+bus_s12d,daily,bus_s12d_d1,Thakurpukur 3A,1
+bus_s12e,daily,bus_s12e_d0,Howrah Station,0
+bus_s12e,daily,bus_s12e_d1,Unitech Gate 2,1
+bus_s14,daily,bus_s14_d0,Central Park,0
+bus_s14,daily,bus_s14_d1,Garia Bus Stand,1
+bus_s16,daily,bus_s16_d0,Saltlake,0
+bus_s16,daily,bus_s16_d1,Thakurpukur,1
+bus_s17a,daily,bus_s17a_d0,Tollygunj Tram Depot,0
+bus_s17a,daily,bus_s17a_d1,Ariadaha (Dakshineswar),1
+bus_s21,daily,bus_s21_d0,Garia Bus Stand,0
+bus_s21,daily,bus_s21_d1,Bagbazar,1
+bus_s22,daily,bus_s22_d0,Wipro,0
+bus_s22,daily,bus_s22_d1,Shakuntala Park,1
+bus_s23a,daily,bus_s23a_d0,Rajchandrapur (Ballyhalt),0
+bus_s23a,daily,bus_s23a_d1,Tank No.10,1
+bus_s24,daily,bus_s24_d0,Howrah Station,0
+bus_s24,daily,bus_s24_d1,Kamalgazi,1
+bus_s24n,daily,bus_s24n_d0,Nabanna,0
+bus_s24n,daily,bus_s24n_d1,Patuli,1
+bus_s30_it_spl,daily,bus_s30_it_spl_d0,Ecospace,0
+bus_s30_it_spl,daily,bus_s30_it_spl_d1,Bidhannagar Station,1
+bus_s30a,daily,bus_s30a_d0,HUDCO,0
+bus_s30a,daily,bus_s30a_d1,Ultadanga - Salt Lake-Ultadanga,1
+bus_s31,daily,bus_s31_d0,Jadavpur 8B,0
+bus_s31,daily,bus_s31_d1,Behala Chowrasta,1
+bus_s32,daily,bus_s32_d0,Howrah Station,0
+bus_s32,daily,bus_s32_d1,Barrackpore,1
+bus_s32a,daily,bus_s32a_d0,Howrah Station,0
+bus_s32a,daily,bus_s32a_d1,Dunlop,1
+bus_s34c,daily,bus_s34c_d0,Nagerbazar,0
+bus_s34c,daily,bus_s34c_d1,Dunlop,1
+bus_s_37,daily,bus_s_37_d0,Garia Bus Stand,0
+bus_s_37,daily,bus_s_37_d1,Hridaypur,1
+bus_s45,daily,bus_s45_d0,Kolkata Station,0
+bus_s45,daily,bus_s45_d1,Shakuntala Park,1
+bus_s46,daily,bus_s46_d0,Central Park,0
+bus_s46,daily,bus_s46_d1,Santoshpur,1
+bus_s47,daily,bus_s47_d0,Howrah Station,0
+bus_s47,daily,bus_s47_d1,Bata More,1
+bus_s47a,daily,bus_s47a_d0,Howrah Station,0
+bus_s47a,daily,bus_s47a_d1,Behala Airport,1
+bus_s57,daily,bus_s57_d0,Hastings,0
+bus_s57,daily,bus_s57_d1,Ariadaha,1
+bus_s58,daily,bus_s58_d0,Central Park,0
+bus_s58,daily,bus_s58_d1,Barrackpore Court,1
+bus_s5c,daily,bus_s5c_d0,Howrah Station,0
+bus_s5c,daily,bus_s5c_d1,Garia Station,1
+bus_s61,daily,bus_s61_d0,Achipur,0
+bus_s61,daily,bus_s61_d1,Taratala,1
+bus_s_62,daily,bus_s_62_d0,Bichali Ghat,0
+bus_s_62,daily,bus_s_62_d1,Patuli,1
+bus_s63,daily,bus_s63_d0,Nadial,0
+bus_s63,daily,bus_s63_d1,Taratala,1
+bus_s64,daily,bus_s64_d0,DLF1,0
+bus_s64,daily,bus_s64_d1,Naihati Bus terminus,1
+bus_s65,daily,bus_s65_d0,Sankrail Station,0
+bus_s65,daily,bus_s65_d1,Sealdah,1
+bus_st16,daily,bus_st16_d0,Garia Metro,0
+bus_st16,daily,bus_st16_d1,Unitech Gate 1,1
+bus_st6,daily,bus_st6_d0,Tollygunge,0
+bus_st6,daily,bus_st6_d1,College More,1
+bus_t12,daily,bus_t12_d0,Science City,0
+bus_t12,daily,bus_t12_d1,Howrah,1
+bus_t2,daily,bus_t2_d0,Hastings,0
+bus_t2,daily,bus_t2_d1,BBD Bag,1
+bus_t8,daily,bus_t8_d0,BBD Bag,0
+bus_t8,daily,bus_t8_d1,Tikiapara,1
+bus_v1,daily,bus_v1_d0,Airport,0
+bus_v1,daily,bus_v1_d1,Tollygunge,1
+bus_v1_l,daily,bus_v1_l_d0,Kaikhali,0
+bus_v1_l,daily,bus_v1_l_d1,Tollygunge,1
+bus_vs1,daily,bus_vs1_d0,Esplanade L20,0
+bus_vs1,daily,bus_vs1_d1,Kaikhali,1
+bus_vs12,daily,bus_vs12_d0,Santragachi,0
+bus_vs12,daily,bus_vs12_d1,Central Park,1
+bus_vs2,daily,bus_vs2_d0,Howrah Station,0
+bus_vs2,daily,bus_vs2_d1,Kaikhali,1
+bus_1,daily,bus_1_d0,Mukundapur,0
+bus_1,daily,bus_1_d1,BNR,1
+bus_1a,daily,bus_1a_d0,Mukundapur,0
+bus_1a,daily,bus_1a_d1,Kidderpore,1
+bus_1b,daily,bus_1b_d0,Garia Station,0
+bus_1b,daily,bus_1b_d1,Taratala,1
+bus_3b,daily,bus_3b_d0,Belgachia Metro,0
+bus_3b,daily,bus_3b_d1,New Alipore,1
+bus_3c_1,daily,bus_3c_1_d0,Nagerbazar,0
+bus_3c_1,daily,bus_3c_1_d1,Anandapur,1
+bus_3c_2,daily,bus_3c_2_d0,Nagerbazar,0
+bus_3c_2,daily,bus_3c_2_d1,Anandapur,1
+bus_3d,daily,bus_3d_d0,Belgachia Metro,0
+bus_3d,daily,bus_3d_d1,Sakherbazar (Behala),1
+bus_12,daily,bus_12_d0,Rajabazar,0
+bus_12,daily,bus_12_d1,Metiabruz,1
+bus_12_shuttle,daily,bus_12_shuttle_d0,Esplanade,0
+bus_12_shuttle,daily,bus_12_shuttle_d1,Metiabruz,1
+bus_12a,daily,bus_12a_d0,Howrah Station,0
+bus_12a,daily,bus_12a_d1,Metiabruz,1
+bus_12ad,daily,bus_12ad_d0,Howrah Station,0
+bus_12ad,daily,bus_12ad_d1,Santoshpur Station,1
+bus_12b_shuttle,daily,bus_12b_shuttle_d0,Esplanade,0
+bus_12b_shuttle,daily,bus_12b_shuttle_d1,Garden Reach,1
+bus_12c,daily,bus_12c_d0,Howrah Station,0
+bus_12c,daily,bus_12c_d1,Thakurpukur,1
+bus_12c_1,daily,bus_12c_1_d0,Howrah Station,0
+bus_12c_1,daily,bus_12c_1_d1,Shibrampur,1
+bus_12c_2,daily,bus_12c_2_d0,Howrah Station,0
+bus_12c_2,daily,bus_12c_2_d1,Aquatica,1
+bus_12c_1a,daily,bus_12c_1a_d0,Howrah Station,0
+bus_12c_1a,daily,bus_12c_1a_d1,Thakurpukur,1
+bus_12c_1b,daily,bus_12c_1b_d0,Howrah Station,0
+bus_12c_1b,daily,bus_12c_1b_d1,Thakurpukur 3A,1
+bus_13,daily,bus_13_d0,Sealdah Station,0
+bus_13,daily,bus_13_d1,Parnashree,1
+bus_13a,daily,bus_13a_d0,BBD Bag,0
+bus_13a,daily,bus_13a_d1,Jhinjhira Bazar,1
+bus_13c,daily,bus_13c_d0,Baghajatin,0
+bus_13c,daily,bus_13c_d1,Jhinjhira Bazar,1
+bus_17,daily,bus_17_d0,Howrah Station,0
+bus_17,daily,bus_17_d1,Chetla,1
+bus_18a,daily,bus_18a_d0,Howrah Station,0
+bus_18a,daily,bus_18a_d1,Greenfield City,1
+bus_18b_1,daily,bus_18b_1_d0,Ruby Hospital,0
+bus_18b_1,daily,bus_18b_1_d1,Shibrampur,1
+bus_18c,daily,bus_18c_d0,Anandapur,0
+bus_18c,daily,bus_18c_d1,Sarsuna,1
+bus_18d,daily,bus_18d_d0,Howrah Station,0
+bus_18d,daily,bus_18d_d1,Sarsuna,1
+bus_21,daily,bus_21_d0,Sealdah Station,0
+bus_21,daily,bus_21_d1,Barisha,1
+bus_21_1,daily,bus_21_1_d0,Sealdah Station,0
+bus_21_1,daily,bus_21_1_d1,Barisha,1
+bus_24,daily,bus_24_d0,Howrah Maidan,0
+bus_24,daily,bus_24_d1,Topsia,1
+bus_24a,daily,bus_24a_d0,Howrah Maidan,0
+bus_24a,daily,bus_24a_d1,Topsia,1
+bus_24a_1,daily,bus_24a_1_d0,Howrah Station,0
+bus_24a_1,daily,bus_24a_1_d1,Mukundapur,1
+bus_24b,daily,bus_24b_d0,Howrah Station,0
+bus_24b,daily,bus_24b_d1,Sealdah Station,1
+bus_28,daily,bus_28_d0,Howrah Station,0
+bus_28,daily,bus_28_d1,Sealdah Station,1
+bus_30a,daily,bus_30a_d0,Esplanade,0
+bus_30a,daily,bus_30a_d1,Sinthi,1
+bus_30b,daily,bus_30b_d0,Babughat,0
+bus_30b,daily,bus_30b_d1,Birati More,1
+bus_30c,daily,bus_30c_d0,Babughat,0
+bus_30c,daily,bus_30c_d1,Hatiara,1
+bus_30c_1,daily,bus_30c_1_d0,Babughat,0
+bus_30c_1,daily,bus_30c_1_d1,Hatiara,1
+bus_30d,daily,bus_30d_d0,Babughat,0
+bus_30d,daily,bus_30d_d1,Central Jail,1
+bus_32a,daily,bus_32a_d0,Sector V (Saltlake),0
+bus_32a,daily,bus_32a_d1,Dakshineswar,1
+bus_34b,daily,bus_34b_d0,Esplanade,0
+bus_34b,daily,bus_34b_d1,Dunlop,1
+bus_34c,daily,bus_34c_d0,Esplanade,0
+bus_34c,daily,bus_34c_d1,Tobin Road,1
+bus_37,daily,bus_37_d0,Howrah Station,0
+bus_37,daily,bus_37_d1,Dhakuria,1
+bus_37a,daily,bus_37a_d0,Howrah Station,0
+bus_37a,daily,bus_37a_d1,Dhakuria,1
+bus_39,daily,bus_39_d0,High Court,0
+bus_39,daily,bus_39_d1,Kustia More,1
+bus_39a_2,daily,bus_39a_2_d0,Howrah Station,0
+bus_39a_2,daily,bus_39a_2_d1,VIP Bazar,1
+bus_40a,daily,bus_40a_d0,Babughat,0
+bus_40a,daily,bus_40a_d1,Bakeshwar,1
+bus_40b,daily,bus_40b_d0,Babughat,0
+bus_40b,daily,bus_40b_d1,Thakurpukur,1
+bus_41,daily,bus_41_d0,Howrah Station,0
+bus_41,daily,bus_41_d1,Layalka,1
+bus_41b,daily,bus_41b_d0,Howrah Station,0
+bus_41b,daily,bus_41b_d1,Tollygunge,1
+bus_42a,daily,bus_42a_d0,Bichali Ghat,0
+bus_42a,daily,bus_42a_d1,Kustia More,1
+bus_42b,daily,bus_42b_d0,Bichali Ghat,0
+bus_42b,daily,bus_42b_d1,Anandapur,1
+bus_43,daily,bus_43_d0,Esplanade,0
+bus_43,daily,bus_43_d1,Dakshineswar,1
+bus_44,daily,bus_44_d0,Howrah Station,0
+bus_44,daily,bus_44_d1,Baguiati,1
+bus_44_1,daily,bus_44_1_d0,Howrah Station,0
+bus_44_1,daily,bus_44_1_d1,Baguiati,1
+bus_44a,daily,bus_44a_d0,Howrah Station,0
+bus_44a,daily,bus_44a_d1,Sector V (Saltlake),1
+bus_45,daily,bus_45_d0,Baishnabghata,0
+bus_45,daily,bus_45_d1,Kaikhali,1
+bus_45a,daily,bus_45a_d0,Garia Station,0
+bus_45a,daily,bus_45a_d1,Kaikhali,1
+bus_45b,daily,bus_45b_d0,Garia Station,0
+bus_45b,daily,bus_45b_d1,Building More,1
+bus_46,daily,bus_46_d0,Esplanade,0
+bus_46,daily,bus_46_d1,Kaikhali,1
+bus_46b,daily,bus_46b_d0,Esplanade,0
+bus_46b,daily,bus_46b_d1,Moonbeam,1
+bus_47_1,daily,bus_47_1_d0,Sealdah Station,0
+bus_47_1,daily,bus_47_1_d1,Tollygunge,1
+bus_47b,daily,bus_47b_d0,Dhanmath,0
+bus_47b,daily,bus_47b_d1,Laketown,1
+bus_51,daily,bus_51_d0,Howrah Station,0
+bus_51,daily,bus_51_d1,Delhi Road,1
+bus_52,daily,bus_52_d0,Esplanade,0
+bus_52,daily,bus_52_d1,Ramrajatala,1
+bus_54,daily,bus_54_d0,Esplanade,0
+bus_54,daily,bus_54_d1,Belurmath,1
+bus_55,daily,bus_55_d0,Esplanade,0
+bus_55,daily,bus_55_d1,B.Garden,1
+bus_55a,daily,bus_55a_d0,Esplanade,0
+bus_55a,daily,bus_55a_d1,Howrah Maidan,1
+bus_56,daily,bus_56_d0,Howrah Station,0
+bus_56,daily,bus_56_d1,Kalyan Nagar,1
+bus_57,daily,bus_57_d0,Esplanade,0
+bus_57,daily,bus_57_d1,Belgachia,1
+bus_57a,daily,bus_57a_d0,Howrah Station,0
+bus_57a,daily,bus_57a_d1,Chamrail,1
+bus_59,daily,bus_59_d0,Esplanade,0
+bus_59,daily,bus_59_d1,Bakultala,1
+bus_61,daily,bus_61_d0,Howrah Station,0
+bus_61,daily,bus_61_d1,Bakultala,1
+bus_63,daily,bus_63_d0,Howrah Station,0
+bus_63,daily,bus_63_d1,Domjur,1
+bus_67,daily,bus_67_d0,Shibgunge,0
+bus_67,daily,bus_67_d1,Khalore More,1
+bus_67b,daily,bus_67b_d0,Mugkalyan,0
+bus_67b,daily,bus_67b_d1,Khalore More,1
+bus_68,daily,bus_68_d0,Radhapur,0
+bus_68,daily,bus_68_d1,Khalore More,1
+bus_69,daily,bus_69_d0,Howrah Station,0
+bus_69,daily,bus_69_d1,Sankrail,1
+bus_71,daily,bus_71_d0,Sealdah Station,0
+bus_71,daily,bus_71_d1,Howrah Maidan,1
+bus_72,daily,bus_72_d0,Park Circus,0
+bus_72,daily,bus_72_d1,Dumurjola,1
+bus_73,daily,bus_73_d0,Esplanade,0
+bus_73,daily,bus_73_d1,Dasnagar,1
+bus_73_2,daily,bus_73_2_d0,Naihati,0
+bus_73_2,daily,bus_73_2_d1,Kalyangarh,1
+bus_75,daily,bus_75_d0,Esplanade,0
+bus_75,daily,bus_75_d1,Ichapur More,1
+bus_75_2,daily,bus_75_2_d0,Babughat,0
+bus_75_2,daily,bus_75_2_d1,Dongaria,1
+bus_77a,daily,bus_77a_d0,Esplanade,0
+bus_77a,daily,bus_77a_d1,Batanagar,1
+bus_77a_no_bata,daily,bus_77a_no_bata_d0,Esplanade,0
+bus_77a_no_bata,daily,bus_77a_no_bata_d1,Birlapur,1
+bus_78,daily,bus_78_d0,Esplanade,0
+bus_78,daily,bus_78_d1,Barrackpore Court,1
+bus_78_1,daily,bus_78_1_d0,Babughat,0
+bus_78_1,daily,bus_78_1_d1,Rahara Bazar,1
+bus_78_1_2,daily,bus_78_1_2_d0,Babughat,0
+bus_78_1_2,daily,bus_78_1_2_d1,Sodepur Station,1
+bus_79,daily,bus_79_d0,Dunlop More,0
+bus_79,daily,bus_79_d1,Rajchandrapur,1
+bus_79b,daily,bus_79b_d0,Bagbazar,0
+bus_79b,daily,bus_79b_d1,Barasat,1
+bus_79d,daily,bus_79d_d0,Babughat,0
+bus_79d,daily,bus_79d_d1,Madhyamgram,1
+bus_80,daily,bus_80_d0,Howrah Station,0
+bus_80,daily,bus_80_d1,Bakultala,1
+bus_80a,daily,bus_80a_d0,Esplanade,0
+bus_80a,daily,bus_80a_d1,Garia Metro,1
+bus_80b,daily,bus_80b_d0,Esplanade,0
+bus_80b,daily,bus_80b_d1,Garia Metro,1
+bus_81,daily,bus_81_d0,Barrackpore Court,0
+bus_81,daily,bus_81_d1,Barasat,1
+bus_81_1,daily,bus_81_1_d0,Rajchandrapur,0
+bus_81_1,daily,bus_81_1_d1,Barasat,1
+bus_83,daily,bus_83_d0,Babughat,0
+bus_83,daily,bus_83_d1,Falta,1
+bus_85,daily,bus_85_d0,Barrackpore Court,0
+bus_85,daily,bus_85_d1,Kanchrapara,1
+bus_87,daily,bus_87_d0,Adhata More,0
+bus_87,daily,bus_87_d1,Barasat,1
+bus_87a,daily,bus_87a_d0,Rambati,0
+bus_87a,daily,bus_87a_d1,Barasat,1
+bus_88,daily,bus_88_d0,Kanchrapara,0
+bus_88,daily,bus_88_d1,Barasat,1
+bus_91,daily,bus_91_d0,Kashipur,0
+bus_91,daily,bus_91_d1,Shyambazar,1
+bus_91a,daily,bus_91a_d0,Dhanpota,0
+bus_91a,daily,bus_91a_d1,Shyambazar,1
+bus_91b,daily,bus_91b_d0,Bishnupur,0
+bus_91b,daily,bus_91b_d1,Shyambazar,1
+bus_91c,daily,bus_91c_d0,Bishnupur,0
+bus_91c,daily,bus_91c_d1,Shyambazar,1
+bus_93,daily,bus_93_d0,Bagbazar,0
+bus_93,daily,bus_93_d1,Kharibari,1
+bus_95,daily,bus_95_d0,Chanda,0
+bus_95,daily,bus_95_d1,Nagarukhra,1
+bus_201,daily,bus_201_d0,College More,0
+bus_201,daily,bus_201_d1,Nimta,1
+bus_202,daily,bus_202_d0,Science City,0
+bus_202,daily,bus_202_d1,Nagerbazar,1
+bus_204_1,daily,bus_204_1_d0,Rajabazar,0
+bus_204_1,daily,bus_204_1_d1,Chetla Park,1
+bus_205,daily,bus_205_d0,Babughat,0
+bus_205,daily,bus_205_d1,Bansdroni,1
+bus_205a,daily,bus_205a_d0,Babughat,0
+bus_205a,daily,bus_205a_d1,Bansdroni,1
+bus_208,daily,bus_208_d0,Howrah Station,0
+bus_208,daily,bus_208_d1,Kudghat,1
+bus_210,daily,bus_210_d0,Esplanade,0
+bus_210,daily,bus_210_d1,Raichak,1
+bus_211_white_board,daily,bus_211_white_board_d0,Kharibari,0
+bus_211_white_board,daily,bus_211_white_board_d1,Ahiritola,1
+bus_211_yellow_board,daily,bus_211_yellow_board_d0,Patharghata,0
+bus_211_yellow_board,daily,bus_211_yellow_board_d1,Ahiritola,1
+bus_211_blue_board,daily,bus_211_blue_board_d0,Bishnupur,0
+bus_211_blue_board,daily,bus_211_blue_board_d1,Ahiritola,1
+bus_211a,daily,bus_211a_d0,Rajarhat Chowmatha,0
+bus_211a,daily,bus_211a_d1,Ahiritola,1
+bus_212,daily,bus_212_d0,Howrah Station,0
+bus_212,daily,bus_212_d1,Garfa Road,1
+bus_213,daily,bus_213_d0,Babughat,0
+bus_213,daily,bus_213_d1,Nalmuri,1
+bus_213a,daily,bus_213a_d0,Rajabazar,0
+bus_213a,daily,bus_213a_d1,Nalmuri,1
+bus_214,daily,bus_214_d0,Babughat,0
+bus_214,daily,bus_214_d1,Sajirhat,1
+bus_214a,daily,bus_214a_d0,Esplanade,0
+bus_214a,daily,bus_214a_d1,Kamarhati,1
+bus_215,daily,bus_215_d0,Howrah Station,0
+bus_215,daily,bus_215_d1,Moonbeam,1
+bus_215_1,daily,bus_215_1_d0,Howrah Station,0
+bus_215_1,daily,bus_215_1_d1,Laketown(VIP),1
+bus_215a,daily,bus_215a_d0,Howrah Station,0
+bus_215a,daily,bus_215a_d1,Sector V (Saltlake),1
+bus_215a_1,daily,bus_215a_1_d0,Howrah Station,0
+bus_215a_1,daily,bus_215a_1_d1,Sector V (Saltlake),1
+bus_217,daily,bus_217_d0,Babughat,0
+bus_217,daily,bus_217_d1,Kaikhali,1
+bus_217a,daily,bus_217a_d0,Babughat,0
+bus_217a,daily,bus_217a_d1,Kaikhali,1
+bus_217b,daily,bus_217b_d0,Babughat,0
+bus_217b,daily,bus_217b_d1,Derozio College,1
+bus_218,daily,bus_218_d0,Babughat,0
+bus_218,daily,bus_218_d1,Baruipur,1
+bus_219,daily,bus_219_d0,Howrah Station,0
+bus_219,daily,bus_219_d1,Nagerbazar,1
+bus_219_1,daily,bus_219_1_d0,Howrah Station,0
+bus_219_1,daily,bus_219_1_d1,Nagerbazar,1
+bus_221,daily,bus_221_d0,Golpark,0
+bus_221,daily,bus_221_d1,Nagerbazar,1
+bus_222,daily,bus_222_d0,Dunlop More,0
+bus_222,daily,bus_222_d1,Sakher Bazar,1
+bus_223,daily,bus_223_d0,Golf Green,0
+bus_223,daily,bus_223_d1,Birati More,1
+bus_227,daily,bus_227_d0,Bangur Avenue,0
+bus_227,daily,bus_227_d1,B.N.R. Hospital,1
+bus_228,daily,bus_228_d0,Babughat,0
+bus_228,daily,bus_228_d1,Garia Metro,1
+bus_230,daily,bus_230_d0,Kamarhati,0
+bus_230,daily,bus_230_d1,Alipore Zoo,1
+bus_230_2,daily,bus_230_2_d0,Agarpara Station,0
+bus_230_2,daily,bus_230_2_d1,Alipore Zoo,1
+bus_234,daily,bus_234_d0,Golf Green,0
+bus_234,daily,bus_234_d1,Belgharia,1
+bus_234_1,daily,bus_234_1_d0,Golf Green,0
+bus_234_1,daily,bus_234_1_d1,Belgharia Station,1
+bus_235,daily,bus_235_d0,Sealdah Station,0
+bus_235,daily,bus_235_d1,Amtala,1
+bus_237,daily,bus_237_d0,Babughat,0
+bus_237,daily,bus_237_d1,Birati Station,1
+bus_l238,daily,bus_l238_d0,Howrah Station,0
+bus_l238,daily,bus_l238_d1,Barasat,1
+bus_239_white_board,daily,bus_239_white_board_d0,Babughat,0
+bus_239_white_board,daily,bus_239_white_board_d1,Karunamoyee,1
+bus_239_yellow_board,daily,bus_239_yellow_board_d0,Babughat,0
+bus_239_yellow_board,daily,bus_239_yellow_board_d1,Shapoorji,1
+bus_240,daily,bus_240_d0,Golf Green,0
+bus_240,daily,bus_240_d1,Bagbazar,1
+bus_240_1,daily,bus_240_1_d0,Garia Station,0
+bus_240_1,daily,bus_240_1_d1,Bagbazar,1
+bus_241,daily,bus_241_d0,Esplanade,0
+bus_241,daily,bus_241_d1,Santoshpur Station,1
+bus_242,daily,bus_242_d0,Esplanade,0
+bus_242,daily,bus_242_d1,Cossipore,1
+bus_253,daily,bus_253_d0,Esplanade,0
+bus_253,daily,bus_253_d1,Gopalpur,1
+bus_259,daily,bus_259_d0,Howrah Station,0
+bus_259,daily,bus_259_d1,Akra Station,1
+bus_260,daily,bus_260_d0,Alipore Zoo,0
+bus_260,daily,bus_260_d1,Unitech Gate 1,1
+bus_s101,daily,bus_s101_d0,BBD Bag,0
+bus_s101,daily,bus_s101_d1,Garia More,1
+bus_s101_1,daily,bus_s101_1_d0,BBD Bag,0
+bus_s101_1,daily,bus_s101_1_d1,Garia Station,1
+bus_s102,daily,bus_s102_d0,BBD Bag,0
+bus_s102,daily,bus_s102_d1,Patuli,1
+bus_s103,daily,bus_s103_d0,BBD Bag,0
+bus_s103,daily,bus_s103_d1,Jadavpur,1
+bus_s104,daily,bus_s104_d0,BBD Bag,0
+bus_s104,daily,bus_s104_d1,Jodhpur Park,1
+bus_s106,daily,bus_s106_d0,BBD Bag,0
+bus_s106,daily,bus_s106_d1,Mukundapur,1
+bus_s107,daily,bus_s107_d0,Howrah Station,0
+bus_s107,daily,bus_s107_d1,Anandapur,1
+bus_s107_1,daily,bus_s107_1_d0,Howrah Station,0
+bus_s107_1,daily,bus_s107_1_d1,Anandapur,1
+bus_s108,daily,bus_s108_d0,Howrah Station,0
+bus_s108,daily,bus_s108_d1,Ballygunge Station,1
+bus_s109,daily,bus_s109_d0,BBD Bag,0
+bus_s109,daily,bus_s109_d1,Ballygunge Station,1
+bus_s110,daily,bus_s110_d0,Howrah Station,0
+bus_s110,daily,bus_s110_d1,Golf Green,1
+bus_s111,daily,bus_s111_d0,Howrah Station,0
+bus_s111,daily,bus_s111_d1,Lake Road,1
+bus_s112,daily,bus_s112_d0,Howrah Station,0
+bus_s112,daily,bus_s112_d1,Garia Station (Naktala),1
+bus_s113,daily,bus_s113_d0,Howrah Station,0
+bus_s113,daily,bus_s113_d1,Harinavi,1
+bus_s117,daily,bus_s117_d0,Howrah Station,0
+bus_s117,daily,bus_s117_d1,Haridevpur,1
+bus_s121,daily,bus_s121_d0,Howrah Station,0
+bus_s121,daily,bus_s121_d1,Behala Chowrasta,1
+bus_s123,daily,bus_s123_d0,Howrah Station,0
+bus_s123,daily,bus_s123_d1,Bichali Ghat,1
+bus_s124,daily,bus_s124_d0,Howrah Station,0
+bus_s124,daily,bus_s124_d1,Garia Station,1
+bus_s125,daily,bus_s125_d0,Howrah Station,0
+bus_s125,daily,bus_s125_d1,Park Circus,1
+bus_s126,daily,bus_s126_d0,Howrah Station,0
+bus_s126,daily,bus_s126_d1,Batanagar,1
+bus_s128,daily,bus_s128_d0,Howrah Station,0
+bus_s128,daily,bus_s128_d1,C.I.T. Road,1
+bus_s129,daily,bus_s129_d0,Howrah Station,0
+bus_s129,daily,bus_s129_d1,Parnashree,1
+bus_s131,daily,bus_s131_d0,Ruby Hospital,0
+bus_s131,daily,bus_s131_d1,Thakurpukur,1
+bus_s135,daily,bus_s135_d0,Howrah Maidan,0
+bus_s135,daily,bus_s135_d1,Baishnabghata,1
+bus_s139,daily,bus_s139_d0,Babughat,0
+bus_s139,daily,bus_s139_d1,Shyambazar,1
+bus_s151,daily,bus_s151_d0,BBD Bag,0
+bus_s151,daily,bus_s151_d1,Kaikhali,1
+bus_s151_2,daily,bus_s151_2_d0,BBD Bag,0
+bus_s151_2,daily,bus_s151_2_d1,Derozio College,1
+bus_s152,daily,bus_s152_d0,BBD Bag,0
+bus_s152,daily,bus_s152_d1,Baguiati,1
+bus_s158,daily,bus_s158_d0,Babughat,0
+bus_s158,daily,bus_s158_d1,Dakshineswar,1
+bus_s159,daily,bus_s159_d0,BBD Bag,0
+bus_s159,daily,bus_s159_d1,Dunlop More,1
+bus_s161,daily,bus_s161_d0,Bichali Ghat,0
+bus_s161,daily,bus_s161_d1,Shyambazar,1
+bus_s163,daily,bus_s163_d0,BBD Bag,0
+bus_s163,daily,bus_s163_d1,Shyambazar,1
+bus_s165,daily,bus_s165_d0,Howrah Station,0
+bus_s165,daily,bus_s165_d1,Phoolbagan,1
+bus_s166,daily,bus_s166_d0,Howrah Station,0
+bus_s166,daily,bus_s166_d1,Tangra,1
+bus_s166_2,daily,bus_s166_2_d0,Howrah Station,0
+bus_s166_2,daily,bus_s166_2_d1,Mathpukur,1
+bus_s167,daily,bus_s167_d0,BBD Bag,0
+bus_s167,daily,bus_s167_d1,Saltlake,1
+bus_s168,daily,bus_s168_d0,Howrah Station,0
+bus_s168,daily,bus_s168_d1,Nagerbazar,1
+bus_s172,daily,bus_s172_d0,Howrah Maidan,0
+bus_s172,daily,bus_s172_d1,Tegharia,1
+bus_s173,daily,bus_s173_d0,Howrah Station,0
+bus_s173,daily,bus_s173_d1,Saltlake,1
+bus_s175,daily,bus_s175_d0,Howrah Station,0
+bus_s175,daily,bus_s175_d1,New Barrackpore,1
+bus_s176,daily,bus_s176_d0,Howrah Maidan,0
+bus_s176,daily,bus_s176_d1,Shyambazar,1
+bus_s178,daily,bus_s178_d0,Rajabazar,0
+bus_s178,daily,bus_s178_d1,Majherhat,1
+bus_s180,daily,bus_s180_d0,Howrah Maidan,0
+bus_s180,daily,bus_s180_d1,Belgharia Station,1
+bus_s184,daily,bus_s184_d0,BBD Bag,0
+bus_s184,daily,bus_s184_d1,Birati Station,1
+bus_s184_2,daily,bus_s184_2_d0,Saltlake 206,0
+bus_s184_2,daily,bus_s184_2_d1,Birati Station,1
+bus_s185,daily,bus_s185_d0,Howrah Station,0
+bus_s185,daily,bus_s185_d1,Nimta Bazar,1
+bus_s186,daily,bus_s186_d0,Howrah Station,0
+bus_s186,daily,bus_s186_d1,Uttar Panchannagram,1
+bus_s189,daily,bus_s189_d0,Howrah Maidan,0
+bus_s189,daily,bus_s189_d1,Shyambazar,1
+bus_rt1,daily,bus_rt1_d0,Esplanade,0
+bus_rt1,daily,bus_rt1_d1,Howrah Station,1
+bus_rt1a,daily,bus_rt1a_d0,Sishu Mangal (Kasba),0
+bus_rt1a,daily,bus_rt1a_d1,Howrah Station,1
+bus_rt2,daily,bus_rt2_d0,Esplanade,0
+bus_rt2,daily,bus_rt2_d1,Howrah Station,1
+bus_rt3,daily,bus_rt3_d0,Esplanade,0
+bus_rt3,daily,bus_rt3_d1,Ichapur More,1
+bus_rt3a,daily,bus_rt3a_d0,Esplanade,0
+bus_rt3a,daily,bus_rt3a_d1,Ichapur More,1
+bus_rt5,daily,bus_rt5_d0,Sector V (Saltlake),0
+bus_rt5,daily,bus_rt5_d1,Dasnagar,1
+bus_rt6,daily,bus_rt6_d0,Esplanade,0
+bus_rt6,daily,bus_rt6_d1,B.Garden,1
+bus_rt6a,daily,bus_rt6a_d0,Esplanade,0
+bus_rt6a,daily,bus_rt6a_d1,Avani Mall,1
+bus_rt7,daily,bus_rt7_d0,Shyambazar,0
+bus_rt7,daily,bus_rt7_d1,Howrah Maidan (Amtala Phari),1
+bus_rt8,daily,bus_rt8_d0,Esplanade,0
+bus_rt8,daily,bus_rt8_d1,Avani Mall,1
+bus_rt10,daily,bus_rt10_d0,Kidderpore,0
+bus_rt10,daily,bus_rt10_d1,Belurmath,1
+bus_rt11,daily,bus_rt11_d0,Esplanade,0
+bus_rt11,daily,bus_rt11_d1,Belurmath,1
+bus_rt11a,daily,bus_rt11a_d0,Rabindra Sadan (Diamond Park),0
+bus_rt11a,daily,bus_rt11a_d1,Howrah Maidan,1
+bus_rt13,daily,bus_rt13_d0,Jorabagan,0
+bus_rt13,daily,bus_rt13_d1,Bakultala,1
+bus_rt13a,daily,bus_rt13a_d0,Jorabagan,0
+bus_rt13a,daily,bus_rt13a_d1,Bakultala,1
+bus_rt18,daily,bus_rt18_d0,Esplanade,0
+bus_rt18,daily,bus_rt18_d1,Belgachia,1
+bus_rt20,daily,bus_rt20_d0,Ultadanga,0
+bus_rt20,daily,bus_rt20_d1,Bakultala,1
+bus_rt20a,daily,bus_rt20a_d0,Saltlake Stadium,0
+bus_rt20a,daily,bus_rt20a_d1,Bakultala,1
+bus_rt21,daily,bus_rt21_d0,Sakher Bazar,0
+bus_rt21,daily,bus_rt21_d1,Howrah Maidan,1
+bus_rt24,daily,bus_rt24_d0,Howrah Station,0
+bus_rt24,daily,bus_rt24_d1,Sankrail,1
+bus_rt25,daily,bus_rt25_d0,Sealdah Station,0
+bus_rt25,daily,bus_rt25_d1,Howrah Station,1
+bus_rt26,daily,bus_rt26_d0,Esplanade,0
+bus_rt26,daily,bus_rt26_d1,Santragachi,1
+bus_rt27,daily,bus_rt27_d0,Park Circus,0
+bus_rt27,daily,bus_rt27_d1,Dasnagar,1
+bus_rt27a,daily,bus_rt27a_d0,Park Circus (Ruby Hospital),0
+bus_rt27a,daily,bus_rt27a_d1,Howrah Maidan,1
+bus_rt29,daily,bus_rt29_d0,Sector V (Saltlake),0
+bus_rt29,daily,bus_rt29_d1,Tikiapara,1
+bus_rt30,daily,bus_rt30_d0,Esplanade,0
+bus_rt30,daily,bus_rt30_d1,Baluhati,1
+bus_rt31,daily,bus_rt31_d0,Rabindra Sadan (Kidderpore),0
+bus_rt31,daily,bus_rt31_d1,Makardaha,1
+bus_rt32,daily,bus_rt32_d0,Rabindra Sadan (Parnasree),0
+bus_rt32,daily,bus_rt32_d1,Howrah Maidan,1
+bus_rt34,daily,bus_rt34_d0,Howrah Station,0
+bus_rt34,daily,bus_rt34_d1,Domjur,1
+bus_rt35,daily,bus_rt35_d0,Howrah Station,0
+bus_rt35,daily,bus_rt35_d1,Domjur,1
+bus_rt38,daily,bus_rt38_d0,Esplanade,0
+bus_rt38,daily,bus_rt38_d1,Dasnagar,1
+bus_rt39,daily,bus_rt39_d0,Esplanade,0
+bus_rt39,daily,bus_rt39_d1,Liluah Station,1
+bus_rt42,daily,bus_rt42_d0,Aliah University,0
+bus_rt42,daily,bus_rt42_d1,Hastings,1
+bus_m10,daily,bus_m10_d0,Raidighi,0
+bus_m10,daily,bus_m10_d1,Diamond Harbour,1
+bus_m14_2,daily,bus_m14_2_d0,Howrah Station,0
+bus_m14_2,daily,bus_m14_2_d1,Jhinjhira Bazar,1
+bus_m15,daily,bus_m15_d0,Brindabanpur,0
+bus_m15,daily,bus_m15_d1,Falta Sector 1,1
+bus_m16,daily,bus_m16_d0,Radhanagar,0
+bus_m16,daily,bus_m16_d1,Burul,1
+bus_sd3,daily,bus_sd3_d0,Jagulgachi,0
+bus_sd3,daily,bus_sd3_d1,Sonarpur,1
+bus_sd4,daily,bus_sd4_d0,Garfa Road,0
+bus_sd4,daily,bus_sd4_d1,Thakurpukur,1
+bus_sd5,daily,bus_sd5_d0,Khariberia,0
+bus_sd5,daily,bus_sd5_d1,Sonarpur Station,1
+bus_sd8,daily,bus_sd8_d0,Ballygunge Station,0
+bus_sd8,daily,bus_sd8_d1,Shamali,1
+bus_sd9,daily,bus_sd9_d0,Esplanade,0
+bus_sd9,daily,bus_sd9_d1,Noorpur,1
+bus_sd11,daily,bus_sd11_d0,Gangadharpur,0
+bus_sd11,daily,bus_sd11_d1,Noorpur,1
+bus_sd11_1,daily,bus_sd11_1_d0,Indranarayanpur,0
+bus_sd11_1,daily,bus_sd11_1_d1,Noorpur,1
+bus_sd14,daily,bus_sd14_d0,Taratala,0
+bus_sd14,daily,bus_sd14_d1,Belsingha,1
+bus_sd16,daily,bus_sd16_d0,Mukundapur,0
+bus_sd16,daily,bus_sd16_d1,Amtala,1
+bus_sd18,daily,bus_sd18_d0,Esplanade,0
+bus_sd18,daily,bus_sd18_d1,Diamond Harbour,1
+bus_sd19,daily,bus_sd19_d0,Gangadharpur,0
+bus_sd19,daily,bus_sd19_d1,Esplanade,1
+bus_sd22_1,daily,bus_sd22_1_d0,Esplanade,0
+bus_sd22_1,daily,bus_sd22_1_d1,Nainan,1
+bus_sd24,daily,bus_sd24_d0,Sonakhali,0
+bus_sd24,daily,bus_sd24_d1,Alipore Zoo,1
+bus_sd26,daily,bus_sd26_d0,Babughat,0
+bus_sd26,daily,bus_sd26_d1,Burul,1
+bus_sd27,daily,bus_sd27_d0,Santoshpur Station,0
+bus_sd27,daily,bus_sd27_d1,Usthi,1
+bus_sd29,daily,bus_sd29_d0,Baruipur Station,0
+bus_sd29,daily,bus_sd29_d1,Amtala,1
+bus_sd30,daily,bus_sd30_d0,Taratala,0
+bus_sd30,daily,bus_sd30_d1,Sujapur,1
+bus_sd33,daily,bus_sd33_d0,Jharkhali,0
+bus_sd33,daily,bus_sd33_d1,Canning,1
+bus_sd39,daily,bus_sd39_d0,Baikunthapur,0
+bus_sd39,daily,bus_sd39_d1,Nimpith,1
+bus_sd50,daily,bus_sd50_d0,Gangadharpur,0
+bus_sd50,daily,bus_sd50_d1,Diamond Harbour,1
+bus_sd51,daily,bus_sd51_d0,Kashinagar,0
+bus_sd51,daily,bus_sd51_d1,Gurudaspur,1
+bus_sd53,daily,bus_sd53_d0,Maipith,0
+bus_sd53,daily,bus_sd53_d1,Nimpith,1
+bus_sd63,daily,bus_sd63_d0,Gadkhali,0
+bus_sd63,daily,bus_sd63_d1,Canning,1
+bus_sd64,daily,bus_sd64_d0,Chunakhali,0
+bus_sd64,daily,bus_sd64_d1,Canning,1
+bus_sd82,daily,bus_sd82_d0,Kakdwip Station (Bamuner More),0
+bus_sd82,daily,bus_sd82_d1,Esplanade,1
+bus_sd85,daily,bus_sd85_d0,Gabbuni,0
+bus_sd85,daily,bus_sd85_d1,Canning,1
+bus_sd94,daily,bus_sd94_d0,Bakkhali,0
+bus_sd94,daily,bus_sd94_d1,Amrabati,1
+bus_dn2,daily,bus_dn2_d0,Dakshineswar,0
+bus_dn2,daily,bus_dn2_d1,Barasat,1
+bus_dn2_1,daily,bus_dn2_1_d0,Dakshineswar,0
+bus_dn2_1,daily,bus_dn2_1_d1,Shapoorji,1
+bus_dn5,daily,bus_dn5_d0,Naihati,0
+bus_dn5,daily,bus_dn5_d1,Barasat,1
+bus_dn8,daily,bus_dn8_d0,Sector V (Saltlake),0
+bus_dn8,daily,bus_dn8_d1,Barasat,1
+bus_dn9_1,daily,bus_dn9_1_d0,Rajchandrapur,0
+bus_dn9_1,daily,bus_dn9_1_d1,Barasat,1
+bus_dn12_1,daily,bus_dn12_1_d0,Bagjola,0
+bus_dn12_1,daily,bus_dn12_1_d1,Hazra,1
+bus_dn13,daily,bus_dn13_d0,Gokulpur,0
+bus_dn13,daily,bus_dn13_d1,Gopalpur More,1
+bus_dn13a,daily,bus_dn13a_d0,Gokulpur,0
+bus_dn13a,daily,bus_dn13a_d1,Gopalpur More,1
+bus_dn16_1,daily,bus_dn16_1_d0,Rampur,0
+bus_dn16_1,daily,bus_dn16_1_d1,Barasat,1
+bus_dn17,daily,bus_dn17_d0,Babughat,0
+bus_dn17,daily,bus_dn17_d1,Barasat Titumir Bus Stand,1
+bus_dn18,daily,bus_dn18_d0,Raghunathpur,0
+bus_dn18,daily,bus_dn18_d1,Shyambazar,1
+bus_dn19,daily,bus_dn19_d0,Colony More,0
+bus_dn19,daily,bus_dn19_d1,Barrackpore Court,1
+bus_dn26,daily,bus_dn26_d0,Shrikrishnapur,0
+bus_dn26,daily,bus_dn26_d1,Gaighata (Habra),1
+bus_dn28,daily,bus_dn28_d0,Haroa,0
+bus_dn28,daily,bus_dn28_d1,Barasat Titumir Bus Stand,1
+bus_dn35,daily,bus_dn35_d0,Balti,0
+bus_dn35,daily,bus_dn35_d1,Barasat Titumir Bus Stand,1
+bus_dn43,daily,bus_dn43_d0,Colony More,0
+bus_dn43,daily,bus_dn43_d1,Dakshineswar,1
+bus_dn44,daily,bus_dn44_d0,Dakshineswar,0
+bus_dn44,daily,bus_dn44_d1,Dharampur,1
+bus_dn46,daily,bus_dn46_d0,Newtown,0
+bus_dn46,daily,bus_dn46_d1,Dunlop,1
+bus_dn47,daily,bus_dn47_d0,Karunamoyee,0
+bus_dn47,daily,bus_dn47_d1,Colony More,1
+bus_k1,daily,bus_k1_d0,Kolkata Station,0
+bus_k1,daily,bus_k1_d1,Hatishala,1
+bus_k4,daily,bus_k4_d0,Dakshineswar,0
+bus_k4,daily,bus_k4_d1,Park Circus,1
+bus_k11,daily,bus_k11_d0,Domjur,0
+bus_k11,daily,bus_k11_d1,PG Hospital,1
+bus_kb12,daily,bus_kb12_d0,Unitech,0
+bus_kb12,daily,bus_kb12_d1,Taratala,1
+bus_kb15,daily,bus_kb15_d0,Santragachi Station,0
+bus_kb15,daily,bus_kb15_d1,Anandapur,1
+bus_kb16,daily,bus_kb16_d0,Bangur Avenue,0
+bus_kb16,daily,bus_kb16_d1,Shapoorji,1
+bus_kb17,daily,bus_kb17_d0,Unitech Gate 1,0
+bus_kb17,daily,bus_kb17_d1,Sonarpur Station,1
+bus_kb21,daily,bus_kb21_d0,Birati More,0
+bus_kb21,daily,bus_kb21_d1,Topsia,1
+bus_kb22,daily,bus_kb22_d0,Jamirgachi,0
+bus_kb22,daily,bus_kb22_d1,Kolkata Station,1
+bus_m10_ac_corporate,daily,bus_m10_ac_corporate_d0,Barasat,0
+bus_m10_ac_corporate,daily,bus_m10_ac_corporate_d1,Rashbehari,1
+bus_mm3,daily,bus_mm3_d0,Sabedabagan,0
+bus_mm3,daily,bus_mm3_d1,Dakshineswar,1
+bus_mm5,daily,bus_mm5_d0,Santoshpur,0
+bus_mm5,daily,bus_mm5_d1,Barrackpore Court,1
+bus_mm6,daily,bus_mm6_d0,Beliaghata,0
+bus_mm6,daily,bus_mm6_d1,Jafarpur(Barasat),1
+bus_mm6_1,daily,bus_mm6_1_d0,Bagjola,0
+bus_mm6_1,daily,bus_mm6_1_d1,Barasat,1
+bus_mn3,daily,bus_mn3_d0,Kashtodanga,0
+bus_mn3,daily,bus_mn3_d1,Barasat Titumir Bus Stand,1
+bus_mn6,daily,bus_mn6_d0,Purandarpur,0
+bus_mn6,daily,bus_mn6_d1,Barasat Titumir Bus Stand,1
+bus_e43,daily,bus_e43_d0,Lebutala,0
+bus_e43,daily,bus_e43_d1,Howrah Station,1
+bus_e53,daily,bus_e53_d0,Tikiapara,0
+bus_e53,daily,bus_e53_d1,Howrah Station,1
+bus_sta_amta_airport,daily,bus_sta_amta_airport_d0,Airport,0
+bus_sta_amta_airport,daily,bus_sta_amta_airport_d1,Rajchandrapur,1
+bus_sta_amta_mukundapur,daily,bus_sta_amta_mukundapur_d0,Mukundapur,0
+bus_sta_amta_mukundapur,daily,bus_sta_amta_mukundapur_d1,Santragachi Station,1
+bus_sta_amta_newtown,daily,bus_sta_amta_newtown_d0,Newtown,0
+bus_sta_amta_newtown,daily,bus_sta_amta_newtown_d1,Santragachi,1
+bus_sta_bagnan_ecospace,daily,bus_sta_bagnan_ecospace_d0,Ecospace,0
+bus_sta_bagnan_ecospace,daily,bus_sta_bagnan_ecospace_d1,Om Dayal,1
+bus_sta_bally_halt_saltlake_karunamoyee,daily,bus_sta_bally_halt_saltlake_karunamoyee_d0,Tank No.10,0
+bus_sta_bally_halt_saltlake_karunamoyee,daily,bus_sta_bally_halt_saltlake_karunamoyee_d1,Ballyhalt,1
+bus_sta_bandar_howrah_station,daily,bus_sta_bandar_howrah_station_d0,Howrah Station,0
+bus_sta_bandar_howrah_station,daily,bus_sta_bandar_howrah_station_d1,Bandar,1
+bus_sta_barasat_santragachi_newtown_version,daily,bus_sta_barasat_santragachi_newtown_version_d0,Santragachi (Newtown Version),0
+bus_sta_barasat_santragachi_newtown_version,daily,bus_sta_barasat_santragachi_newtown_version_d1,Barasat,1
+bus_sta_barasat_titumir_bus_stand_santragachi,daily,bus_sta_barasat_titumir_bus_stand_santragachi_d0,Santragachi,0
+bus_sta_barasat_titumir_bus_stand_santragachi,daily,bus_sta_barasat_titumir_bus_stand_santragachi_d1,Barasat Titumir Bus Stand,1
+bus_sta_barasat_baruipur,daily,bus_sta_barasat_baruipur_d0,Baruipur,0
+bus_sta_barasat_baruipur,daily,bus_sta_barasat_baruipur_d1,Barasat,1
+bus_sta_barasat_garia,daily,bus_sta_barasat_garia_d0,Garia,0
+bus_sta_barasat_garia,daily,bus_sta_barasat_garia_d1,Barasat,1
+bus_sta_barasat_botanical_garden_b_garden,daily,bus_sta_barasat_botanical_garden_b_garden_d0,Botanical Garden (B garden),0
+bus_sta_barasat_botanical_garden_b_garden,daily,bus_sta_barasat_botanical_garden_b_garden_d1,Barasat,1
+bus_sta_bargachia_sealdah_court,daily,bus_sta_bargachia_sealdah_court_d0,Sealdah Court,0
+bus_sta_bargachia_sealdah_court,daily,bus_sta_bargachia_sealdah_court_d1,Domjur,1
+bus_sta_barrackpore_howrah_station,daily,bus_sta_barrackpore_howrah_station_d0,Howrah Station,0
+bus_sta_barrackpore_howrah_station,daily,bus_sta_barrackpore_howrah_station_d1,Barrackpore,1
+bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d0,Chaulkhola,0
+bus_sta_bashirhat_gadiara,daily,bus_sta_bashirhat_gadiara_d1,Barasat,1
+bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d0,City Center,0
+bus_sta_berachampa_saltlake_karunamoyee,daily,bus_sta_berachampa_saltlake_karunamoyee_d1,Berachampa Crossing,1
+bus_sta_botanical_garden_dhamakhali,daily,bus_sta_botanical_garden_dhamakhali_d0,Rampur,0
+bus_sta_botanical_garden_dhamakhali,daily,bus_sta_botanical_garden_dhamakhali_d1,Botanical Garden,1
+bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d0,PNB,0
+bus_sta_boyra_saltlake_karunamoyee,daily,bus_sta_boyra_saltlake_karunamoyee_d1,College ghat,1
+bus_sta_deulti_saltlake_karunamoyee,daily,bus_sta_deulti_saltlake_karunamoyee_d0,Nicco Park,0
+bus_sta_deulti_saltlake_karunamoyee,daily,bus_sta_deulti_saltlake_karunamoyee_d1,Deulti,1
+bus_sta_dhulagarh_newtown,daily,bus_sta_dhulagarh_newtown_d0,Newtown,0
+bus_sta_dhulagarh_newtown,daily,bus_sta_dhulagarh_newtown_d1,Santragachi,1
+bus_sta_dhulagarh_sealdah,daily,bus_sta_dhulagarh_sealdah_d0,Sealdah,0
+bus_sta_dhulagarh_sealdah,daily,bus_sta_dhulagarh_sealdah_d1,Santragachi,1
+bus_sta_dhulagarh_unitech,daily,bus_sta_dhulagarh_unitech_d0,Unitech,0
+bus_sta_dhulagarh_unitech,daily,bus_sta_dhulagarh_unitech_d1,Santragachi,1
+bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d0,Narkelbagan,0
+bus_sta_gadiara_rajarhat,daily,bus_sta_gadiara_rajarhat_d1,Laxmi Bazar,1
+bus_sta_garia_ultodanga,daily,bus_sta_garia_ultodanga_d0,HUDCO,0
+bus_sta_garia_ultodanga,daily,bus_sta_garia_ultodanga_d1,Garia,1
+bus_sta_garia_station_bagbazar,daily,bus_sta_garia_station_bagbazar_d0,Bagbazar,0
+bus_sta_garia_station_bagbazar,daily,bus_sta_garia_station_bagbazar_d1,Garia Station,1
+bus_sta_garia_station_kolkata_station,daily,bus_sta_garia_station_kolkata_station_d0,Kolkata Station,0
+bus_sta_garia_station_kolkata_station,daily,bus_sta_garia_station_kolkata_station_d1,Garia Station,1
+bus_sta_garia_station_paikpara,daily,bus_sta_garia_station_paikpara_d0,Paikpara,0
+bus_sta_garia_station_paikpara,daily,bus_sta_garia_station_paikpara_d1,Garia Station,1
+bus_sta_kamalgazi_dankuni_housing,daily,bus_sta_kamalgazi_dankuni_housing_d0,Rajchandrapur,0
+bus_sta_kamalgazi_dankuni_housing,daily,bus_sta_kamalgazi_dankuni_housing_d1,Kamalgazi,1
+bus_sta_kadamtala_newtown,daily,bus_sta_kadamtala_newtown_d0,Newtown,0
+bus_sta_kadamtala_newtown,daily,bus_sta_kadamtala_newtown_d1,Belepole,1
+bus_sta_madhyamgram_howrah,daily,bus_sta_madhyamgram_howrah_d0,Howrah,0
+bus_sta_madhyamgram_howrah,daily,bus_sta_madhyamgram_howrah_d1,Madhyamgram,1
+bus_sta_malancha_kolkata_station,daily,bus_sta_malancha_kolkata_station_d0,Kolkata Station,0
+bus_sta_malancha_kolkata_station,daily,bus_sta_malancha_kolkata_station_d1,Kolkata Leather Complex,1
+bus_sta_matapara_newtown,daily,bus_sta_matapara_newtown_d0,Newtown,0
+bus_sta_matapara_newtown,daily,bus_sta_matapara_newtown_d1,Kalinagar More,1
+bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d0,College More,0
+bus_sta_muchighata_saltlake_karunamoyee,daily,bus_sta_muchighata_saltlake_karunamoyee_d1,Shibtala,1
+bus_sta_naktala_garia_dakshineswar,daily,bus_sta_naktala_garia_dakshineswar_d0,Dakshineswar,0
+bus_sta_naktala_garia_dakshineswar,daily,bus_sta_naktala_garia_dakshineswar_d1,Naktala ( Garia ),1
+bus_sta_polerhat_shyambazar,daily,bus_sta_polerhat_shyambazar_d0,Shyambazar,0
+bus_sta_polerhat_shyambazar,daily,bus_sta_polerhat_shyambazar_d1,Anantapur,1
+bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d0,Deuli,0
+bus_sta_rajabazar_dankuni_baburhat,daily,bus_sta_rajabazar_dankuni_baburhat_d1,Sealdah,1
+bus_sta_rajabazar_hasnabad,daily,bus_sta_rajabazar_hasnabad_d0,Nalmuri,0
+bus_sta_rajabazar_hasnabad,daily,bus_sta_rajabazar_hasnabad_d1,Rajabazar,1
+bus_sta_rajchandrapur_saltlake_karunamoyee,daily,bus_sta_rajchandrapur_saltlake_karunamoyee_d0,Karunamoyee,0
+bus_sta_rajchandrapur_saltlake_karunamoyee,daily,bus_sta_rajchandrapur_saltlake_karunamoyee_d1,Rajchandrapur,1
+bus_sta_shyambazar_malancha,daily,bus_sta_shyambazar_malancha_d0,Nalmuri,0
+bus_sta_shyambazar_malancha,daily,bus_sta_shyambazar_malancha_d1,Shyambazar,1
+bus_sta_shyampur_kolkata_station,daily,bus_sta_shyampur_kolkata_station_d0,Kolkata Station,0
+bus_sta_shyampur_kolkata_station,daily,bus_sta_shyampur_kolkata_station_d1,Mugkalyan,1
+bus_sta_santragachi_newtown,daily,bus_sta_santragachi_newtown_d0,Newtown,0
+bus_sta_santragachi_newtown,daily,bus_sta_santragachi_newtown_d1,Santragachi,1
+bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d0,Tank No.10,0
+bus_sta_udanarayanpur_saltlake_karunamoyee,daily,bus_sta_udanarayanpur_saltlake_karunamoyee_d1,Beltala,1
+bus_s2n,daily,bus_s2n_d0,Nabanna,0
+bus_s2n,daily,bus_s2n_d1,Kudghat,1
+bus_s5_n,daily,bus_s5_n_d0,Rabindra Sadan,0
+bus_s5_n,daily,bus_s5_n_d1,Garia 5no. Bus Stand,1
+bus_s7_n,daily,bus_s7_n_d0,Exide,0
+bus_s7_n,daily,bus_s7_n_d1,Garia 6no. Bus stand,1
+bus_s12g,daily,bus_s12g_d0,Betaitala,0
+bus_s12g,daily,bus_s12g_d1,Newtown Bus Stand,1
+bus_s23,daily,bus_s23_d0,Howrah Station,0
+bus_s23,daily,bus_s23_d1,Central Park,1
+bus_s30a_it_special,daily,bus_s30a_it_special_d0,Bidhannagar Station (Circular Route),0
+bus_s30a_it_special,daily,bus_s30a_it_special_d1,Bidhannagar Station,1
+bus_e32_executive_service,daily,bus_e32_executive_service_d0,Howrah Station,0
+bus_e32_executive_service,daily,bus_e32_executive_service_d1,Chiria More,1
+bus_ac36,daily,bus_ac36_d0,Tank 10,0
+bus_ac36,daily,bus_ac36_d1,Barasat,1
+bus_s37a,daily,bus_s37a_d0,Garia Bus Stand,0
+bus_s37a,daily,bus_s37a_d1,Kaikhali,1
+bus_ac37c,daily,bus_ac37c_d0,Garia Bus Stand,0
+bus_ac37c,daily,bus_ac37c_d1,Kaikhali,1
+bus_ac41,daily,bus_ac41_d0,Unitech Gate 2,0
+bus_ac41,daily,bus_ac41_d1,Santragachi,1
+bus_ac49,daily,bus_ac49_d0,Kaikhali,0
+bus_ac49,daily,bus_ac49_d1,Jhinjhira Bazar,1
+bus_ac50,daily,bus_ac50_d0,Garia Bus Stand,0
+bus_ac50,daily,bus_ac50_d1,Belurmath,1
+bus_ac54,daily,bus_ac54_d0,Howrah Station,0
+bus_ac54,daily,bus_ac54_d1,Dunlop,1
+bus_ac55,daily,bus_ac55_d0,Newtown Bus Stand,0
+bus_ac55,daily,bus_ac55_d1,Naihati Bus terminus,1
+bus_s59,daily,bus_s59_d0,Howrah Station,0
+bus_s59,daily,bus_s59_d1,Laboni,1
+bus_ac59,daily,bus_ac59_d0,Howrah Station,0
+bus_ac59,daily,bus_ac59_d1,City Centre,1
+bus_vs6,daily,bus_vs6_d0,Fort William,0
+bus_vs6,daily,bus_vs6_d1,Diamond Harbour,1
+bus_vs10,daily,bus_vs10_d0,Parnashree,0
+bus_vs10,daily,bus_vs10_d1,Narkelbagan,1
+bus_vs14a,daily,bus_vs14a_d0,Park Street,0
+bus_vs14a,daily,bus_vs14a_d1,Central Park,1
+bus_st7,daily,bus_st7_d0,Ultadanga,0
+bus_st7,daily,bus_st7_d1,Unitech Gate 1,1
+bus_st10,daily,bus_st10_d0,Santragachi,0
+bus_st10,daily,bus_st10_d1,Narkelbagan,1
+bus_st12,daily,bus_st12_d0,Baruipur Hospital,0
+bus_st12,daily,bus_st12_d1,Unitech Gate 1,1
+bus_st21,daily,bus_st21_d0,Howrah Station,0
+bus_st21,daily,bus_st21_d1,Chowbaga,1
+bus_st21_2,daily,bus_st21_2_d0,Nalmuri,0
+bus_st21_2,daily,bus_st21_2_d1,Ultadanga,1
+bus_st22,daily,bus_st22_d0,Basanti,0
+bus_st22,daily,bus_st22_d1,Howrah Station,1
+bus_st22a,daily,bus_st22a_d0,Howrah Station,0
+bus_st22a,daily,bus_st22a_d1,Basanti,1
+bus_st25,daily,bus_st25_d0,Hatugunge,0
+bus_st25,daily,bus_st25_d1,Esplanade,1
+bus_st26,daily,bus_st26_d0,Usthi,0
+bus_st26,daily,bus_st26_d1,Esplanade,1
+bus_st27,daily,bus_st27_d0,Hatugunge,0
+bus_st27,daily,bus_st27_d1,Esplanade,1
+bus_st28,daily,bus_st28_d0,Hatugunge,0
+bus_st28,daily,bus_st28_d1,Esplanade,1
+bus_st29,daily,bus_st29_d0,Hatugunge,0
+bus_st29,daily,bus_st29_d1,Esplanade,1
+bus_st31,daily,bus_st31_d0,Nachinda,0
+bus_st31,daily,bus_st31_d1,Esplanade,1
+bus_st32,daily,bus_st32_d0,Bakkhali,0
+bus_st32,daily,bus_st32_d1,Esplanade,1
+bus_st39,daily,bus_st39_d0,Nimpith,0
+bus_st39,daily,bus_st39_d1,Esplanade,1
+bus_c11,daily,bus_c11_d0,Domjur bus Stand,0
+bus_c11,daily,bus_c11_d1,Shyambazar,1
+bus_c11_1,daily,bus_c11_1_d0,pantihal,0
+bus_c11_1,daily,bus_c11_1_d1,Howrah Station,1
+bus_c14_1,daily,bus_c14_1_d0,Tollygunj Tram Depot,0
+bus_c14_1,daily,bus_c14_1_d1,Madhyamgram,1
+bus_c20,daily,bus_c20_d0,Santragachi Bus Terminus,0
+bus_c20,daily,bus_c20_d1,Fort William,1
+bus_c23a,daily,bus_c23a_d0,Park Circus tram Depot,0
+bus_c23a,daily,bus_c23a_d1,Kaikhali,1
+bus_c26a,daily,bus_c26a_d0,Kamalgazi,0
+bus_c26a,daily,bus_c26a_d1,Howrah Station,1
+bus_c30,daily,bus_c30_d0,Sankrail Station,0
+bus_c30,daily,bus_c30_d1,Rajabazar Tram Depot,1
+bus_c38,daily,bus_c38_d0,Behala Chowrasta,0
+bus_c38,daily,bus_c38_d1,Howrah Station,1
+bus_c39,daily,bus_c39_d0,Hastings,0
+bus_c39,daily,bus_c39_d1,Rajabazar Tram Depot,1
+bus_d2,daily,bus_d2_d0,Naihati,0
+bus_d2,daily,bus_d2_d1,Kalyangarh More,1
+bus_d11,daily,bus_d11_d0,Barasat,0
+bus_d11,daily,bus_d11_d1,Esplanade,1
+bus_d20,daily,bus_d20_d0,Barasat,0
+bus_d20,daily,bus_d20_d1,Esplanade,1
+bus_d21,daily,bus_d21_d0,Science City,0
+bus_d21,daily,bus_d21_d1,Sealdah Court,1
+bus_d23,daily,bus_d23_d0,Barasat,0
+bus_d23,daily,bus_d23_d1,Esplanade,1
+bus_d26,daily,bus_d26_d0,Barasat,0
+bus_d26,daily,bus_d26_d1,Park Circus,1
+bus_d28,daily,bus_d28_d0,Chakla,0
+bus_d28,daily,bus_d28_d1,Esplanade,1
+bus_d31,daily,bus_d31_d0,Barasat,0
+bus_d31,daily,bus_d31_d1,Esplanade,1
+bus_d32,daily,bus_d32_d0,Hingalgunge,0
+bus_d32,daily,bus_d32_d1,Barasat,1
+bus_e6,daily,bus_e6_d0,Santragachi,0
+bus_e6,daily,bus_e6_d1,Esplanade,1
+bus_e7,daily,bus_e7_d0,Santragachi,0
+bus_e7,daily,bus_e7_d1,Esplanade,1
+bus_e12,daily,bus_e12_d0,Domjur,0
+bus_e12,daily,bus_e12_d1,Esplanade,1
+bus_e13,daily,bus_e13_d0,Domjur,0
+bus_e13,daily,bus_e13_d1,Esplanade,1
+bus_e14,daily,bus_e14_d0,Furfura Sharif,0
+bus_e14,daily,bus_e14_d1,Esplanade,1
+bus_e15,daily,bus_e15_d0,Santragachi,0
+bus_e15,daily,bus_e15_d1,Esplanade,1
+bus_e17,daily,bus_e17_d0,Santragachi,0
+bus_e17,daily,bus_e17_d1,Barasat,1
+bus_e17_1,daily,bus_e17_1_d0,Dunlop,0
+bus_e17_1,daily,bus_e17_1_d1,Barasat,1
+bus_e18,daily,bus_e18_d0,Science City,0
+bus_e18,daily,bus_e18_d1,Esplanade,1
+bus_e19,daily,bus_e19_d0,Dunlop,0
+bus_e19,daily,bus_e19_d1,Barasat,1
+bus_e21,daily,bus_e21_d0,Barasat,0
+bus_e21,daily,bus_e21_d1,Esplanade,1
+bus_e22,daily,bus_e22_d0,Barasat,0
+bus_e22,daily,bus_e22_d1,Esplanade,1
+bus_e24,daily,bus_e24_d0,Barasat,0
+bus_e24,daily,bus_e24_d1,Esplanade,1
+bus_e28,daily,bus_e28_d0,Santragachi,0
+bus_e28,daily,bus_e28_d1,Esplanade,1
+bus_e29,daily,bus_e29_d0,Library More,0
+bus_e29,daily,bus_e29_d1,Esplanade,1
+bus_e31,daily,bus_e31_d0,Santragachi,0
+bus_e31,daily,bus_e31_d1,Esplanade,1
+bus_e31_1,daily,bus_e31_1_d0,Santragachi,0
+bus_e31_1,daily,bus_e31_1_d1,Howrah Station,1
+bus_e35,daily,bus_e35_d0,Dunlop,0
+bus_e35,daily,bus_e35_d1,Esplanade,1
+bus_e38,daily,bus_e38_d0,Mayapur,0
+bus_e38,daily,bus_e38_d1,Esplanade,1
+bus_e40,daily,bus_e40_d0,Santragachi,0
+bus_e40,daily,bus_e40_d1,Esplanade,1
+bus_e40_1,daily,bus_e40_1_d0,Santragachi,0
+bus_e40_1,daily,bus_e40_1_d1,Esplanade,1
+bus_e41,daily,bus_e41_d0,Raniganj,0
+bus_e41,daily,bus_e41_d1,Barasat,1
+bus_e44,daily,bus_e44_d0,Radhanagar,0
+bus_e44,daily,bus_e44_d1,Esplanade,1
+bus_e45,daily,bus_e45_d0,Santragachi,0
+bus_e45,daily,bus_e45_d1,Tollygunge,1
+bus_e46,daily,bus_e46_d0,Dunlop,0
+bus_e46,daily,bus_e46_d1,Karunamoyee,1
+bus_e47,daily,bus_e47_d0,Jaleswar,0
+bus_e47,daily,bus_e47_d1,Howrah Station,1
+bus_e51,daily,bus_e51_d0,Dunlop,0
+bus_e51,daily,bus_e51_d1,Esplanade,1
+bus_e51a,daily,bus_e51a_d0,Bishnupur,0
+bus_e51a,daily,bus_e51a_d1,Barasat,1
+bus_e54,daily,bus_e54_d0,Ballyhalt,0
+bus_e54,daily,bus_e54_d1,Serampore,1
+bus_e55,daily,bus_e55_d0,Dunlop,0
+bus_e55,daily,bus_e55_d1,Barasat,1
+bus_e56,daily,bus_e56_d0,Airport,0
+bus_e56,daily,bus_e56_d1,Barasat Champadali,1
+bus_e57,daily,bus_e57_d0,Chapra,0
+bus_e57,daily,bus_e57_d1,Esplanade,1
+bus_e59,daily,bus_e59_d0,Dunlop,0
+bus_e59,daily,bus_e59_d1,Naihati,1
+bus_e61,daily,bus_e61_d0,Bakkhali,0
+bus_e61,daily,bus_e61_d1,Barasat,1
+bus_e62,daily,bus_e62_d0,Khulna,0
+bus_e62,daily,bus_e62_d1,Esplanade,1
+bus_e66,daily,bus_e66_d0,Dunlop,0
+bus_e66,daily,bus_e66_d1,Barasat,1
+bus_e67,daily,bus_e67_d0,Bardhaman,0
+bus_e67,daily,bus_e67_d1,Airport,1
+bus_e68,daily,bus_e68_d0,Haldia,0
+bus_e68,daily,bus_e68_d1,Barasat,1
+bus_e70,daily,bus_e70_d0,Chandra,0
+bus_e70,daily,bus_e70_d1,Barasat,1
+bus_e71,daily,bus_e71_d0,Jagatballavpur,0
+bus_e71,daily,bus_e71_d1,Esplanade,1
+bus_e72,daily,bus_e72_d0,Domjur,0
+bus_e72,daily,bus_e72_d1,Esplanade,1
+bus_e73,daily,bus_e73_d0,Science City,0
+bus_e73,daily,bus_e73_d1,Howrah Station,1
+bus_e74,daily,bus_e74_d0,Basubati,0
+bus_e74,daily,bus_e74_d1,Esplanade,1
+bus_173,daily,bus_173_d0,Beleghata,0
+bus_173,daily,bus_173_d1,Chingrighata,1
+bus_as1,daily,bus_as1_d0,Saltlake EE Block Bus Stop,0
+bus_as1,daily,bus_as1_d1,Mathpukur,1
+bus_as2,daily,bus_as2_d0,Saltlake EE Block Bus Stop,0
+bus_as2,daily,bus_as2_d1,Mathpukur,1
+bus_as2a,daily,bus_as2a_d0,Saltlake EE Block Bus Stop,0
+bus_as2a,daily,bus_as2a_d1,Mathpukur,1
+bus_c18,daily,bus_c18_d0,Beleghata,0
+bus_c18,daily,bus_c18_d1,Dhapa,1
+bus_dhamakhali_barasat,daily,bus_dhamakhali_barasat_d0,Mathpukur,0
+bus_dhamakhali_barasat,daily,bus_dhamakhali_barasat_d1,Dhapa,1
+bus_dn16,daily,bus_dn16_d0,Beleghata,0
+bus_dn16,daily,bus_dn16_d1,Dhapa,1
+bus_gls11,daily,bus_gls11_d0,Beleghata,0
+bus_gls11,daily,bus_gls11_d1,Dhapa,1
+bus_ic21,daily,bus_ic21_d0,Beleghata,0
+bus_ic21,daily,bus_ic21_d1,Dhapa,1
+bus_jm2,daily,bus_jm2_d0,Beleghata,0
+bus_jm2,daily,bus_jm2_d1,Dhapa,1
+bus_l30b,daily,bus_l30b_d0,Babughat,0
+bus_l30b,daily,bus_l30b_d1,Chhatakal,1
+bus_rt007,daily,bus_rt007_d0,Beleghata,0
+bus_rt007,daily,bus_rt007_d1,Dhapa,1
+bus_rt239,daily,bus_rt239_d0,Beleghata,0
+bus_rt239,daily,bus_rt239_d1,Chingrighata,1
+bus_rt_s_4,daily,bus_rt_s_4_d0,Saltlake EE Block Bus Stop,0
+bus_rt_s_4,daily,bus_rt_s_4_d1,Dhapa,1
+bus_v9,daily,bus_v9_d0,New Town Bus Depot,0
+bus_v9,daily,bus_v9_d1,Kudghat,1
+tram_5,daily,tram_5_d0,Esplanade,0
+tram_5,daily,tram_5_d1,Shyambazar,1
+tram_25,daily,tram_25_d0,Esplanade,0
+tram_25,daily,tram_25_d1,Gariahat Depot,1
+ferry_howrah_fairlie,daily,ferry_howrah_fairlie_d0,Fairlie Ghat (Fairlie Place),0
+ferry_howrah_fairlie,daily,ferry_howrah_fairlie_d1,Howrah Station Ghat (Howrah Launch Ghat),1
+ferry_howrah_millennium_park,daily,ferry_howrah_millennium_park_d0,Millennium Park (Shipping) Jetty,0
+ferry_howrah_millennium_park,daily,ferry_howrah_millennium_park_d1,Howrah Station Ghat (Howrah Launch Ghat),1
+ferry_howrah_babughat,daily,ferry_howrah_babughat_d0,Babughat / Chandpal Ghat,0
+ferry_howrah_babughat,daily,ferry_howrah_babughat_d1,Howrah Station Ghat (Howrah Launch Ghat),1
+ferry_howrah_bagbazar,daily,ferry_howrah_bagbazar_d0,Bagbazar Launch Ghat,0
+ferry_howrah_bagbazar,daily,ferry_howrah_bagbazar_d1,Howrah Station Ghat (Howrah Launch Ghat),1
+ferry_belur_dakshineswar,daily,ferry_belur_dakshineswar_d0,Dakshineswar Ghat,0
+ferry_belur_dakshineswar,daily,ferry_belur_dakshineswar_d1,Belur Math Ghat,1
+ferry_rsv_circuit,daily,ferry_rsv_circuit_d0,Belur Math Ghat,0
+ferry_rsv_circuit,daily,ferry_rsv_circuit_d1,Fairlie Ghat (Fairlie Place),1
+ferry_rishra_khardah,daily,ferry_rishra_khardah_d0,Khardah Ghat,0
+ferry_rishra_khardah,daily,ferry_rishra_khardah_d1,Rishra Ferry Ghat,1
+ferry_sheoraphuli_barrackpore,daily,ferry_sheoraphuli_barrackpore_d0,"Dui Paisar Ghat (east bank, Barrackpore side)",0
+ferry_sheoraphuli_barrackpore,daily,ferry_sheoraphuli_barrackpore_d1,Sheoraphuli Ghat,1
+ferry_serampore_barrackpore,daily,ferry_serampore_barrackpore_d0,"Dhobi Ghat (east bank, Barrackpore side)",0
+ferry_serampore_barrackpore,daily,ferry_serampore_barrackpore_d1,"Jugal Auddy Ferry Ghat (west bank, Serampore side)",1
+auto_r91,daily,auto_r91_d0,Karunamoyee,0
+auto_r91,daily,auto_r91_d1,Phoolbagan,1
+auto_r58,daily,auto_r58_d0,CIT More,0
+auto_r58,daily,auto_r58_d1,Phoolbagan,1
+auto_r17,daily,auto_r17_d0,Sealdah Station,0
+auto_r17,daily,auto_r17_d1,Phoolbagan,1
+auto_r59,daily,auto_r59_d0,Girish Park,0
+auto_r59,daily,auto_r59_d1,Phoolbagan,1
+auto_r80,daily,auto_r80_d0,Deshbandhu Park,0
+auto_r80,daily,auto_r80_d1,CIT More,1
+auto_r44,daily,auto_r44_d0,Raja Bazar,0
+auto_r44,daily,auto_r44_d1,Phoolbagan,1
+auto_r73,daily,auto_r73_d0,Sealdah Station,0
+auto_r73,daily,auto_r73_d1,Beliaghata,1
+auto_r52,daily,auto_r52_d0,Baguiati,0
+auto_r52,daily,auto_r52_d1,Ultadanga,1
+auto_r8,daily,auto_r8_d0,Botanical Garden,0
+auto_r8,daily,auto_r8_d1,Howrah Station,1
+auto_r94,daily,auto_r94_d0,Karunamoyee,0
+auto_r94,daily,auto_r94_d1,Kankurgachi,1
+auto_r93,daily,auto_r93_d0,Karunamoyee,0
+auto_r93,daily,auto_r93_d1,SAI Complex,1
+auto_r14,daily,auto_r14_d0,BK Pal,0
+auto_r14,daily,auto_r14_d1,Ahiritola,1
+auto_ballygunge_judges_court,daily,auto_ballygunge_judges_court_d0,Kalighat,0
+auto_ballygunge_judges_court,daily,auto_ballygunge_judges_court_d1,Ballygunge Station,1
+auto_tollygunge_phari_behala_td,daily,auto_tollygunge_phari_behala_td_d0,Behala Tram Depot,0
+auto_tollygunge_phari_behala_td,daily,auto_tollygunge_phari_behala_td_d1,New Alipore,1
+auto_gariahat_behala_td,daily,auto_gariahat_behala_td_d0,Behala Tram Depot,0
+auto_gariahat_behala_td,daily,auto_gariahat_behala_td_d1,Gariahat,1
+auto_behala_td_ballygunge_stn,daily,auto_behala_td_ballygunge_stn_d0,Ballygunge Station,0
+auto_behala_td_ballygunge_stn,daily,auto_behala_td_ballygunge_stn_d1,Behala Tram Depot,1
+auto_chetla_park_behala_chowrasta,daily,auto_chetla_park_behala_chowrasta_d0,Behala Chowrasta,0
+auto_chetla_park_behala_chowrasta,daily,auto_chetla_park_behala_chowrasta_d1,Chetla Park,1
+auto_ultadanga_bikash_bhavan,daily,auto_ultadanga_bikash_bhavan_d0,Bikash Bhavan,0
+auto_ultadanga_bikash_bhavan,daily,auto_ultadanga_bikash_bhavan_d1,Ultadanga,1
+auto_ultadanga_karunamoyee,daily,auto_ultadanga_karunamoyee_d0,Karunamoyee,0
+auto_ultadanga_karunamoyee,daily,auto_ultadanga_karunamoyee_d1,Ultadanga,1
+auto_tank_13_phoolbagan,daily,auto_tank_13_phoolbagan_d0,Phoolbagan,0
+auto_tank_13_phoolbagan,daily,auto_tank_13_phoolbagan_d1,13 No. Tank,1
+auto_maniktala_phoolbagan,daily,auto_maniktala_phoolbagan_d0,Phoolbagan,0
+auto_maniktala_phoolbagan,daily,auto_maniktala_phoolbagan_d1,Maniktala,1
+auto_phoolbagan_girish_park,daily,auto_phoolbagan_girish_park_d0,Girish Park,0
+auto_phoolbagan_girish_park,daily,auto_phoolbagan_girish_park_d1,Phoolbagan,1
+auto_behala_chowrasta_sarsuna,daily,auto_behala_chowrasta_sarsuna_d0,Sarsuna,0
+auto_behala_chowrasta_sarsuna,daily,auto_behala_chowrasta_sarsuna_d1,Behala Chowrasta,1
+auto_chingrighata_sdf,daily,auto_chingrighata_sdf_d0,SDF Building Salt Lake,0
+auto_chingrighata_sdf,daily,auto_chingrighata_sdf_d1,Chingrighata,1
+auto_baruipur_julpia,daily,auto_baruipur_julpia_d0,Julpia,0
+auto_baruipur_julpia,daily,auto_baruipur_julpia_d1,Baruipur,1

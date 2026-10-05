@@ -1,0 +1,32 @@
+route_id,route_name,mode,operator,origin,destination,headway_min_peak,headway_min_offpeak,first_service,last_service,fare_min_inr,fare_max_inr,source_id,confidence,notes
+auto_r91,Phoolbagan - Karunamoyee,auto,,Phoolbagan,Karunamoyee,,,,,,,AF-CI|AF-F3,community,"Route no 91 (kolkatacityinfo, ~2017); 4.6 km via Narkeldanga Main Rd, Salt Lake Broad Way"
+auto_r58,Phoolbagan - Beliaghata,auto,,Phoolbagan,Beliaghata,,,,,,,AF-CI|AF-F3,community,"Route no 58; 2.9 km via CIT Rd, Beliaghata Main Rd; CI lists CIT Building More as last stop, F3 lists Beliaghata"
+auto_r17,Phoolbagan - Sealdah,auto,,Phoolbagan,Sealdah,,,,,,,AF-CI,community,"Route no 17; 2.5 km via Narkeldanga Main Rd, N Sealdah Rd, Kaiser St, Canal West Rd"
+auto_r59,Phoolbagan - Ganesh Talkies,auto,,Phoolbagan,Ganesh Talkies,,,,,,,AF-CI,community,"Route no 59; via CIT Rd Scheme VI-M, Manicktala Main Rd, Vivekananda Rd, Chittaranjan Ave. Source stop list ends at Girish Park, destination Ganesh Talkies appended as final stop"
+auto_r80,ID Hospital - RG Kar Hospital,auto,,ID Hospital,RG Kar Hospital,,,,,,,AF-CI|AF-F3,community,"Route no 80; 5.6 km via CIT Rd, Manicktala Main Rd, Raja Dinendra St, RG Kar Rd. Overlaps r58 and r59 stop sequences"
+auto_r44,Kadapara - Machua,auto,,Kadapara,Machua,,,,,,,AF-CI|AF-F3,community,"Route no 44; via Narkeldanga Main Rd, Keshab Chandra Sen St, Madan Mohan Burman St"
+auto_r73,Beliaghata - Sealdah,auto,,Beliaghata,Sealdah,,,,,,,AF-CI,community,Route no 73; via Beliaghata Main Rd
+auto_r52,Ultadanga - Baguiati,auto,,Ultadanga,Baguiati,,,,,,,AF-CI,community,Route no 52; via VIP Rd
+auto_r8,Howrah - Botanical Garden,auto,,Howrah,Botanical Garden,,,,,,,AF-CI,unverified,"Route no 8; source gives only terminals (Howrah, Botanical Garden), no distance or stops; probably Howrah Station"
+auto_r94,Kankurgachi - Karunamoyee,auto,,Kankurgachi,Karunamoyee,,,,,,,AF-CI|AF-F3,community,"Route no 94; via Manicktala Main Rd, EM Bypass, Salt Lake Rd. Kankurgachi to Karunamoyee fare rose by Rs 3 around 24 Mar 2026 (Bartaman), absolute fare not stated"
+auto_r93,SAI Complex - Karunamoyee,auto,,SAI Complex,Karunamoyee,,,,,,,AF-CI,community,"Route no 93; via Salt Lake Broad Way, Beliaghata Bypass"
+auto_r57,Salt Lake - Ultadanga,auto,,Salt Lake,Ultadanga,,,,,,,AF-CI,unverified,Route no 57; source gives only terminals and no stops or distance; Salt Lake end not specified
+auto_r14,MG Road - BK Pal,auto,,MG Road,BK Pal,,,,,,,AF-CI,community,Route no 14; via Rabindra Sarani Chitpur
+auto_ballygunge_judges_court,Ballygunge Station - Judges Court,auto,,Ballygunge Station,Judges Court,,,,,,,AF-F3,community,"F3Kolkata 2017; stop order as listed by source, not verified"
+auto_tollygunge_phari_behala_td,Tollygunge Phari - Behala Tram Depot,auto,,Tollygunge Phari,Behala Tram Depot,,,,,,,AF-F3,community,F3Kolkata 2017
+auto_gariahat_behala_td,Gariahat - Behala Tram Depot,auto,,Gariahat,Behala Tram Depot,,,,,,,AF-F3,community,F3Kolkata 2017
+auto_behala_td_ballygunge_stn,Behala Tram Depot - Ballygunge Station,auto,,Behala Tram Depot,Ballygunge Station,,,,,,,AF-F3,community,F3Kolkata 2017
+auto_chetla_park_behala_chowrasta,Chetla Park - Behala Chowrasta,auto,,Chetla Park,Behala Chowrasta,,,,,,,AF-CI|AF-F3,unverified,"Only the title is available (F3 article not retrievable); no stops, fare or distance"
+auto_ultadanga_sector_v,Ultadanga - Sector V (Salt Lake),auto,,Ultadanga,Sector V (Salt Lake),,,,,40,40,AF-BART|AF-AJT,community,"News only, terminals only. Fare Rs 40 from 23 Mar 2026 (was 35)"
+auto_ultadanga_bikash_bhavan,Ultadanga - Bikash Bhavan (Salt Lake),auto,,Ultadanga,Bikash Bhavan (Salt Lake),,,,,25,25,AF-BART,community,"News only, terminals only. Fare Rs 25 from 23 Mar 2026 (was 20)"
+auto_ultadanga_karunamoyee,Ultadanga - Karunamoyee (Salt Lake),auto,,Ultadanga,Karunamoyee (Salt Lake),,,,,25,25,AF-BART,community,"News only, terminals only. Fare Rs 25 from 23 Mar 2026 (was 20)"
+auto_ultadanga_tank_12,Ultadanga - Tank No 12 (Salt Lake),auto,,Ultadanga,Tank No 12 (Salt Lake),,,,,30,30,AF-AJT|AF-EIM,community,"News only, terminals only. Fare Rs 30 from 23 Mar 2026 (was 25)"
+auto_tank_13_phoolbagan,Tank No 13 (Salt Lake) - Phoolbagan,auto,,Tank No 13 (Salt Lake),Phoolbagan,,,,,16,16,AF-AJT|AF-EIM,community,"News only, terminals only. Fare Rs 16 from 23 Mar 2026 (was 14); likely part of route 91 corridor"
+auto_maniktala_phoolbagan,Maniktala - Phoolbagan,auto,,Maniktala,Phoolbagan,,,,,17,17,AF-AJT|AF-EIM,community,"News only, terminals only. Fare Rs 17 from 23 Mar 2026 (was 15)"
+auto_phoolbagan_girish_park,Phoolbagan - Girish Park,auto,,Phoolbagan,Girish Park,,,,,23,23,AF-AJT|AF-EIM,community,"News only, terminals only. Fare Rs 23 from 23 Mar 2026 (was 20); likely part of route 59 corridor"
+auto_behala_chowrasta_sarsuna,Behala Chowrasta - Sarsuna,auto,,Behala Chowrasta,Sarsuna,,,,,25,25,AF-BART,community,"News only, terminals only. Fare Rs 25 from 23 Mar 2026 (was 18); night fares reportedly Re 1 higher"
+auto_chingrighata_sdf,Chingrighata - SDF (Salt Lake),auto,,Chingrighata,SDF (Salt Lake),,,,,18,18,AF-BHUNT|AF-SUBK,community,"News only, terminals only. Fare Rs 18 around 11 Mar 2026 (was 15); passengers alleged no official approval"
+auto_garia_baruipur,Garia - Baruipur,auto,,Garia,Baruipur,,,,,,,AF-BHUNT|AF-SUBK,community,"News only, terminals only. Fare rose Rs 5 to 10 around 11 Mar 2026, absolute fare not given"
+auto_sonarpur_garia,Sonarpur - Garia,auto,,Sonarpur,Garia,,,,,,,AF-BHUNT,community,"News only, terminals only. Fare rose around 11 Mar 2026, absolute fare not given"
+auto_baruipur_dakshin_barasat,Baruipur - Dakshin Barasat,auto,,Baruipur,Dakshin Barasat,,,,,,,AF-SUBK,community,"News only, terminals only. Fare rose around 11 Mar 2026, absolute fare not given"
+auto_baruipur_julpia,Baruipur - Julpia,auto,,Baruipur,Julpia,,,,,,,AF-SUBK,community,"News only, terminals only. Fare rose around 11 Mar 2026, absolute fare not given"

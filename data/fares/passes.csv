@@ -1,0 +1,11 @@
+mode,pass_name,price_inr,validity,conditions,source_id,notes
+metro,Smart Card (General),100 to 1000,1 year from purchase or last top-up (kolkatametro.org); 365 days (kolkatametrorail.com),Rs 60 refundable deposit; 10 percent bonus on recharge; min recharge Rs 50; max balance Rs 1000; 2013 onward single card type,AF-KMORG|AF-KMR,"Aggregator sources; yometro claims card costs Rs 150 and gives flat fare discount, conflicting"
+metro,Tourist Smart Card I,250,1 day unlimited rides,Rs 60 security deposit,AF-WIKI-METRO|AF-KMR,Wikipedia cites Metro business rules (2020)
+metro,Tourist Smart Card II,550,3 days unlimited rides (kolkatametrorail.com notes a 5-day variant on one corridor),Rs 60 security deposit,AF-WIKI-METRO|AF-KMR,yometro labels 250 as 3-day and 550 as 5-day: conflicting
+metro,QR ticket (Aamar Kolkata Metro app),same as token,1 day,Paper/app QR single journey,AF-KMORG,Fare equals token
+rail,MST second class suburban,,1 month,Price equals about 15 single second class journeys; up to 150 km normally; unreserved ordinary/passenger trains only; ID required,AF-TRAINHELP,"Rule is national; Kolkata specific MST amounts: Sealdah-Bidhannagar Rs 100, Naihati Rs 185, Kalyani and Kanchrapara Rs 270 (proposed table, AF-STATESMAN)"
+rail,QST second class suburban,,3 months,About 2.7 times the monthly fare,AF-TRAINHELP,Kolkata specific QST amounts not found
+rail,"MST first class (Sealdah suburban, proposed)",,1 month,"Bidhannagar Rs 345, Naihati Rs 765, Kalyani and Kanchrapara Rs 925",AF-STATESMAN,"Proposal reported Nov 2023, not confirmed as implemented"
+tram,All Day Ticket,15,"1 day, any routes",Sold from Esplanade Control Office,AF-WBTRAM,"WB Transport Dept note (uploaded 2016, undated content)"
+tram,"Student monthly (poor family, govt/aided school)",20 (stage 1) or 25 (stage 2),1 month,Family income up to Rs 1500 per month,AF-WBTRAM,Concession pass
+tram,Monthly ticket (general),,1 month,"Sold 10th to 12th of each month at CTC head office, 12 RN Mukherjee Rd; senior citizens 60+ get 50 percent off",AF-WBTRAM,General price not stated in the note

@@ -1,0 +1,118 @@
+stop_id,stop_name,lat,lon,source_id,notes
+auto_phoolbagan,Phoolbagan,22.572159,88.389421,AF-AJT|AF-CI|AF-EIM|AF-F3,"coord: OSM Nominatim node/2790155767 (neighbourhood), name-matched, in route cluster"
+auto_suktara_cinema,Suktara Cinema,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_kadapara,Kadapara,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_subhas_sarovar,Subhas Sarovar,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_orient,Orient,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_89_cinema,89 Cinema,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_swabhumi,Swabhumi,22.571091,88.401251,AF-CI|AF-F3,"coord: OSM Nominatim way/359505037 (cinema), name-matched, in route cluster"
+auto_bypass,Bypass,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_salt_lake_stadium,Salt Lake Stadium,22.573111,88.403089,AF-CI|AF-F3,"coord: OSM Nominatim node/7976140069 (station), name-matched, in route cluster"
+auto_purbachal,Purbachal,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_13_no_tank,13 No. Tank,22.574881,88.409029,AF-AJT|AF-CI|AF-EIM|AF-F3,"coord: OSM Nominatim way/174252530 (yes), name-matched, in route cluster"
+auto_bijan_bhawan,Bijan Bhawan,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_hb_island,HB Island,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_gd_island,GD Island,22.576419,88.413673,AF-CI|AF-F3,"coord: OSM Nominatim node/11971707027 (bus_stop), name-matched, in route cluster"
+auto_fd_block,FD Block,22.582405,88.412323,AF-CI|AF-F3,"coord: OSM Nominatim way/158511211 (city_block), name-matched, in route cluster"
+auto_netaji_park,Netaji Park,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_central_park,Central Park,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_karunamoyee,Karunamoyee,22.586380,88.421531,AF-BART|AF-CI|AF-F3,"coord: OSM Nominatim node/7976140059 (station), name-matched, in route cluster"
+auto_kali_mandir,Kali Mandir,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_allahabad_bank,Allahabad Bank,22.569274,88.390918,AF-CI|AF-F3,"coord: OSM Nominatim node/4676042686 (bank), name-matched, in route cluster"
+auto_trikon_park,Trikon Park,22.567426,88.392490,AF-CI|AF-F3,"coord: OSM Nominatim node/13612096522 (bus_stop), name-matched, in route cluster"
+auto_devine_nursing_home,Devine Nursing Home,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_ratna_kebin,Ratna Kebin,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_cit_more,CIT More,22.562851,88.396263,AF-CI|AF-F3,"coord: OSM Nominatim node/2790155771 (bus_stop), name-matched, in route cluster"
+auto_id_hospital,ID Hospital,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_jora_mandir,Jora Mandir,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_ragini_cinema,Ragini Cinema,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_cit_building_more,CIT Building More,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_sishu_hospital,Sishu Hospital,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_chanditala,Chanditala,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_rail_quarter,Rail Quarter,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_sasthitala,Sasthitala,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_narkeldanga_post_office,Narkeldanga Post Office,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_rajabazar_khaal_pool,Rajabazar Khaal Pool,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_tasbir_mahal_cinema,Tasbir Mahal Cinema,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_sealdah_station,Sealdah Station,22.567966,88.371105,AF-CI,"coord: OSM Nominatim node/252584722 (station), name-matched, in route cluster"
+auto_pantaloons,Pantaloons,22.575072,88.389359,AF-CI|AF-F3,"coord: OSM Nominatim way/191117573 (mall), name-matched, in route cluster"
+auto_vip_market,VIP Market,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_kathgola,Kathgola,22.576715,88.389986,AF-CI|AF-F3,"coord: OSM Nominatim node/13612096534 (bus_stop), name-matched, in route cluster"
+auto_kankurgachi,Kankurgachi,22.579931,88.390565,AF-CI|AF-F3,"coord: OSM Nominatim node/13612096539 (bus_stop), name-matched, in route cluster"
+auto_rail_bridge,Rail Bridge,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_marwari_bagan,Marwari Bagan,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_bagmari_bazar,Bagmari Bazar,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_manicktala_khaal_pool,Manicktala Khaal Pool,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_manicktala_post_office,Manicktala Post Office,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_blood_bank,Blood Bank,,,AF-CI,not geocoded: no confident OSM match
+auto_manicktala_more,Manicktala More,,,AF-CI,not geocoded: no confident OSM match
+auto_hedua,Hedua,22.587744,88.368849,AF-CI,"coord: OSM Nominatim way/102015159 (park), name-matched, in route cluster"
+auto_girish_park,Girish Park,22.587145,88.362942,AF-AJT|AF-CI|AF-EIM,"coord: OSM Nominatim node/5421546475 (station), name-matched, in route cluster"
+auto_ganesh_talkies,Ganesh Talkies,,,AF-CI,not geocoded: no confident OSM match
+auto_kmc_ward_office,KMC Ward Office,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_paresnath_temple,Paresnath Temple,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_gauri_bari,Gauri Bari,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_ayurvedic_hospital,Ayurvedic Hospital,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_deshbandhu_park,Deshbandhu Park,22.600010,88.377070,AF-CI|AF-F3,"coord: OSM Nominatim node/9677133275 (park), name-matched, in route cluster"
+auto_park_institution,Park Institution,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_rg_kar_hospital,RG Kar Hospital,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_raja_bazar,Raja Bazar,22.572778,88.371679,AF-CI|AF-F3,"coord: OSM Nominatim node/2720342347 (tram_stop), name-matched, in route cluster"
+auto_amherst_street_crossing,Amherst Street Crossing,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_college_street_bata,College Street Bata,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_mg_road_metro,MG Road Metro,,,AF-CI|AF-F3,not geocoded: no confident OSM match
+auto_beliaghata,Beliaghata,22.550656,88.403917,AF-CI,"coord: OSM Nominatim way/535333484 (train_station), name-matched, in route cluster"
+auto_rashmani_bazar,Rashmani Bazar,,,AF-CI,not geocoded: no confident OSM match
+auto_deshbandhu_school,Deshbandhu School,,,AF-CI,not geocoded: no confident OSM match
+auto_alochaya,Alochaya,22.564317,88.388854,AF-CI,"coord: OSM Nominatim node/12761560755 (bus_stop), name-matched, in route cluster"
+auto_sarkar_bazar,Sarkar Bazar,22.565012,88.385389,AF-CI,"coord: OSM Nominatim node/13605749839 (bus_stop), name-matched, in route cluster"
+auto_borof_kol,Borof Kol,,,AF-CI,not geocoded: no confident OSM match
+auto_khal_pool,Khal Pool,,,AF-CI,not geocoded: no confident OSM match
+auto_sales_tax,Sales Tax,22.566055,88.379999,AF-CI,"coord: OSM Nominatim node/12761560751 (bus_stop), name-matched, in route cluster"
+auto_ultadanga,Ultadanga,22.596128,88.385283,AF-AJT|AF-BART|AF-CI|AF-EIM,"coord: OSM Nominatim node/1310971686 (suburb), name-matched, in route cluster"
+auto_kolaghata,Kolaghata,,,AF-CI,not geocoded: no confident OSM match
+auto_sreebhumi,Sreebhumi,,,AF-CI,not geocoded: no confident OSM match
+auto_lake_town,Lake Town,22.605728,88.402961,AF-CI,"coord: OSM Nominatim node/2012850135 (suburb), name-matched, in route cluster"
+auto_bangur,Bangur,22.605919,88.411109,AF-CI,"coord: OSM Nominatim way/190279711 (tertiary), name-matched, in route cluster"
+auto_dum_dum_park,Dum Dum Park,22.603428,88.423038,AF-CI,"coord: OSM Nominatim way/535333444 (yes), name-matched, in route cluster"
+auto_keshtopur,Keshtopur,22.597333,88.433852,AF-CI,"coord: OSM Nominatim node/11126031785 (suburb), name-matched, in route cluster"
+auto_narayantala,Narayantala,,,AF-CI,not geocoded: no confident OSM match
+auto_baguiati,Baguiati,22.609668,88.427683,AF-CI,"coord: OSM Nominatim node/10010962802 (suburb), name-matched, in route cluster"
+auto_howrah_station,Howrah Station,22.583365,88.340345,AF-CI,"coord: OSM Nominatim node/11699268224 (station), name-matched, in route cluster"
+auto_botanical_garden,Botanical Garden,22.558202,88.289232,AF-CI,"coord: OSM Nominatim way/52097541 (park), name-matched, in route cluster"
+auto_sai_complex,SAI Complex,22.564436,88.411582,AF-CI,"coord: OSM Nominatim node/2461201418 (sports_centre), name-matched, in route cluster"
+auto_columbia_asia_hospital,Columbia Asia Hospital,22.572260,88.412760,AF-CI,"coord: OSM Nominatim way/173731205 (hospital), name-matched, in route cluster"
+auto_ezcc,EZCC,,,AF-CI,not geocoded: no confident OSM match
+auto_ahiritola,Ahiritola,22.596397,88.353298,AF-CI,"coord: OSM Nominatim node/1189457648 (ferry_terminal), name-matched, in route cluster"
+auto_bk_pal,BK Pal,22.593457,88.357116,AF-CI,"coord: OSM Nominatim way/1127684588 (secondary), name-matched, in route cluster"
+auto_ballygunge_station,Ballygunge Station,22.519341,88.371978,AF-F3,"coord: OSM Nominatim node/651805730 (station), name-matched, in route cluster"
+auto_gariahat,Gariahat,22.519779,88.365430,AF-F3,"coord: OSM Nominatim node/4198894040 (bus_stop), name-matched, in route cluster"
+auto_triangular_park,Triangular Park,22.517997,88.357720,AF-F3,"coord: OSM Nominatim way/118484371 (park), name-matched, in route cluster"
+auto_deshopriyo_park,Deshopriyo Park,,,AF-F3,not geocoded: no confident OSM match
+auto_rashbehari,Rashbehari,22.517172,88.345564,AF-F3,"coord: OSM Nominatim node/1983446893 (bus_stop), name-matched, in route cluster"
+auto_kalighat_metro,Kalighat Metro,22.519103,88.346118,AF-F3,"coord: OSM Nominatim node/4178731060 (information), name-matched, in route cluster"
+auto_sp_mukherjee_road,SP Mukherjee Road,,,AF-F3,not geocoded: no confident OSM match
+auto_hazra,Hazra,22.522723,88.349924,AF-F3,"coord: OSM Nominatim node/1577087782 (suburb), name-matched, in route cluster"
+auto_kalighat,Kalighat,22.515331,88.347705,AF-F3,"coord: OSM Nominatim node/419289392 (suburb), name-matched, in route cluster"
+auto_tollygunge_phari,Tollygunge Phari,,,AF-F3,not geocoded: no confident OSM match
+auto_mahabir_tala,Mahabir Tala,,,AF-F3,not geocoded: no confident OSM match
+auto_new_alipore,New Alipore,22.511165,88.328112,AF-F3,"coord: OSM Nominatim way/1172951427 (suburb), name-matched, in route cluster"
+auto_taratala,Taratala,22.507686,88.320384,AF-F3,"coord: OSM Nominatim node/10296539476 (station), name-matched, in route cluster"
+auto_ajanta_cinema,Ajanta Cinema,22.508112,88.320228,AF-F3,"coord: OSM Nominatim node/3365872348 (cinema), name-matched, in route cluster"
+auto_behala_thana,Behala Thana,22.503528,88.319003,AF-F3,"coord: OSM Nominatim node/3363195847 (police), name-matched, in route cluster"
+auto_behala_tram_depot,Behala Tram Depot,22.499411,88.317797,AF-F3,"coord: OSM Nominatim node/1272967207 (bus_stop), name-matched, in route cluster"
+auto_chetla,Chetla,22.514325,88.336958,AF-F3,"coord: OSM Nominatim node/2015875098 (suburb), name-matched, in route cluster"
+auto_taratala_crossing,Taratala Crossing,,,AF-F3,not geocoded: no confident OSM match
+auto_chetla_park,Chetla Park,22.517176,88.336246,AF-CI|AF-F3,"coord: OSM Nominatim way/190981117 (park), name-matched, in route cluster"
+auto_behala_chowrasta,Behala Chowrasta,22.487355,88.313379,AF-BART|AF-CI|AF-F3,"coord: OSM Nominatim node/9321292345 (station), name-matched, in route cluster"
+auto_sector_v,Sector V,,,AF-AJT|AF-BART,not geocoded: no confident OSM match
+auto_bikash_bhavan,Bikash Bhavan,22.591142,88.416944,AF-BART,"coord: OSM Nominatim way/153790971 (government), name-matched, in route cluster"
+auto_tank_no_12_salt_lake,Tank No 12 Salt Lake,,,AF-AJT|AF-EIM,not geocoded: no confident OSM match
+auto_maniktala,Maniktala,22.588090,88.385283,AF-AJT|AF-EIM,"coord: OSM Nominatim node/1307115411 (suburb), name-matched, in route cluster"
+auto_sarsuna,Sarsuna,22.480999,88.284838,AF-BART,"coord: OSM Nominatim way/358768807 (college), name-matched, in route cluster"
+auto_chingrighata,Chingrighata,22.558656,88.410802,AF-BHUNT|AF-SUBK,"coord: OSM Nominatim node/2461214063 (bus_stop), name-matched, in route cluster"
+auto_sdf_building_salt_lake,SDF Building Salt Lake,22.568880,88.431054,AF-BHUNT|AF-SUBK,"coord: OSM Nominatim node/2454098345 (yes), name-matched, in route cluster"
+auto_garia,Garia,,,AF-BHUNT|AF-SUBK,not geocoded: no confident OSM match
+auto_baruipur,Baruipur,22.360715,88.432558,AF-BHUNT|AF-SUBK,"coord: OSM Nominatim way/1138105859 (city), name-matched, in route cluster"
+auto_sonarpur,Sonarpur,22.440875,88.424637,AF-BHUNT,"coord: OSM Nominatim way/1139413343 (city), name-matched, in route cluster"
+auto_dakshin_barasat,Dakshin Barasat,,,AF-SUBK,not geocoded: no confident OSM match
+auto_julpia,Julpia,22.365273,88.351970,AF-SUBK,"coord: OSM Nominatim node/7199853213 (hospital), name-matched, in route cluster"

@@ -1,0 +1,18 @@
+stop_id,stop_name,lat,lon,source_id,notes
+ferry_howrah,Howrah Station Ghat (Howrah Launch Ghat),22.582663,88.343791,S-MR-01,OSM way 384349701 centre; next to Howrah station; ferry way 659390160/659390161 endpoints
+ferry_fairlie,Fairlie Ghat (Fairlie Place),22.576229,88.345555,S-MR-01,"OSM node 6173584909, endpoint of ferry way 659390160"
+ferry_millennium_park,Millennium Park (Shipping) Jetty,22.572706,88.343749,S-MR-01,"Unnamed OSM ferry terminal 6173584907 at the south end of ferry way 659390161 from Howrah, at Millennium Park; identification by location"
+ferry_babughat,Babughat / Chandpal Ghat,22.568108,88.340771,S-MR-01,OSM node 10559494009 'Babughat Ferry to Howrah'
+ferry_bagbazar,Bagbazar Launch Ghat,22.604514,88.363939,S-MR-01,OSM node 1208567622
+ferry_ahiritola,Ahiritola Ghat,22.596397,88.353298,S-MR-01,OSM node 1189457648
+ferry_shobhabazar,Shobhabazar Ghat,22.599299,88.356603,S-MR-01,OSM node 1189457885
+ferry_bandhaghat,Bandhaghat (Howrah side),,,S-FE-03,Not mapped as a ferry terminal in OSM; coordinates left blank
+ferry_golabari,Golabari Ghat (Howrah side),,,S-FE-03,Intermediate stop on Howrah-Bagbazar per community guide; not mapped in OSM; coordinates left blank
+ferry_belur_math,Belur Math Ghat,22.630232,88.358677,S-MR-01,OSM node 4523292408
+ferry_dakshineswar,Dakshineswar Ghat,22.653648,88.357549,S-MR-01,OSM node 4178734127
+ferry_rishra,Rishra Ferry Ghat,22.721267,88.35514,S-MR-01,OSM node 4467164697
+ferry_khardah,Khardah Ghat,22.722721,88.361983,S-MR-01,East end of OSM ferry way 449781829 'Rishra - Khardah ferry service'; no terminal node
+ferry_sheoraphuli,Sheoraphuli Ghat,22.777377,88.329996,S-MR-01,OSM node 1765885555 'Sheoraphulli Ghaat'
+ferry_dui_paisar_ghat,"Dui Paisar Ghat (east bank, Barrackpore side)",22.777448,88.333516,S-MR-01,OSM node 1765885556; town attribution by location
+ferry_jugal_auddy_ghat,"Jugal Auddy Ferry Ghat (west bank, Serampore side)",22.75908,88.342317,S-MR-01,OSM node 2178406075; town attribution by location
+ferry_dhobi_ghat,"Dhobi Ghat (east bank, Barrackpore side)",22.764809,88.344968,S-MR-01,OSM node 2178405584; town attribution by location

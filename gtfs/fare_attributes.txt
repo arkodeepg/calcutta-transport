@@ -1,0 +1,6 @@
+fare_id,price,currency_type,payment_method,transfers,agency_id
+fare_ferry_howrah_fairlie,6.00,INR,0,0,wbstc_ferry
+fare_ferry_howrah_millennium_park,6.00,INR,0,0,wbstc_ferry
+fare_ferry_howrah_babughat,6.00,INR,0,0,other_ferry
+fare_ferry_howrah_bagbazar,7.00,INR,0,0,wbstc_ferry
+fare_ferry_belur_dakshineswar,11.00,INR,0,0,wbstc_ferry

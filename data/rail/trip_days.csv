@@ -1,0 +1,1638 @@
+trip_id,route_id,days_mask_mon_to_sun,train_name,full_origin_code,full_destination_code,clipped_to_region
+38305,rail_hwh_kharagpur,1111111,SHM MCA LOCAL,SHM,MCA,no
+38031,rail_hwh_kharagpur,1111110,SHM SRC LOCAL,SHM,SRC,no
+38033,rail_hwh_kharagpur,1111110,SHM SRC LOCAL,SHM,SRC,no
+38032,rail_hwh_kharagpur,1111110,SRC SHM LOCAL,SRC,SHM,no
+38034,rail_hwh_kharagpur,1111111,SRC SHM LOCAL,SRC,SHM,no
+38036,rail_hwh_kharagpur,1111110,SRC SHM LOCAL,SRC,SHM,no
+37211,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37212,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37213,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37214,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37215,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37216,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37217,rail_hwh_bardhaman_main,1111110,HWH - BDC LOCAL,HWH,BDC,no
+37218,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37221,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37220,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37223,rail_hwh_bardhaman_main,1111110,HWH-BDC LOCAL,HWH,BDC,no
+37222,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37225,rail_hwh_bardhaman_main,1111110,HWH-BDC LOCAL,HWH,BDC,no
+37224,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37227,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37226,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37229,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37228,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37231,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37230,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37233,rail_hwh_bardhaman_main,1111110,HWH-BDC LOCAL,HWH,BDC,no
+37232,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37237,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37234,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37239,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37236,rail_hwh_bardhaman_main,1111111,BDC-HWHLOCAL,BDC,HWH,no
+37245,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37238,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37251,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37240,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37253,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37242,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37255,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37262,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37257,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37246,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37259,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37252,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37261,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37258,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37263,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37260,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37265,rail_hwh_bardhaman_main,1111110,HWH BDC LOCAL,HWH,BDC,no
+37264,rail_hwh_bardhaman_main,1111110,BDC-HWH LOCAL,BDC,HWH,no
+37267,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37266,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37269,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37268,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37271,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37270,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37273,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37272,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37275,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37274,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37277,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37276,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37281,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37278,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37283,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37280,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37287,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37282,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37289,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37288,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37291,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37244,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37219,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37250,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37235,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37254,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37241,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37284,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37247,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+36811,rail_hwh_bardhaman_chord,1111111,HWH-BWN LOCAL,HWH,BWN,no
+36812,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36813,rail_hwh_bardhaman_chord,1111111,HWH-BWN LOCAL,HWH,BWN,no
+36814,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36815,rail_hwh_bardhaman_chord,1111111,HWH-BWN LOCAL,HWH,BWN,no
+36816,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36817,rail_hwh_bardhaman_chord,1111111,HWH-BWN LOCAL,HWH,BWN,no
+36818,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36819,rail_hwh_bardhaman_chord,1111111,HWH- BWN LOCAL,HWH,BWN,no
+36820,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36821,rail_hwh_bardhaman_chord,1111111,HWH- BWN LOCAL,HWH,BWN,no
+36824,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36823,rail_hwh_bardhaman_chord,1111111,HWH- BWN LOCAL,HWH,BWN,no
+36826,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36825,rail_hwh_bardhaman_chord,1111111,HWH - BWN CHORD  LOCAL,HWH,BWN,no
+36827,rail_hwh_bardhaman_chord,1111111,HWH - BWN CHORD  LOCAL,HWH,BWN,no
+36828,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36829,rail_hwh_bardhaman_chord,1111111,HWH-BWN CHORD LOCAL,HWH,BWN,no
+36832,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36831,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36834,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36833,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36838,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36840,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36837,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36842,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36839,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36844,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36841,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36846,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36843,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36848,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36845,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36850,rail_hwh_bardhaman_chord,1111111,BWN HWH  CHORD  LOCAL,BWN,HWH,no
+36851,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36854,rail_hwh_bardhaman_chord,1111111,BWN HWH  CHORD  LOCAL,BWN,HWH,no
+36853,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36858,rail_hwh_bardhaman_chord,1111111,BWN HWH  CHORD  LOCAL,BWN,HWH,no
+36855,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36860,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36847,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36836,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36849,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+36852,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36856,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+36031,rail_hwh_bardhaman_chord,1111111,HWH-CDAE LOCAL,HWH,CDAE,no
+36032,rail_hwh_bardhaman_chord,1111111,CDAE-HWH LOCAL,CDAE,HWH,no
+36033,rail_hwh_bardhaman_chord,1111111,HWH-CDAE LOCAL,HWH,CDAE,no
+36034,rail_hwh_bardhaman_chord,1111111,CDAE HWH LOCAL,CDAE,HWH,no
+36035,rail_hwh_bardhaman_chord,1111111,HWH-CDAE LOCAL,HWH,CDAE,no
+36036,rail_hwh_bardhaman_chord,1111111,CDAE-HWH LOCAL,CDAE,HWH,no
+36037,rail_hwh_bardhaman_chord,1111111,HWH-CDAE LOCAL,HWH,CDAE,no
+36038,rail_hwh_bardhaman_chord,1111111,CDAE HWH LOCAL,CDAE,HWH,no
+37307,rail_hwh_tarakeswar,1111111,HWH HPL LOCAL,HWH,HPL,no
+37308,rail_hwh_tarakeswar,1111111,HPL HWH LOCAL,HPL,HWH,no
+37327,rail_hwh_tarakeswar,1111111,HWH - TAK LOCAL,HWH,TAK,no
+37338,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37653,rail_hwh_bardhaman_main,1111110,HWH MYM LOCAL,HWH,MYM,no
+37654,rail_hwh_bardhaman_main,1111110,MYM HWH LOCAL,MYM,HWH,no
+37655,rail_hwh_bardhaman_main,1111111,HWH - MYM LOCAL,HWH,MYM,no
+37656,rail_hwh_bardhaman_main,1111111,MYM-HWH LOCAL,MYM,HWH,no
+37911,rail_hwh_katwa,1111111,HWH-KWAE LOCAL,HWH,KWAE,yes
+37912,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37913,rail_hwh_katwa,1111111,HWH - KWAE LOCAL,HWH,KWAE,yes
+37917,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+37918,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37921,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+37923,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+37922,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37926,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37927,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+37928,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37812,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37811,rail_hwh_bardhaman_main,1111111,HWH- BWN M LOCAL,HWH,BWN,no
+37814,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37813,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37816,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37818,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37817,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37820,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37819,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37821,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37823,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37825,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37829,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37832,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37834,rail_hwh_bardhaman_main,1111111,BWN - HWH LOCAL,BWN,HWH,no
+37836,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37838,rail_hwh_bardhaman_main,1111111,BWN - HWH LOCAL,BWN,HWH,no
+37840,rail_hwh_bardhaman_main,1111111,BWN - HWH LOCAL,BWN,HWH,no
+37842,rail_hwh_bardhaman_main,1111111,BWN - HWH LOCAL,BWN,HWH,no
+37848,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37850,rail_hwh_bardhaman_main,1111111,BWN - HWH LOCAL,BWN,HWH,no
+37851,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37852,rail_hwh_bardhaman_main,1111111,BWN-HWH MAIN LOCAL,BWN,HWH,no
+37853,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37854,rail_hwh_bardhaman_main,1111111,BWN-HWH NON - STOP LOCAL,BWN,HWH,no
+37855,rail_hwh_bardhaman_main,1111111,HWH-BWN MAIN LOCAL,HWH,BWN,no
+63502,rail_hwh_bardhaman_main,1111111,BWN-HWH MEMU,BWN,HWH,no
+37857,rail_hwh_bardhaman_main,1111111,HWH - BWN NON -STOP LOCAL,HWH,BWN,no
+37827,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37833,rail_hwh_bardhaman_main,0000010,HWH - BWN LOCAL  SAO,HWH,BWN,no
+37846,rail_hwh_bardhaman_main,0000010,BWN - HWH LOCAL,BWN,HWH,no
+36083,rail_hwh_bardhaman_chord,0000010,HWH-MSAE LOCAL,HWH,MSAE,no
+36084,rail_hwh_bardhaman_chord,0000010,MSAE-HWH LOCAL,MSAE,HWH,no
+36081,rail_hwh_bardhaman_chord,1111110,HWH-MSAE LOCAL,HWH,MSAE,no
+36088,rail_hwh_bardhaman_chord,1111111,MSAE-HWH LOCAL,MSAE,HWH,no
+36086,rail_hwh_bardhaman_chord,1111111,MSAE HWH LOCAL,MSAE,HWH,no
+36085,rail_hwh_bardhaman_chord,1111111,HWH-MSAE LOCAL,HWH,MSAE,no
+36071,rail_hwh_bardhaman_chord,1111111,HWH-GRAE LOCAL,HWH,GRAE,no
+36072,rail_hwh_bardhaman_chord,1111111,HOWRAH-GURAP LOCAL,GRAE,HWH,no
+37611,rail_hwh_bardhaman_main,1111111,HWH-PDA LOCAL,HWH,PDA,no
+37614,rail_hwh_bardhaman_main,1111111,PDA-HWH LOCAL,PDA,HWH,no
+37011,rail_hwh_bardhaman_main,1111110,HWH-SRP LOCAL,HWH,SRP,no
+37012,rail_hwh_bardhaman_main,1111110,SRP-HWH LOCAL,SRP,HWH,no
+37013,rail_hwh_bardhaman_main,1111110,HWH-SRP LOCAL,HWH,SRP,no
+37014,rail_hwh_bardhaman_main,1111110,SRP-HWH LOCAL,SRP,HWH,no
+37015,rail_hwh_bardhaman_main,1111111,HWH SRP LOCAL,HWH,SRP,no
+37022,rail_hwh_bardhaman_main,1111110,SRP HWH LOCAL,SRP,HWH,no
+37041,rail_hwh_bardhaman_main,1111110,HWH-SHE LOCAL,HWH,SHE,no
+37042,rail_hwh_bardhaman_main,1111110,SHE-HWH LOCAL,SHE,HWH,no
+37043,rail_hwh_bardhaman_main,1111110,HWH-SHE LOCAL,HWH,SHE,no
+37044,rail_hwh_bardhaman_main,1111110,SHE HWH LOCAL,SHE,HWH,no
+37045,rail_hwh_bardhaman_main,1111110,SHE-HWH LOCAL,HWH,SHE,no
+37046,rail_hwh_bardhaman_main,1111110,SHE-HWH LOCAL,SHE,HWH,no
+37049,rail_hwh_bardhaman_main,1111111,HWH-SHE LOCAL,HWH,SHE,no
+37050,rail_hwh_bardhaman_main,1111111,SHE-HWH LOCAL,SHE,HWH,no
+37375,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37052,rail_hwh_bardhaman_main,1111110,SHE HWH LOCAL,SHE,HWH,no
+37053,rail_hwh_bardhaman_main,1111111,HWH SHE LOCAL,HWH,SHE,no
+37054,rail_hwh_bardhaman_main,1111111,SHE HWH LOCAL,SHE,HWH,no
+37055,rail_hwh_bardhaman_main,1111111,HWH-SHE LOCAL,HWH,SHE,no
+37056,rail_hwh_bardhaman_main,1111111,SHE-HWH LOCAL,SHE,HWH,no
+37057,rail_hwh_bardhaman_main,1111111,HWH- SHE LOCAL,HWH,SHE,no
+37058,rail_hwh_bardhaman_main,1111111,SHE-HWH LOCAL,SHE,HWH,no
+37059,rail_hwh_bardhaman_main,1111111,HWH-SHE LOCAL,HWH,SHE,no
+37060,rail_hwh_bardhaman_main,1111111,SHEORAPHULI HOWRAH LOCAL,SHE,HWH,no
+37061,rail_hwh_bardhaman_main,1111110,HWH-SHE LOCAL,HWH,SHE,no
+37062,rail_hwh_bardhaman_main,1111110,SHE-HWH LOCAL,SHE,HWH,no
+37063,rail_hwh_bardhaman_main,1111110,HWH-SHE LOCAL,HWH,SHE,no
+37064,rail_hwh_bardhaman_main,1111110,SHE-HWH LOCAL,SHE,HWH,no
+37051,rail_hwh_bardhaman_main,1111110,HWH SHE LOCAL,HWH,SHE,no
+37348,rail_hwh_tarakeswar,1111111,TAK HWH LOCAL,TAK,HWH,no
+37345,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37376,rail_hwh_tarakeswar,1111111,GOGT-HWH LOCAL,GOGT,HWH,no
+37347,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37350,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37349,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37352,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37351,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37378,rail_hwh_tarakeswar,1111111,GOGT-HWH LOCAL,GOGT,HWH,no
+37371,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37312,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37359,rail_hwh_tarakeswar,1111111,HWH AMBG LOCAL,HWH,AMBG,no
+37314,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37313,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37316,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37373,rail_hwh_tarakeswar,1111111,HWH - GOGHAT LOCAL,HWH,GOGT,no
+37318,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37315,rail_hwh_tarakeswar,1111111,HWH - TAK LOCAL,HWH,TAK,no
+37320,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37317,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37322,rail_hwh_tarakeswar,1111111,TAK - HWH ANDOLAN LOCAL,TAK,HWH,no
+37363,rail_hwh_tarakeswar,1111111,HWH-ARAMBAGH LOCAL,HWH,AMBG,no
+37372,rail_hwh_tarakeswar,1111111,GOGHAT-HWH LOCAL,GOGT,HWH,no
+37321,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37324,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37323,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37326,rail_hwh_tarakeswar,1111111,TAK - HWH LOCAL,TAK,HWH,no
+37365,rail_hwh_tarakeswar,1111111,HWH AMBG LOCAL,HWH,AMBG,no
+37328,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37325,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37330,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37329,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37332,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37331,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37334,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37333,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37366,rail_hwh_tarakeswar,1111111,AMBG HWH LOCAL,AMBG,HWH,no
+37367,rail_hwh_tarakeswar,1111111,HWH AMBG LOCAL,HWH,AMBG,no
+37336,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37335,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37340,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37337,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37342,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37379,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37344,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37339,rail_hwh_tarakeswar,1111111,HWH - TAK LOCAL,HWH,TAK,no
+37346,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37341,rail_hwh_tarakeswar,1111111,HWH - TAK LOCAL,HWH,TAK,no
+37385,rail_hwh_tarakeswar,1111111,HWH GOGT LOCAL,HWH,GOGT,no
+37374,rail_hwh_tarakeswar,1111111,GOGT HWH LOCAL,GOGT,HWH,no
+37657,rail_hwh_bardhaman_main,1111111,HWH-MYM LOCAL,HWH,MYM,no
+37305,rail_hwh_tarakeswar,1111111,HWH SIU LOCAL,HWH,HPL,no
+37915,rail_hwh_katwa,1111111,HWH - KWAE LOCAL,HWH,KWAE,yes
+37201,rail_hwh_bardhaman_main,1111110,MATRIBHUMI LOCAL,HWH,BDC,no
+37304,rail_hwh_tarakeswar,1111111,HPL-HWH LOCAL,HPL,HWH,no
+37202,rail_hwh_bardhaman_main,1111110,BDC-HWH MATRIBHUMI LOCAL,BDC,HWH,no
+37658,rail_hwh_bardhaman_main,1111111,MYM-HWH LOCAL,MYM,HWH,no
+36822,rail_hwh_bardhaman_chord,1111111,BWN-HWH CHORD  LOCAL,BWN,HWH,no
+37387,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37377,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37368,rail_hwh_tarakeswar,1111111,AMBG HWH LOCAL,AMBG,HWH,no
+37311,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37362,rail_hwh_tarakeswar,1111111,ARAMBAGH-HWH LOCAL,AMBG,HWH,no
+37303,rail_hwh_tarakeswar,1111111,HWH HPL ANDOLAN LOCAL,HWH,HPL,no
+37306,rail_hwh_tarakeswar,1111111,SIU HWH LOCAL,HPL,HWH,no
+36011,rail_hwh_bardhaman_chord,1111110,HWH-BRPA LOCAL,HWH,BRPA,no
+36012,rail_hwh_bardhaman_chord,1111110,BRPA-HWH LOCAL,BRPA,HWH,no
+37017,rail_hwh_bardhaman_main,1111111,HWH SRP LOCAL,HWH,SRP,no
+37019,rail_hwh_bardhaman_main,1111110,HWH SRP LOCAL,HWH,SRP,no
+37018,rail_hwh_bardhaman_main,1111111,SRP HWH LOCAL,SRP,HWH,no
+37020,rail_hwh_bardhaman_main,1111110,SRP HWH LOCAL,SRP,HWH,no
+37047,rail_hwh_bardhaman_main,1111111,HWH-SHE LOCAL,HWH,SHE,no
+37048,rail_hwh_bardhaman_main,1111111,SHE-HWH LOCAL,SHE,HWH,no
+37243,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37248,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37286,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37285,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37369,rail_hwh_tarakeswar,1111111,HWH AMBG LOCAL,HWH,AMBG,no
+37279,rail_hwh_bardhaman_main,1111111,HWH - BDC LOCAL,HWH,BDC,no
+37290,rail_hwh_bardhaman_main,1111111,BDC LOCAL,BDC,HWH,no
+36087,rail_hwh_bardhaman_chord,1111111,HWH-MSAELOCAL,HWH,MSAE,no
+36082,rail_hwh_bardhaman_chord,1111110,MSAE-HWH LOCAL,MSAE,HWH,no
+37309,rail_hwh_tarakeswar,1111111,HWH TAK LOCAL,HWH,TAK,no
+37310,rail_hwh_tarakeswar,1111111,TAK HWH LOCAL,TAK,HWH,no
+37319,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37343,rail_hwh_tarakeswar,1111111,HWH-TAK LOCAL,HWH,TAK,no
+37384,rail_hwh_tarakeswar,1111111,GOGT-HWH LOCAL,GOGT,HWH,no
+37364,rail_hwh_tarakeswar,1111111,ARAMBAGH-HWH LOCAL,AMBG,HWH,no
+37354,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37381,rail_hwh_tarakeswar,1111111,HWH GOGT LOCAL,HWH,GOGT,no
+37382,rail_hwh_tarakeswar,1111111,GOGT-HWH LOCAL,GOGT,HWH,no
+37016,rail_hwh_bardhaman_main,1111111,SRP-HWH LOCAL,SRP,HWH,no
+37361,rail_hwh_tarakeswar,1111111,HWH-ARAMBAGH LOCAL,HWH,AMBG,no
+37389,rail_hwh_tarakeswar,1111111,HWH-GOGT LOCAL,HWH,GOGT,no
+37360,rail_hwh_tarakeswar,1111111,AMBG HWH LOCAL,AMBG,HWH,no
+37249,rail_hwh_bardhaman_main,1111111,HWH-BDC LOCAL,HWH,BDC,no
+37256,rail_hwh_bardhaman_main,1111111,BDC-HWH LOCAL,BDC,HWH,no
+37356,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37358,rail_hwh_tarakeswar,1111111,TAK-HWH LOCAL,TAK,HWH,no
+37380,rail_hwh_tarakeswar,1111111,GOGT-HWH LOCAL,GOGT,HWH,no
+37302,rail_hwh_tarakeswar,1111111,HPL-HWH LOCAL,HPL,HWH,no
+37301,rail_hwh_tarakeswar,1111111,HWH - HPL LOCAL,HWH,HPL,no
+37383,rail_hwh_tarakeswar,1111111,HWH GOGT LOCAL,HWH,GOGT,no
+31617,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+33513,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+33525,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+31211,rail_sdah_ranaghat,1111110,SDAH BP LOCAL,SDAH,BP,no
+31215,rail_sdah_ranaghat,1111110,SDAH-BP LOCAL,SDAH,BP,no
+31217,rail_sdah_ranaghat,1111110,SDAH - BP LOCAL,SDAH,BP,no
+31219,rail_sdah_ranaghat,1111110,SDAH - BP LOCAL,SDAH,BP,no
+31221,rail_sdah_ranaghat,1111111,SDAH - BP LOCAL,SDAH,BP,no
+31223,rail_sdah_ranaghat,1111110,SDAH - BP LOCAL,SDAH,BP,no
+31227,rail_sdah_ranaghat,1111110,SDAH - BP LOCAL,SDAH,BP,no
+31229,rail_sdah_ranaghat,1111110,SDAH - BP LOCAL,SDAH,BP,no
+31235,rail_sdah_ranaghat,1111110,SDAH BP LOCAL,SDAH,BP,no
+31237,rail_sdah_ranaghat,1111111,SDAH BP LOCAL,SDAH,BP,no
+33815,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33817,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33819,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33821,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33823,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33825,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33827,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33829,rail_sdah_bangaon,1111110,SDAH BNJ LOCAL,SDAH,BNJ,no
+33831,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33833,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33835,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33839,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33841,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33843,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33845,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33847,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33849,rail_sdah_bangaon,1111110,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33851,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33853,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33855,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33857,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33859,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33861,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+31151,rail_sdah_bardhaman,1111111,SDAH - BWN LOCAL,SDAH,BWN,no
+33613,rail_sdah_bangaon,1111111,SDAH-DTK LOCAL,SDAH,DTK,no
+33615,rail_sdah_bangaon,1111110,SDAH - DTK LOCAL,SDAH,DTK,no
+33617,rail_sdah_bangaon,1111111,SDAH - BNJ LOCAL,SDAH,BNJ,no
+33621,rail_sdah_bangaon,1111111,SDAH-DTK LOCAL,SDAH,DTK,no
+33623,rail_sdah_bangaon,1111111,SDAH - DTK LOCAL,SDAH,DTK,no
+33411,rail_sdah_bangaon,1111110,SDAH-DDC LOCAL,SDAH,DDC,no
+32211,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32213,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32215,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32217,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32219,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32221,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32223,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32225,rail_sdah_dankuni,1111110,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32227,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32231,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32233,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32411,rail_sdah_dankuni,1111111,SDAH-BRPA LOCAL,SDAH,BRPA,no
+32237,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32239,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32241,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32243,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32245,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+32413,rail_sdah_dankuni,1111111,SDAH-BRPA  LOCAL,SDAH,BRPA,no
+32247,rail_sdah_dankuni,1111111,SEALDAH-DKAE LOCAL,SDAH,DKAE,no
+32249,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+33681,rail_sdah_bangaon,1111111,SDAH - GBG  LOCAL,SDAH,GBG,no
+33685,rail_sdah_bangaon,1111111,SDAH - BNJ  LOCAL,SDAH,BNJ,no
+33651,rail_sdah_bangaon,1111111,SDAH-HB LOCAL,SDAH,HB,no
+33653,rail_sdah_bangaon,1111111,SDAH-HB LOCAL,SDAH,HB,no
+33655,rail_sdah_bangaon,1111111,SDAH-HB LOCAL,SDAH,HB,no
+33657,rail_sdah_bangaon,1111111,SDAH-HB LOCAL,SDAH,HB,no
+31311,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31313,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31315,rail_sdah_kalyani_simanta,1111111,SDAH-KLYM LOCAL,SDAH,KLYM,no
+31317,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31321,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31323,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31325,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31329,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31331,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31333,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31335,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31337,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31339,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31341,rail_sdah_kalyani_simanta,1111111,SDAH-KLYM EMU LOCAL,SDAH,KLYM,no
+31111,rail_sdah_katwa,1111111,SDAH-KWAE LOCAL,SDAH,KWAE,yes
+33421,rail_sdah_bangaon,1111110,SDAH-MMG LOCAL,SDAH,MMG,no
+31411,rail_sdah_ranaghat,1111111,SDAH -NH  LOCAL,SDAH,NH,no
+31413,rail_sdah_ranaghat,1111110,SDAH-NH LOCAL,SDAH,NH,no
+31415,rail_sdah_ranaghat,1111111,SDAH NH LOCAL,SDAH,NH,no
+31417,rail_sdah_ranaghat,1111110,SDAH - NH LOCAL,SDAH,NH,no
+31421,rail_sdah_ranaghat,1111110,SDAH NH LOCAL,SDAH,NH,no
+31427,rail_sdah_ranaghat,1111111,SDAH-NH LOCAL,SDAH,NH,no
+31429,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31431,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31433,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31435,rail_sdah_ranaghat,1111110,SDAH - NH LOCAL,SDAH,NH,no
+31437,rail_sdah_ranaghat,1111110,SDAH - NH LOCAL,SDAH,NH,no
+31439,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31441,rail_sdah_ranaghat,1111110,SDAH NH LOCAL,SDAH,NH,no
+31443,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31445,rail_sdah_ranaghat,1111111,SDAH - NH LOCAL,SDAH,NH,no
+31911,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31913,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31915,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31917,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31919,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31921,rail_sdah_gede,1111111,SDAH - GEDE LOCAL,SDAH,GEDE,no
+31923,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31925,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31929,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31611,rail_sdah_ranaghat,1111111,SDAH-RHA  LOCAL,SDAH,RHA,no
+31615,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+31621,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+31623,rail_sdah_ranaghat,1111111,SDAH - RHA LOCAL,SDAH,RHA,no
+31627,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+31631,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+63111,rail_sdah_ranaghat,1111111,SDAH-RHA MEMU,SDAH,RHA,no
+31511,rail_sdah_shantipur,1111111,SDAH-STB LOCAL,SDAH,STB,no
+31513,rail_sdah_shantipur,1111111,SDAH-STB LOCAL,SDAH,STB,no
+31515,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31517,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31519,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31521,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31523,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31525,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31527,rail_sdah_shantipur,1111111,SDAH-STB LOCAL,SDAH,STB,no
+31529,rail_sdah_shantipur,1111111,SDAH-STB LOCAL,SDAH,STB,no
+31533,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31535,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31537,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31539,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31541,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+33511,rail_sdah_hasnabad,1111111,SDAH-HNB LOCAL,SDAH,HNB,no
+33515,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+33517,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+33523,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+33527,rail_sdah_hasnabad,1111111,SDAH-HNB  LOCAL,SDAH,HNB,no
+33531,rail_sdah_hasnabad,1111111,SDAH-HNB LOCAL,SDAH,HNB,no
+33533,rail_sdah_hasnabad,1111111,SDAH-HNB LOCAL,SDAH,HNB,no
+31811,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31813,rail_sdah_krishnanagar,1111110,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31817,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31819,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31821,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31825,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31827,rail_sdah_krishnanagar,1111111,SDAH - KNJ LOCAL,SDAH,KNJ,no
+31829,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31831,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+33431,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+33433,rail_sdah_bangaon,1111110,SDAH - BT LOCAL,SDAH,BT,no
+33435,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+33437,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+33439,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+33441,rail_sdah_bangaon,1111110,SDAH BT LOCAL,SDAH,BT,no
+33443,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+33445,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+33447,rail_sdah_bangaon,1111111,SDAH - BT LOCAL,SDAH,BT,no
+31613,rail_sdah_ranaghat,1111110,SDAH-RHA  LOCAL,SDAH,RHA,no
+31319,rail_sdah_kalyani_simanta,1111111,SDAH - KLYM LOCAL,SDAH,KLYM,no
+31625,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+31447,rail_sdah_ranaghat,1111111,SDAH-NH LOCAL,SDAH,NH,no
+33521,rail_sdah_hasnabad,1111110,SDAH - HNB LOCAL,SDAH,HNB,no
+33659,rail_sdah_bangaon,1111111,SDAH-HB LOCAL,SDAH,HB,no
+33837,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33619,rail_sdah_bangaon,1111111,SDAH - DTK LOCAL,SDAH,DTK,no
+33529,rail_sdah_hasnabad,1111111,SDAH-HNB LOCAL,SDAH,HNB,no
+33801,rail_sdah_bangaon,1111110,SDAH - BNJ LOCAL,SDAH,BNJ,no
+31601,rail_sdah_ranaghat,1111110,SDAH-RHA LOCAL,SDAH,RHA,no
+31839,rail_sdah_krishnanagar,1111111,SDAH KNJ LOCAL,SDAH,KNJ,no
+33863,rail_sdah_bangaon,1111111,SDAH - BNJ  LOCAL,SDAH,BNJ,no
+33611,rail_sdah_bangaon,1111110,SDAH DTK LOCAL,SDAH,DTK,no
+31225,rail_sdah_ranaghat,1111110,SDAH-BPLOCAL,SDAH,BP,no
+31233,rail_sdah_ranaghat,1111111,SDAH-BP LOCAL,SDAH,BP,no
+31327,rail_sdah_kalyani_simanta,1111110,SDAH KLYM LOCAL,SDAH,KLYM,no
+31423,rail_sdah_ranaghat,1111110,SDAH - NH LOCAL,SDAH,NH,no
+31425,rail_sdah_ranaghat,1111110,SDAH-NH LOCAL,SDAH,NH,no
+31801,rail_sdah_krishnanagar,1111110,SDAH-KNJ LOCAL,SDAH,KNJ,no
+32229,rail_sdah_dankuni,1111110,SDAH-DKAE LOCAL,SDAH,DKAE,no
+33401,rail_sdah_bangaon,1111110,SDAH-BT MATRIBHOOMI LOCAL,SDAH,BT,no
+31815,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+32235,rail_sdah_dankuni,1111111,SDAH-DKAE LOCAL,SDAH,DKAE,no
+33519,rail_sdah_hasnabad,1111111,SDAH - HNB LOCAL,SDAH,HNB,no
+31231,rail_sdah_ranaghat,1111110,SDAH-BPLOCAL,SDAH,BP,no
+31927,rail_sdah_gede,1111111,SDAH-GEDE LOCAL,SDAH,GEDE,no
+31841,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31239,rail_sdah_ranaghat,1111111,SDAH-BP LOCAL,SDAH,BP,no
+31419,rail_sdah_ranaghat,1111111,SDAH-NH LOCAL,SDAH,NH,no
+33683,rail_sdah_bangaon,1111110,SDAH-GBG LOCAL,SDAH,GBG,no
+63103,rail_sdah_krishnanagar,1111111,SDAH-LGL MEMU,SDAH,LGL,yes
+31629,rail_sdah_ranaghat,1111111,SDAH-RHA LOCAL,SDAH,RHA,no
+31843,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31637,rail_sdah_ranaghat,1111111,SDAH-RHA AC EMU LOCAL,SDAH,RHA,no
+33761,rail_sdah_bangaon,1111110,SDAH-BNJ-RHA AC LOCAL,SDAH,RHA,no
+31845,rail_sdah_krishnanagar,1111110,SDAH-KNJ AC LOCAL,SDAH,KNJ,no
+31847,rail_sdah_krishnanagar,0000001,SDAH-KNJ AC EMU LOCAL,SDAH,KNJ,no
+31347,rail_sdah_ranaghat,1111110,SDAH - KYI AC EMU LOCAL,SDAH,KYI,no
+31543,rail_sdah_shantipur,1111111,SDAH-STB LOCAL,SDAH,STB,no
+33449,rail_sdah_bangaon,1111110,SDAH - BNJ AC LOCAL,SDAH,BNJ,no
+31622,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+33534,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+31326,rail_sdah_kalyani_simanta,1111110,KLYM SDAH LOCAL,KLYM,SDAH,no
+31212,rail_sdah_ranaghat,1111110,BP SDAH LOCAL,BP,SDAH,no
+31216,rail_sdah_ranaghat,1111110,BP - SDAH LOCAL,BP,SDAH,no
+31218,rail_sdah_ranaghat,1111110,BP-SDAH LOCAL,BP,SDAH,no
+31220,rail_sdah_ranaghat,1111110,BP-SDAH LOCAL,BP,SDAH,no
+31222,rail_sdah_ranaghat,1111111,BP-SDAH LOCAL,BP,SDAH,no
+31224,rail_sdah_ranaghat,1111110,BP-SDAH LOCAL,BP,SDAH,no
+31228,rail_sdah_ranaghat,1111110,BP-SDAH LOCAL,BP,SDAH,no
+31236,rail_sdah_ranaghat,1111111,BP-SDAH LOCAL,BP,SDAH,no
+31238,rail_sdah_ranaghat,1111111,BP-SDAH LOCAL,BP,SDAH,no
+31240,rail_sdah_ranaghat,1111111,BP-SDAH,BP,SDAH,no
+33812,rail_sdah_bangaon,1111111,BNJ-SDAH LOCAL,BNJ,SDAH,no
+33814,rail_sdah_bangaon,1111111,BNJ-SDAH LOCAL,BNJ,SDAH,no
+33816,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33818,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33820,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33822,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33824,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33826,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33828,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33830,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33832,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33834,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33836,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33838,rail_sdah_bangaon,1111110,BNJ SDAH LOCAL,BNJ,SDAH,no
+33840,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33842,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33844,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33846,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33848,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33850,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33852,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33854,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+30112,rail_north_south_through,1111111,BP - BLN LOCAL,BP,BLN,no
+31051,rail_north_south_through,1111111,KBGB-NH LOCAL,KBGB,NH,no
+34052,rail_north_south_through,1111111,NH - KBGB LOCAL,NH,KBGB,no
+31053,rail_north_south_through,1111111,KBGB-NH LOCAL,KBGB,NH,no
+34054,rail_north_south_through,1111111,NH -KBGB LOCAL,NH,KBGB,no
+31055,rail_north_south_through,1111111,KBGB-NH LOCAL,KBGB,NH,no
+31152,rail_sdah_bardhaman,1111111,BWN-SDAH LOCAL,BWN,SDAH,no
+34062,rail_north_south_through,1111111,BNJ - CG LOCAL,BNJ,CG,no
+33061,rail_north_south_through,1111111,CG - BT LOCAL,CG,BT,no
+30152,rail_north_south_through,1111111,NH - MJT LOCAL,NH,MJT,no
+30154,rail_north_south_through,1111111,NH-MJT LOCAL,NH,MJT,no
+30361,rail_north_south_through,1111111,MJT - HNB LOCAL,MJT,HNB,no
+33612,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33614,rail_sdah_bangaon,1111110,DTK SDAH LOCAL,DTK,SDAH,no
+33616,rail_sdah_bangaon,1111111,DTK - SDAH LOCAL,DTK,SDAH,no
+33618,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33620,rail_sdah_bangaon,1111110,DTK-SDAH LOCAL,DTK,SDAH,no
+33622,rail_sdah_bangaon,1111111,BNJ-SDAH LOCAL,BNJ,SDAH,no
+33624,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33626,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33628,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33630,rail_sdah_bangaon,1111111,DTK-SDAH LOCAL,DTK,SDAH,no
+33412,rail_sdah_bangaon,1111110,DDC-SDAH LOCAL,DDC,SDAH,no
+32212,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32214,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32216,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32218,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32220,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32222,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32224,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32226,rail_sdah_dankuni,1111110,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32228,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32232,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32234,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32412,rail_sdah_dankuni,1111111,BRPA - SDAH LOCAL,BRPA,SDAH,no
+32238,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32240,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32242,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32244,rail_sdah_dankuni,1111110,DKAE SDAH LOCAL,DKAE,SDAH,no
+32246,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32248,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32414,rail_sdah_dankuni,1111111,BRPA-SDAH LOCAL,BRPA,SDAH,no
+32250,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+32252,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+33212,rail_sdah_ranaghat,1111111,DDJ SDAH LOCAL,DDJ,SDAH,no
+33682,rail_sdah_bangaon,1111111,GBG - SDAH LOCAL,GBG,SDAH,no
+33686,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33652,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+33654,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+33656,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+33660,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+33664,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+33658,rail_sdah_bangaon,1111111,HB - SDAH LOCAL,HB,SDAH,no
+31312,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31314,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31316,rail_sdah_kalyani_simanta,1111111,KLYM - SDAH LOCAL,KLYM,SDAH,no
+31318,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31322,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31324,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31328,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31330,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31332,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31334,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31336,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31338,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH EMU LOCAL,KLYM,SDAH,no
+34056,rail_north_south_through,1111111,KLYM - KBGB LOCAL,KLYM,KBGB,no
+31112,rail_sdah_katwa,1111111,KWAE-SDAH LOCAL,KWAE,SDAH,yes
+33422,rail_sdah_bangaon,1111110,MMG - SDAH LOCAL,MMG,SDAH,no
+31412,rail_sdah_ranaghat,1111111,NH-SDAH LOCAL,NH,SDAH,no
+31414,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31416,rail_sdah_ranaghat,1111110,NH-SDAH LOCAL,NH,SDAH,no
+31418,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31420,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31422,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31424,rail_sdah_ranaghat,1111110,NH - SDAH LOCAL,NH,SDAH,no
+31426,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31430,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31434,rail_sdah_ranaghat,1111110,NH - SDAH LOCAL,NH,SDAH,no
+31436,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31438,rail_sdah_ranaghat,1111110,NH - SDAH LOCAL,NH,SDAH,no
+31440,rail_sdah_ranaghat,1111110,NH - SDAH LOCAL,NH,SDAH,no
+31442,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31444,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31446,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31448,rail_sdah_ranaghat,1111110,NH SDAH LOCAL,NH,SDAH,no
+31450,rail_sdah_ranaghat,1111111,NH - SDAH LOCAL,NH,SDAH,no
+31912,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31916,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31918,rail_sdah_gede,1111111,GEDE - SDAH LOCALD,GEDE,SDAH,no
+31920,rail_sdah_gede,1111111,GEDE- SDAH LOCAL,GEDE,SDAH,no
+31922,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31924,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31926,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31612,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+31614,rail_sdah_ranaghat,1111111,RHA -SDAH LOCAL,RHA,SDAH,no
+63112,rail_sdah_ranaghat,1111111,RHA-SDAH MEMU,RHA,SDAH,no
+31616,rail_sdah_ranaghat,1111111,RHA -SDAH LOCAL,RHA,SDAH,no
+31620,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+31628,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+31630,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+31636,rail_sdah_ranaghat,1111111,RHA-SDAH LOCAL,RHA,SDAH,no
+31624,rail_sdah_ranaghat,1111111,RHA - SDAH LOCAL,RHA,SDAH,no
+31512,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31514,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31516,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31518,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31520,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31522,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31524,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31526,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31528,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31530,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31532,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31536,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31540,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31542,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+31538,rail_sdah_shantipur,1111111,STB-SDAH LOCAL,STB,SDAH,no
+30357,rail_north_south_through,1111111,MJT-MMG LOCAL,MJT,MMG,no
+33512,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33514,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33516,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33518,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33520,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33530,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33532,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33536,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+31812,rail_sdah_krishnanagar,1111111,KNJ - SDAJ LOCAL,KNJ,SDAH,no
+31816,rail_sdah_krishnanagar,1111111,KNJ - SDAH LOCAL,KNJ,SDAH,no
+31818,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31820,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31822,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31824,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31826,rail_sdah_krishnanagar,1111111,KNJ SDAH LOCAL,KNJ,SDAH,no
+31830,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31832,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31838,rail_sdah_krishnanagar,1111110,KNJ-SDAH LOCAL,KNJ,SDAH,no
+33432,rail_sdah_bangaon,1111111,BT-SDAH LOCAL,BT,SDAH,no
+33434,rail_sdah_bangaon,1111111,BT - SDAH LOCAL,BT,SDAH,no
+33436,rail_sdah_bangaon,1111110,BT -SDAH LOCAL,BT,SDAH,no
+33438,rail_sdah_bangaon,1111111,BT -SDAH LOCAL,BT,SDAH,no
+33440,rail_sdah_bangaon,1111111,BT -SDAH LOCAL,BT,SDAH,no
+31844,rail_sdah_krishnanagar,1111111,KNJ-SDAH LOCAL,KNJ,SDAH,no
+30358,rail_north_south_through,1111111,MMG-MJT LOCAL,MMG,MJT,no
+31634,rail_sdah_ranaghat,1111110,RHA-SDAH LOCAL,RHA,SDAH,no
+31230,rail_sdah_ranaghat,1111110,BP-SDAH LOCAL,BP,SDAH,no
+33526,rail_sdah_hasnabad,1111110,HNB-SDAH LOCAL,HNB,SDAH,no
+33802,rail_sdah_bangaon,1111110,BNJ - SDAH LOCAL,BNJ,SDAH,no
+31602,rail_sdah_ranaghat,1111110,RHA - SDAH LOCAL,RHA,SDAH,no
+33860,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+31226,rail_sdah_ranaghat,1111110,BP -SDAH LOCAL,BP,SDAH,no
+31234,rail_sdah_ranaghat,1111110,BP SDAH LOCAL,BP,SDAH,no
+31428,rail_sdah_ranaghat,1111110,NH SDAH LOCAL,NH,SDAH,no
+31432,rail_sdah_ranaghat,1111110,NH-SDAH LOCAL,NH,SDAH,no
+31802,rail_sdah_krishnanagar,1111110,KNJ-SDAH LOCAL,KNJ,SDAH,no
+31836,rail_sdah_krishnanagar,1111111,KNJ - SDAH LOCAL,KNJ,SDAH,no
+32230,rail_sdah_dankuni,1111110,DKAE-SDAH LOCAL,DKAE,SDAH,no
+33402,rail_sdah_bangaon,1111110,BT-SDAH MATRIBHOOMI LOCA,BT,SDAH,no
+33662,rail_sdah_bangaon,1111111,HB-SDAH LOCAL,HB,SDAH,no
+32236,rail_sdah_dankuni,1111111,DKAE-SDAH LOCAL,DKAE,SDAH,no
+33856,rail_sdah_bangaon,1111110,BNJ - SDAH LOCAL,BNJ,SDAH,no
+33522,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+31914,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+33896,rail_sdah_bangaon,1111111,TKNR SDAH LOCAL,TKNR,SDAH,no
+31232,rail_sdah_ranaghat,1111111,BP -SDAH LOCAL,BP,SDAH,no
+33684,rail_sdah_bangaon,1111110,GBG-SDAH LOCAL,GBG,SDAH,no
+63104,rail_sdah_krishnanagar,1111111,LGL-SDAH MEMU,LGL,SDAH,yes
+31632,rail_sdah_ranaghat,1111111,RHA-SDAH LOCAL,RHA,SDAH,no
+31242,rail_sdah_ranaghat,1111111,BP-SDAH LOCAL,BP,SDAH,no
+31638,rail_sdah_ranaghat,1111111,RHA-SDAH AC LOCAL,RHA,SDAH,no
+31544,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+33762,rail_sdah_bangaon,1111110,RHA-BNJ-SDAH AC LOCAL,RHA,SDAH,no
+31846,rail_sdah_krishnanagar,1111110,KNJ-SDAH AC LOCAL,KNJ,SDAH,no
+31340,rail_sdah_ranaghat,1111110,KYI-SDAH EMU LOCAL,KYI,SDAH,no
+31848,rail_sdah_krishnanagar,0000001,KNJ-SDAH AC EMU LOCAL,KNJ,SDAH,no
+31344,rail_sdah_ranaghat,1111110,KYI-SDAH AC EMU LOCAL,KYI,SDAH,no
+33862,rail_sdah_bangaon,1111111,BNJ - SDAH LOCAL,BNJ,SDAH,no
+31342,rail_sdah_ranaghat,1111110,KYI-SDAH  LOCAL,KYI,SDAH,no
+33442,rail_sdah_bangaon,1111110,BNJ - SDAH AC LOCAL,BNJ,SDAH,no
+38204,rail_hwh_kharagpur,1111111,BZN HWH LOCAL,BZN,HWH,no
+38051,rail_hwh_haldia,1111111,HWH HLZ LOCAL,HWH,HLZ,no
+38052,rail_hwh_haldia,1111111,HLZ HWH LOCAL,HLZ,HWH,no
+38057,rail_hwh_haldia,1111111,HWH HLZ LOCAL,HWH,HLZ,no
+38058,rail_hwh_haldia,1111111,HLZ HWH LOCAL,HLZ,HWH,no
+38904,rail_hwh_amta,1111111,AMZ HWH LOCAL,AMTA,HWH,no
+38903,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38906,rail_hwh_amta,1111111,AMTA HWH LOCAL,AMTA,HWH,no
+38905,rail_hwh_amta,1111111,HWH - AMTA LOCAL,HWH,AMTA,no
+38908,rail_hwh_amta,1111111,AMZ HWH LOCAL,AMTA,HWH,no
+38907,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38910,rail_hwh_amta,1111111,AMTA HWH LOCAL,AMTA,HWH,no
+38913,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38918,rail_hwh_amta,1111111,AMZ HWH LOCAL,AMTA,HWH,no
+38915,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38920,rail_hwh_amta,1111111,AMZ HWH LOCAL,AMTA,HWH,no
+38917,rail_hwh_amta,1111110,HWH AMTA LOCAL,HWH,AMTA,no
+38922,rail_hwh_amta,1111110,AMZ HWH LOCAL,AMTA,HWH,no
+38919,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38702,rail_hwh_kharagpur,1111111,KGP HWH MEMU,KGP,HWH,yes
+38706,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38707,rail_hwh_kharagpur,1111111,HWH KGP LOCAL,HWH,KGP,yes
+38716,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38711,rail_hwh_kharagpur,1111111,HWH KGP LOCAL,HWH,KGP,yes
+38710,rail_hwh_kharagpur,1111111,KGP HWL LADIES SPL,KGP,HWH,yes
+38719,rail_hwh_kharagpur,1111111,HWH KGP LOCAL,HWH,KGP,yes
+38720,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38727,rail_hwh_kharagpur,1111111,HWH KGP LOCAL,HWH,KGP,yes
+38302,rail_hwh_kharagpur,1111111,MCA-HWH LOCAL,MCA,HWH,no
+38304,rail_hwh_kharagpur,1111111,MCA HWH LOCAL,MCA,HWH,no
+38303,rail_hwh_kharagpur,1111110,HWH MCA LOCAL,HWH,MCA,no
+38306,rail_hwh_kharagpur,1111110,MCA - HWH LOCAL,MCA,HWH,no
+38308,rail_hwh_kharagpur,1111110,MCA-HWH LOCAL,MCA,HWH,no
+38307,rail_hwh_kharagpur,1111111,HWH MCA LOCAL,HWH,MCA,no
+38312,rail_hwh_kharagpur,1111110,MCA HWH LOCAL,MCA,HWH,no
+38311,rail_hwh_kharagpur,1111111,HWH MCA LOCAL,HWH,MCA,no
+38314,rail_hwh_kharagpur,1111111,MCA HWH LOCAL,MCA,HWH,no
+38313,rail_hwh_kharagpur,1111110,HWH MCA LOCAL,HWH,MCA,no
+38318,rail_hwh_kharagpur,1111111,MCA HWH LOCAL,MCA,HWH,no
+38317,rail_hwh_kharagpur,1111111,HWH MCA LOCAL,HWH,MCA,no
+38319,rail_hwh_kharagpur,1111110,HWH MCA LOCAL,HWH,MCA,no
+38455,rail_hwh_kharagpur,1111111,HWH-PKU LOCAL,HWH,PKU,no
+38726,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38730,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38801,rail_hwh_kharagpur,1111111,HWH-MDN LOCAL,HWH,MDN,yes
+38802,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38803,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38804,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38805,rail_hwh_kharagpur,1111111,HWH MDN OCAL,HWH,MDN,yes
+38809,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38810,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38812,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38813,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38817,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38814,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38819,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38816,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38818,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38823,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38822,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38827,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38824,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38829,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38826,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38831,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38828,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38401,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38402,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38405,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38404,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38406,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38409,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38704,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38413,rail_hwh_kharagpur,1111111,HWH-PKU LOCAL,HWH,PKU,no
+38412,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38415,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38419,rail_hwh_kharagpur,1111111,HWH-PKU LOCAL,HWH,PKU,no
+38414,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38421,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38416,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38423,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38427,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38422,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38429,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38431,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38433,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38426,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38435,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38428,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38437,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38430,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38432,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38456,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38441,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38436,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38445,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38440,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38442,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38449,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38444,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38447,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38446,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38725,rail_hwh_kharagpur,1111111,HWH KGP MEMU,HWH,KGP,yes
+38448,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38450,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38454,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38420,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38315,rail_hwh_kharagpur,1111111,HWH MCA LOCAL,HWH,MCA,no
+38103,rail_hwh_kharagpur,1111110,HWH ULB LOCAL,HWH,ULB,no
+38105,rail_hwh_kharagpur,1111110,HWH ULB LOCAL,HWH,ULB,no
+38104,rail_hwh_kharagpur,1111110,ULB HWH LOCAL,ULB,HWH,no
+38106,rail_hwh_kharagpur,1111110,ULB HWH LOCAL,ULB,HWH,no
+38703,rail_hwh_kharagpur,1111110,HWH-KGP LOCAL,HWH,KGP,yes
+38705,rail_hwh_kharagpur,1111111,HWH-KGP LOCAL,HWH,KGP,yes
+38403,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38807,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38811,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38501,rail_hwh_kharagpur,1111111,HWH BCK LOCAL,HWH,BCK,yes
+38425,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38451,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38723,rail_hwh_kharagpur,1111111,HWH KGP LADIES SPL,HWH,KGP,yes
+38923,rail_hwh_amta,1111111,HWH-AMZ LOCAL,HWH,AMTA,no
+38912,rail_hwh_amta,1111111,AMTA HWH LOCAL,AMTA,HWH,no
+38408,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38502,rail_hwh_kharagpur,1111111,BCK HWH LOCAL,BCK,HWH,yes
+38830,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38438,rail_hwh_kharagpur,1111111,PKU HWH LOCAL,PKU,HWH,no
+38728,rail_hwh_kharagpur,1111111,KGP HWH LOCAL,KGP,HWH,yes
+38708,rail_hwh_kharagpur,1111110,KGP HWH LOCAL,KGP,HWH,yes
+38721,rail_hwh_kharagpur,1111111,HWH KGP  LOCAL,HWH,KGP,yes
+38921,rail_hwh_amta,1111111,HWH AMZ LOCAL,HWH,AMTA,no
+38924,rail_hwh_amta,1111111,AMZ HWH LOCAL,AMTA,HWH,no
+38321,rail_hwh_kharagpur,1111111,HWH-MCA LOCAL,HWH,MCA,no
+38452,rail_hwh_kharagpur,1111110,PKU HWH LOCAL,PKU,HWH,no
+38825,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38108,rail_hwh_kharagpur,1111110,ULB HWH LOCAL,ULB,HWH,no
+38601,rail_hwh_kharagpur,1111110,HWH KIG LOCAL,HWH,KIG,no
+38815,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+38717,rail_hwh_kharagpur,1111110,HWH KGP LOCAL,HWH,KGP,yes
+38453,rail_hwh_kharagpur,1111111,HWH PKU LOCAL,HWH,PKU,no
+38602,rail_hwh_kharagpur,1111110,KIG HWH LOCAL,KIG,HWH,no
+38820,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+38724,rail_hwh_kharagpur,1111110,KGP HWH LOCAL,KGP,HWH,yes
+38053,rail_hwh_haldia,1111111,HWH HLZ LOCAL,HWH,HLZ,no
+38056,rail_hwh_haldia,1111111,HLZ HWH LOCAL,HLZ,HWH,no
+38916,rail_hwh_amta,1111110,AMZ HWH LOCAL,AMTA,HWH,no
+38713,rail_hwh_kharagpur,1111110,HWH KGP LOCAL,HWH,KGP,yes
+38722,rail_hwh_kharagpur,1111110,KGP - HWH EMU,KGP,HWH,yes
+38202,rail_hwh_kharagpur,1111111,BZN - HWH LOCAL,BZN,HWH,no
+38201,rail_hwh_kharagpur,1111110,HWH BZN LOCAL,HWH,BZN,no
+38417,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38443,rail_hwh_kharagpur,1111110,HWH PKU LOCAL,HWH,PKU,no
+38909,rail_hwh_amta,1111110,HWH AMZ LOCAL,HWH,AMTA,no
+38914,rail_hwh_amta,1111110,AMZ -HWH LOCAL,AMTA,HWH,no
+34436,rail_sdah_south_short,1111111,SDAH-SPR LOCAL,SDAH,SPR,no
+34648,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34616,rail_sdah_south_short,1111110,SDAH - BRP LOCAL,SDAH,BRP,no
+34622,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34624,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34626,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34628,rail_sdah_south_short,1111110,SDAH - BRP LOCAL,SDAH,BRP,no
+34632,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34636,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34638,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34640,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34644,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34646,rail_sdah_namkhana,1111110,SDAH - LKPR LOCAL,SDAH,LKPR,no
+30412,rail_circular,1111111,SDAH - BBDB LOCAL,SDAH,BBDB,no
+30416,rail_circular,1111111,SDAH - BBDB LOCAL,SDAH,BBDB,no
+34512,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34514,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34516,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34518,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34520,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34522,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34524,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34528,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34532,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34534,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34536,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34538,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34540,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34542,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34544,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34546,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34548,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34550,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34552,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34554,rail_sdah_canning,1111111,SDAH-CG LOCAL,SDAH,CG,no
+34814,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34818,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34820,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34824,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34826,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34828,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34830,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34832,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34836,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34838,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34840,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34842,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34844,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34846,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34848,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34850,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34852,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34854,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34856,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34858,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34834,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34114,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34116,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34118,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34120,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34124,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34126,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34128,rail_sdah_budge_budge,1111110,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34130,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34132,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34136,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34140,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34144,rail_sdah_budge_budge,1111111,SDAH BGB LOCAL,SDAH,KBGB,no
+34146,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34148,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34150,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34152,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34154,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34156,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34158,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34160,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34162,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34164,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34166,rail_sdah_budge_budge,1111111,SDAH BGB LOCAL,SDAH,KBGB,no
+34712,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34716,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34718,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34720,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34722,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34724,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34726,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34728,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34730,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34732,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34734,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34736,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34738,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34740,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34742,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34744,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34746,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34748,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34750,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34752,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34754,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34782,rail_sdah_namkhana,1111111,SDAH - KAKDWIP LOCAL,SDAH,KWDP,no
+34412,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34416,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34418,rail_sdah_south_short,1111110,SDAH- SPR LOCAL,SDAH,SPR,no
+34420,rail_sdah_canning,1111110,SDAH- CG LOCAL,SDAH,CG,no
+34424,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34426,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34428,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34434,rail_sdah_south_short,1111110,SDAH-SPR LOCAL,SDAH,SPR,no
+34414,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34642,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34756,rail_sdah_namkhana,1111111,SDAH - LKPR LOCAL,SDAH,LKPR,no
+34526,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34602,rail_sdah_south_short,1111110,SDAH - BRP LOCAL,SDAH,BRP,no
+34502,rail_sdah_canning,1111110,SDAH - CG LOCAL,SDAH,CG,no
+34860,rail_sdah_diamond_harbour,1111111,SDAH DH LOCAL,SDAH,DH,no
+34792,rail_sdah_namkhana,1111111,SDAH - NMKA LOCAL,SDAH,NMKA,no
+34530,rail_sdah_canning,1111110,SDAH - CG LOCAL,SDAH,CG,no
+34432,rail_sdah_south_short,1111111,SDAH- SPR LOCAL,SDAH,SPR,no
+34650,rail_sdah_south_short,1111111,SDAH BRP LOCALL,SDAH,BRP,no
+34438,rail_sdah_south_short,1111111,SDAH SPR LOCAL,SDAH,SPR,no
+34898,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34652,rail_sdah_south_short,1111111,SDAH BRP LOCAL,SDAH,BRP,no
+34168,rail_sdah_budge_budge,1111111,SDAH - KBGB  LOCAL,SDAH,KBGB,no
+34556,rail_sdah_canning,1111111,SDAH - CG LOCAL,SDAH,CG,no
+34440,rail_sdah_south_short,1111110,SDAH-SPR LOCAL,SDAH,SPR,no
+34862,rail_sdah_diamond_harbour,1111110,SDAH-DH LOCAL,SDAH,DH,no
+34611,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34613,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34615,rail_sdah_south_short,1111110,BRP - SDAH LOCAL,BRP,SDAH,no
+34617,rail_sdah_south_short,1111110,BRP - SDAH LOCAL,BRP,SDAH,no
+34619,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34621,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34623,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34625,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34629,rail_sdah_south_short,1111110,BRP - SDAH LOCAL,BRP,SDAH,no
+34633,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34637,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34639,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34641,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34643,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34645,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34647,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34627,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+30411,rail_circular,1111111,BBDB - SDAH LOCAL,BBDB,SDAH,no
+34511,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34513,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34515,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34517,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34519,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34521,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34523,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34525,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34527,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34529,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34531,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34533,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34537,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34541,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34543,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34545,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34547,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34551,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34553,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34555,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34557,rail_sdah_canning,1111111,CG-SDAH LOCAL,CG,SDAH,no
+34549,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34813,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34815,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34819,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34821,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34823,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34825,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34827,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34831,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34833,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34835,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34837,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34839,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34841,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34843,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34845,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34847,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34849,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34851,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34853,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34855,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34857,rail_sdah_diamond_harbour,1111111,DH-SDAH LOCAL,DH,SDAH,no
+34113,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34115,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34117,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34119,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34121,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34123,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34125,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34127,rail_sdah_budge_budge,1111110,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34129,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34137,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34141,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34143,rail_sdah_budge_budge,1111111,BGB SDAH LOCAL,KBGB,SDAH,no
+34145,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34147,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34149,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34151,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34153,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34155,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34157,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34159,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34161,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34715,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34717,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34719,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34721,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34723,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34725,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34727,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34729,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34731,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34733,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34735,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34737,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34739,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34741,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34743,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34745,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34749,rail_sdah_namkhana,1111110,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34751,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34753,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34757,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34411,rail_sdah_south_short,1111111,SPR - SDAH LOCAL,SPR,SDAH,no
+34415,rail_sdah_south_short,1111110,SPR - SDAH LOCAL,SPR,SDAH,no
+34417,rail_sdah_south_short,1111111,SPR - SDAH LOCAL,SPR,SDAH,no
+34419,rail_sdah_south_short,1111110,SPR - SDAH LOCAL,SPR,SDAH,no
+34423,rail_sdah_south_short,1111110,SPR - SDAH LOCAL,SPR,SDAH,no
+34425,rail_sdah_south_short,1111110,SPR - SDAH LOCAL,SPR,SDAH,no
+34427,rail_sdah_south_short,1111111,SPR - SDAH LOCAL,SPR,SDAH,no
+34431,rail_sdah_south_short,1111110,SPR-SDAH LOCAL,SPR,SDAH,no
+34413,rail_sdah_south_short,1111111,SPR - SDAH LOCAL,SPR,SDAH,no
+34535,rail_sdah_canning,1111111,CG - SDAH  LOCAL,CG,SDAH,no
+34501,rail_sdah_canning,1111110,CG - SDAH  LOCAL,CG,SDAH,no
+34601,rail_sdah_south_short,1111110,BRP - SDAH LOCAL,BRP,SDAH,no
+34859,rail_sdah_diamond_harbour,1111111,DH SDAH LOCAL,DH,SDAH,no
+34747,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34793,rail_sdah_namkhana,1111111,NMKA-SDAH LOCAL,NMKA,SDAH,no
+34133,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34539,rail_sdah_canning,1111110,CG - SDAH  LOCAL,CG,SDAH,no
+34429,rail_sdah_south_short,1111111,SPR - SDAH LOCAL,SPR,SDAH,no
+34649,rail_sdah_south_short,1111111,BRP SDAH LOCAL,BRP,SDAH,no
+34861,rail_sdah_diamond_harbour,1111111,DH SDAH LOCAL,DH,SDAH,no
+34899,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34651,rail_sdah_south_short,1111111,BRP - SDAH LOCAL,BRP,SDAH,no
+34167,rail_sdah_budge_budge,1111111,KGBG - SDAH LOCAL,KBGB,SDAH,no
+34795,rail_sdah_namkhana,1111111,NMKA-SDAH LOCAL,NMKA,SDAH,no
+34863,rail_sdah_diamond_harbour,1111110,DH - SDAH LOCAL,DH,SDAH,no
+33813,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33361,rail_sdah_bangaon,1111111,BT-BNJ LOCAL,BT,BNJ,no
+33363,rail_sdah_bangaon,1111110,BT -BNJ LOCAL,BT,BNJ,no
+30331,rail_circular,1111111,MJT- HB LOCAL,MJT,HB,no
+33271,rail_sdah_bangaon,1111111,DDJ - BNJ LOCAL,DDJ,BNJ,no
+33351,rail_sdah_bangaon,1111111,BT - HB LOCAL,BT,HB,no
+30333,rail_circular,1111111,MJT-HB  LOCAL VIA TALA,MJT,HB,no
+33367,rail_sdah_bangaon,1111111,BT-BNJ LOCAL,BT,BNJ,no
+33811,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+33895,rail_sdah_bangaon,1111111,SDAH TKNR FAST,SDAH,TKNR,no
+33365,rail_sdah_bangaon,1111111,BT-BNJ LOCAL,BT,BNJ,no
+33369,rail_sdah_bangaon,1111111,BT - BNJ LOCAL,BT,BNJ,no
+33891,rail_sdah_bangaon,1111111,DDC - BNJ LOCAL,DDC,BNJ,no
+33893,rail_sdah_bangaon,1111111,DDC - BNJ LOCAL,DDC,BNJ,no
+33865,rail_sdah_bangaon,1111111,SDAH-BNJ LOCAL,SDAH,BNJ,no
+30344,rail_circular,1111111,BNJ - MJT LOCAL,BNJ,MJT,no
+30346,rail_circular,1111111,BNJ-BBD LOCAL,BNJ,MJT,no
+30116,rail_circular,1111110,BP-BBDB LOCAL,BP,BBDB,no
+30128,rail_circular,1111111,KLYM - MJT LOCAL,KLYM,MJT,no
+30122,rail_circular,1111111,NH-BLN VIA MJT LOCAL,NH,BLN,no
+30142,rail_circular,1111111,GEDE - MJT LOCAL,GEDE,MJT,no
+30324,rail_circular,1111111,HNB-MJT LOCAL,HNB,MJT,no
+30312,rail_circular,1111111,BT -MJT LOCAL,BT,MJT,no
+30322,rail_circular,1111111,HNB-BBDB LOCAL VIA TALA,HNB,BBDB,no
+30332,rail_circular,1111111,HB - MJT LOCAL,HB,MJT,no
+30314,rail_circular,1111111,DTK-MJT LOCAL,DTK,MJT,no
+30342,rail_circular,1111111,BNJ - MJT LOCAL,BNJ,MJT,no
+63102,rail_circular,1111111,LGL-KOAA MEMU,LGL,KOAA,yes
+30451,rail_circular,1111111,BBDB-BRP LOCAL,BBDB,BRP,no
+34112,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+34122,rail_sdah_budge_budge,1111111,SDAH-KBGB LOCAL,SDAH,KBGB,no
+38101,rail_hwh_kharagpur,1111110,SRC ULB LOCAL,SRC,ULB,no
+38411,rail_hwh_kharagpur,1111111,SRC PKU LOCAL,SRC,PKU,no
+38309,rail_hwh_kharagpur,1111111,SRC-MCA  LOCAL,SRC,MCA,no
+38301,rail_hwh_kharagpur,1111111,SRC - MCA LOCAL,SRC,MCA,no
+38407,rail_hwh_kharagpur,1111110,SRC PKU LOCAL,SRC,PKU,no
+38709,rail_hwh_kharagpur,1111110,SRC KGP LOCAL,SRC,KGP,yes
+38107,rail_hwh_kharagpur,1111110,SRC ULB LOCAL,SRC,ULB,no
+38206,rail_hwh_kharagpur,1111110,BZN SRC LOCAL,BZN,SRC,no
+38808,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+33291,rail_sdah_ranaghat,1111110,DDJ DKAE LOCAL,DDJ,DKAE,no
+37512,rail_hwh_bardhaman_main,1111110,BDC BLY LOCAL,BDC,BLY,no
+37824,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37828,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37830,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37612,rail_hwh_bardhaman_main,1111111,PDA-HWH LOCAL,PDA,HWH,no
+63141,rail_sdah_bardhaman,1111111,SDAH-GODA MEMU PGR,SDAH,GODA,yes
+38424,rail_hwh_kharagpur,1111110,PKU SRC LOCAL,PKU,SRC,no
+38718,rail_hwh_kharagpur,1111110,KGP SRC LOCAL,KGP,SRC,yes
+31619,rail_sdah_ranaghat,1111100,SDAH RHA FAST,SDAH,RHA,no
+31531,rail_sdah_shantipur,1111111,SDAH- STB LOCAL,SDAH,STB,no
+31823,rail_sdah_krishnanagar,1111111,SDAH KNJ LOCAL,SDAH,KNJ,no
+31833,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31835,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+31837,rail_sdah_krishnanagar,1111111,SDAH-KNJ LOCAL,SDAH,KNJ,no
+63107,rail_sdah_krishnanagar,1111111,SDAH-LGL MEMU,SDAH,LGL,yes
+63105,rail_sdah_krishnanagar,1111111,SDAH-LGL MEMU,SDAH,LGL,yes
+34612,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34614,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34618,rail_sdah_south_short,1111110,SDAH - BRP LOCAL,SDAH,BRP,no
+34620,rail_sdah_south_short,1111111,SDAH - BRP LOCAL,SDAH,BRP,no
+34630,rail_sdah_south_short,1111110,SDAH BRP LOCAL,SDAH,BRP,no
+34634,rail_sdah_south_short,1111111,SDAH BRP LOCAL,SDAH,BRP,no
+34812,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34816,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34714,rail_sdah_namkhana,1111111,SDAH-LKPR LOCAL,SDAH,LKPR,no
+34430,rail_sdah_south_short,1111111,SDAH SPR LOCAL,SDAH,SPR,no
+34794,rail_sdah_namkhana,1111111,SDAH-NAMKHANA LOCAL,SDAH,NMKA,no
+34822,rail_sdah_diamond_harbour,1111111,SDAH-DH LOCAL,SDAH,DH,no
+34422,rail_sdah_south_short,1111111,SDAH  SPR LOCAL,SDAH,SPR,no
+30321,rail_circular,1111111,MJT - HNB LOCAL,MJT,HNB,no
+30351,rail_circular,1111111,MJT - BT LOCAL,MJT,BT,no
+30311,rail_circular,1111111,MJT - BT LOCAL,MJT,BT,no
+30317,rail_circular,1111111,MJT-DTK LOCAL,MJT,DTK,no
+30313,rail_circular,1111111,MJT-BT LOCAL,MJT,BT,no
+30353,rail_circular,1111111,MJT-DTK LOCAL,MJT,DTK,no
+31213,rail_sdah_ranaghat,1111111,SDAH-BP LOCAL,SDAH,BP,no
+63101,rail_circular,1111111,KOAA-LGL MEMU,KOAA,LGL,yes
+30121,rail_circular,1111111,MJT-NH LOCAL,MJT,NH,no
+30123,rail_circular,1111111,MJT - NH LOCAL,MJT,NH,no
+30135,rail_circular,1111111,MJT-RHA LOCAL,MJT,RHA,no
+31471,rail_sdah_ranaghat,1111111,BNXR - NH LOCAL,KGK,NH,no
+30145,rail_circular,1111111,BBD-KNJ,BBDB,KNJ,no
+30113,rail_circular,1111110,BBDB - KYI LOCAL,BBDB,KYI,no
+31343,rail_sdah_ranaghat,1111110,BNXR-KYI EMU LOCAL,BNXR,KYI,no
+37815,rail_hwh_bardhaman_main,1111111,HWH- BWN M LOCAL,HWH,BWN,no
+37831,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37845,rail_hwh_bardhaman_main,1111110,HWH - BWN LOCAL,HWH,BWN,no
+38701,rail_hwh_kharagpur,1111111,HWH KGP FAST,HWH,KGP,yes
+68007,rail_hwh_kharagpur,1111111,HWH-JER MEMU,HWH,JER,yes
+38821,rail_hwh_kharagpur,1111111,HWH MDN LOCAL,HWH,MDN,yes
+37511,rail_hwh_bardhaman_main,1111110,BALLY-BDC LOCAL,BLY,BDC,no
+37919,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+37925,rail_hwh_katwa,1111111,HWH - KATWA LOCAL,HWH,KWAE,yes
+63501,rail_hwh_bardhaman_main,1111111,HWH-BWN MEMU,HWH,BWN,no
+37837,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37839,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37841,rail_hwh_bardhaman_main,1111111,HWH-BWN LOCAL,HWH,BWN,no
+37847,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37849,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+37651,rail_hwh_bardhaman_main,1111111,HWH-MYM LOCAL,HWH,MYM,no
+37835,rail_hwh_bardhaman_main,1111101,HWH - BWN LOCAL,HWH,BWN,no
+37843,rail_hwh_bardhaman_main,1111111,HWH - BWN LOCAL,HWH,BWN,no
+36835,rail_hwh_bardhaman_chord,1111111,HWH - BWN  CHORD LOCAL,HWH,BWN,no
+38439,rail_hwh_kharagpur,1111111,SRC PKU LOCAL,SRC,PKU,no
+38715,rail_hwh_kharagpur,1111110,SRC KGP MEMU,SRC,KGP,yes
+68001,rail_hwh_kharagpur,1111100,SRC-JGM MEMU,SRC,JGM,yes
+30552,rail_sdah_canning,1111111,BLN - CG LOCAL,BLN,CG,no
+30712,rail_sdah_namkhana,1111111,MJT - LKPR,MJT,LKPR,no
+34338,rail_sdah_south_short,1111111,BLN- SPR LOCAL,BLN,SPR,no
+34336,rail_sdah_south_short,1111111,BLN- SPR LOCAL,BLN,SPR,no
+63142,rail_sdah_bardhaman,1111111,GODA-SDAH MEMU PGR,GODA,SDAH,yes
+37522,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37524,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37526,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37528,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37530,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37532,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37534,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37536,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37538,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37540,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37544,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37546,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37548,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37550,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37552,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37554,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37556,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37558,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37542,rail_bandel_naihati,1111111,BDC-NH LOCAL,BDC,NH,no
+37415,rail_hwh_tarakeswar,1111111,SHE TAK LOCAL,SHE,TAK,no
+37417,rail_hwh_tarakeswar,1111111,SHE-TAK EMU SPL,SHE,TAK,no
+37411,rail_hwh_tarakeswar,1111111,SHE TAK LOCAL,SHE,TAK,no
+37413,rail_hwh_tarakeswar,1111111,SHE-TAK LOCAL,SHE,TAK,no
+33327,rail_sdah_hasnabad,1111111,BT HNB LOCAL,BT,HNB,no
+33313,rail_sdah_hasnabad,1111111,BT-HNB LOCAL,BT,HNB,no
+33315,rail_sdah_hasnabad,1111111,BT-HNB LOCAL,BT,HNB,no
+33319,rail_sdah_hasnabad,1111111,DDC - HNB LOCAL,DDC,HNB,no
+33323,rail_sdah_hasnabad,1111111,BT-HNB LOCAL,BT,HNB,no
+33317,rail_sdah_hasnabad,1111111,BT - HNB LOCAL,BT,HNB,no
+33325,rail_sdah_hasnabad,1111111,BT HNB LOCAL,BT,HNB,no
+33311,rail_sdah_hasnabad,1111111,BT-HNB LOCAL,BT,HNB,no
+33321,rail_sdah_hasnabad,1111111,BT - HNB LOCAL,BT,HNB,no
+33331,rail_sdah_hasnabad,1111111,BT HNB LOCAL,BT,HNB,no
+34882,rail_sdah_diamond_harbour,1111111,SPR DH LOCAL,SPR,DH,no
+34892,rail_sdah_diamond_harbour,1111111,BARUIPUR DH EMU LOCAL,BRP,DH,no
+34884,rail_sdah_diamond_harbour,1111111,SPR DH LOCAL,SPR,DH,no
+34886,rail_sdah_diamond_harbour,1111111,SPR DH LOCAL,SPR,DH,no
+34888,rail_sdah_diamond_harbour,1111110,SPR DH LOCAL,SPR,DH,no
+34334,rail_sdah_namkhana,1111110,BRP - LKPR LOCAL,BRP,LKPR,no
+34332,rail_sdah_namkhana,1111111,BRP-LKPR LOCAL,BRP,LKPR,no
+34796,rail_sdah_namkhana,1111111,SPR - NMKA LOCAL,SPR,NMKA,no
+34352,rail_sdah_canning,1111111,SPR - CG LOCAL,SPR,CG,no
+34354,rail_sdah_canning,1111111,SPR - CG LOCAL,SPR,CG,no
+34356,rail_sdah_canning,1111110,SPR - CG LOCAL,SPR,CG,no
+34360,rail_sdah_canning,1111110,SPR-CG LOCAL,SPR,CG,no
+34362,rail_sdah_canning,1111111,SPR CG - LOCAL,SPR,CG,no
+34358,rail_sdah_canning,1111110,SPR CG LOCAL,SPR,CG,no
+31261,rail_sdah_ranaghat,1111111,BNXR - BP LOCAL,KGK,BP,no
+37112,rail_hwh_belur_math,1111111,BRMH - HWH LOCAL,BRMH,HWH,no
+37114,rail_hwh_belur_math,1111111,BRMH HWH LOCAL,BRMH,HWH,no
+37116,rail_hwh_belur_math,1111111,BRMH HWH LOCAL,BRMH,HWH,no
+37118,rail_hwh_belur_math,1111111,BRMH - HWH LOCAL,BRMH,HWH,no
+37914,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37826,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37122,rail_hwh_belur_math,1111111,BRMH HWH LOCAL,BRMH,HWH,no
+33364,rail_sdah_bangaon,1111111,BNJ- BT LOCAL,BNJ,BT,no
+33382,rail_sdah_bangaon,1111111,BNJ-BT LOCAL,BNJ,BT,no
+33858,rail_sdah_bangaon,1111111,BNJ-SDAH LOCAL,BNJ,SDAH,no
+33366,rail_sdah_bangaon,1111110,BNJ-BT LOCAL,BNJ,BT,no
+33362,rail_sdah_bangaon,1111111,BNJ- BT LOCAL,BNJ,BT,no
+33368,rail_sdah_bangaon,1111111,BNJ - DDC LOCAL,BNJ,DDC,no
+33370,rail_sdah_bangaon,1111111,BNJ - BT LOCAL,BNJ,BT,no
+33372,rail_sdah_bangaon,1111111,BNJ-BT LOCAL,BNJ,BT,no
+30111,rail_circular,1111111,BLN- BP  LOCAL,BLN,BP,no
+30211,rail_circular,1111111,BBDB DDJ LOCAL,BBDB,DDJ,no
+34111,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34163,rail_sdah_budge_budge,1111111,KBGB - SDAH LOCAL,KBGB,SDAH,no
+34165,rail_sdah_budge_budge,1111111,KBGB SDAH LOCAL,KBGB,SDAH,no
+31320,rail_sdah_kalyani_simanta,1111111,KLYM-SDAH LOCAL,KLYM,SDAH,no
+31928,rail_sdah_gede,1111111,GEDE - SDAH LOCAL,GEDE,SDAH,no
+31626,rail_sdah_ranaghat,1111100,RHA SDAH FAST,RHA,SDAH,no
+31534,rail_sdah_shantipur,1111111,STB - SDAH LOCAL,STB,SDAH,no
+33524,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33528,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+33538,rail_sdah_hasnabad,1111111,HNB-SDAH LOCAL,HNB,SDAH,no
+31814,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31828,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31834,rail_sdah_krishnanagar,1111111,KNJ - SDAH  LOCAL,KNJ,SDAH,no
+31840,rail_sdah_krishnanagar,1111111,KNJ-SDAH LOCAL,KNJ,SDAH,no
+31842,rail_sdah_krishnanagar,1111111,KNJ SDAH FAST,KNJ,SDAH,no
+63106,rail_sdah_krishnanagar,1111111,LGL-SDAH MEMU,LGL,SDAH,yes
+34631,rail_sdah_south_short,1111110,BRP SDAH LOCAL,BRP,SDAH,no
+34635,rail_sdah_south_short,1111111,BRP SDAH LOCAL,BRP,SDAH,no
+34811,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34817,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+34711,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34713,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34755,rail_sdah_namkhana,1111111,LKPR - SDAH LOCAL,LKPR,SDAH,no
+34421,rail_sdah_south_short,1111111,SPR SDAH LOCAL,SPR,SDAH,no
+34791,rail_sdah_namkhana,1111111,NMKA - SDAH LOCAL,NMKA,SDAH,no
+34829,rail_sdah_diamond_harbour,1111111,DH - SDAH LOCAL,DH,SDAH,no
+33262,rail_sdah_bangaon,1111110,BT DDJ LOCAL,BT,DDJ,no
+33282,rail_sdah_hasnabad,1111111,HNB-DDJ LOCAL,HNB,DDJ,no
+31214,rail_sdah_ranaghat,1111111,BP-SDAH LOCAL,BP,SDAH,no
+68002,rail_hwh_kharagpur,1111111,JER-HWH MEMU,JER,HWH,yes
+38714,rail_hwh_kharagpur,1111111,KGP-HWH LOCAL,KGP,HWH,yes
+38806,rail_hwh_kharagpur,1111111,MDN HWH LOCAL,MDN,HWH,yes
+37916,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37920,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37924,rail_hwh_katwa,1111111,KWAE-HWH LOCAL,KWAE,HWH,yes
+37822,rail_hwh_bardhaman_main,1111111,BWN-HWH LOCAL,BWN,HWH,no
+37652,rail_hwh_bardhaman_main,1111111,MYM-HWH LOCAL,MYM,HWH,no
+37844,rail_hwh_bardhaman_main,1111101,BWN - HWH LOCAL,BWN,HWH,no
+38712,rail_hwh_kharagpur,1111110,KGP SRC FAST,KGP,SRC,yes
+38410,rail_hwh_kharagpur,1111111,PKU SRC LOCAL,PKU,SRC,no
+38418,rail_hwh_kharagpur,1111111,PKU SRC LOCAL,PKU,SRC,no
+38310,rail_hwh_kharagpur,1111111,MCA SHM LOCAL,MCA,SRC,no
+68008,rail_hwh_kharagpur,1111100,JGM-SRC MEMU,JGM,SRC,yes
+38316,rail_hwh_kharagpur,1111111,MCA SRC LOCAL,MCA,SRC,no
+38434,rail_hwh_kharagpur,1111110,PKU - SRC  LOCAL,PKU,SRC,no
+38102,rail_hwh_kharagpur,1111110,ULB SRC LOCAL,ULB,SRC,no
+30511,rail_sdah_canning,1111111,CHT - MJT LOCAL,CHT,MJT,no
+30711,rail_sdah_namkhana,1111111,LKPR - MJT LOCAL,LKPR,MJT,no
+34883,rail_sdah_diamond_harbour,1111111,DH - BLN LOCAL,DH,BLN,no
+34371,rail_sdah_canning,1111111,CG - BLN  LOCAL,CG,BLN,no
+37521,rail_bandel_naihati,1111111,NH-BDC LOCAL,NH,BDC,no
+37523,rail_bandel_naihati,1111111,NH-BDC LOCAL,NH,BDC,no
+37525,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37527,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37529,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37531,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37533,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37535,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37537,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37539,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37543,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37545,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37547,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37549,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37551,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37553,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37555,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37557,rail_bandel_naihati,1111111,NH-BDC LOCAL,NH,BDC,no
+37541,rail_bandel_naihati,1111111,NH - BDC LOCAL,NH,BDC,no
+37418,rail_hwh_tarakeswar,1111111,TAK-SHE EMU SPL,TAK,SHE,no
+37416,rail_hwh_tarakeswar,1111111,TAK SHE LOCAL,TAK,SHE,no
+37414,rail_hwh_tarakeswar,1111111,TAK-SHE LOCAL,TAK,SHE,no
+33322,rail_sdah_hasnabad,1111111,HNB DDC LOCAL,HNB,DDC,no
+33314,rail_sdah_hasnabad,1111111,HNB BT LOCAL,HNB,BT,no
+33316,rail_sdah_hasnabad,1111111,HNB-BT LOCAL,HNB,BT,no
+33320,rail_sdah_hasnabad,1111111,HNB BT LOCAL,HNB,BT,no
+33312,rail_sdah_hasnabad,1111111,HNB-BT LOCAL,HNB,BT,no
+33318,rail_sdah_hasnabad,1111111,HNB BT LOCAL,HNB,BT,no
+33326,rail_sdah_hasnabad,1111111,HNB-BT LOCAL,HNB,BT,no
+33328,rail_sdah_hasnabad,1111111,HNB BT LOCAL,HNB,BT,no
+34891,rail_sdah_diamond_harbour,1111111,DH BRP LOCAL,DH,BRP,no
+34881,rail_sdah_diamond_harbour,1111111,DH SONARPUR LOCAL,DH,SPR,no
+34885,rail_sdah_diamond_harbour,1111110,DH SONARPUR LOCAL,DH,SPR,no
+34311,rail_sdah_namkhana,1111110,LKPR - SPR LOCAL,LKPR,SPR,no
+34331,rail_sdah_namkhana,1111111,LAKHIKANTAPUR BARUIPUR LO,LKPR,BRP,no
+34333,rail_sdah_namkhana,1111111,LKPR - SPR LOCAL,LKPR,SPR,no
+34355,rail_sdah_canning,1111110,CG- SPR  LOCAL,CG,SPR,no
+34351,rail_sdah_canning,1111110,CG SPR LOCAL,CG,SPR,no
+34391,rail_sdah_canning,1111111,CG - SPR LOCAL,CG,SPR,no
+34357,rail_sdah_canning,1111111,CG - SPR LOCAL,CG,SPR,no
+34353,rail_sdah_canning,1111110,CG - SPR LOCAL,CG,SPR,no
+34359,rail_sdah_canning,1111110,CG - SPR LOCAL,CG,SPR,no
+34313,rail_sdah_south_short,1111111,BRP - SPR LOCAL,BRP,SPR,no
+34312,rail_sdah_south_short,1111111,SPR - BRP LOCAL,SPR,BRP,no
+34912,rail_sdah_namkhana,1111101,LKPR NMKA LOCAL,LKPR,NMKA,no
+34914,rail_sdah_namkhana,1111111,LKPR NMKA LOCAL,LKPR,NMKA,no
+34916,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34918,rail_sdah_namkhana,1111111,LKPR  NMKA LOCAL,LKPR,NMKA,no
+34920,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34924,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34926,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34928,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34930,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34932,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34934,rail_sdah_namkhana,1111110,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34922,rail_sdah_namkhana,1111111,LKPR  NMKA LOCAL,LKPR,NMKA,no
+34936,rail_sdah_namkhana,1111111,LKPR - NMKA LOCAL,LKPR,NMKA,no
+34981,rail_sdah_namkhana,1111111,KWDP-LKPR LOCAL,KWDP,LKPR,no
+34911,rail_sdah_namkhana,1111110,NMKA LKPR LOCAL,NMKA,LKPR,no
+34913,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34915,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34917,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34919,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34923,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34925,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34927,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34929,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34931,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34933,rail_sdah_namkhana,1111110,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34921,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34935,rail_sdah_namkhana,1111111,NMKA - LKPR LOCAL,NMKA,LKPR,no
+34938,rail_sdah_namkhana,1111111,KWDP NMKA LOCAL,KWDP,NMKA,no
+34937,rail_sdah_namkhana,1111111,NMKA KWDP LOCAL,NMKA,KWDP,no
+38055,rail_hwh_haldia,1111111,PKU HLZ LOCAL,PKU,HLZ,no
+38054,rail_hwh_haldia,1111111,HLZ PKU LOCAL,HLZ,PKU,no
+68691,rail_hwh_kharagpur,1111010,PKU DGHA EMU PASS,PKU,DGHA,yes
+68692,rail_hwh_kharagpur,1111010,DGHA PKU EMU PASS,DGHA,PKU,yes
+68116,rail_hwh_kharagpur,1111111,DGHA-PKU MEMU,DGHA,PKU,yes
+38902,rail_hwh_amta,1111110,AMZ SRC LOCAL,AMZ,SRC,no
+38901,rail_hwh_amta,1111110,SRC AMZ LOCAL,SRC,AMZ,no
+38911,rail_hwh_amta,1111110,SRC AMZ LOCAL,SRC,AMTA,no
+37782,rail_hwh_bardhaman_main,1111111,BWN-BDC LOCAL,BWN,BDC,no
+37784,rail_hwh_bardhaman_main,1111110,BWN-BDC LOCAL,BWN,BDC,no
+37786,rail_hwh_bardhaman_main,1111111,BWN-BDC LOCAL,BWN,BDC,no
+37781,rail_hwh_bardhaman_main,1111111,BDC-BWN LOCAL,BDC,BWN,no
+37783,rail_hwh_bardhaman_main,1111111,BDC-BWN LOCAL,BDC,BWN,no
+37785,rail_hwh_bardhaman_main,1111111,BDC-BWN  LOCAL,BDC,BWN,no
+37732,rail_hwh_bardhaman_main,1111110,MYM-BDC LOCAL,MYM,BDC,no
+37711,rail_hwh_bardhaman_main,1111111,BDC-PDA LOCAL,BDC,PDA,no
+37731,rail_hwh_bardhaman_main,1111110,BDC-MYM LOCAL,BDC,MYM,no
+37755,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37757,rail_hwh_katwa,1111111,BDC KWAE LOCAL,BDC,KWAE,yes
+37741,rail_hwh_katwa,1111111,BDC-KWAE LOCAL,BDC,KWAE,yes
+37743,rail_hwh_katwa,1111111,BDC-KWAE LOCAL,BDC,KWAE,yes
+37745,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37747,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37749,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37751,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37753,rail_hwh_katwa,1111111,BDC - KWAE LOCAL,BDC,KWAE,yes
+37756,rail_hwh_katwa,1111111,KWAE BDC LOCAL,KWAE,BDC,yes
+37758,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37744,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37746,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37748,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37750,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37752,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37754,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37742,rail_hwh_katwa,1111111,KWAE-BDC LOCAL,KWAE,BDC,yes
+37391,rail_hwh_tarakeswar,1111111,TAK AMBG LOCAL,TAK,AMBG,no
+37393,rail_hwh_tarakeswar,1111111,TAK AMBG LOCAL,TAK,AMBG,no
+37395,rail_hwh_tarakeswar,1111111,TAK AMBG LOCAL,TAK,AMBG,no
+37423,rail_hwh_tarakeswar,1111111,TAK AMBG LOCAL,TAK,AMBG,no
+37405,rail_hwh_tarakeswar,1111111,TAK-GOGT LOCAL,TAK,GOGT,no
+37403,rail_hwh_tarakeswar,1111111,TAK GOGT LOCAL,TAK,GOGT,no
+37401,rail_hwh_tarakeswar,1111111,TAK-GOGT LOCAL,TAK,GOGT,no
+37421,rail_hwh_tarakeswar,1111111,TAK AMBG LOCAL,TAK,AMBG,no
+37386,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37394,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37388,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37398,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37396,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37390,rail_hwh_tarakeswar,1111111,GOGT TAK LOCAL,GOGT,TAK,no
+37392,rail_hwh_tarakeswar,1111111,GOGT TAK LOCAL,GOGT,TAK,no
+37412,rail_hwh_tarakeswar,1111111,GOGT TAK LOCAL,GOGT,TAK,no
+37424,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37422,rail_hwh_tarakeswar,1111111,AMBG TAK LOCAL,AMBG,TAK,no
+37402,rail_hwh_tarakeswar,1111111,GOGT-TAK LOCAL,GOGT,TAK,no
+37410,rail_hwh_tarakeswar,1111111,GOGHAT-TARAKESWAR LOCAL,GOGT,TAK,no
+37406,rail_hwh_tarakeswar,1111111,GOGHAT-TAK LOCAL,GOGT,TAK,no
+37408,rail_hwh_tarakeswar,1111111,GOGT- TAK LOCAL,GOGT,TAK,no
+37404,rail_hwh_tarakeswar,1111111,GOGHAT-TARAKESWAR LOCAL,GOGT,TAK,no
+33471,rail_sdah_bangaon,1111111,DDC - BT LOCAL,DDC,BT,no
+33472,rail_sdah_bangaon,1111111,BT - DDC LOCAL,BT,DDC,no
+33474,rail_sdah_bangaon,1111111,BT - DDC LOCAL,BT,DDC,no
+33329,rail_sdah_hasnabad,1111111,BT-BSHT LOCAL,BT,BSHT,no
+33324,rail_sdah_hasnabad,1111111,BSHT-BT LOCAL,BSHT,BT,no
+33357,rail_sdah_bangaon,1111111,BT-DTK LOCAL,BT,DTK,no
+34392,rail_sdah_canning,1111111,SPR CHT- LOCAL,SPR,CHT,no
+33712,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33714,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33716,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33718,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33720,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33722,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33726,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33730,rail_ranaghat_bangaon,1111111,BNJ  RHA LOCAL,BNJ,RHA,no
+33732,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33734,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33736,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33738,rail_ranaghat_bangaon,1111111,BNJ-RHA LOCAL,BNJ,RHA,no
+33728,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33752,rail_sdah_bangaon,1111111,BNJ-STB LOCAL,BNJ,STB,no
+33740,rail_ranaghat_bangaon,1111111,BNJRHA LOCAL,BNJ,RHA,no
+33724,rail_ranaghat_bangaon,1111111,BNJ - RHA LOCAL,BNJ,RHA,no
+33742,rail_ranaghat_bangaon,1111111,BNJ-RHA EMU LOCAL,BNJ,RHA,no
+63584,rail_hwh_bardhaman_chord,1111111,RPH-BWN MEMU,RPH,BWN,yes
+63582,rail_hwh_bardhaman_chord,1111111,RPH-BWN MEMU,RPH,BWN,yes
+63012,rail_hwh_bardhaman_chord,1111111,RPH-BWN MEMU,RPH,BWN,yes
+63581,rail_hwh_bardhaman_chord,1111111,BWN-RPH MEMU,BWN,RPH,yes
+63583,rail_hwh_bardhaman_chord,1111111,BWN-RPH MEMU,BWN,RPH,yes
+63011,rail_hwh_bardhaman_chord,1111111,BWN-RPH MEMU,BWN,RPH,yes
+63063,rail_hwh_bardhaman_chord,1111111,BWN-SBG MEMU PGR,BWN,SBG,yes
+63506,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63508,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63510,rail_hwh_bardhaman_chord,1111111,JAJ-ASN-BWN MEMU PGR,JAJ,BWN,yes
+63512,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63514,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63516,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63518,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63520,rail_hwh_bardhaman_chord,1111111,BKSC-ASN-BWN MEMU PGR,BKSC,BWN,yes
+63522,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63524,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63526,rail_hwh_bardhaman_chord,1111111,ASN-BWN MEMU,ASN,BWN,yes
+63550,rail_hwh_bardhaman_chord,1111111,UDL-BWN MEMU PGR,UDL,BWN,yes
+63505,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63507,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63509,rail_hwh_bardhaman_chord,1111111,BWN-JAJ MEMU,BWN,JAJ,yes
+63511,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63513,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63515,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63517,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63519,rail_hwh_bardhaman_chord,1111111,BWN-ASN-BKSC MEMU PGR,BWN,BKSC,yes
+63521,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63523,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63525,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU,BWN,ASN,yes
+63549,rail_hwh_bardhaman_chord,1111111,BWN-ASN MEMU PGR,BWN,ASN,yes
+33232,rail_sdah_ranaghat,1111111,BP-DDJ LOCAL,BP,DDJ,no
+33231,rail_sdah_ranaghat,1111111,DDJ- BP LOCAL,DDJ,BP,no
+31711,rail_sdah_ranaghat,1111111,NH RHA LOCAL,NH,RHA,no
+31712,rail_sdah_ranaghat,1111111,RHA NH LOCAL,RHA,NH,no
+31191,rail_sdah_kalyani_simanta,1111111,NH-KLYM LOCAL,NH,KLYM,no
+31713,rail_sdah_ranaghat,1111100,NH RHA LOCAL,NH,RHA,no
+31192,rail_sdah_kalyani_simanta,1111111,KLYM - NH LOCAL,KLYM,NH,no
+31746,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31742,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31744,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31748,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31750,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31754,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31756,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31758,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31760,rail_sdah_gede,1111111,GEDE RHA LOCAL,GEDE,RHA,no
+31752,rail_sdah_gede,1111111,GEDE-RHA LOCAL,GEDE,RHA,no
+31749,rail_sdah_gede,1111111,RHA -GEDE LOCAL,RHA,GEDE,no
+31741,rail_sdah_gede,1111111,RHA - GEDE LOCAL,RHA,GEDE,no
+31743,rail_sdah_gede,1111111,RHA - GEDE LOCAL,RHA,GEDE,no
+31747,rail_sdah_gede,1111111,RHA-GEDE LOCAL,RHA,GEDE,no
+31751,rail_sdah_gede,1111111,RHA -GEDE LOCAL,RHA,GEDE,no
+31755,rail_sdah_gede,1111111,RHA-GEDE LOCAL,RHA,GEDE,no
+31745,rail_sdah_gede,1111111,RHA - GEDE LOCAL,RHA,GEDE,no
+31757,rail_sdah_gede,1111111,RHA-GEDE LOCAL,RHA,GEDE,no
+31759,rail_sdah_gede,1111111,RHA GEDE LOCAL,RHA,GEDE,no
+31753,rail_sdah_gede,1111111,RHA -GEDE LOCAL,RHA,GEDE,no
+31714,rail_sdah_ranaghat,1111100,RHA NH LOCAL,RHA,NH,no
+31781,rail_sdah_shantipur,1111111,RHA-STB LOCAL,RHA,STB,no
+31585,rail_sdah_shantipur,1111111,RHA - STB-KNJ LOCAL,RHA,KNJ,no
+31571,rail_sdah_shantipur,1111111,RHA KNJ LOCAL,RHA,KNJ,no
+31783,rail_sdah_shantipur,1111111,RHA-STB LOCAL,RHA,STB,no
+31785,rail_sdah_shantipur,1111111,RHA-STB EMU LOCAL,RHA,STB,no
+31787,rail_sdah_shantipur,1111111,RHA-STB LOCAL,RHA,STB,no
+31782,rail_sdah_shantipur,1111111,STB-RHA LOCAL,STB,RHA,no
+33751,rail_sdah_bangaon,1111111,STB-BNJ LOCAL,STB,BNJ,no
+31784,rail_sdah_shantipur,1111111,STB-RHA LOCAL,STB,RHA,no
+31786,rail_sdah_shantipur,1111111,STB-RHA LOCAL,STB,RHA,no
+31788,rail_sdah_shantipur,1111111,STB-RHA EMU LOCAL,STB,RHA,no
+31790,rail_sdah_shantipur,1111111,STB-RHA LOCAL,STB,RHA,no
+31768,rail_sdah_krishnanagar,1111111,LGL - RHA PASSENGER,LGL,RHA,yes
+31770,rail_sdah_krishnanagar,1111111,LGL-RHA EMU PGR,LGL,RHA,yes
+31772,rail_sdah_krishnanagar,1111111,LGL - RHA EMU PGR,LGL,RHA,yes
+31726,rail_sdah_krishnanagar,1111111,KNJ-RHA LOCAL,KNJ,RHA,no
+31774,rail_sdah_krishnanagar,1111111,LGL RHA LOCAL,LGL,RHA,yes
+63134,rail_sdah_krishnanagar,1111111,LGL-RHA MEMU,LGL,RHA,yes
+31722,rail_sdah_krishnanagar,1111111,KNJ -RHA LOCAL,KNJ,RHA,no
+31728,rail_sdah_krishnanagar,1111111,KNJ -RHA LOCAL,KNJ,RHA,no
+31725,rail_sdah_krishnanagar,1111111,RHA - KNJ,RHA,KNJ,no
+31773,rail_sdah_krishnanagar,1111111,RHA LGL PASS,RHA,LGL,yes
+31723,rail_sdah_krishnanagar,1111111,RHA-KNJ LOCAL,RHA,KNJ,no
+31724,rail_sdah_krishnanagar,1111111,KNJ-RHALOCAL,KNJ,RHA,no
+63133,rail_sdah_krishnanagar,1111111,RHA-LGL MEMU,RHA,LGL,yes
+31769,rail_sdah_krishnanagar,1111111,RHA - LGL EMU PASS,RHA,LGL,yes
+31721,rail_sdah_krishnanagar,1111111,RHA - KNJ LOCAL,RHA,KNJ,no
+31771,rail_sdah_krishnanagar,1111111,RHA -LGL EMU PASS,RHA,LGL,yes
+31765,rail_sdah_krishnanagar,1111111,RHA-LGL EMU PASS,RHA,LGL,yes
+31861,rail_sdah_krishnanagar,1111111,KNJ LGL EMU PASSENGER,KNJ,LGL,yes
+31865,rail_sdah_krishnanagar,1111111,KNJ LGL LOCAL,KNJ,LGL,yes
+31863,rail_sdah_krishnanagar,1111111,KNJ LGL LOCAL,KNJ,LGL,yes
+31862,rail_sdah_krishnanagar,1111111,LGL KNJ LOCAL,LGL,KNJ,yes
+31864,rail_sdah_krishnanagar,1111111,LGL KNJ EMU PASSENGER,LGL,KNJ,yes
+31866,rail_sdah_krishnanagar,1111111,LGL KNJ LOCAL,LGL,KNJ,yes
+33733,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33711,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33713,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33715,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33719,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33721,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33723,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33725,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33729,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33731,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33735,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33737,rail_ranaghat_bangaon,1111111,RHA-BNJ LOCAL,RHA,BNJ,no
+33739,rail_ranaghat_bangaon,1111111,RHA-BNJ  LOCAL,RHA,BNJ,no
+33727,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33741,rail_ranaghat_bangaon,1111111,RHA BNJ LOCAL,RHA,BNJ,no
+33717,rail_ranaghat_bangaon,1111111,RHA - BNJ LOCAL,RHA,BNJ,no
+33743,rail_ranaghat_bangaon,1111111,RHA-BNJ EMU LOCAL,RHA,BNJ,no
+31584,rail_sdah_shantipur,1111111,KNJ STB LOCAL,KNJ,STB,no
+31586,rail_sdah_shantipur,1111111,KNJ - STB LOCAL,KNJ,STB,no

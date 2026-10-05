@@ -1,0 +1,356 @@
+stop_id,stop_name,lat,lon,source_id,notes
+rail_abada,Abada,22.547871,88.199521,S-MR-01,IR code ABB; OSM node/665115614; erail coords 0.01 km away
+rail_ambika_kalna,Ambika Kalna,23.212637,88.35387,S-MR-01,IR code ABKA; OSM node/1707946187; erail coords 0.09 km away
+rail_andul,Andul,22.575702,88.239446,S-MR-01,IR code ADL; OSM node/3704174675; erail coords 0.06 km away
+rail_adisaptagram,Adisaptagram,22.954922,88.378957,S-MR-01,IR code ADST; OSM node/7576345800; erail coords 0.07 km away
+rail_aranghata,Aranghata,23.242173,88.613518,S-MR-01,IR code AG; OSM node/1865781851; erail coords 0.05 km away
+rail_agarpara,Agarpara,22.682878,88.385364,S-MR-01,IR code AGP; OSM node/1935597017; erail coords 0.06 km away
+rail_akaipur,Akaipur,23.095252,88.717382,S-MR-01,IR code AKIP; OSM node/8999700634; erail coords 0.85 km away
+rail_akra,Akra,22.514737,88.249279,S-MR-01,IR code AKRA; OSM node/2430738645; erail coords 0.96 km away
+rail_arambag,Arambag,22.888193,87.791574,S-MR-01,IR code AMBG; OSM node/9476815943; erail coords 0.07 km away
+rail_amta,Amta,22.574403,88.018885,S-MR-01,IR code AMTA; OSM node/1420381463 matched by name (ref tag differs or missing); erail coords 0.07 km away
+rail_amta_amz,Amta,22.574403,88.018885,S-MR-01,IR code AMZ; OSM node/1420381463; erail coords 0.07 km away
+rail_ashoknagar_road,Ashoknagar Road,22.826755,88.628623,S-MR-01,IR code ASKR; OSM node/5260365110; erail coords 0.03 km away
+rail_bandar,Bandar,22.052957,88.088537,S-MR-01,IR code BAAR; OSM node/3415687086; erail coords 0.01 km away
+rail_bargachia,Bargachia,22.666749,88.13807,S-MR-01,IR code BAC; OSM node/1420381966; erail coords 0.02 km away
+rail_bahir_khanda,Bahir Khanda,22.853295,88.068158,S-MR-01,IR code BAHW; OSM node/4359505192; erail coords 0.30 km away
+rail_baranagar_road,Baranagar Road,22.653486,88.378858,S-MR-01,IR code BARN; OSM node/1074604698; erail coords 0.07 km away
+rail_baharu,Baharu,22.204738,88.444184,S-MR-01,IR code BARU; OSM node/2038635588; erail coords 0.88 km away
+rail_baidyabati,Baidyabati,22.79491,88.331772,S-MR-01,IR code BBAE; OSM node/1765897125; erail coords 0.02 km away
+rail_bbd_bagh,BBD Bagh,22.576842,88.346628,S-MR-01,IR code BBDB; OSM node/1187133856; erail coords 0.59 km away
+rail_bhyabla_halt,Bhyabla Halt,22.655344,88.853745,S-MR-01,IR code BBLA; OSM node/5243119532; erail coords 0.19 km away
+rail_bagbazar,Bagbazar,22.605491,88.365506,S-MR-01,IR code BBR; OSM way/359292625; erail coords 0.07 km away
+rail_birati,Birati,22.66432,88.427496,S-MR-01,IR code BBT; OSM node/2378510543; erail coords 0.02 km away
+rail_bainchigram,Bainchigram,23.106842,88.215674,S-MR-01,IR code BCGM; OSM node/5089494516; erail coords 0.08 km away
+rail_bandel,Bandel Junction,22.923669,88.378286,S-MR-01,IR code BDC; OSM node/7576345799; erail coords 0.10 km away
+rail_bidyadharpur,Bidyadharpur,22.424699,88.454013,S-MR-01,IR code BDYP; OSM node/2365704683; erail coords 0.01 km away
+rail_badkulla,Badkulla,23.305505,88.526126,S-MR-01,IR code BDZ; OSM node/5768071768; erail coords 0.11 km away
+rail_belur,Belur,22.635732,88.339822,S-MR-01,IR code BEQ; OSM node/664468001; erail coords 0.04 km away
+rail_bhandartikuri,Bhandartikuri,23.432899,88.330027,S-MR-01,IR code BFZ; OSM node/1766031347; erail coords 0.04 km away
+rail_balagarh,Balagarh,23.122116,88.452961,S-MR-01,IR code BGAE; OSM node/7717910262; erail coords 0.02 km away
+rail_bagila,Bagila,23.158328,88.126004,S-MR-01,IR code BGF; OSM node/7717565579; erail coords 0.00 km away
+rail_baghajatin,Baghajatin,22.482739,88.386671,S-MR-01,IR code BGJT; OSM node/651800191; erail coords 0.09 km away
+rail_bagula,Bagula,23.33497,88.645799,S-MR-01,IR code BGL; OSM node/4011656286; erail coords 0.02 km away
+rail_baghnapara,Baghnapara,23.242185,88.328988,S-MR-01,IR code BGRA; OSM node/1707946190; erail coords 0.13 km away
+rail_beliaghata_road,Beliaghata Road,22.674796,88.607681,S-MR-01,IR code BGRD; OSM node/3884514908; erail coords 0.04 km away
+rail_bahirgachhi,Bahirgachhi,23.275572,88.634272,S-MR-01,IR code BHGH; OSM way/535495927; erail coords 0.05 km away
+rail_bahira_kalibari,Bahira Kalibari,22.685971,88.564894,S-MR-01,IR code BHKA; OSM node/310996044; erail coords 0.10 km away
+rail_behula,Behula,23.180707,88.428936,S-MR-01,IR code BHLA; OSM node/4548153763; erail coords 0.03 km away
+rail_bhayna,Bhayna,23.311988,88.641423,S-MR-01,IR code BHNA; OSM node/8999697095; erail coords 0.07 km away
+rail_bahirpuya_halt,Bahirpuya Halt,22.229912,88.349072,S-MR-01,IR code BHPA; OSM node/8999697071; erail coords 0.55 km away
+rail_bhadreshwar,Bhadreshwar,22.828202,88.341494,S-MR-01,IR code BHR; OSM node/1765897140; erail coords 0.04 km away
+rail_birnagar,Birnagar,23.236237,88.551732,S-MR-01,IR code BIJ; OSM node/5768071760; erail coords 0.02 km away
+rail_bira,Bira,22.789751,88.572234,S-MR-01,IR code BIRA; OSM node/8994137056 matched by name (ref tag differs or missing); erail coords 0.01 km away
+rail_banka_nayabaz,Banka Nayabaz,22.595421,88.277558,S-MR-01,IR code BKNM; OSM node/3846421890; erail coords 0.04 km away
+rail_balarambati,Balarambati,22.808053,88.211684,S-MR-01,IR code BLAE; OSM node/3818732494; erail coords 0.02 km away
+rail_belgharia,Belgharia,22.661361,88.389214,S-MR-01,IR code BLH; OSM node/1765884993; erail coords 0.05 km away
+rail_ballygunge,Ballygunge Junction,22.519341,88.371978,S-MR-01,IR code BLN; OSM node/651805730; erail coords 0.03 km away
+rail_bally,Bally,22.655065,88.340303,S-MR-01,IR code BLY; OSM node/664467737; erail coords 0.16 km away
+rail_bally_chord,Bally Chord,22.65518,88.340024,S-MR-06,"IR code BLYC; not matched in OSM by ref, coordinates from erail (community)"
+rail_bally_ghat,Bally Ghat,22.65243,88.347909,S-MR-01,IR code BLYG; OSM node/7717075781; erail coords 0.05 km away
+rail_bally_halt,Bally Halt,22.652328,88.338538,S-MR-01,IR code BLYH; OSM node/8507085275; erail coords 0.08 km away
+rail_belmuri,Belmuri,22.932421,88.152418,S-MR-01,IR code BMAE; OSM node/7717390983; erail coords 0.05 km away
+rail_bamangachi,Bamangachi,22.749007,88.509976,S-MR-01,IR code BMG; OSM node/8999697060; erail coords 0.02 km away
+rail_bibhuti_bhushan_halt,Bibhuti Bhushan Halt,23.000217,88.803885,S-MR-01,IR code BNAA; OSM node/8999700631; erail coords 0.04 km away
+rail_bangaon,Bangaon Junction,23.030572,88.832973,S-MR-01,IR code BNJ; OSM node/1731369806; erail coords 0.12 km away
+rail_bankim_nagar,Bankim Nagar,23.209047,88.591604,S-MR-01,IR code BNKA; OSM node/5898505563; erail coords 0.03 km away
+rail_bidhannagar_road,Bidhannagar Road,22.59126,88.390964,S-MR-01,IR code BNXR; OSM node/2323761292; erail coords 0.03 km away
+rail_bainchi,Bainchi,23.119663,88.196758,S-MR-01,IR code BOI; OSM node/5089496058; erail coords 0.03 km away
+rail_bhogpur,Bhogpur,22.402261,87.809144,S-MR-01,IR code BOP; OSM node/4087857373; erail coords 0.07 km away
+rail_barrackpore,Barrackpore,22.760336,88.371099,S-MR-01,IR code BP; OSM node/7630431371; erail coords 0.07 km away
+rail_begampur,Begampur,22.738409,88.25511,S-MR-01,IR code BPAE; OSM node/3818719563; erail coords 0.07 km away
+rail_bahadurpur,Bahadurpur,23.438834,88.464062,S-MR-01,IR code BPD; OSM node/2337284127; erail coords 0.02 km away
+rail_banpur,Banpur,23.451567,88.76152,S-MR-01,IR code BPN; OSM node/1731370668; erail coords 0.05 km away
+rail_banpas,Banpas,23.403125,87.747565,S-MR-01,IR code BPS; OSM node/13363016547; erail coords 0.22 km away
+rail_barda,Barda,22.152392,88.087581,S-MR-01,IR code BRDB; OSM node/3714491216; erail coords 0.04 km away
+rail_brace_bridge,Brace Bridge,22.517921,88.301137,S-MR-01,IR code BRJ; OSM node/2430771841; erail coords 0.04 km away
+rail_belur_math,Belur Math,22.631302,88.350583,S-MR-01,IR code BRMH; OSM node/11584548979; erail coords 0.14 km away
+rail_baruipur,Baruipur Junction,22.366329,88.431278,S-MR-01,IR code BRP; OSM node/2337700691; erail coords 0.10 km away
+rail_baruipara,Baruipara,22.766897,88.237047,S-MR-01,IR code BRPA; OSM node/3818727733; erail coords 0.05 km away
+rail_bisharpara_kodalia,Bisharpara Kodalia,22.676678,88.434954,S-MR-01,IR code BRPK; OSM node/2378514765; erail coords 0.06 km away
+rail_bansh_baria,Bansh Baria,22.957871,88.395337,S-MR-01,IR code BSAE; OSM node/4548154889; erail coords 0.08 km away
+rail_birshibpur,Birshibpur,22.474007,88.053773,S-MR-01,IR code BSBP; OSM node/6789534240; erail coords 0.07 km away
+rail_basuldanga,Basuldanga,22.203748,88.23394,S-MR-01,IR code BSD; OSM node/8999700664; erail coords 2.20 km away (check)
+rail_basirhat,Basirhat,22.650185,88.869347,S-MR-01,IR code BSHT; OSM node/5768054820; erail coords 0.04 km away
+rail_bhasila,Bhasila,22.665271,88.658274,S-MR-01,IR code BSLA; OSM node/5746249439; erail coords 0.01 km away
+rail_barasat,Barasat Junction,22.724194,88.483783,S-MR-01,IR code BT; OSM node/1765884856; erail coords 0.07 km away
+rail_bathna_krittibas,Bathna Krittibas,23.246509,88.463015,S-MR-01,IR code BTKB; OSM node/3895161857; erail coords 2.46 km away (check)
+rail_betberia_ghola,Betberia Ghola,22.350756,88.574728,S-MR-01,IR code BTPG; OSM node/8468061286; erail coords 0.01 km away
+rail_bauria,Bauria,22.502522,88.163288,S-MR-01,IR code BVA; OSM node/665115034; erail coords 0.03 km away
+rail_barddhaman,Barddhaman Junction,23.249913,87.869835,S-MR-01,IR code BWN; OSM node/7572613583; erail coords 0.01 km away
+rail_basulya_sutahata,Basulya Sutahata,22.120161,88.130576,S-MR-01,IR code BYSA; OSM node/6815557394; erail coords 0.03 km away
+rail_barra_bazar,Barra Bazar,22.590157,88.351176,S-MR-01,IR code BZB; OSM node/9001302716; erail coords 0.87 km away
+rail_belanagar,Belanagar,22.661234,88.317079,S-MR-01,IR code BZL; OSM node/6954276376; erail coords 0.07 km away
+rail_bagnan,Bagnan,22.462563,87.970121,S-MR-01,IR code BZN; OSM node/6186391877; erail coords 0.04 km away
+rail_chandanpur,Chandanpur,22.881314,88.175903,S-MR-01,IR code CDAE; OSM node/7702640498; erail coords 0.06 km away
+rail_chakdaha,Chakdaha,23.078719,88.5298,S-MR-01,IR code CDH; OSM node/1765948467; erail coords 0.10 km away
+rail_chandpara,Chandpara,22.961669,88.78518,S-MR-01,IR code CDP; OSM node/8994137059; erail coords 0.09 km away
+rail_canning,Canning,22.313617,88.668694,S-MR-01,IR code CG; OSM node/3749219130; erail coords 0.04 km away
+rail_chengail,Chengail,22.48639,88.138953,S-MR-01,IR code CGA; OSM node/665115013; erail coords 0.03 km away
+rail_chandannagar,Chandannagar,22.867071,88.35408,S-MR-01,IR code CGR; OSM node/1672312672; erail coords 0.03 km away
+rail_chanchai,Chanchai,23.158228,88.02606,S-MR-01,IR code CHC; OSM node/5071691608; erail coords 0.01 km away
+rail_champahati,Champahati,22.401883,88.493643,S-MR-01,IR code CHT; OSM node/2365714186; erail coords 0.03 km away
+rail_chuchura,Chuchura,22.890912,88.370284,S-MR-01,IR code CNS; OSM node/7576345798; erail coords 0.13 km away
+rail_coopers_halt,Coopers Halt,23.162457,88.573837,S-MR-06,"IR code CPHT; not matched in OSM by ref, coordinates from erail (community)"
+rail_champapukur,Champapukur,22.656351,88.807764,S-MR-01,IR code CQR; OSM node/5386739011; erail coords 0.01 km away
+rail_cheragram,Cheragram,22.988027,88.128537,S-MR-06,"IR code CRAE; not matched in OSM by ref, coordinates from erail (community)"
+rail_deula,Deula,22.21456,88.281367,S-MR-01,IR code D; OSM node/2038635591; erail coords 2.21 km away (check)
+rail_dakshineshwar,Dakshineshwar,22.653848,88.363756,S-MR-01,IR code DAKE; OSM node/663839267; erail coords 0.00 km away
+rail_debipur,Debipur,23.143543,88.157373,S-MR-01,IR code DBP; OSM node/5089496237; erail coords 0.08 km away
+rail_dakshin_barasat,Dakshin Barasat‎,22.226438,88.452538,S-MR-01,IR code DBT; OSM node/5768054630; erail coords 0.64 km away
+rail_dum_dum_cantonment,Dum Dum Cantonment,22.63649,88.412023,S-MR-01,IR code DDC; OSM node/1074606326; erail coords 0.06 km away
+rail_dum_dum,Dum Dum Junction,22.621931,88.393188,S-MR-01,IR code DDJ; OSM way/218996115; erail coords 0.09 km away
+rail_diara,Diara,22.798526,88.281169,S-MR-01,IR code DEA; OSM node/1620918714 matched by name (ref tag differs or missing); erail coords 0.12 km away
+rail_durganagar,Durganagar,22.650497,88.419215,S-MR-01,IR code DGNR; OSM node/2378503814; erail coords 0.05 km away
+rail_diamond_harbour,Diamond Harbour,22.19258,88.191112,S-MR-01,IR code DH; OSM node/1599654459; erail coords 0.09 km away
+rail_dhakuria,Dhakuria,22.509107,88.371131,S-MR-01,IR code DHK; OSM node/1341614569; erail coords 0.05 km away
+rail_dhubulia,Dhubulia,23.485947,88.440349,S-MR-01,IR code DHU; OSM node/5768071717; erail coords 0.02 km away
+rail_domjur,Domjur,22.643163,88.209549,S-MR-01,IR code DJR; OSM node/1420381935; erail coords 0.01 km away
+rail_dankuni,Dankuni,22.677961,88.290763,S-MR-01,IR code DKAE; OSM node/252584717; erail coords 0.05 km away
+rail_dakshinbar,Dakshinbar,22.65607,88.1825,S-MR-01,IR code DKB; OSM node/3706129904; erail coords 0.01 km away
+rail_dakshin_durgapur,Dakshin Durgapur,22.325819,88.406271,S-MR-01,IR code DKDP; OSM node/8999700636; erail coords 1.08 km away (check)
+rail_domjur_road,Domjur Road,22.636013,88.221501,S-MR-01,IR code DMJR; OSM node/1420381931; erail coords 0.09 km away
+rail_dumurdaha,Dumurdaha,23.040696,88.43303,S-MR-01,IR code DMLE; OSM node/4550174544; erail coords 0.48 km away
+rail_dhamua,Dhamua,22.290328,88.392169,S-MR-01,IR code DMU; OSM node/8999700690; erail coords 0.87 km away
+rail_dhaniakhali_halt,Dhaniakhali Halt,22.950995,88.143874,S-MR-01,IR code DNHL; OSM node/7717390982; erail coords 0.05 km away
+rail_dansi,Dansi,22.622124,88.266113,S-MR-01,IR code DNI; OSM node/1420381909; erail coords 0.02 km away
+rail_dhapdhapi,Dhapdhapi,22.315939,88.460301,S-MR-01,IR code DPDP; OSM node/2364769605; erail coords 0.80 km away
+rail_dashnagar,Dashnagar,22.597997,88.308404,S-MR-01,IR code DSNR; OSM node/664455551; erail coords 0.08 km away
+rail_deshapran,Deshapran,22.029851,87.817984,S-MR-01,IR code DSPN; OSM node/2405154143; erail coords 0.06 km away
+rail_dhatrigram,Dhatrigram,23.277971,88.311922,S-MR-01,IR code DTAE; OSM node/1622849350; erail coords 0.01 km away
+rail_deulti,Deulti,22.453354,87.914664,S-MR-01,IR code DTE; OSM node/6186391857; erail coords 0.02 km away
+rail_dignagar,Dignagar,23.318876,88.455907,S-MR-01,IR code DTG; OSM node/8994129651; erail coords 0.02 km away
+rail_dattapukur,Dattapukur,22.768514,88.539816,S-MR-06,"IR code DTK; not matched in OSM by ref, coordinates from erail (community)"
+rail_durga_chak,Durga Chak,22.082096,88.155432,S-MR-01,IR code DZK; OSM node/6815618165; erail coords 0.07 km away
+rail_durga_chak_town,Durga Chak Town,22.066333,88.135329,S-MR-01,IR code DZKT; OSM node/3448211070; erail coords 0.05 km away
+rail_eden_gardens,Eden Gardens,22.563915,88.338321,S-MR-01,IR code EDG; OSM node/1187083591; erail coords 0.00 km away
+rail_fuleswar,Fuleswar,22.477436,88.115644,S-MR-01,IR code FLR; OSM node/665114595; erail coords 0.01 km away
+rail_phulia,Phulia,23.229962,88.497402,S-MR-01,IR code FLU; OSM node/3895161753; erail coords 0.02 km away
+rail_gobardanga_railway_station,Gobardanga Railway Station,22.879511,88.760993,S-MR-01,IR code GBG; OSM node/7594341777; erail coords 0.07 km away
+rail_gobra,Gobra,22.696116,88.27939,S-MR-01,IR code GBRA; OSM node/7717383980; erail coords 0.01 km away
+rail_gocharan,Gocharan,22.278133,88.458613,S-MR-01,IR code GCN; OSM node/5768054614; erail coords 0.88 km away
+rail_gede,Gede,23.490999,88.786935,S-MR-01,IR code GEDE; OSM node/1731369810; erail coords 0.04 km away
+rail_garifa,Garifa,22.908327,88.412615,S-MR-06,"IR code GFAE; not matched in OSM by ref, coordinates from erail (community)"
+rail_gangnapur,Gangnapur,23.131652,88.639897,S-MR-01,IR code GGP; OSM node/8999697072; erail coords 3.52 km away (check)
+rail_ghoraghata,Ghoraghata,22.458112,87.943826,S-MR-01,IR code GGTA; OSM node/6186391856; erail coords 0.01 km away
+rail_ghora_ras_ghona,Ghora Ras Ghona,22.651776,88.782393,S-MR-01,IR code GGV; OSM node/5386739014; erail coords 0.14 km away
+rail_garia,Garia,22.465639,88.405515,S-MR-01,IR code GIA; OSM node/2339753229; erail coords 0.20 km away
+rail_guskara,Guskara,23.490385,87.733691,S-MR-01,IR code GKH; OSM node/5768133171; erail coords 0.01 km away
+rail_gopalnagar,Gopalnagar,23.062585,88.745686,S-MR-01,IR code GN; OSM node/8999697040; erail coords 0.38 km away
+rail_ghutiari_sharif,Ghutiari Sharif,22.367901,88.552771,S-MR-01,IR code GOF; OSM node/2365741229; erail coords 0.04 km away
+rail_goghat,Goghat,22.898722,87.70795,S-MR-01,IR code GOGT; OSM node/2163894746; erail coords 0.01 km away
+rail_guptipara,Guptipara,23.196931,88.418217,S-MR-01,IR code GPAE; OSM node/1707946176; erail coords 0.08 km away
+rail_gourdaha_halt,Gourdaha Halt,22.378301,88.534772,S-MR-01,IR code GQD; OSM node/5768054791; erail coords 0.02 km away
+rail_gurap,Gurap,23.025068,88.112199,S-MR-01,IR code GRAE; OSM node/7717390979; erail coords 0.02 km away
+rail_gangpur,Gangpur,23.223619,87.926521,S-MR-01,IR code GRP; OSM node/3818890400; erail coords 0.11 km away
+rail_guma,Guma,22.808582,88.600893,S-MR-01,IR code GUMA; OSM node/8999700686; erail coords 0.04 km away
+rail_gurudas_nagar,Gurudas Nagar,22.199708,88.215793,S-MR-01,IR code GURN; OSM node/8999700679; erail coords 0.98 km away
+rail_habra,Habra,22.840869,88.657583,S-MR-01,IR code HB; OSM node/8999697076; erail coords 0.02 km away
+rail_habibpur,Habibpur,23.211744,88.538963,S-MR-01,IR code HBE; OSM node/1766031233; erail coords 0.05 km away
+rail_harishdapur,Harishdapur,22.574967,88.043571,S-MR-01,IR code HDC; OSM node/1420381722; erail coords 0.02 km away
+rail_henria,Henria,21.971826,87.794424,S-MR-01,IR code HEN; OSM node/6815867428; erail coords 0.08 km away
+rail_hogla,Hogla,22.255021,88.45201,S-MR-01,IR code HGA; OSM node/5768054622; erail coords 1.32 km away (check)
+rail_hooghly,Hooghly,22.905211,88.376064,S-MR-01,IR code HGY; OSM node/663950712; erail coords 0.01 km away
+rail_hridaypur,Hridaypur,22.710997,88.469999,S-MR-01,IR code HHR; OSM node/2378547439; erail coords 0.02 km away
+rail_hajigarh,Hajigarh,23.006328,88.121583,S-MR-01,IR code HIH; OSM node/7717390980; erail coords 0.05 km away
+rail_halisahar,Halisahar,22.920966,88.436979,S-MR-01,IR code HLR; OSM node/310989041; erail coords 0.03 km away
+rail_haldia,Haldia,22.044614,88.065459,S-MR-01,IR code HLZ; OSM node/5768201168; erail coords 0.02 km away
+rail_hind_motor,Hind Motor,22.683651,88.341799,S-MR-01,IR code HMZ; OSM node/664468968; erail coords 0.02 km away
+rail_hasnabad,Hasnabad,22.571082,88.913531,S-MR-01,IR code HNB; OSM node/1622848751; erail coords 0.02 km away
+rail_haripal,Haripal,22.83162,88.119146,S-MR-01,IR code HPL; OSM node/4359505190; erail coords 0.08 km away
+rail_harua_road,Harua Road,22.661933,88.69057,S-MR-01,IR code HRO; OSM node/5746249436; erail coords 0.01 km away
+rail_harish_nagar_halt,Harish Nagar Halt,23.46984,88.778053,S-MR-01,IR code HRSR; OSM node/5852243702; erail coords 0.02 km away
+rail_hotar,Hotar,22.309355,88.399748,S-MR-01,IR code HT; OSM node/8999700624; erail coords 2.19 km away (check)
+rail_howrah,Howrah Junction,22.582871,88.342811,S-MR-01,IR code HWH; OSM node/3321321335; erail coords 0.09 km away
+rail_hooghly_ghat,Hooghly Ghat,22.904902,88.396563,S-MR-01,IR code HYG; OSM node/663950711; erail coords 0.01 km away
+rail_ishan_chandi_halt,Ishan Chandi Halt,23.334245,87.738969,S-MR-01,IR code INCI; OSM node/3766862669; erail coords 0.17 km away
+rail_ichhapur,Ichhapur,22.799826,88.37391,S-MR-01,IR code IP; OSM node/1483066764; erail coords 0.04 km away
+rail_hazi_md_mohsin_halt,Hazi Md Mohsin Halt,22.972322,88.395309,S-MR-01,IR code IPRA; OSM node/9461961934; erail coords 0.02 km away
+rail_jadavpur,Jadavpur,22.495052,88.374971,S-MR-01,IR code JDP; OSM node/5768054688; erail coords 0.10 km away
+rail_jagaddal,Jagaddal,22.851679,88.395407,S-MR-01,IR code JGDL; OSM node/1672312673; erail coords 0.07 km away
+rail_jirat,Jirat,23.097519,88.461565,S-MR-01,IR code JIT; OSM node/7717910264; erail coords 0.08 km away
+rail_jalal_khali,Jalal Khali,23.347148,88.514017,S-MR-01,IR code JKL; OSM node/1429898293; erail coords 0.06 km away
+rail_jhaluarbar,Jhaluarbar,22.627527,88.252172,S-MR-01,IR code JLBR; OSM node/1420381922; erail coords 0.02 km away
+rail_jalasi,Jalasi,22.588166,88.057763,S-MR-01,IR code JLI; OSM node/1420381886; erail coords 0.02 km away
+rail_jaynagar_majilpur,Jaynagar Majilpur,22.169473,88.416004,S-MR-01,IR code JNM; OSM node/5768054586; erail coords 0.37 km away
+rail_janai_road,Janai Road,22.721437,88.2653,S-MR-01,IR code JOX; OSM node/6954347302; erail coords 0.08 km away
+rail_jhapandanga,Jhapandanga,23.063863,88.09111,S-MR-01,IR code JPQ; OSM node/7717390978; erail coords 0.01 km away
+rail_jaugram,Jaugram,23.079475,88.080063,S-MR-01,IR code JRAE; OSM node/7717390977; erail coords 0.15 km away
+rail_jhapater_dhal,Jhapater Dhal,23.353049,87.75055,S-MR-01,IR code JTL; OSM node/3766845317; erail coords 1.56 km away (check)
+rail_khana,Khana Junction,23.321364,87.769568,S-MR-01,IR code KAN; OSM node/3321569264; erail coords 0.10 km away
+rail_kanthi,Kanthi,21.788462,87.733908,S-MR-01,IR code KATI; OSM node/981983722; erail coords 0.03 km away
+rail_komagata_maru_budge_budge,Komagata Maru Budge Budge,22.49289,88.194858,S-MR-01,IR code KBGB; OSM node/2430734474 matched by name (ref tag differs or missing); erail coords 0.01 km away
+rail_karea_kadambagachhi,Karea Kadambagachhi,22.704641,88.534992,S-MR-01,IR code KBGH; OSM node/3884538872; erail coords 0.04 km away
+rail_khardaha,Khardaha,22.72485,88.37771,S-MR-01,IR code KDH; OSM node/1691423701; erail coords 0.01 km away
+rail_kankurgachhi_road,Kankurgachhi Road Jn,22.578283,88.38575,S-MR-06,"IR code KGK; not matched in OSM by ref, coordinates from erail (community)"
+rail_kulgachia,Kulgachia,22.472091,88.0206,S-MR-01,IR code KGY; OSM node/6186391878; erail coords 0.02 km away
+rail_kashinagar,Kashinagar,21.905006,88.200802,S-MR-01,IR code KHGR; OSM node/1865957554; erail coords 0.04 km away
+rail_khanyan,Khanyan,23.046717,88.315177,S-MR-01,IR code KHN; OSM node/7717783134; erail coords 0.05 km away
+rail_kolaghat,Kolaghat,22.433776,87.881805,S-MR-01,IR code KIG; OSM node/6790894385; erail coords 0.18 km away
+rail_khidirpur,Khidirpur,22.537618,88.315821,S-MR-01,IR code KIRP; OSM node/4284367432; erail coords 0.22 km away
+rail_kuntighat,Kuntighat,23.017102,88.413587,S-MR-01,IR code KJU; OSM node/1707946152; erail coords 0.09 km away
+rail_kaikala,Kaikala,22.840951,88.090838,S-MR-01,IR code KKAE; OSM node/4359505191; erail coords 0.34 km away
+rail_kalikapur,Kalikapur,22.412052,88.476031,S-MR-01,IR code KLKR; OSM node/2365711966; erail coords 0.00 km away
+rail_kalinarayanpur,Kalinarayanpur Junction,23.208055,88.573187,S-MR-01,IR code KLNP; OSM node/1766031228; erail coords 0.06 km away
+rail_kalinagar,Kalinagar,23.365889,88.335908,S-MR-01,IR code KLNT; OSM node/1622849704; erail coords 0.01 km away
+rail_kulpi,Kulpi,22.076521,88.25576,S-MR-01,IR code KLW; OSM node/2365294063; erail coords 0.02 km away
+rail_kalyani_ghoshpara,Kalyani Ghoshpara,22.981926,88.43942,S-MR-01,IR code KLYG; OSM node/3523780702; erail coords 0.01 km away
+rail_kalyani_simanta,Kalyani Simanta,22.987689,88.42796,S-MR-01,IR code KLYM; OSM node/4354618357; erail coords 0.01 km away
+rail_kalyani_shilpanchal,Kalyani Shilpanchal,22.976325,88.45641,S-MR-01,IR code KLYS; OSM node/7609207121; erail coords 0.02 km away
+rail_khamargachhi,Khamargachhi,23.054111,88.443944,S-MR-01,IR code KMAE; OSM node/1707946153; erail coords 0.01 km away
+rail_kankra_mirzanagar,Kankra Mirzanagar,22.658371,88.72183,S-MR-01,IR code KMZA; OSM node/5746249433; erail coords 0.01 km away
+rail_krishnanagar_city,Krishnanagar City Junction,23.388667,88.493535,S-MR-01,IR code KNJ; OSM node/7630434469; erail coords 0.01 km away
+rail_karanjali,Karanjali,22.034817,88.245697,S-MR-01,IR code KNJI; OSM node/2365296419; erail coords 0.29 km away
+rail_kankinara,Kankinara,22.866753,88.405593,S-MR-01,IR code KNR; OSM node/7630434488; erail coords 0.18 km away
+rail_kolkata,Kolkata,22.601277,88.384147,S-MR-01,IR code KOAA; OSM node/7630434398; erail coords 0.10 km away
+rail_konnagar,Konnagar,22.70126,88.342511,S-MR-01,IR code KOG; OSM node/664469183; erail coords 0.02 km away
+rail_kona,Kona,22.618466,88.296875,S-MR-01,IR code KONA; OSM node/3706024736; erail coords 0.07 km away
+rail_kanchrapara,Kanchrapara,22.946239,88.451378,S-MR-01,IR code KPA; OSM node/5088208928; erail coords 0.06 km away
+rail_kamarkundu,Kamarkundu,22.821077,88.203256,S-MR-01,IR code KQLS; OSM node/13932686202; erail coords 0.06 km away
+rail_kamarkundu_kqu,Kamarkundu,22.821677,88.20473,S-MR-01,IR code KQU; OSM node/1175349049; erail coords 0.02 km away
+rail_krishna_mohan,Krishna Mohan,22.32954,88.450589,S-MR-01,IR code KRXM; OSM node/2364759364; erail coords 0.78 km away
+rail_keshabpur,Keshabpur,22.220776,87.950054,S-MR-01,IR code KSBP; OSM node/6815530704; erail coords 0.19 km away
+rail_kakdwip,Kakdwip,21.881292,88.193995,S-MR-01,IR code KWDP; OSM node/11252554866; erail coords 0.13 km away
+rail_kalyani_main,Kalyani Main,22.969159,88.467418,S-MR-01,IR code KYI; OSM node/1589420304; erail coords 0.07 km away
+rail_kalyanpur,Kalyanpur,22.343456,88.414597,S-MR-01,IR code KYP; OSM node/8999697105; erail coords 0.76 km away
+rail_kazipara,Kazipara,22.72265,88.508366,S-MR-01,IR code KZPR; OSM node/310996032; erail coords 0.02 km away
+rail_lebutala,Lebutala,22.666696,88.63994,S-MR-01,IR code LBTL; OSM node/5746250306; erail coords 0.04 km away
+rail_lake_gardens,Lake Gardens,22.508055,88.353329,S-MR-01,IR code LKF; OSM node/6955697648; erail coords 0.17 km away
+rail_lakshmikantapur,Lakshmikantapur,22.110052,88.321897,S-MR-01,IR code LKPR; OSM node/2038635566; erail coords 0.03 km away
+rail_liluah,Liluah,22.620903,88.339404,S-MR-01,IR code LLH; OSM node/664468000; erail coords 0.04 km away
+rail_loknath,Loknath,22.872022,88.033305,S-MR-01,IR code LOK; OSM node/13932659489; erail coords 1.48 km away (check)
+rail_laban_satyagrah_smarak,Laban Satyagrah Smarak,22.114927,87.871621,S-MR-01,IR code LSGS; OSM node/2405084767; erail coords 0.01 km away
+rail_majhergram,Majhergram,23.108989,88.68802,S-MR-01,IR code MAJ; OSM node/8999700620; erail coords 6.87 km away (check)
+rail_mallikpur,Mallikpur,22.396586,88.433122,S-MR-01,IR code MAK; OSM node/2339804364; erail coords 0.09 km away
+rail_matla_halt,Matla Halt,22.333092,88.63026,S-MR-01,IR code MATL; OSM node/8999700674; erail coords 0.04 km away
+rail_mayapur,Mayapur,22.869022,87.867193,S-MR-01,IR code MAYP; OSM node/12644658291 matched by name (ref tag differs or missing); erail coords 0.54 km away
+rail_mirzapur_bankipur,Mirzapur Bankipur,22.790802,88.222445,S-MR-01,IR code MBE; OSM node/3818730980; erail coords 0.03 km away
+rail_mecheda,Mecheda,22.413583,87.856981,S-MR-01,IR code MCA; OSM way/944754356; erail coords 0.22 km away
+rail_madhabpur,Madhabpur,22.12023,88.348717,S-MR-01,IR code MDBP; OSM node/5768054606; erail coords 0.06 km away
+rail_makardaha,Makardaha,22.628688,88.236682,S-MR-01,IR code MDC; OSM node/3706067006; erail coords 0.02 km away
+rail_madhabnagar,Madhabnagar,21.937549,88.219461,S-MR-01,IR code MDGB; OSM node/1865957610; erail coords 0.08 km away
+rail_madhu_sudanpur,Madhu Sudanpur,22.845448,88.19273,S-MR-01,IR code MDSE; OSM node/3818741199; erail coords 0.06 km away
+rail_magra_hat,Magra Hat,22.240443,88.372355,S-MR-01,IR code MGT; OSM node/5768052728; erail coords 0.59 km away
+rail_mahendralalnagar,Mahendralalnagar,22.643508,88.091484,S-MR-01,IR code MHLN; OSM node/3860605492; erail coords 0.03 km away
+rail_majhdia,Majhdia,23.414846,88.719535,S-MR-01,IR code MIJ; OSM node/5852243612; erail coords 0.02 km away
+rail_maju,Maju,22.616008,88.078834,S-MR-01,IR code MJH; OSM node/1420381895; erail coords 0.02 km away
+rail_majherhat,Majherhat,22.519054,88.322131,S-MR-01,IR code MJT; OSM node/6186215510; erail coords 0.03 km away
+rail_maliya_halt,Maliya Halt,22.831668,88.137498,S-MR-01,IR code MLYA; OSM node/5831490823; erail coords 0.97 km away
+rail_madhyamgram,Madhyamgram,22.694784,88.453018,S-MR-01,IR code MMG; OSM node/2378546217; erail coords 0.04 km away
+rail_munsirhat,Munsirhat,22.649034,88.095453,S-MR-01,IR code MNH; OSM node/1420381941; erail coords 0.02 km away
+rail_malatipur,Malatipur,22.651678,88.762602,S-MR-01,IR code MPE; OSM node/5746249430; erail coords 0.02 km away
+rail_madanpur,Madanpur,23.005411,88.489806,S-MR-01,IR code MPJ; OSM node/1765948496; erail coords 0.05 km away
+rail_madhyampur,Madhyampur,22.620364,88.896665,S-MR-01,IR code MPN; OSM node/1622848876; erail coords 0.03 km away
+rail_mathurapur_road,Mathurapur Road,22.140539,88.390568,S-MR-01,IR code MPRD; OSM node/5768054601 matched by name (ref tag differs or missing); erail coords 0.05 km away
+rail_mourigram,Mourigram,22.580265,88.25603,S-MR-01,IR code MRGM; OSM node/1499489039; erail coords 0.02 km away
+rail_masagram,Masagram Junction,23.135084,88.042668,S-MR-01,IR code MSAE; OSM node/7717390975; erail coords 0.07 km away
+rail_mahisadal,Mahisadal,22.176143,88.010415,S-MR-01,IR code MSDL; OSM node/6815520709; erail coords 0.03 km away
+rail_machhlandapur,Machhlandapur,22.856483,88.745193,S-MR-01,IR code MSL; OSM node/8999697069; erail coords 0.02 km away
+rail_matania_anantapur,Matania Anantapur,22.635966,88.886403,S-MR-01,IR code MTAP; OSM node/5243119524; erail coords 0.09 km away
+rail_mertala_phaleya,Mertala Phaleya,23.479578,88.320792,S-MR-01,IR code MTFA; OSM node/1766031355; erail coords 0.11 km away
+rail_magra,Magra,22.983868,88.368337,S-MR-01,IR code MUG; OSM node/7717802734; erail coords 0.14 km away
+rail_mankundu,Mankundu,22.847312,88.34713,S-MR-01,IR code MUU; OSM node/1672312834; erail coords 0.05 km away
+rail_mayurhat,Mayurhat,23.362782,88.660819,S-MR-01,IR code MYHT; OSM node/5863297723; erail coords 0.05 km away
+rail_memari,Memari,23.172683,88.09598,S-MR-01,IR code MYM; OSM node/5088725081; erail coords 0.04 km away
+rail_new_alipore,New Alipore,22.510533,88.335426,S-MR-01,IR code NACC; OSM node/6955697629; erail coords 0.36 km away
+rail_nangi,Nangi,22.500213,88.223354,S-MR-01,IR code NAI; OSM node/2430737240; erail coords 0.10 km away
+rail_nalpur,Nalpur,22.529101,88.186061,S-MR-01,IR code NALR; OSM node/665115542; erail coords 0.01 km away
+rail_nabagram,Nabagram,23.1116,88.057542,S-MR-01,IR code NBAE; OSM node/7717390976; erail coords 0.07 km away
+rail_new_barrackpore,New Barrackpore,22.686764,88.444617,S-MR-01,IR code NBE; OSM node/2378518670; erail coords 0.01 km away
+rail_naba_raynagar,Naba Raynagar,23.148321,88.604293,S-MR-01,IR code NBRN; OSM node/8999700683; erail coords 2.03 km away (check)
+rail_nachinda,Nachinda,21.873804,87.752164,S-MR-01,IR code NCN; OSM node/6815864144; erail coords 0.11 km away
+rail_nishchintapur,Nishchintapur,21.973427,88.214238,S-MR-01,IR code NCP; OSM node/1865957614; erail coords 0.04 km away
+rail_nischintapur_market,Nischintapur Market,21.987909,88.217555,S-MR-01,IR code NCPM; OSM node/2365313972; erail coords 0.06 km away
+rail_nabadwip_dham,Nabadwip Dham,23.397546,88.3567,S-MR-01,IR code NDAE; OSM node/2511093443; erail coords 0.04 km away
+rail_nandaigajan,Nandaigajan,22.404157,87.832707,S-MR-01,IR code NDGJ; OSM node/577489960; erail coords 0.02 km away
+rail_nandai_gram,Nandai Gram,23.307454,88.315212,S-MR-01,IR code NDIM; OSM node/4550174753 matched by name (ref tag differs or missing); erail coords 0.03 km away
+rail_nandakumar,Nandakumar,22.190659,87.927636,S-MR-01,IR code NDKR; OSM node/2083264431; erail coords 0.02 km away
+rail_new_garia,New Garia,22.472658,88.397751,S-MR-01,IR code NGRI; OSM node/5768054702; erail coords 0.09 km away
+rail_naihati,Naihati Junction,22.887006,88.417653,S-MR-01,IR code NH; OSM node/310989031; erail coords 0.02 km away
+rail_nalikul,Nalikul,22.830471,88.166823,S-MR-01,IR code NKL; OSM node/4359528390; erail coords 0.04 km away
+rail_nimdanri,Nimdanri,22.608293,88.905487,S-MR-06,"IR code NMDR; not matched in OSM by ref, coordinates from erail (community)"
+rail_nimo,Nimo,23.180734,88.068541,S-MR-01,IR code NMF; OSM node/7717519078; erail coords 0.10 km away
+rail_namkhana,Namkhana,21.771765,88.238991,S-MR-01,IR code NMKA; OSM node/1865955434; erail coords 0.02 km away
+rail_narayan_pakuria_murail,Narayan Pakuria Murail,22.399867,87.774236,S-MR-01,IR code NPMR; OSM node/4087605271; erail coords 0.02 km away
+rail_narendrapur,Narendrapur,22.453901,88.41849,S-MR-01,IR code NRPR; OSM node/5873264670; erail coords 0.67 km away
+rail_noadar_dhal,Noadar Dhal,23.446035,87.743118,S-MR-01,IR code NRX; OSM node/13363007676; erail coords 1.35 km away (check)
+rail_nasibpur,Nasibpur,22.804641,88.263673,S-MR-01,IR code NSF; OSM node/310992938; erail coords 0.15 km away
+rail_netra,Netra,22.208428,88.254476,S-MR-01,IR code NTA; OSM node/8999700648; erail coords 2.76 km away (check)
+rail_porabazar,Porabazar,22.917398,88.159338,S-MR-01,IR code PBZ; OSM node/7717390984; erail coords 0.08 km away
+rail_pundooah,Pundooah,23.070673,88.269673,S-MR-01,IR code PDA; OSM node/7717724395; erail coords 0.01 km away
+rail_padmapukur,Padmapukur,22.568257,88.305743,S-MR-01,IR code PDPK; OSM node/2506658189; erail coords 0.86 km away
+rail_payradanga_rail_station,Payradanga Rail Station,23.128482,88.545507,S-MR-01,IR code PDX; OSM node/7967091834; erail coords 0.05 km away
+rail_panskura_east,Panskura East,22.392837,87.742589,S-MR-06,"IR code PKEO; not matched in OSM by ref, coordinates from erail (community)"
+rail_panskura,Panskura Junction,22.392694,87.742741,S-MR-01,IR code PKU; OSM node/2083264430; erail coords 0.02 km away
+rail_palsit,Palsit,23.196377,88.00314,S-MR-01,IR code PLAE; OSM node/3754937599; erail coords 0.01 km away
+rail_piali,Piali,22.387313,88.518888,S-MR-01,IR code PLF; OSM node/1865813382; erail coords 0.03 km away
+rail_pancheberia,Pancheberia,23.220464,88.599423,S-MR-01,IR code PNCB; OSM node/5898505568; erail coords 0.08 km away
+rail_prinsep_ghat,Prinsep Ghat,22.556593,88.331407,S-MR-01,IR code PPGT; OSM node/1074604649; erail coords 0.08 km away
+rail_park_circus,Park Circus,22.54078,88.373881,S-MR-01,IR code PQS; OSM node/1274128857; erail coords 0.25 km away
+rail_palla_road_station,Palla Road Station,23.179074,88.009361,S-MR-01,IR code PRAE; OSM node/3783046552; erail coords 0.01 km away
+rail_purbasthali,Purbasthali,23.452598,88.324863,S-MR-01,IR code PSAE; OSM node/1766031352; erail coords 0.12 km away
+rail_palta,Palta,22.782629,88.370275,S-MR-01,IR code PTF; OSM node/1616546521; erail coords 0.03 km away
+rail_pantihal,Pantihal,22.658895,88.113461,S-MR-01,IR code PTHL; OSM node/1420381949; erail coords 0.13 km away
+rail_patipukur,Patipukur,22.606551,88.395245,S-MR-01,IR code PTKR; OSM node/8999697038; erail coords 0.06 km away
+rail_palpara,Palpara,23.060469,88.521298,S-MR-01,IR code PXR; OSM node/1765948522; erail coords 0.10 km away
+rail_kolaghat_qgt,Kolaghat,22.435141,87.880907,S-MR-01,IR code QGT; OSM node/981983511; erail coords 0.03 km away
+rail_rajchandrapur,Rajchandrapur,22.652914,88.321314,S-MR-01,IR code RCD; OSM node/8999697061; erail coords 0.03 km away
+rail_rajagoda,Rajagoda,22.324096,87.866486,S-MR-01,IR code RGA; OSM node/3347450270; erail coords 0.04 km away
+rail_raghunathbari,Raghunathbari,22.353567,87.79732,S-MR-01,IR code RGX; OSM node/5768201008; erail coords 0.03 km away
+rail_ranaghat,Ranaghat Junction,23.174769,88.569079,S-MR-01,IR code RHA; OSM node/7630434470; erail coords 0.16 km away
+rail_rishra,Rishra,22.724706,88.343435,S-MR-01,IR code RIS; OSM node/664469184; erail coords 0.16 km away
+rail_ramrajatala,Ramrajatala,22.588661,88.296666,S-MR-01,IR code RMJ; OSM node/664455694; erail coords 0.08 km away
+rail_remount_road,Remount Road,22.525986,88.316708,S-MR-01,IR code RMTR; OSM node/6186215071; erail coords 0.09 km away
+rail_rasulpur,Rasulpur,23.187442,88.040853,S-MR-01,IR code RSLR; OSM node/7717531295; erail coords 0.03 km away
+rail_subhas_gram,Subhas Gram,22.413182,88.434164,S-MR-01,IR code SBGR; OSM node/2339803458; erail coords 0.11 km away
+rail_sealdah,Sealdah,22.567966,88.371105,S-MR-01,IR code SDAH; OSM node/252584722; erail coords 0.06 km away
+rail_sankrail,Sankrail,22.562344,88.210446,S-MR-01,IR code SEL; OSM node/665115755; erail coords 0.06 km away
+rail_sodpur,Sodpur,22.69964,88.382297,S-MR-01,IR code SEP; OSM node/1691412915; erail coords 0.06 km away
+rail_sir_gurudas_banerjee_halt,Sir Gurudas Banerjee Halt,22.574175,88.385045,S-MR-01,IR code SGBA; OSM node/5253354261; erail coords 0.08 km away
+rail_sibaichandi,Sibaichandi,22.974652,88.13387,S-MR-01,IR code SHBC; OSM node/7717390981; erail coords 0.09 km away
+rail_seoraphuli,Seoraphuli Jn,22.774804,88.328358,S-MR-01,IR code SHE; OSM node/1765885549; erail coords 0.03 km away
+rail_shalimar,Shalimar,22.555154,88.31539,S-MR-01,IR code SHM; OSM node/3322735363; erail coords 0.17 km away
+rail_singur,Singur,22.814569,88.229071,S-MR-01,IR code SIU; OSM node/664469613; erail coords 0.09 km away
+rail_surjyapur,Surjyapur,22.29349,88.466688,S-MR-01,IR code SJPR; OSM node/2364771027; erail coords 1.62 km away (check)
+rail_saktigarh,Saktigarh,23.207033,87.96888,S-MR-01,IR code SKG; OSM node/7576345823; erail coords 0.04 km away
+rail_simlagarh,Simlagarh,23.096305,88.231636,S-MR-01,IR code SLG; OSM node/5084143802; erail coords 0.07 km away
+rail_samudra_garh,Samudra Garh,23.335763,88.324866,S-MR-01,IR code SMAE; OSM node/1622849585; erail coords 0.02 km away
+rail_saheed_matangini,Saheed Matangini,22.300339,87.908362,S-MR-01,IR code SMTG; OSM node/6815237225; erail coords 0.04 km away
+rail_simurali,Simurali,23.041183,88.510262,S-MR-01,IR code SMX; OSM node/10934545003; erail coords 0.02 km away
+rail_sanhati_halt,Sanhati Halt,22.845876,88.704595,S-MR-01,IR code SNHT; OSM node/8999700688; erail coords 0.02 km away
+rail_shyamnagar,Shyamnagar,22.828516,88.380189,S-MR-01,IR code SNR; OSM node/310988205; erail coords 0.02 km away
+rail_shantinagar_halt,Shantinagar Halt,23.293382,88.637856,S-MR-01,IR code SNTR; OSM way/535495974; erail coords 0.01 km away
+rail_sangrampur,Sangrampur,22.225533,88.32986,S-MR-01,IR code SNU; OSM node/5768052735; erail coords 0.87 km away
+rail_somra_bazar,Somra Bazar,23.138452,88.433004,S-MR-01,IR code SOAE; OSM node/7717910263; erail coords 0.06 km away
+rail_sovabazar_ahiritola,Sovabazar Ahiritola,22.597529,88.354934,S-MR-01,IR code SOLA; OSM node/1177499034; erail coords 0.30 km away
+rail_sonarpur,Sonarpur Junction,22.443192,88.430341,S-MR-01,IR code SPR; OSM node/10146620696; erail coords 0.03 km away
+rail_santragachi,Santragachi Junction,22.584699,88.283072,S-MR-01,IR code SRC; OSM node/600756813; erail coords 0.19 km away
+rail_serampore,Serampore,22.754579,88.338308,S-MR-01,IR code SRP; OSM node/664459003; erail coords 0.03 km away
+rail_santoshpur,Santoshpur,22.524057,88.271066,S-MR-01,IR code SSP; OSM node/2430763548; erail coords 0.14 km away
+rail_satish_samanta,Satish Samanta,22.193092,87.990009,S-MR-01,IR code SSPH; OSM node/3713145331; erail coords 0.11 km away
+rail_shasan_road,Shasan Road,22.347157,88.434902,S-MR-01,IR code SSRD; OSM node/2364768081; erail coords 0.35 km away
+rail_shantipur,Shantipur Junction,23.262954,88.435945,S-MR-01,IR code STB; OSM node/3202228765; erail coords 0.04 km away
+rail_satberia_halt,Satberia Halt,23.047781,88.791404,S-MR-01,IR code STBB; OSM node/8994137066; erail coords 0.82 km away
+rail_sondalia,Sondalia,22.681816,88.5823,S-MR-01,IR code SXC; OSM node/3320346690; erail coords 0.00 km away
+rail_tarakeswar,Tarakeswar,22.882399,88.014201,S-MR-01,IR code TAK; OSM node/348490338; erail coords 0.13 km away
+rail_tala,Tala,22.606351,88.378426,S-MR-01,IR code TALA; OSM node/5244225850; erail coords 1.04 km away (check)
+rail_tribeni,Tribeni,22.990303,88.398261,S-MR-01,IR code TBAE; OSM node/310990693; erail coords 0.12 km away
+rail_titagarh,Titagarh,22.741126,88.374584,S-MR-01,IR code TGH; OSM node/310988176; erail coords 0.02 km away
+rail_taherpur,Taherpur,23.259996,88.543573,S-MR-01,IR code THP; OSM node/5768071763; erail coords 0.01 km away
+rail_talit,Talit,23.293351,87.818916,S-MR-01,IR code TIT; OSM node/2432137990; erail coords 0.04 km away
+rail_taki_road,Taki Road,22.587948,88.915932,S-MR-01,IR code TKF; OSM node/1622848796; erail coords 0.10 km away
+rail_thakurnagar,Thakurnagar,22.924734,88.777804,S-MR-01,IR code TKNR; OSM node/7594356451; erail coords 0.04 km away
+rail_takipur_halt,Takipur Halt,22.865554,87.927741,S-MR-01,IR code TKPH; OSM node/6159874695; erail coords 0.54 km away
+rail_tollygunge,Tollygunge,22.507755,88.347722,S-MR-01,IR code TLG; OSM node/6955697644; erail coords 0.05 km away
+rail_talandu,Talandu,23.010791,88.34529,S-MR-01,IR code TLO; OSM node/7717843285; erail coords 0.08 km away
+rail_talpur_halt,Talpur Halt,22.875272,87.974646,S-MR-01,IR code TLPH; OSM node/1420381996; erail coords 0.05 km away
+rail_taldi,Taldi,22.342795,88.611156,S-MR-01,IR code TLX; OSM node/5768054761; erail coords 0.04 km away
+rail_tamluk,Tamluk,22.274648,87.920116,S-MR-01,IR code TMZ; OSM node/4378885943; erail coords 0.02 km away
+rail_tarak_nagar,Tarak Nagar,23.380173,88.680501,S-MR-01,IR code TNX; OSM node/5863290001; erail coords 0.07 km away
+rail_tikiapara,Tikiapara,22.598577,88.324035,S-MR-01,IR code TPKR; OSM node/3860624901; erail coords 0.08 km away
+rail_ukilerhat,Ukilerhat,21.824735,88.2302,S-MR-01,IR code UKLR; OSM node/7940596100; erail coords 0.05 km away
+rail_uluberia,Uluberia,22.472223,88.093845,S-MR-01,IR code ULB; OSM node/665114593; erail coords 0.01 km away
+rail_uttarpara,Uttarpara,22.667046,88.341146,S-MR-01,IR code UPA; OSM node/310993110; erail coords 0.05 km away
+rail_udairampur,Udairampur,22.100001,88.274686,S-MR-01,IR code URP; OSM node/2365290886; erail coords 0.11 km away
+rail_uttar_radhanagar,Uttar Radhanagar,22.269188,88.383818,S-MR-01,IR code UTN; OSM node/8999700641; erail coords 0.45 km away
+rail_bishnupriya,Bishnupriya,23.414045,88.355476,S-MR-01,IR code VSPR; OSM node/1766031343; erail coords 0.04 km away

@@ -1,0 +1,13 @@
+stop_id,stop_name,lat,lon,source_id,notes
+tram_acharya_jagadish_chandra_bose_road_elliot_road,Acharya Jagadish Chandra Bose Road / Elliot Road,22.55046,88.362899,S-MR-01,OSM node 2721388718
+tram_bidhan_sarani_sri_aurobindo_sarani,Bidhan Sarani / Sri Aurobindo Sarani,22.594634,88.370888,S-MR-01,OSM node 2723392043
+tram_college_street,College Street,22.577292,88.364176,S-MR-01,OSM node 2703679634
+tram_college_street_bepin_behari_ganguly_street,College Street / Bepin Behari Ganguly Street,22.569591,88.360763,S-MR-01,OSM node 2703686173
+tram_esplanade,Esplanade,22.563015,88.349971,S-MR-01,OSM node 1558109889; tram terminus near Esplanade metro (metro_esplanade_blue / metro_esplanade_green)
+tram_gariahat_depot,Gariahat Depot,22.525888,88.366084,S-MR-01,"OSM node 2721264604; terminus, about 350 m beyond the end of the OSM route 25 geometry"
+tram_lenin_sarani_nirmal_chandra_dev_street,Lenin Sarani / Nirmal Chandra Dev Street,22.563039,88.358518,S-MR-01,OSM node 2703686631
+tram_nirmal_chandra_dev_street,Nirmal Chandra Dev Street,22.566456,88.359888,S-MR-01,OSM node 2703690674
+tram_park_circus,Park Circus,22.542481,88.365993,S-MR-01,OSM node 2720702706
+tram_park_circus_seven_point,Park Circus - Seven Point,22.543371,88.366027,S-MR-01,OSM node 12076417108
+tram_rafi_ahmad_kidwai_road_elliot_road,Rafi Ahmad Kidwai Road / Elliot Road,22.552566,88.356136,S-MR-01,OSM node 2721384860
+tram_shyambazar,Shyambazar,22.599967,88.372935,S-MR-01,OSM node 1210706867; near Shyambazar metro (metro_shyambazar)

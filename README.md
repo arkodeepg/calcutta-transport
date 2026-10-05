@@ -31,6 +31,18 @@ Fares and passes for every mode are in `data/fares/` (distance slabs are not yet
 - No source publishes bus or auto frequencies, so defaults are used for those two modes only; every default is listed in `gtfs/BUILD_REPORT.md`. No other mode gets invented service.
 - Rail timetables are community-sourced and may miss some trains.
 
+## Trip planner (POC)
+
+A proof-of-concept trip planner runs on GitHub Pages at https://arkodeepg.github.io/calcutta-transport/ (served from `docs/`). Pick a start and destination, choose any mix of modes, and it routes in your browser over `docs/data/network.json`, on an OpenStreetMap map. No server and no API keys; place search uses OpenStreetMap Nominatim on demand. Bus, minibus and auto times are estimates, see Known gaps.
+
+Regenerate the network after rebuilding the GTFS feed:
+
+```
+venv/bin/python scripts/build_web.py
+```
+
+To try it locally, serve `docs/` with `venv/bin/python -m http.server` from inside that folder.
+
 ## Build
 
 ```

@@ -33,13 +33,17 @@ Fares and passes for every mode are in `data/fares/` (distance slabs are not yet
 
 ## Trip planner (POC)
 
-A proof-of-concept trip planner runs on GitHub Pages at https://arkodeepg.github.io/calcutta-transport/ (served from `docs/`). Pick a start and destination, choose any mix of modes, and it routes in your browser over `docs/data/network.json`, on an OpenStreetMap map. No server and no API keys; place search uses OpenStreetMap Nominatim on demand. Bus, minibus and auto times are estimates, see Known gaps.
+A proof-of-concept trip planner runs on GitHub Pages at https://arkodeepg.github.io/calcutta-transport/ (served from `docs/`). Pick a start and destination, choose any mix of modes, and it routes in your browser over `docs/data/network.json`, on an OpenStreetMap-based map. No server of its own and no API keys; place search uses OpenStreetMap Nominatim on demand. Bus, minibus and auto times are estimates, see Known gaps.
 
-Regenerate the network after rebuilding the GTFS feed:
+Regenerate the network after rebuilding the GTFS feed. Metro and train lines are drawn along OpenStreetMap track, so extract the track and the water barriers for walking (Hooghly, canals, road bridges) from the Geofabrik extract first (once per OSM refresh):
 
 ```
+venv/bin/python scripts/osm_pbf_extract.py --rail-ways sources/raw/bus/eastern-zone-latest.osm.pbf sources/raw/osm_rail_ways.json
+venv/bin/python scripts/osm_pbf_extract.py --water sources/raw/bus/eastern-zone-latest.osm.pbf sources/raw/osm_water.json
 venv/bin/python scripts/build_web.py
 ```
+
+Walks, buses, minibuses, autos and trams are drawn on streets at view time, for the selected option only, by the FOSSGIS OSRM service at routing.openstreetmap.de (one request at a time, at least 1.1 s apart, cached; straight lines if it cannot be reached). The base map is OpenFreeMap (Positron, Dark in dark mode, Liberty as "Detailed") through MapLibre GL, with OpenStreetMap Standard tiles in the layer switcher and as the fallback without WebGL.
 
 To try it locally, serve `docs/` with `venv/bin/python -m http.server` from inside that folder.
 

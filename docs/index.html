@@ -61,13 +61,15 @@
       <li>Bus, minibus and share auto frequencies and times are estimates: no source publishes them, so buses assume a bus every 15 min and autos every 10 min, at about 15 to 18 km/h.</li>
       <li>Metro and train run times come mostly from published timetables (rail times from community timetable sites); ferry and tram service is community-sourced. Waits are averaged from frequency, not live departures, and the planner ignores time of day: many routes stop in the evening.</li>
       <li>This is a community dataset with gaps: about a quarter of bus stops have no coordinates yet and are missing.</li>
+      <li>On the map, metro and train lines follow the OpenStreetMap track. Walks, buses, minibuses, autos and trams are drawn along a street route through their stops, which is the likely path, not an official one; if the street router cannot be reached they show as straight lines.</li>
     </ul>
     <p>Data and code: <a href="https://github.com/arkodeepg/calcutta-transport" target="_blank" rel="noopener">github.com/arkodeepg/calcutta-transport</a>, sources in <a href="https://github.com/arkodeepg/calcutta-transport/blob/main/CREDITS.md" target="_blank" rel="noopener">CREDITS.md</a>. Corrections welcome.</p>
   </aside>
 
   <footer class="foot">
     Data: <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL 1.0</a>, &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> and the sources in <a href="https://github.com/arkodeepg/calcutta-transport/blob/main/CREDITS.md" target="_blank" rel="noopener">CREDITS.md</a>.
-    Map tiles &copy; OpenStreetMap contributors. Place search by <a href="https://nominatim.org/" target="_blank" rel="noopener">OpenStreetMap Nominatim</a>.
+    Map: <a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a>, or OpenStreetMap tiles, data &copy; OpenStreetMap contributors. Place search by <a href="https://nominatim.org/" target="_blank" rel="noopener">OpenStreetMap Nominatim</a>.
+    Street routes by <a href="https://routing.openstreetmap.de/about.html" target="_blank" rel="noopener">FOSSGIS routing.openstreetmap.de</a> (<a href="https://project-osrm.org/" target="_blank" rel="noopener">OSRM</a>). Spotted a map error? <a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener">Fix the map</a>.
     Code: MIT. <span id="builtInfo"></span>
   </footer>
 </div>

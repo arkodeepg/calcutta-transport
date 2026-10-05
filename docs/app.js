@@ -2,6 +2,10 @@
  * Loads data/network.json (built by scripts/build_web.py) and routes entirely in the browser.
  * Routing: round-based search (RAPTOR style) over route patterns with frequency-based boarding cost,
  * up to MAX_RIDES rides, with walking for access, egress and transfers.
+ * Map geometry: metro and rail legs follow OSM track shapes precomputed by build_web.py ("sh"). Walking legs
+ * and road legs (bus, minibus, auto, tram) of the selected itinerary only are routed on demand by the
+ * FOSSGIS OSRM service (routing.openstreetmap.de, usage policy: at most 1 request per second, no bulk,
+ * attribution), queued, cached, with a straight-line fallback. Ferry legs stay straight across the river.
  */
 (function () {
   "use strict";
@@ -9,6 +13,17 @@
   // ---------- settings ----------
   const WALK_M_PER_MIN = 75;          // 4.5 km/h
   const WALK_DETOUR = 1.2;            // straight line to street distance
+  // Each walking minute weighs this much in the search and the ranking (shown times stay real minutes).
+  // Straight-line walks underestimate where canals, railways and the river force detours (Salt Lake to
+  // Kestopur across the Kestopur canal is 13 min estimated but 24 min on the street), so long walks to
+  // save a ride are distrusted, as in OpenTripPlanner's walkReluctance (default 2).
+  let WALK_RELUCTANCE = 2;
+  // Backtracking: an option whose straight-line path (start, each boarding and alighting stop, end) is
+  // longer than DETOUR_FREE x the direct distance + DETOUR_FREE_M costs DETOUR_MIN_PER_KM per extra km in
+  // the ranking (e.g. riding the metro away from the destination to catch a bus back).
+  let DETOUR_FREE = 1.4;
+  const DETOUR_FREE_M = 1000;
+  let DETOUR_MIN_PER_KM = 4;
   const ACCESS_M = 1500;              // access and egress walk radius
   const TRANSFER_M = 600;             // stop to stop transfer walk radius
   const WAIT_CAP = 15;                // expected wait = half headway, capped
@@ -17,6 +32,18 @@
   const DIVERSITY_PENALTY = 20;       // minutes added per boarding of a route used by an earlier option
   const WALK_ONLY_MAX = 40;           // show a walk-only option up to this many minutes
   const KOLKATA_VIEWBOX = "88.05,22.85,88.65,22.30"; // left,top,right,bottom
+  // walks may only cross the Hooghly on a bridge with a footway (centreline "rv" in network.json)
+  const WALK_BRIDGES = [[22.5851, 88.3469], [22.6500, 88.3546]]; // Howrah Bridge, Vivekananda Setu (Bally)
+  const BRIDGE_SNAP_M = 600;
+  // stops placed on the deck of a road bridge with no footway: ride through only, never walk to or from
+  const NO_WALK_SPANS = [[22.5569, 88.3278, 250]]; // Vidyasagar Setu, mid-river (lat, lon, radius m)
+  // street routing (FOSSGIS OSRM). One request at a time, at least OSRM_GAP_MS apart.
+  const OSRM_BASE = "https://routing.openstreetmap.de/";
+  const OSRM_GAP_MS = 1100;
+  const OSRM_TIMEOUT_MS = 12000;
+  const ROAD_MAX_WAYPOINTS = 24;
+  const ROAD_MODES = new Set(["bus", "minibus", "auto", "tram"]);
+  const STREET_WALK_MIN_M = 80;       // shorter walks are drawn straight, no request
 
   const MODES = [
     { key: "bus", label: "Bus" },
@@ -32,7 +59,8 @@
   let COLORS = {};
 
   // ---------- state ----------
-  const NET = { stops: [], lat: null, lon: null, routes: [], pats: [], stopPats: [], foot: [], grid: new Map(), places: [] };
+  const NET = { stops: [], lat: null, lon: null, routes: [], pats: [], stopPats: [], foot: [], grid: new Map(), places: [], shapes: {}, shapeCache: new Map(), river: [], waterGrid: new Map(), bridges: [], noWalk: new Set() };
+  const WCELL = 0.01; // water segment grid, about 1 km
   const sel = { from: null, to: null };
   const activeModes = new Set(MODES.map((m) => m.key));
   let itineraries = [];
@@ -48,11 +76,78 @@
     return 2 * R * Math.asin(Math.sqrt(a));
   }
   const walkMin = (m) => (m * WALK_DETOUR) / WALK_M_PER_MIN;
+  function decodePoly(str) {
+    const out = [];
+    let i = 0, lat = 0, lon = 0;
+    while (i < str.length) {
+      for (let k = 0; k < 2; k++) {
+        let sh = 0, r = 0, b;
+        do { b = str.charCodeAt(i++) - 63; r |= (b & 0x1f) << sh; sh += 5; } while (b >= 0x20);
+        const v = r & 1 ? ~(r >> 1) : r >> 1;
+        if (k === 0) lat += v; else lon += v;
+      }
+      out.push([lat / 1e5, lon / 1e5]);
+    }
+    return out;
+  }
+  // spelling-tolerant key: Keshtopur = Kestopur, Shobhabazar = Sovabazar, Dum Dum = Dumdum
+  function normName(s) {
+    return s.toLowerCase().replace(/[^a-z0-9]/g, "")
+      .replace(/([bcdgkpst])h/g, "$1").replace(/v/g, "b").replace(/w/g, "b")
+      .replace(/ee/g, "i").replace(/oo/g, "u").replace(/(.)\1+/g, "$1");
+  }
+  // Walking distance in metres between two points: the straight line, or, when it crosses water, the
+  // shortest straight-line path over a bridge: for a canal any walkable OSM road bridge over it within
+  // CANAL_BRIDGE_M of the crossing ("wb"), for the Hooghly only WALK_BRIDGES. Infinity when no bridge fits.
+  const CANAL_BRIDGE_M = 2000;
+  function firstCrossing(lat1, lon1, lat2, lon2) {
+    const k = Math.cos(lat1 * Math.PI / 180);
+    const ax = lon1 * k, ay = lat1, bx = lon2 * k, by = lat2;
+    const minX = Math.min(ax, bx), maxX = Math.max(ax, bx), minY = Math.min(ay, by), maxY = Math.max(ay, by);
+    const seen = new Set();
+    let best = null;
+    for (let i = Math.floor(Math.min(lat1, lat2) / WCELL); i <= Math.floor(Math.max(lat1, lat2) / WCELL); i++) {
+      for (let j = Math.floor(Math.min(lon1, lon2) / WCELL); j <= Math.floor(Math.max(lon1, lon2) / WCELL); j++) {
+        for (const sg of NET.waterGrid.get(i + ":" + j) || []) {
+          if (seen.has(sg)) continue;
+          seen.add(sg);
+          if (sg.maxX < minX || sg.minX > maxX || sg.maxY < minY || sg.minY > maxY) continue;
+          const rx = sg.bx - sg.ax, ry = sg.by - sg.ay, qx = bx - ax, qy = by - ay;
+          const den = qx * ry - qy * rx;
+          if (den === 0) continue;
+          const t = ((sg.ax - ax) * ry - (sg.ay - ay) * rx) / den;
+          const u = ((sg.ax - ax) * qy - (sg.ay - ay) * qx) / den;
+          if (t <= 1e-6 || t >= 1 - 1e-6 || u < 0 || u > 1) continue; // ending on the bank is not crossing
+          if (!best || t < best.t) best = { t, lat: ay + t * qy, lon: (ax + t * qx) / k, river: sg.river };
+        }
+      }
+    }
+    return best;
+  }
+  function walkM(lat1, lon1, lat2, lon2, depth) {
+    const d = distM(lat1, lon1, lat2, lon2);
+    if (!NET.waterGrid.size) return d;
+    const x = firstCrossing(lat1, lon1, lat2, lon2);
+    if (!x) return d;
+    if ((depth || 0) >= 2) return Infinity;
+    const cands = x.river ? WALK_BRIDGES.filter(([a, b]) => distM(x.lat, x.lon, a, b) <= BRIDGE_SNAP_M)
+      : NET.bridges.filter(([a, b]) => Math.abs(a - x.lat) < 0.02 && Math.abs(b - x.lon) < 0.02 && distM(x.lat, x.lon, a, b) <= CANAL_BRIDGE_M);
+    let best = Infinity;
+    for (const [blat, blon] of cands) {
+      const viaD = distM(lat1, lon1, blat, blon) + distM(blat, blon, lat2, lon2);
+      if (viaD >= best) continue;
+      const v = walkM(lat1, lon1, blat, blon, (depth || 0) + 1) + walkM(blat, blon, lat2, lon2, (depth || 0) + 1);
+      if (v < best) best = v;
+    }
+    return best;
+  }
+
   const fmtMin = (x) => {
     const m = Math.max(1, Math.round(x));
     if (m < 60) return m + " min";
     return Math.floor(m / 60) + " h " + String(m % 60).padStart(2, "0") + " min";
   };
+  const fmtDist = (m) => (m < 1000 ? Math.round(m / 10) * 10 + " m" : (m / 1000).toFixed(1) + " km");
   function setStatus(msg, err) {
     const el = $("status");
     el.textContent = msg || "";
@@ -79,6 +174,17 @@
     return out;
   }
 
+  // stops within radius by walking distance (river aware)
+  function nearbyWalk(lat, lon, radius) {
+    const out = [];
+    for (const [s] of nearbyStops(lat, lon, radius)) {
+      if (NET.noWalk.has(s)) continue;
+      const w = walkM(lat, lon, NET.lat[s], NET.lon[s]);
+      if (w <= radius) out.push([s, w]);
+    }
+    return out;
+  }
+
   // ---------- network load ----------
   async function loadNetwork() {
     const res = await fetch("data/network.json");
@@ -97,6 +203,28 @@
       NET.grid.get(k).push(i);
     });
     NET.routes = net.routes;
+    NET.shapes = net.sh || {};
+    NET.bridges = net.wb || [];
+    const addWater = (enc, river) => {
+      const pts = decodePoly(enc);
+      for (let i = 0; i + 1 < pts.length; i++) {
+        const k = Math.cos(pts[i][0] * Math.PI / 180);
+        const sg = { ax: pts[i][1] * k, ay: pts[i][0], bx: pts[i + 1][1] * k, by: pts[i + 1][0], river };
+        sg.minX = Math.min(sg.ax, sg.bx); sg.maxX = Math.max(sg.ax, sg.bx); sg.minY = Math.min(sg.ay, sg.by); sg.maxY = Math.max(sg.ay, sg.by);
+        NET.river.push(sg);
+        const la0 = Math.min(pts[i][0], pts[i + 1][0]), la1 = Math.max(pts[i][0], pts[i + 1][0]);
+        const lo0 = Math.min(pts[i][1], pts[i + 1][1]), lo1 = Math.max(pts[i][1], pts[i + 1][1]);
+        for (let a = Math.floor(la0 / WCELL); a <= Math.floor(la1 / WCELL); a++) {
+          for (let b = Math.floor(lo0 / WCELL); b <= Math.floor(lo1 / WCELL); b++) {
+            const key = a + ":" + b;
+            if (!NET.waterGrid.has(key)) NET.waterGrid.set(key, []);
+            NET.waterGrid.get(key).push(sg);
+          }
+        }
+      }
+    };
+    for (const enc of net.rv || []) addWater(enc, true);
+    for (const enc of net.wc || []) addWater(enc, false);
     NET.stopPats = Array.from({ length: n }, () => []);
     net.routes.forEach((r, ri) => {
       for (const p of r.p) {
@@ -107,25 +235,37 @@
       }
     });
     // transfer footpaths: stops within TRANSFER_M, plus reviewed interchanges
+    // stops placed on a road bridge deck without a footway (Vidyasagar Setu): ride through only
+    NET.noWalk = new Set();
+    for (let s = 0; s < n; s++) {
+      if (NO_WALK_SPANS.some(([a, b, r]) => distM(NET.lat[s], NET.lon[s], a, b) <= r)) NET.noWalk.add(s);
+    }
     NET.foot = Array.from({ length: n }, () => new Map());
     for (let s = 0; s < n; s++) {
-      for (const [t, d] of nearbyStops(NET.lat[s], NET.lon[s], TRANSFER_M)) {
-        if (t !== s) NET.foot[s].set(t, walkMin(d));
+      if (NET.noWalk.has(s)) continue;
+      for (const [t, d] of nearbyWalk(NET.lat[s], NET.lon[s], TRANSFER_M)) {
+        if (t !== s && d <= TRANSFER_M) NET.foot[s].set(t, walkMin(d));
       }
     }
     for (const [a, b, m] of net.transfers) NET.foot[a].set(b, Math.max(m, NET.foot[a].get(b) || 0));
-    // places for autocomplete: group same-name stops within 1 km
+    // places for autocomplete: group same-name stops within 1 km. The group's point is its most
+    // significant stop (a rail or metro station over a bus stop of the same name), so picking "Sealdah"
+    // starts at the station rather than at whichever stop happened to be listed first.
+    const RANK = { rail: 6, metro: 5, ferry: 4, tram: 3, bus: 2, minibus: 2, auto: 1 };
+    const rankOf = (s) => Math.max(0, ...s.modes.map((m) => RANK[m] || 0));
     const byName = new Map();
     NET.stops.forEach((s, i) => {
       const key = s.name.toLowerCase();
       if (!byName.has(key)) byName.set(key, []);
       const groups = byName.get(key);
       let g = groups.find((g) => distM(g.lat, g.lon, NET.lat[i], NET.lon[i]) < 1000);
-      if (!g) { g = { name: s.name, lat: NET.lat[i], lon: NET.lon[i], modes: new Set(), n: 0 }; groups.push(g); }
+      if (!g) { g = { name: s.name, lat: NET.lat[i], lon: NET.lon[i], modes: new Set(), n: 0, rank: -1 }; groups.push(g); }
+      const rk = rankOf(s);
+      if (rk > g.rank) { g.rank = rk; g.lat = NET.lat[i]; g.lon = NET.lon[i]; }
       s.modes.forEach((m) => g.modes.add(m));
       g.n++;
     });
-    for (const groups of byName.values()) for (const g of groups) NET.places.push(g);
+    for (const groups of byName.values()) for (const g of groups) { g.norm = normName(g.name); NET.places.push(g); }
     $("builtInfo").textContent = "Network built " + net.meta.built + ": " + n + " stops, " + net.routes.length + " routes.";
   }
 
@@ -141,11 +281,11 @@
       arrR.push(new Float64Array(n).fill(INF));
       rideP.push(new Int32Array(n * 2).fill(-1)); // [pattern, boardPos]; alight pos found from stop
     }
-    const access = nearbyStops(from.lat, from.lon, ACCESS_M);
-    const egress = nearbyStops(to.lat, to.lon, ACCESS_M);
+    const access = nearbyWalk(from.lat, from.lon, ACCESS_M);
+    const egress = nearbyWalk(to.lat, to.lon, ACCESS_M);
     let marked = new Set();
     for (const [s, d] of access) {
-      arr[0][s] = walkMin(d);
+      arr[0][s] = walkMin(d) * WALK_RELUCTANCE;
       how[0][s] = 3;
       marked.add(s);
     }
@@ -194,7 +334,7 @@
       for (const s of Array.from(improved)) {
         if (how[k][s] !== 1) continue;
         for (const [t, w] of NET.foot[s]) {
-          const v = arrR[k][s] + w;
+          const v = arrR[k][s] + w * WALK_RELUCTANCE;
           if (v < A[t]) { A[t] = v; how[k][t] = 2; walkFrom[k][t] = s; improved.add(t); }
         }
       }
@@ -207,7 +347,7 @@
       let best = INF, bs = -1, bd = 0;
       for (const [s, d] of egress) {
         if (how[k][s] === 0 && k > 0 && arr[k][s] === arr[k - 1][s]) continue; // only stops reached in this round
-        const v = arr[k][s] + walkMin(d);
+        const v = arr[k][s] + walkMin(d) * WALK_RELUCTANCE;
         if (v < best) { best = v; bs = s; bd = d; }
       }
       if (bs >= 0) results.push({ k, cost: best, legs: trace(k, bs, bd) });
@@ -219,7 +359,7 @@
       let guard = 0;
       while (guard++ < 50) {
         if (k === 0 || how[k][s] === 3) {
-          legs.unshift({ type: "walk", fromPoint: "from", toStop: s, m: distM(from.lat, from.lon, NET.lat[s], NET.lon[s]) });
+          legs.unshift({ type: "walk", fromPoint: "from", toStop: s, m: walkM(from.lat, from.lon, NET.lat[s], NET.lon[s]) });
           break;
         }
         const h = how[k][s];
@@ -261,10 +401,42 @@
   function totalMin(legs) {
     return legs.reduce((a, l) => a + l.min + (l.type === "ride" ? l.wait : 0), 0);
   }
+  // ranking score: real minutes plus the walk reluctance surcharge
+  const walkTotal = (legs) => legs.filter((l) => l.type === "walk").reduce((a, l) => a + l.min, 0);
+  function pathM(legs) {
+    const pts = [[sel.from.lat, sel.from.lon]];
+    for (const l of legs) {
+      if (l.type !== "ride") continue;
+      const p = NET.pats[l.pat];
+      pts.push(stopLL(p.stops[l.bPos]), stopLL(p.stops[l.aPos]));
+    }
+    pts.push([sel.to.lat, sel.to.lon]);
+    let d = 0;
+    for (let i = 1; i < pts.length; i++) d += distM(pts[i - 1][0], pts[i - 1][1], pts[i][0], pts[i][1]);
+    return d;
+  }
+  function detourPenalty(legs) {
+    if (!sel.from || !sel.to) return 0;
+    const direct = distM(sel.from.lat, sel.from.lon, sel.to.lat, sel.to.lon);
+    const extra = pathM(legs) - (direct * DETOUR_FREE + DETOUR_FREE_M);
+    return extra > 0 ? (extra / 1000) * DETOUR_MIN_PER_KM : 0;
+  }
+  // One weighted cost, used both to choose which options to show and, with the corrected street walk
+  // minutes, to order them: real minutes + walk reluctance surcharge + backtracking penalty.
+  const scoreOf = (c) => c.total + (WALK_RELUCTANCE - 1) * walkTotal(c.legs) + detourPenalty(c.legs);
   const rideRoutes = (legs) => legs.filter((l) => l.type === "ride").map((l) => NET.pats[l.pat].r);
   const signature = (legs) => legs.filter((l) => l.type === "ride").map((l) => NET.pats[l.pat].r + "@" + NET.pats[l.pat].stops[l.bPos] + ">" + NET.pats[l.pat].stops[l.aPos]).join("|");
   const stopSig = (legs) => legs.filter((l) => l.type === "ride").map((l) => { const p = NET.pats[l.pat]; return p.mode + "@" + p.stops[l.bPos] + ">" + p.stops[l.aPos]; }).join("|");
   const routeSig = (legs) => rideRoutes(legs).join("|");
+
+  // Shown order: real minutes (street-corrected where known), ties by weighted cost. Which options make
+  // the list is decided by the weighted cost (scoreOf) in plan().
+  const byTime = (a, b) => Math.round(a.total) - Math.round(b.total) || scoreOf(a) - scoreOf(b);
+  function resortKeepSelection() {
+    const cur = itineraries[selIdx];
+    itineraries.sort(byTime);
+    selIdx = Math.max(0, itineraries.indexOf(cur));
+  }
 
   function plan(from, to, modes) {
     const cands = [];
@@ -306,25 +478,89 @@
       rr.sort((a, b) => a.cost - b.cost);
       add(rr[0].legs);
     }
-    const directM = distM(from.lat, from.lon, to.lat, to.lon);
+    const directM = walkM(from.lat, from.lon, to.lat, to.lon);
     const walkOnly = walkMin(directM);
-    let list = cands.sort((a, b) => a.total - b.total);
-    if (list.length) list = list.filter((c) => c.total <= list[0].total * 2 + 15);
+    let list = cands.sort((a, b) => scoreOf(a) - scoreOf(b));
+    if (list.length) list = list.filter((c) => scoreOf(c) <= scoreOf(list[0]) * 2 + 15);
     list = list.slice(0, 3);
     if (walkOnly <= WALK_ONLY_MAX || (!list.length && walkOnly <= 120)) {
       list.push({ legs: [{ type: "walk", fromPoint: "from", toPoint: "to", min: walkOnly }], total: walkOnly, rides: 0, walkOnly: true });
     }
-    list.sort((a, b) => a.total - b.total);
+    list.sort(byTime);
     return list;
   }
 
   // ---------- map ----------
   const map = L.map("map", { zoomControl: true, preferCanvas: true }).setView([22.5726, 88.3639], 12);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-  }).addTo(map);
   map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
+  const darkMQ = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : { matches: false };
+
+  // Base maps. Default: OpenFreeMap vector tiles (free, no key, no usage limits, attribution required),
+  // drawn by MapLibre GL, Positron style in light mode and Dark style in dark mode. OpenStreetMap Standard
+  // raster tiles stay available from the layer switcher, and are the fallback when WebGL or MapLibre fails.
+  const OFM_ATTR = '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+  const ML_JS = { src: "https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js", integrity: "sha384-5+cfbwT0iiub6VsQAdn6yz16nr6sDiQoHx6tm4O8OVYXHYOxcffFmCJBL0dgdvGp" };
+  const ML_CSS = { href: "https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css", integrity: "sha384-uTttxo/aOKbdE5RlD/SPzSDoDmNvGlUYPjONi2MN/b7c9HPSvW07OIuyP7uL6jxK" };
+  const ML_LEAFLET = { src: "https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.1.4/leaflet-maplibre-gl.js", integrity: "sha384-tXYNKOHx4T02jMP7YYCtBxPIv1B5gaA5mcVPBzqMp6d7VzWzxJgI2aWF/nJLrQdS" };
+  const osmLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>',
+  });
+  const BASE_KEY = "kolPlanner.base";
+  const store = {
+    get() { try { return localStorage.getItem(BASE_KEY); } catch (e) { return null; } },
+    set(v) { try { localStorage.setItem(BASE_KEY, v); } catch (e) { /* storage blocked */ } },
+  };
+  let baseName = "pending";
+  function loadScript(o) {
+    return new Promise((res, rej) => {
+      const el = document.createElement("script");
+      el.src = o.src; el.integrity = o.integrity; el.crossOrigin = "anonymous";
+      el.onload = res; el.onerror = () => rej(new Error("could not load " + o.src));
+      document.head.appendChild(el);
+    });
+  }
+  function webglOK() {
+    try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch (e) { return false; }
+  }
+  async function setupBaseMaps() {
+    const saved = store.get();
+    const useOsm = () => { if (!map.hasLayer(osmLayer)) osmLayer.addTo(map); baseName = "osm"; };
+    if (saved === "osm" || !webglOK()) {
+      useOsm();
+      if (!webglOK()) { syncBaseTheme(); return; }
+    }
+    try {
+      const css = document.createElement("link");
+      css.rel = "stylesheet"; css.href = ML_CSS.href; css.integrity = ML_CSS.integrity; css.crossOrigin = "anonymous";
+      document.head.appendChild(css);
+      await Promise.race([
+        loadScript(ML_JS).then(() => loadScript(ML_LEAFLET)),
+        new Promise((_, rej) => setTimeout(() => rej(new Error("MapLibre load timeout")), 15000)),
+      ]);
+      const ofm = (style) => L.maplibreGL({ style: "https://tiles.openfreemap.org/styles/" + style, attribution: OFM_ATTR, interactive: false });
+      const clean = ofm(darkMQ.matches ? "dark" : "positron");
+      const detailed = ofm("liberty");
+      const layers = { "Clean": clean, "Detailed": detailed, "OpenStreetMap": osmLayer };
+      L.control.layers(layers, null, { position: "topright" }).addTo(map);
+      const want = saved && layers[saved] ? saved : saved === "osm" ? "OpenStreetMap" : "Clean";
+      if (want !== "OpenStreetMap") {
+        if (map.hasLayer(osmLayer)) map.removeLayer(osmLayer);
+        layers[want].addTo(map);
+      } else useOsm();
+      baseName = want;
+      map.on("baselayerchange", (e) => { baseName = e.name; store.set(e.name === "OpenStreetMap" ? "osm" : e.name); syncBaseTheme(); drawItin(itineraries[selIdx], true); });
+    } catch (e) {
+      useOsm();
+    }
+    syncBaseTheme();
+    drawItin(itineraries[selIdx], true);
+  }
+  function syncBaseTheme() {
+    document.documentElement.dataset.base = baseName === "Clean" && darkMQ.matches ? "dark" : "light";
+  }
+  setupBaseMaps();
+
   const routeLayer = L.layerGroup().addTo(map);
   const pinIcon = (cls) => L.divIcon({ className: "", html: '<div class="pin ' + cls + '"></div>', iconSize: [18, 18], iconAnchor: [9, 9] });
   const markers = { from: null, to: null };
@@ -358,33 +594,201 @@
 
   function stopLL(s) { return [NET.lat[s], NET.lon[s]]; }
 
-  function drawItin(it) {
+  // ---------- leg geometry ----------
+  // Track shape for one metro or rail hop, from stop a to stop b, or null.
+  function hopShape(a, b) {
+    const key = Math.min(a, b) + "-" + Math.max(a, b);
+    if (!NET.shapes[key]) return null;
+    if (!NET.shapeCache.has(key)) NET.shapeCache.set(key, decodePoly(NET.shapes[key]));
+    const pts = NET.shapeCache.get(key);
+    return a < b ? pts : pts.slice().reverse();
+  }
+  const osrmCache = new Map(); // key -> {pts, m} or null (failed)
+  let osrmChain = Promise.resolve();
+  let osrmLast = 0;
+  let osrmCount = 0;
+  const llKey = (p) => p[0].toFixed(5) + "," + p[1].toFixed(5);
+  function legEnds(l) {
+    const a = l.fromPoint ? [sel.from.lat, sel.from.lon] : stopLL(l.fromStop);
+    const b = l.toPoint ? [sel.to.lat, sel.to.lon] : stopLL(l.toStop);
+    return [a, b];
+  }
+  // What to ask the street router for a leg: {profile, pts} or null (no request).
+  function legRequest(l) {
+    if (l.type === "walk") {
+      const [a, b] = legEnds(l);
+      if (distM(a[0], a[1], b[0], b[1]) < STREET_WALK_MIN_M) return null;
+      return { profile: "routed-foot", pts: [a, b] };
+    }
+    const p = NET.pats[l.pat];
+    if (!ROAD_MODES.has(p.mode)) return null;
+    let idx = [];
+    for (let i = l.bPos; i <= l.aPos; i++) idx.push(i);
+    if (idx.length > ROAD_MAX_WAYPOINTS) {
+      const n = ROAD_MAX_WAYPOINTS, step = (idx.length - 1) / (n - 1);
+      idx = Array.from({ length: n }, (_, i) => idx[Math.round(i * step)]);
+    }
+    return { profile: "routed-car", pts: idx.map((i) => stopLL(p.stops[i])) };
+  }
+  const reqKey = (r) => r.profile + ":" + r.pts.map(llKey).join(";");
+  function straightLen(pts) { let d = 0; for (let i = 1; i < pts.length; i++) d += distM(pts[i - 1][0], pts[i - 1][1], pts[i][0], pts[i][1]); return d; }
+
+  // Queue one OSRM request; requests run one at a time, OSRM_GAP_MS apart, and are skipped if the
+  // itinerary they belong to is no longer the selected one by the time their turn comes.
+  function osrmFetch(req, stillWanted) {
+    const key = reqKey(req);
+    if (osrmCache.has(key)) return Promise.resolve(osrmCache.get(key));
+    osrmChain = osrmChain.then(async () => {
+      if (osrmCache.has(key)) return osrmCache.get(key);
+      if (!stillWanted()) return undefined;
+      const wait = osrmLast + OSRM_GAP_MS - Date.now();
+      if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+      if (!stillWanted()) return undefined;
+      osrmLast = Date.now();
+      osrmCount++;
+      const coords = req.pts.map((p) => p[1].toFixed(5) + "," + p[0].toFixed(5)).join(";");
+      const car = req.profile === "routed-car";
+      // car: per-stop-hop geometry (from steps) so one badly snapped stop only spoils its own hops
+      const url = OSRM_BASE + req.profile + "/route/v1/driving/" + coords + "?geometries=geojson&alternatives=false" +
+        (car ? "&overview=false&steps=true&continue_straight=false" : "&overview=full&steps=false");
+      let val = null;
+      try {
+        const ctl = typeof AbortController !== "undefined" ? new AbortController() : null;
+        const timer = ctl ? setTimeout(() => ctl.abort(), OSRM_TIMEOUT_MS) : null;
+        const r = await fetch(url, { signal: ctl ? ctl.signal : undefined, headers: { Accept: "application/json" } });
+        if (timer) clearTimeout(timer);
+        if (r.ok) {
+          const js = await r.json();
+          const rt = js.code === "Ok" && js.routes && js.routes[0];
+          if (rt && car && rt.legs && rt.legs.length === req.pts.length - 1) {
+            // a hop is kept when the road distance is plausible for the straight distance between its stops,
+            // otherwise (stop snapped onto a flyover or the far carriageway) that hop is drawn straight
+            let pts = [], good = 0;
+            rt.legs.forEach((lg, i) => {
+              const a = req.pts[i], b = req.pts[i + 1];
+              const sl = distM(a[0], a[1], b[0], b[1]);
+              const hop = [];
+              for (const st of lg.steps || []) for (const c of st.geometry.coordinates) hop.push([c[1], c[0]]);
+              // a bad hop leaves a gap: the line joins the neighbouring good pieces (or the stop) straight,
+              // instead of zigzagging out to a stop placed off the road
+              if (hop.length >= 2 && lg.distance <= sl * 2.5 + 600) { pts = pts.concat(hop); good++; }
+            });
+            if (good) val = { pts: trimSpurs(pts), m: rt.distance, partial: good < rt.legs.length };
+          } else if (rt && !car && rt.geometry && rt.geometry.coordinates.length >= 2) {
+            const sl = straightLen(req.pts);
+            // reject absurd detours (snapped to the wrong side of a canal or a closed road)
+            if (rt.distance <= sl * 4 + 500) val = { pts: rt.geometry.coordinates.map((c) => [c[1], c[0]]), m: rt.distance };
+          }
+        }
+      } catch (e) { val = null; }
+      osrmCache.set(key, val);
+      return val;
+    });
+    return osrmChain;
+  }
+
+  // Drop out-and-back excursions (the route drives up a side road to a stop placed off the main road and
+  // returns the same way), up to SPUR_MAX_M long, so the line shows the road actually travelled.
+  // Also drops small loops (around a block to reach a stop on a one-way or divided road): whenever the
+  // line comes back within LOOP_NEAR_M of a point it passed at most SPUR_MAX_M of travel earlier.
+  const SPUR_MAX_M = 1500;
+  const LOOP_NEAR_M = 50;
+  function trimSpurs(pts) {
+    const out = [], cum = [];
+    for (const p of pts) {
+      const n = out.length;
+      const here = n ? cum[n - 1] + distM(out[n - 1][0], out[n - 1][1], p[0], p[1]) : 0;
+      let cut = -1;
+      for (let j = n - 2; j >= 0 && here - cum[j] <= SPUR_MAX_M; j--) {
+        if (here - cum[j] > 4 * LOOP_NEAR_M && distM(out[j][0], out[j][1], p[0], p[1]) <= LOOP_NEAR_M) cut = j;
+      }
+      if (cut >= 0) { out.length = cut + 1; cum.length = cut + 1; continue; }
+      out.push(p);
+      cum.push(here);
+    }
+    return out;
+  }
+
+  // Geometry of a leg with what is known now: {pts, src} where src is track, street, straight or pending.
+  function legGeom(l) {
+    if (l.type === "walk") {
+      const [a, b] = legEnds(l);
+      const req = legRequest(l);
+      const c = req && osrmCache.get(reqKey(req));
+      if (c) return { pts: [a].concat(c.pts, [b]), src: "street" };
+      return { pts: [a, b], src: req && !osrmCache.has(reqKey(req)) ? "pending" : "straight" };
+    }
+    const p = NET.pats[l.pat];
+    const stops = p.stops.slice(l.bPos, l.aPos + 1);
+    if (p.mode === "metro" || p.mode === "rail") {
+      let pts = [stopLL(stops[0])], onTrack = 0;
+      for (let i = 1; i < stops.length; i++) {
+        const sh = hopShape(stops[i - 1], stops[i]);
+        if (sh) { pts = pts.concat(sh); onTrack++; } else pts.push(stopLL(stops[i]));
+      }
+      return { pts, src: onTrack === stops.length - 1 ? "track" : onTrack ? "track+straight" : "straight" };
+    }
+    const req = legRequest(l);
+    const c = req && osrmCache.get(reqKey(req));
+    if (c) return { pts: [stopLL(stops[0])].concat(c.pts, [stopLL(stops[stops.length - 1])]), src: c.partial ? "street+straight" : "street" };
+    return { pts: stops.map(stopLL), src: req && !osrmCache.has(reqKey(req)) ? "pending" : "straight" };
+  }
+
+  // Ask the street router for the selected itinerary's walking and road legs, redrawing as each arrives.
+  // Street walking distance also replaces the straight-line walk estimate for that itinerary.
+  function refineItin(it) {
+    const wanted = () => itineraries[selIdx] === it;
+    let changedNow = false;
+    for (const l of it.legs) {
+      const req = legRequest(l);
+      if (!req || osrmCache.has(reqKey(req))) { if (applyStreetWalk(l)) changedNow = true; continue; }
+      osrmFetch(req, wanted).then((v) => {
+        if (v === undefined || !wanted()) return;
+        const changed = applyStreetWalk(l);
+        drawItin(it, true);
+        if (changed) { it.total = totalMin(it.legs); resortKeepSelection(); renderResults(); }
+      });
+    }
+    if (changedNow) { it.total = totalMin(it.legs); resortKeepSelection(); renderResults(); }
+  }
+  function applyStreetWalk(l) {
+    if (l.type !== "walk" || l.streetM !== undefined) return false;
+    const req = legRequest(l);
+    const c = req && osrmCache.get(reqKey(req));
+    if (!c) return false;
+    l.estMin = l.min;
+    l.streetM = c.m;
+    l.min = c.m / WALK_M_PER_MIN;
+    return true;
+  }
+
+  function drawItin(it, keepView) {
     routeLayer.clearLayers();
     if (!it) return;
     const bounds = [];
-    const ptLL = (which) => [sel[which].lat, sel[which].lon];
+    const darkBase = document.documentElement.dataset.base === "dark";
+    const halo = darkBase ? "#111" : "#fff";
     for (const l of it.legs) {
+      const g = legGeom(l);
       if (l.type === "walk") {
-        const a = l.fromPoint ? ptLL("from") : stopLL(l.fromStop);
-        const b = l.toPoint ? ptLL("to") : stopLL(l.toStop);
-        L.polyline([a, b], { color: "#555", weight: 4, dashArray: "4 8", opacity: 0.9 }).addTo(routeLayer);
-        bounds.push(a, b);
+        L.polyline(g.pts, { color: darkBase ? "#cfd3da" : "#555", weight: 4, dashArray: "4 8", opacity: g.src === "pending" ? 0.45 : 0.9 }).addTo(routeLayer);
+        bounds.push(...g.pts);
       } else {
         const p = NET.pats[l.pat];
         const r = NET.routes[p.r];
-        const pts = p.stops.slice(l.bPos, l.aPos + 1).map(stopLL);
-        L.polyline(pts, { color: "#fff", weight: 9, opacity: 0.85 }).addTo(routeLayer);
-        L.polyline(pts, { color: r.m === "metro" && r.lc ? r.lc : COLORS[r.m], weight: 5, opacity: 1 }).addTo(routeLayer);
+        L.polyline(g.pts, { color: halo, weight: 9, opacity: 0.85 }).addTo(routeLayer);
+        L.polyline(g.pts, { color: r.m === "metro" && r.lc ? r.lc : COLORS[r.m], weight: 5, opacity: g.src === "pending" ? 0.55 : 1 }).addTo(routeLayer);
         p.stops.slice(l.bPos, l.aPos + 1).forEach((s, i, a) => {
           const end = i === 0 || i === a.length - 1;
           L.circleMarker(stopLL(s), { radius: end ? 6 : 3, color: COLORS[r.m], weight: 2, fillColor: "#fff", fillOpacity: 1 })
             .bindTooltip(esc(NET.stops[s].name), { direction: "top" })
             .addTo(routeLayer);
         });
-        bounds.push(...pts);
+        bounds.push(...g.pts);
       }
     }
-    if (bounds.length) map.fitBounds(L.latLngBounds(bounds).pad(0.15), { animate: false });
+    if (bounds.length && !keepView) map.fitBounds(L.latLngBounds(bounds).pad(0.15), { animate: false });
+    if (!keepView) refineItin(it);
   }
 
   // ---------- results UI ----------
@@ -431,7 +835,8 @@
           const fromN = l.fromPoint ? pointName("from") : NET.stops[l.fromStop].name;
           const toN = l.toPoint ? pointName("to") : NET.stops[l.toStop].name;
           const what = li === 0 ? "Walk to " + esc(toN) : li === it.legs.length - 1 ? "Walk to your destination" : "Walk to " + esc(toN);
-          return '<li class="leg walk"><div class="bar"></div><div><div class="lt">' + what + '</div><div class="ld">' + fmtMin(l.min) + (li === 0 ? "" : ", from " + esc(fromN)) + "</div></div></li>";
+          const how = l.streetM !== undefined ? " (" + fmtDist(l.streetM) + " by street)" : "";
+          return '<li class="leg walk"><div class="bar"></div><div><div class="lt">' + what + '</div><div class="ld">' + fmtMin(l.min) + how + (li === 0 ? "" : ", from " + esc(fromN)) + "</div></div></li>";
         }
         const p = NET.pats[l.pat];
         const r = NET.routes[p.r];
@@ -508,12 +913,19 @@
   function matchPlaces(q) {
     q = q.trim().toLowerCase();
     if (q.length < 2) return [];
+    const nq = normName(q);
     const res = [];
     for (const p of NET.places) {
       const n = p.name.toLowerCase();
       const i = n.indexOf(q);
-      if (i < 0) continue;
-      const score = (i === 0 ? 0 : n[i - 1] === " " || n[i - 1] === "(" ? 1 : 2) * 1000 - p.modes.size * 20 - p.n + n.length;
+      let rank;
+      if (i >= 0) rank = i === 0 ? 0 : n[i - 1] === " " || n[i - 1] === "(" ? 1 : 2;
+      else if (nq.length >= 3) {
+        const j = p.norm.indexOf(nq);
+        if (j < 0) continue;
+        rank = j === 0 ? 0.5 : 2.5; // other spelling of the same name
+      } else continue;
+      const score = rank * 1000 - p.modes.size * 20 - p.n + n.length;
       res.push([score, p]);
     }
     res.sort((a, b) => a[0] - b[0]);
@@ -610,6 +1022,19 @@
       return p.name;
     },
     setModes(list) { activeModes.clear(); list.forEach((m) => activeModes.add(m)); renderChips(); },
+    setPoint(which, lat, lon, label) { setPoint(which, { lat, lon, label: label || "Test point" }); return true; },
+    select(i) { selIdx = i; renderResults(); drawItin(itineraries[selIdx]); },
+    geom() {
+      const it = itineraries[selIdx];
+      if (!it) return [];
+      return it.legs.map((l) => { const g = legGeom(l); return (l.type === "walk" ? "walk" : NET.pats[l.pat].mode) + ":" + g.src + ":" + g.pts.length; });
+    },
+    geomPts(li) { const it = itineraries[selIdx]; return it ? legGeom(it.legs[li]).pts.map((p) => [+p[0].toFixed(5), +p[1].toFixed(5)]) : []; },
+    base: () => baseName,
+    osrmRequests: () => osrmCount,
+    noWalk: () => [...NET.noWalk].map((s) => NET.stops[s].name),
+    tune(o) { if (o.walkReluctance !== undefined) WALK_RELUCTANCE = o.walkReluctance; if (o.detourFree !== undefined) DETOUR_FREE = o.detourFree; if (o.detourPerKm !== undefined) DETOUR_MIN_PER_KM = o.detourPerKm; return [WALK_RELUCTANCE, DETOUR_FREE, DETOUR_MIN_PER_KM]; },
+    scores: () => itineraries.map((it) => ({ total: Math.round(it.total), score: Math.round(scoreOf(it)), detour: Math.round(detourPenalty(it.legs)), pathKm: +(pathM(it.legs) / 1000).toFixed(1), sel: itineraries[selIdx] === it })),
     plan: runPlan,
     summary() {
       return itineraries.map((it) => ({

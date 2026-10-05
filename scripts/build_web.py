@@ -15,6 +15,21 @@ Modelling:
 - Headway: mean of headway_min_peak and headway_min_offpeak in data/{mode}/routes.csv. Blank for bus,
   minibus, auto: the build_gtfs defaults (15, 15, 10). Blank for rail: service span / trip count.
 - Never emits interpolated coordinates: every stop is a located GTFS stop.
+- Shapes (key "sh"): for metro and rail, each consecutive stop pair ("hop") of every pattern is routed
+  along OpenStreetMap track geometry from sources/raw/osm_rail_ways.json (made by
+  `scripts/osm_pbf_extract.py --rail-ways`): stops snap to the nearest track node of their mode's graph
+  (metro: subway and light_rail; rail: rail; every node within SNAP_SLACK_M of the nearest counts,
+  so either track of a double line can be used), shortest path between them (service track such as
+  sidings and yards costs SERVICE_COST times its length, so it is used only to bridge gaps), simplified (Douglas-Peucker,
+  SIMPLIFY_M) and stored as a Google encoded polyline under "i-j" (i < j, new stop indices, drawn i to j).
+  A hop is left out (the planner draws a straight line) when a stop is over SNAP_M from track or the
+  track path is more than DETOUR_MAX times the straight distance plus 1 km. Missing input file: no shapes.
+- Water barriers for walking, from sources/raw/osm_water.json (made by `scripts/osm_pbf_extract.py --water`):
+  "rv" the Hooghly centreline (simplified to RIVER_SIMPLIFY_M), "wc" named canals and smaller rivers at least
+  CANAL_MIN_KM long (simplified to CANAL_SIMPLIFY_M), all as encoded polylines, and "wb" the points where a
+  walkable OSM highway bridge crosses one of those canals ([lat, lon], merged within BRIDGE_MERGE_M). The
+  planner sends walks that cross a canal over the nearest such bridge and refuses walks across the Hooghly
+  except over its footway bridges. Missing input file: empty lists.
 
 Usage: venv/bin/python scripts/build_web.py
 """
@@ -44,6 +59,18 @@ MODE_COLOR = {
 DEFAULT_HEADWAY = {"bus": 15, "minibus": 15, "auto": 10}
 MAX_RAIL_VARIANTS = 3
 MODE_DIRS = ["bus", "metro", "rail", "auto", "ferry", "tram"]
+RAIL_WAYS = ROOT / "sources" / "raw" / "osm_rail_ways.json"
+SNAP_M = 800
+DETOUR_MAX = 2.0
+SIMPLIFY_M = 6
+SERVICE_COST = 3.0
+SNAP_SLACK_M = 120
+WATER = ROOT / "sources" / "raw" / "osm_water.json"
+RIVER_SIMPLIFY_M = 40
+CANAL_SIMPLIFY_M = 10
+CANAL_MIN_KM = 1.0
+CANAL_SKIP = {"Ganga River"}  # a duplicate piece of the Hooghly; its road bridges have no footway
+BRIDGE_MERGE_M = 40
 
 
 def read(path: Path) -> list[dict]:
@@ -247,6 +274,8 @@ def main() -> None:
         if a is not None and b is not None and t.get("min_transfer_time"):
             transfers.append([a, b, round(int(t["min_transfer_time"]) / 60, 1)])
 
+    shapes, shape_stats = build_shapes(out_routes, out_stops)
+
     net = {
         "meta": {
             "built": date.today().isoformat(),
@@ -256,17 +285,220 @@ def main() -> None:
             "mode_letters": {"b": "bus", "n": "minibus", "m": "metro", "r": "rail", "a": "auto", "f": "ferry", "t": "tram"},
             "pattern_fields": ["direction", "stop_indices", "cumulative_ride_min", "headway_override_min (optional)"],
             "colors": MODE_COLOR,
+            "water": "rv: Hooghly centreline pieces, wc: canals, as encoded polylines; wb: [lat, lon] walkable bridge crossings of the canals",
+            "shapes": "sh: {'i-j': Google encoded polyline (precision 5) from stop i to stop j, i < j}, metro and rail hops along OSM track",
         },
         "stops": out_stops,
         "routes": out_routes,
         "transfers": transfers,
+        "sh": shapes,
+        **water_barriers(),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(net, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
     by_mode = Counter(r["m"] for r in out_routes)
     print(f"wrote {OUT.relative_to(ROOT)}: {OUT.stat().st_size / 1024:.1f} KiB, {len(out_stops)} stops, "
           f"{len(out_routes)} routes ({dict(by_mode)}), {sum(len(r['p']) for r in out_routes)} patterns "
-          f"(rail variants {n_variants}), {len(transfers)} transfers")
+          f"(rail variants {n_variants}), {len(transfers)} transfers, shapes {shape_stats}")
+
+
+# ---------- metro and rail shapes from OSM track ----------
+def build_shapes(out_routes: list[dict], out_stops: list[list]) -> tuple[dict[str, str], str]:
+    import heapq
+    if not RAIL_WAYS.exists():
+        return {}, "skipped (no sources/raw/osm_rail_ways.json)"
+    els = json.loads(RAIL_WAYS.read_text(encoding="utf-8"))["elements"]
+    coord = {e["id"]: (e["lat"], e["lon"]) for e in els if e["type"] == "node"}
+    graphs: dict[str, dict[int, list[tuple[int, float]]]] = {"metro": defaultdict(list), "rail": defaultdict(list)}
+    for w in els:
+        if w["type"] != "way":
+            continue
+        g = graphs["metro" if w["tags"].get("railway") in ("subway", "light_rail") else "rail"]
+        cost = SERVICE_COST if w["tags"].get("service") else 1.0  # sidings and yards only when needed
+        for a, b in zip(w["nodes"], w["nodes"][1:]):
+            d = haversine(*coord[a], *coord[b]) * 1000 * cost
+            g[a].append((b, d))
+            g[b].append((a, d))
+    # grid for snapping
+    grids: dict[str, dict[tuple[int, int], list[int]]] = {}
+    for m, g in graphs.items():
+        gr: dict[tuple[int, int], list[int]] = defaultdict(list)
+        for n in g:
+            la, lo = coord[n]
+            gr[(int(la * 200), int(lo * 200))].append(n)  # ~550 m cells
+        grids[m] = gr
+
+    def snap(m: str, lat: float, lon: float) -> list[int]:
+        """Every track node within SNAP_SLACK_M of the nearest one, so both tracks of a double line count."""
+        gr = grids[m]
+        ci, cj = int(lat * 200), int(lon * 200)
+        cands = []
+        for i in range(ci - 2, ci + 3):
+            for j in range(cj - 2, cj + 3):
+                for n in gr.get((i, j), ()):
+                    d = haversine(lat, lon, *coord[n]) * 1000
+                    if d <= SNAP_M:
+                        cands.append((d, n))
+        if not cands:
+            return []
+        best = min(cands)[0]
+        return [n for d, n in cands if d <= best + SNAP_SLACK_M]
+
+    def path(m: str, srcs: list[int], dsts: list[int], limit: float) -> list[int] | None:
+        g = graphs[m]
+        targets = set(dsts)
+        dist = {a: 0.0 for a in srcs}
+        prev: dict[int, int] = {}
+        pq = [(0.0, a) for a in srcs]
+        heapq.heapify(pq)
+        while pq:
+            d, u = heapq.heappop(pq)
+            if u in targets:
+                out = [u]
+                while out[-1] in prev:
+                    out.append(prev[out[-1]])
+                return out[::-1]
+            if d > dist.get(u, 1e18) or d > limit:
+                continue
+            for v, w in g[u]:
+                nd = d + w
+                if nd < dist.get(v, 1e18):
+                    dist[v] = nd
+                    prev[v] = u
+                    heapq.heappush(pq, (nd, v))
+        return None
+
+    shapes: dict[str, str] = {}
+    failed = 0
+    seen: set[tuple[int, int]] = set()
+    for rt in out_routes:
+        m = rt["m"]
+        if m not in graphs:
+            continue
+        for p in rt["p"]:
+            for i, j in zip(p[1], p[1][1:]):
+                key = (min(i, j), max(i, j))
+                if key in seen:
+                    continue
+                seen.add(key)
+                a, b = out_stops[key[0]], out_stops[key[1]]
+                straight = haversine(a[2], a[3], b[2], b[3]) * 1000
+                na, nb = snap(m, a[2], a[3]), snap(m, b[2], b[3])
+                if not na or not nb or set(na) & set(nb):
+                    failed += 1
+                    continue
+                limit = (straight * DETOUR_MAX + 1000) * SERVICE_COST
+                nodes = path(m, na, nb, limit)
+                if nodes:
+                    real = sum(haversine(*coord[x], *coord[y]) for x, y in zip(nodes, nodes[1:])) * 1000
+                    if real > straight * DETOUR_MAX + 1000:
+                        nodes = None
+                if not nodes:
+                    failed += 1
+                    continue
+                pts = [(a[2], a[3])] + [coord[n] for n in nodes] + [(b[2], b[3])]
+                shapes[f"{key[0]}-{key[1]}"] = encode_polyline(simplify(pts, SIMPLIFY_M))
+    return shapes, f"{len(shapes)} hops on track, {failed} straight"
+
+
+def water_barriers() -> dict:
+    if not WATER.exists():
+        return {"rv": [], "wc": [], "wb": []}
+    els = json.loads(WATER.read_text(encoding="utf-8"))["elements"]
+    coord = {e["id"]: (e["lat"], e["lon"]) for e in els if e["type"] == "node"}
+    ways = [w for w in els if w["type"] == "way"]
+    line = lambda w: [coord[n] for n in w["nodes"]]
+    rv = [encode_polyline(simplify(line(w), RIVER_SIMPLIFY_M)) for w in ways if w["tags"]["kind"] == "river"]
+    length: dict[str, float] = defaultdict(float)
+    for w in ways:
+        if w["tags"]["kind"] == "canal":
+            p = line(w)
+            length[w["tags"]["name"]] += sum(haversine(*a, *b) for a, b in zip(p, p[1:]))
+    canals = [line(w) for w in ways if w["tags"]["kind"] == "canal" and w["tags"]["name"] not in CANAL_SKIP
+              and "enclosure" not in w["tags"]["name"].lower() and length[w["tags"]["name"]] >= CANAL_MIN_KM]
+    # canal segment grid (~1 km cells) to find bridge crossings
+    grid: dict[tuple[int, int], list] = defaultdict(list)
+    for p in canals:
+        for a, b in zip(p, p[1:]):
+            for i in range(int(min(a[0], b[0]) * 100), int(max(a[0], b[0]) * 100) + 1):
+                for j in range(int(min(a[1], b[1]) * 100), int(max(a[1], b[1]) * 100) + 1):
+                    grid[(i, j)].append((a, b))
+    pts: list[tuple[float, float]] = []
+    for w in ways:
+        if w["tags"]["kind"] != "bridge":
+            continue
+        p = line(w)
+        for a, b in zip(p, p[1:]):
+            cand = set()
+            for i in range(int(min(a[0], b[0]) * 100), int(max(a[0], b[0]) * 100) + 1):
+                for j in range(int(min(a[1], b[1]) * 100), int(max(a[1], b[1]) * 100) + 1):
+                    cand.update(grid.get((i, j), ()))
+            for c, d in cand:
+                x = seg_cross(a, b, c, d)
+                if x and all(haversine(*x, *q) * 1000 > BRIDGE_MERGE_M for q in pts):
+                    pts.append(x)
+    wc = [encode_polyline(simplify(p, CANAL_SIMPLIFY_M)) for p in canals]
+    return {"rv": rv, "wc": wc, "wb": [[round(a, 5), round(b, 5)] for a, b in pts]}
+
+
+def seg_cross(a, b, c, d):
+    """Intersection point of segments a-b and c-d (lat, lon pairs), or None."""
+    rx, ry = b[1] - a[1], b[0] - a[0]
+    sx, sy = d[1] - c[1], d[0] - c[0]
+    den = rx * sy - ry * sx
+    if den == 0:
+        return None
+    t = ((c[1] - a[1]) * sy - (c[0] - a[0]) * sx) / den
+    u = ((c[1] - a[1]) * ry - (c[0] - a[0]) * rx) / den
+    if 0 <= t <= 1 and 0 <= u <= 1:
+        return (a[0] + t * ry, a[1] + t * rx)
+    return None
+
+
+def simplify(pts: list[tuple[float, float]], tol_m: float) -> list[tuple[float, float]]:
+    """Douglas-Peucker in a local metric projection."""
+    from math import cos, radians
+    if len(pts) < 3:
+        return pts
+    k = cos(radians(pts[0][0]))
+    xy = [(lo * 111320 * k, la * 110540) for la, lo in pts]
+    keep = [False] * len(pts)
+    keep[0] = keep[-1] = True
+    stack = [(0, len(pts) - 1)]
+    while stack:
+        s0, e0 = stack.pop()
+        (x1, y1), (x2, y2) = xy[s0], xy[e0]
+        dx, dy = x2 - x1, y2 - y1
+        L2 = dx * dx + dy * dy
+        best, bi = -1.0, -1
+        for i in range(s0 + 1, e0):
+            px, py = xy[i]
+            if L2 == 0:
+                d = ((px - x1) ** 2 + (py - y1) ** 2) ** 0.5
+            else:
+                t = max(0.0, min(1.0, ((px - x1) * dx + (py - y1) * dy) / L2))
+                d = ((px - x1 - t * dx) ** 2 + (py - y1 - t * dy) ** 2) ** 0.5
+            if d > best:
+                best, bi = d, i
+        if best > tol_m:
+            keep[bi] = True
+            stack += [(s0, bi), (bi, e0)]
+    return [p for p, k2 in zip(pts, keep) if k2]
+
+
+def encode_polyline(pts: list[tuple[float, float]]) -> str:
+    out = []
+    plat = plon = 0
+    for lat, lon in pts:
+        ilat, ilon = round(lat * 1e5), round(lon * 1e5)
+        for v in (ilat - plat, ilon - plon):
+            v = ~(v << 1) if v < 0 else v << 1
+            while v >= 0x20:
+                out.append(chr((0x20 | (v & 0x1F)) + 63))
+                v >>= 5
+            out.append(chr(v + 63))
+        plat, plon = ilat, ilon
+    return "".join(out)
 
 
 def haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:

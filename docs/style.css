@@ -129,7 +129,14 @@ input[type=text]:focus { outline: 2px solid var(--accent); outline-offset: 0; bo
 .caveats p { margin: 0; }
 .foot { padding: 4px 16px 18px; color: var(--muted); font-size: .76rem; }
 
-.leaflet-container { font: inherit; background: #ddd; }
+.leaflet-container { font: inherit; background: #e8e6e1; }
+@media (prefers-color-scheme: dark) {
+  .leaflet-container { background: #2a2c31; }
+  .leaflet-control-layers, .leaflet-bar a { background: #1f2126; color: #ececec; border-color: #34373d; }
+  .leaflet-control-layers-toggle { filter: invert(1) hue-rotate(180deg); }
+  .leaflet-control-attribution { background: rgba(31,33,38,.8) !important; color: #c8ccd2; }
+  .leaflet-control-attribution a { color: #f0a080; }
+}
 .map-pop button { display: block; width: 100%; margin: 4px 0; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; background: #fff; cursor: pointer; font: inherit; font-size: .85rem; }
 .map-pop button:hover { border-color: #b5371b; color: #b5371b; }
 .pin { width: 18px; height: 18px; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.5); }

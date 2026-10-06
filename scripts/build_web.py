@@ -31,12 +31,23 @@ Modelling:
   planner sends walks that cross a canal over the nearest such bridge and refuses walks across the Hooghly
   except over its footway bridges. Missing input file: empty lists.
 
-Usage: venv/bin/python scripts/build_web.py
+- Place search index docs/data/places.json (build_places): named places for the planner's From/To search, from
+  sources/raw/osm_places_index.json (`scripts/osm_pbf_extract.py --places`, falls back to the bus gazetteer
+  osm_gazetteer.json), GeoNames (geonames_IN.txt, CC BY 4.0) and Wikidata (wikidata_places.json, CC0). Each place
+  gets a type label (PLACE_TYPES) and a rank (localities and big landmarks high). Same spelling key (norm_key,
+  as normName in app.js) close by is merged (alt names kept, Wikidata presence raises the rank); a place whose
+  name matches a transit stop close by is left out, the stop covers it. Kept: everything inside CORE_BBOX,
+  outside it only places within PLACE_MAX_STOP_KM of a mapped stop. Each row names its nearest locality as an
+  area hint. Rows: [name, lat, lon, type, rank, area row or -1, "alt|names"].
+
+Usage: venv/bin/python scripts/build_web.py            (network.json, then places.json)
+       venv/bin/python scripts/build_web.py --places   (places.json only, from the current network.json)
 """
 from __future__ import annotations
 
 import csv
 import json
+import re
 import statistics
 from collections import Counter, defaultdict
 from datetime import date
@@ -508,5 +519,369 @@ def haversine(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     return 2 * 6371 * asin(sqrt(a))
 
 
+# ---------- place search index (docs/data/places.json) ----------
+PLACES_OUT = ROOT / "docs" / "data" / "places.json"
+PLACES_RAW = ROOT / "sources" / "raw" / "osm_places_index.json"   # scripts/osm_pbf_extract.py --places
+GAZETTEER = ROOT / "sources" / "raw" / "bus" / "osm_gazetteer.json"  # fallback when PLACES_RAW is missing
+WIKIDATA = ROOT / "sources" / "raw" / "bus" / "wikidata_places.json"
+GEONAMES = ROOT / "sources" / "raw" / "bus" / "geonames_IN.txt"
+CORE_BBOX = (22.3, 88.0, 23.1, 88.7)  # S, W, N, E: everything named is kept in here
+PLACE_MAX_STOP_KM = 4.0                # outside CORE_BBOX: only places this close to a mapped stop
+PLACE_TYPES = ["Area", "Town", "Village", "Block", "Airport", "Hospital", "Clinic", "University", "College", "School",
+               "Temple", "Mosque", "Church", "Gurdwara", "Place of worship", "Park", "Mall", "Market", "Stadium",
+               "Landmark", "Museum", "Cinema", "Office", "IT park", "Housing", "Building", "Station", "Bus stop",
+               "Street", "Crossing", "Hotel", "Restaurant", "Police station", "Post office", "Government office",
+               "Ghat", "Lake", "Bridge", "Place", "Cemetery", "Bus terminus"]
+T = {t: i for i, t in enumerate(PLACE_TYPES)}
+LOCALITY_TYPES = {"Area", "Town", "Village", "Block"}
+ACRONYM_TYPES = {"University", "College", "Hospital", "Landmark", "Museum", "Stadium", "IT park", "Government office", "Airport"}
+RELIGION_TYPE = {"hindu": "Temple", "jain": "Temple", "buddhist": "Temple", "muslim": "Mosque", "christian": "Church", "sikh": "Gurdwara"}
+IT_PARK = re.compile(r"\b(tech ?park|it park|infospace|infinity|techpolis|tech ?city|software|ecospace|eco space|"
+                     r"bengal intelligent|dlf|candor|unitech|webel|tcs|wipro|infosys|cognizant|accenture|ibm|godrej waterside)\b", re.I)
+ROMAN = re.compile(r"\b(i{1,3}|iv|v|vi{0,3}|ix|x)\b", re.I)
+
+
+STATION_SUFFIX = re.compile(r"\s+(railway station|metro station|station|rail station|junction railway station)$", re.I)
+
+
+def norm_key(s: str) -> str:
+    """Same idea as normName in docs/app.js: spelling-tolerant key for dedupe."""
+    s = STATION_SUFFIX.sub("", s.lower())
+    s = re.sub(r"[^a-z0-9]", "", s)
+    s = re.sub(r"([bcdgkpst])h", r"\1", s).replace("v", "b").replace("w", "b").replace("f", "p")
+    s = s.replace("ee", "i").replace("oo", "u").replace("a", "o")
+    return re.sub(r"(.)\1+", r"\1", s)
+
+
+def classify(kind: str, ex: dict, name: str) -> tuple[str, int] | None:
+    """(type label, rank 0..9) for an OSM row, or None to leave it out."""
+    k, _, v = kind.partition("=")
+    span = ex.get("span", 0)
+    if k == "place":
+        return {"city": ("Town", 9), "town": ("Town", 9), "suburb": ("Area", 8), "quarter": ("Area", 7),
+                "neighbourhood": ("Area", 7), "city_block": ("Block", 6), "village": ("Village", 5),
+                "hamlet": ("Village", 3), "locality": ("Area", 4), "isolated_dwelling": ("Place", 2),
+                "square": ("Landmark", 5), "island": ("Place", 4)}.get(v)
+    if k == "highway":
+        if v == "bus_stop":
+            return ("Bus stop", 3)
+        L = ex.get("len", 0)
+        base = {"motorway": 6, "trunk": 6, "primary": 6, "secondary": 5, "tertiary": 4}.get(v, 3)
+        return ("Bridge", 6) if re.search(r"\b(setu|bridge)\b", name, re.I) else ("Street", base + (L > 2000))
+    if kind == "junction=yes":
+        return ("Crossing", 6)
+    if k == "aeroway":
+        return ("Airport", 9) if v == "aerodrome" else None
+    if k in ("railway", "public_transport"):
+        if v in ("station", "halt"):
+            return ("Station", 5)
+        if v in ("stop", "platform", "tram_stop", "stop_position"):
+            return ("Bus stop", 2)
+        return None  # subway entrances, crossings
+    if k == "amenity" or k == "healthcare":
+        if v in ("hospital",):
+            return ("Hospital", 7 if span > 80 or k == "amenity" else 6)
+        if v in ("clinic", "centre", "nursing_home", "blood_bank", "laboratory", "sample_collection", "doctor"):
+            return ("Clinic", 3)
+        if v == "university":
+            return ("University", 7)
+        if v == "college":
+            return ("College", 6)
+        if v in ("school", "kindergarten"):
+            return ("School", 4 if span > 60 else 3)
+        if v == "place_of_worship":
+            return (RELIGION_TYPE.get(ex.get("religion", ""), "Place of worship"), 6 if span > 100 else 4)
+        if v == "marketplace":
+            return ("Market", 6)
+        if v in ("cinema", "theatre", "arts_centre"):
+            return ("Cinema" if v == "cinema" else "Landmark", 5)
+        if v in ("conference_centre", "exhibition_centre", "events_venue", "community_centre", "library"):
+            return ("Landmark", 5 if span > 100 else 4)
+        if v == "police":
+            return ("Police station", 4)
+        if v == "post_office":
+            return ("Post office", 3)
+        if v in ("townhall", "courthouse", "public_building"):
+            return ("Government office", 5)
+        if v == "bus_station":
+            return ("Bus terminus", 5)
+        if v == "ferry_terminal":
+            return ("Ghat", 5)
+        if v == "restaurant":
+            return ("Restaurant", 2)
+        if v in ("bank",):
+            return ("Office", 2)
+        if v in ("grave_yard", "crematorium"):
+            return ("Cemetery", 4)
+        if v in ("ticket_validator", "bench", "shelter"):
+            return None
+        return ("Landmark", 3)
+    if k == "shop":
+        return ("Mall", 7) if v in ("mall", "department_store") else ("Market", 4)
+    if k == "tourism":
+        if v in ("attraction", "zoo", "theme_park", "viewpoint"):
+            return ("Landmark", 7)
+        if v in ("museum", "gallery"):
+            return ("Museum", 7)
+        if v in ("hotel", "hostel", "guest_house", "motel"):
+            return ("Hotel", 2)
+        if v == "apartment":
+            return ("Housing", 3)
+        if v in ("artwork", "information", "picnic_site", "camp_site"):
+            return None
+        return ("Landmark", 3)
+    if k == "leisure":
+        if v in ("stadium", "sports_centre") and span > 80:
+            return ("Stadium", 7 if v == "stadium" else 5)
+        if v in ("park", "garden", "nature_reserve", "water_park", "golf_course"):
+            return ("Park", 6 if span > 400 else 4 if span > 100 else 3)
+        if v in ("playground", "pitch", "fitness_centre", "swimming_pool", "track", "fitness_station"):
+            return ("Park", 2) if span > 100 else None
+        return ("Landmark", 3)
+    if k == "historic":
+        return ("Landmark", 6 if span > 50 else 4) if v not in ("city_gate", "milestone", "boundary_stone") else None
+    if k == "office":
+        return ("IT park", 6) if IT_PARK.search(name) else ("Government office" if v == "government" else "Office", 4 if span > 60 else 3)
+    if k == "landuse":
+        if v == "residential":
+            return ("Housing", 4)
+        if v in ("retail",):
+            return ("Market", 5)
+        if v in ("commercial",):
+            return ("IT park", 6) if IT_PARK.search(name) else ("Office", 4)
+        if v == "religious":
+            return ("Temple", 5)
+        if v == "cemetery":
+            return ("Cemetery", 4)
+        if v in ("recreation_ground", "village_green"):
+            return ("Park", 4)
+        if v in ("industrial", "railway", "military"):
+            return ("Landmark", 3)
+        return None
+    if k == "building":
+        if v in ("apartments", "residential", "house", "dormitory"):
+            return ("Housing", 3 if span > 40 else 2)
+        if v in ("hospital",):
+            return ("Hospital", 5)
+        if v in ("school",):
+            return ("School", 3)
+        if v in ("college", "university"):
+            return ("College", 5)
+        if v in ("temple", "mosque", "church", "religious", "chapel", "shrine"):
+            return ({"mosque": "Mosque", "church": "Church", "chapel": "Church"}.get(v, "Temple"), 4)
+        if v in ("commercial", "office", "retail"):
+            return ("IT park", 6) if IT_PARK.search(name) else ("Office", 3)
+        if v in ("train_station", "transportation"):
+            return None
+        return ("Building", 3 if span > 40 else 2)
+    if k == "man_made":
+        return ("Bridge", 5) if v == "bridge" and span > 100 else None
+    if k == "bridge":
+        return ("Bridge", 5)
+    if k == "natural":
+        return ("Lake", 4) if v in ("water",) else None
+    return None
+
+
+GN_CODES = {"PPL": ("Area", 6), "PPLX": ("Area", 7), "PPLA": ("Town", 9), "PPLA2": ("Town", 8), "PPLA3": ("Town", 8),
+            "PPLL": ("Village", 4), "UNIV": ("University", 7), "AIRP": ("Airport", 9), "SHRN": ("Temple", 6),
+            "TMPL": ("Temple", 6), "CH": ("Church", 5), "MSQE": ("Mosque", 5), "GHAT": ("Ghat", 5),
+            "HSP": ("Hospital", 6), "SCH": ("School", 4), "MALL": ("Mall", 7), "MKT": ("Market", 6), "PRK": ("Park", 5),
+            "BLDG": ("Building", 3), "STDM": ("Stadium", 7), "MUS": ("Museum", 7), "FT": ("Landmark", 5),
+            "CMTY": ("Cemetery", 4), "MNMT": ("Landmark", 6), "BDG": ("Bridge", 6)}
+WD_TYPE = [(re.compile(r"\b(ssk|msk|f\.? ?p\.?|primary|school|vidyalaya|vidyapith|sishu|shishu|high sc|sc$|madrasah|academy)\b|school$", re.I), "School", 2),
+           (re.compile(r"\b(hospital|sub-?centre|health|phc|clinic|nursing)\b", re.I), "Clinic", 3),
+           (re.compile(r"\b(hotel|oyo|lodge|guest ?house|resort)\b", re.I), "Hotel", 1),
+           (re.compile(r"\b(college|mahavidyalaya|institute)\b", re.I), "College", 5),
+           (re.compile(r"\buniversity\b", re.I), "University", 7),
+           (re.compile(r"\b(temple|mandir|kali|math|masjid|mosque|church|cathedral)\b", re.I), "Temple", 5),
+           (re.compile(r"\b(park|garden|udyan)\b", re.I), "Park", 4),
+           (re.compile(r"\b(station|halt)\b", re.I), "Station", 4),
+           (re.compile(r"\b(kmcp|road|lane|sarani|street|avenue)\b", re.I), None, 0)]
+
+
+def build_places() -> None:
+    from math import cos, radians
+    net = json.loads(OUT.read_text(encoding="utf-8"))
+    stops = net["stops"]
+    # stop grid (~1.1 km cells) for distance to the nearest stop and for dedupe against stop names
+    sgrid: dict[tuple[int, int], list] = defaultdict(list)
+    for s in stops:
+        sgrid[(int(s[2] * 100), int(s[3] * 100))].append(s)
+
+    def near_stop_km(lat: float, lon: float, r_cells: int = 4) -> float:
+        ci, cj = int(lat * 100), int(lon * 100)
+        best = 99.0
+        for i in range(ci - r_cells, ci + r_cells + 1):
+            for j in range(cj - r_cells, cj + r_cells + 1):
+                for s in sgrid.get((i, j), ()):
+                    best = min(best, haversine(lat, lon, s[2], s[3]))
+        return best
+
+    stop_norm: dict[str, list] = defaultdict(list)
+    for s in stops:
+        stop_norm[norm_key(s[1])].append((s[2], s[3]))
+    S, W, N, E = CORE_BBOX
+    in_core = lambda la, lo: S <= la <= N and W <= lo <= E
+
+    def keep_region(la: float, lo: float) -> bool:
+        return in_core(la, lo) or near_stop_km(la, lo) <= PLACE_MAX_STOP_KM
+
+    cands: list[dict] = []  # {name, alts, lat, lon, type, rank, src}
+    stats = Counter()
+
+    def add(name: str, alts: list[str], la: float, lo: float, typ: str, rank: int, src: str) -> None:
+        name = " ".join(name.split())
+        if len(name) < 2 or not re.search(r"[A-Za-z]", name):
+            return
+        if not keep_region(la, lo):
+            stats["outside_region"] += 1
+            return
+        alts = [a for a in dict.fromkeys(" ".join(x.split()) for x in alts) if a and a.lower() != name.lower() and re.search(r"[A-Za-z]", a)]
+        cands.append({"name": name, "alts": alts, "lat": la, "lon": lo, "type": typ, "rank": rank, "src": src})
+        stats[src] += 1
+
+    # OpenStreetMap
+    if PLACES_RAW.exists():
+        rows = json.loads(PLACES_RAW.read_text(encoding="utf-8"))["rows"]
+    else:  # older gazetteer: same row shape minus the extras
+        rows = [[r[0], r[1], r[3], r[4], {}] for r in json.loads(GAZETTEER.read_text(encoding="utf-8"))["elements"]]
+    for la, lo, kind, nm, ex in rows:
+        en = nm.get("name:en") or nm.get("int_name")
+        base = nm.get("name", "")
+        name = base if re.search(r"[A-Za-z]", base) else (en or "")
+        if not name:
+            continue
+        c = classify(kind, ex, name)
+        if not c:
+            continue
+        alts = [nm[k] for k in ("name:en", "alt_name", "alt_name:en", "old_name", "old_name:en", "official_name",
+                                "official_name:en", "short_name", "loc_name", "int_name") if k in nm]
+        alts = [a for x in alts for a in x.split(";")]
+        add(name, alts, la, lo, c[0], c[1], "osm")
+    # GeoNames (CC BY 4.0)
+    S2, W2, N2, E2 = 21.5, 87.4, 23.6, 89.1
+    with GEONAMES.open(encoding="utf-8") as f:
+        for line in f:
+            p = line.rstrip("\n").split("\t")
+            la, lo = float(p[4]), float(p[5])
+            if not (S2 <= la <= N2 and W2 <= lo <= E2):
+                continue
+            c = GN_CODES.get(p[7])
+            if not c:
+                continue
+            alts = [a for a in p[3].split(",") if a.isascii() and 2 < len(a) < 40][:6]
+            add(p[2] or p[1], [p[1]] + alts, la, lo, c[0], c[1], "geonames")
+    # Wikidata (CC0)
+    wd = json.loads(WIKIDATA.read_text(encoding="utf-8"))
+    for tile in wd["tiles"].values():
+        for la, lo, _q, nm in tile:
+            name = nm.get("en")
+            if not name:
+                continue
+            typ, rank = "Place", 4
+            for rx, t, r in WD_TYPE:
+                if rx.search(name):
+                    typ, rank = t, r
+                    break
+            notable = bool(nm.get("bn") or nm.get("alias"))
+            # standalone Wikidata items are mostly census villages and school or hotel listings with clipped
+            # names; keep only notable ones (a Bengali label or an alias), never schools, hotels, clinics or
+            # stations (stations are transit stops already). They still lend aliases to OSM places (dedupe below).
+            if typ is None or typ in ("School", "Hotel", "Clinic", "Station"):
+                continue
+            if not notable:
+                continue
+            add(name, nm.get("alias", [])[:6], la, lo, typ, rank + (1 if notable and typ == "Place" else 0), "wikidata")
+
+    # dedupe: same spelling key (of the name or any alt name) close by. Localities and streets merge over DEDUPE_FAR_M, the rest over DEDUPE_M.
+    DEDUPE_M, DEDUPE_FAR_M = 300, 1500
+    cands.sort(key=lambda c: (-c["rank"], {"osm": 0, "geonames": 1, "wikidata": 2}[c["src"]]))
+    kept: list[dict] = []
+    by_key: dict[str, list[dict]] = defaultdict(list)
+    for c in cands:
+        keys = list(dict.fromkeys([norm_key(c["name"])] + [norm_key(a) for a in c["alts"]]))  # GeoNames Taliganja = Tollygunge
+        far = c["type"] in LOCALITY_TYPES or c["type"] in ("Street", "Place", "Station")
+        dup = None
+        for k in keys:
+            for o in by_key.get(k, ()):
+                lim = DEDUPE_FAR_M if (far or o["type"] in LOCALITY_TYPES or o["type"] in ("Street", "Place")) else DEDUPE_M
+                if haversine(c["lat"], c["lon"], o["lat"], o["lon"]) * 1000 <= lim:
+                    dup = o
+                    break
+            if dup:
+                break
+        if dup:
+            for a in [c["name"]] + c["alts"]:
+                if a.lower() != dup["name"].lower() and a not in dup["alts"]:
+                    dup["alts"].append(a)
+            if c["src"] == "wikidata" and dup["src"] != "wikidata":
+                dup["wd"] = True
+            stats["merged"] += 1
+            continue
+        # a transit stop of the same name close by already covers it in the search
+        nk = norm_key(c["name"])
+        if any(haversine(c["lat"], c["lon"], a, b) * 1000 <= (1200 if far else 500) for a, b in stop_norm.get(nk, ())):
+            stats["same_as_stop"] += 1
+            continue
+        kept.append(c)
+        for k in keys:
+            by_key[k].append(c)
+    for c in kept:
+        if c.pop("wd", False):
+            c["rank"] = min(9, c["rank"] + 1)
+        # acronym alias for long names: Indian Institute of Management Calcutta -> IIMC
+        words = [w for w in re.split(r"[^A-Za-z]+", c["name"]) if w and w.lower() not in ("of", "and", "the", "for", "&")]
+        if 3 <= len(words) <= 7 and c["type"] in ACRONYM_TYPES and c["rank"] >= 5:
+            acr = "".join(w[0] for w in words).upper()
+            if acr not in c["alts"]:
+                c["alts"].append(acr)
+        c["alts"] = [a for a in c["alts"] if norm_key(a) != norm_key(c["name"])][:5]
+
+    # area hint: nearest suburb or town (OSM place=suburb, town, city) centre within AREA_HINT_KM
+    AREA_HINT_KM = 3.0
+    kept.sort(key=lambda c: (c["type"] not in LOCALITY_TYPES, -c["rank"], c["name"].lower()))
+    locs = [(i, c) for i, c in enumerate(kept) if c["type"] in ("Area", "Town") and c["rank"] >= 8 and c["src"] == "osm"]  # suburbs and towns
+    lgrid: dict[tuple[int, int], list] = defaultdict(list)
+    for i, c in locs:
+        lgrid[(int(c["lat"] * 50), int(c["lon"] * 50))].append(i)
+    out_rows = []
+    for idx, c in enumerate(kept):
+        ci, cj = int(c["lat"] * 50), int(c["lon"] * 50)
+        best, bi = AREA_HINT_KM, -1
+        for i in range(ci - 2, ci + 3):
+            for j in range(cj - 2, cj + 3):
+                for li in lgrid.get((i, j), ()):
+                    if li == idx or norm_key(kept[li]["name"]) in norm_key(c["name"]):
+                        continue
+                    d = haversine(c["lat"], c["lon"], kept[li]["lat"], kept[li]["lon"])
+                    # a town only counts as the hint when no area of the town is close
+                    d *= 1.6 if kept[li]["type"] == "Town" else 1.0
+                    if d < best:
+                        best, bi = d, li
+        row = [c["name"], round(c["lat"], 5), round(c["lon"], 5), T[c["type"]], c["rank"], bi]
+        if c["alts"]:
+            row.append("|".join(c["alts"]))
+        out_rows.append(row)
+    doc = {
+        "meta": {
+            "built": date.today().isoformat(),
+            "licence": "ODbL 1.0: (c) OpenStreetMap contributors; GeoNames (geonames.org) CC BY 4.0; Wikidata CC0",
+            "fields": ["name", "lat", "lon", "type index", "rank 0-9 (higher first)", "area hint row index or -1", "alt names joined by | (optional)"],
+            "types": PLACE_TYPES,
+        },
+        "p": out_rows,
+    }
+    PLACES_OUT.write_text(json.dumps(doc, separators=(",", ":"), ensure_ascii=False), encoding="utf-8")
+    import gzip
+    raw = PLACES_OUT.read_bytes()
+    by_type = Counter(PLACE_TYPES[r[3]] for r in out_rows)
+    print(f"wrote {PLACES_OUT.relative_to(ROOT)}: {len(raw) / 1024:.1f} KiB raw, {len(gzip.compress(raw, 9)) / 1024:.1f} KiB gzip, "
+          f"{len(out_rows)} places; sources {dict(stats)}; by type {dict(by_type.most_common())}")
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    if "--places" not in sys.argv:
+        main()
+    build_places()

@@ -33,14 +33,15 @@ Fares and passes for every mode are in `data/fares/` (distance slabs are not yet
 
 ## Trip planner (POC)
 
-A proof-of-concept trip planner runs on GitHub Pages at https://arkodeepg.github.io/calcutta-transport/ (served from `docs/`). Pick a start and destination, choose any mix of modes, and it routes in your browser over `docs/data/network.json`, on an OpenStreetMap-based map. No server of its own and no API keys; place search uses OpenStreetMap Nominatim on demand. Bus, minibus and auto times are estimates, see Known gaps.
+A proof-of-concept trip planner runs on GitHub Pages at https://arkodeepg.github.io/calcutta-transport/ (served from `docs/`). Pick a start and destination, choose any mix of modes, and it routes in your browser over `docs/data/network.json`, on an OpenStreetMap-based map. No server of its own and no API keys. From and To search a local list as you type: every stop plus about 18,000 named places (areas, landmarks, hospitals, colleges, temples, malls, markets, offices, housing, streets) in `docs/data/places.json`, loaded after the page has drawn, from OpenStreetMap, GeoNames and Wikidata. When that list finds little, the page asks Photon (komoot) online, and "Search more places online" asks OpenStreetMap Nominatim. A place with no mapped stop within 1.5 km gets walks of up to 3 km, with a note; beyond that the planner says how far the nearest stop is. Bus, minibus and auto times are estimates, see Known gaps.
 
-Regenerate the network after rebuilding the GTFS feed. Metro and train lines are drawn along OpenStreetMap track, so extract the track and the water barriers for walking (Hooghly, canals, road bridges) from the Geofabrik extract first (once per OSM refresh):
+Regenerate the network after rebuilding the GTFS feed. Metro and train lines are drawn along OpenStreetMap track, so extract the track, the water barriers for walking (Hooghly, canals, road bridges) and the named places for search from the Geofabrik extract first (once per OSM refresh):
 
 ```
 venv/bin/python scripts/osm_pbf_extract.py --rail-ways sources/raw/bus/eastern-zone-latest.osm.pbf sources/raw/osm_rail_ways.json
 venv/bin/python scripts/osm_pbf_extract.py --water sources/raw/bus/eastern-zone-latest.osm.pbf sources/raw/osm_water.json
-venv/bin/python scripts/build_web.py
+venv/bin/python scripts/osm_pbf_extract.py --places sources/raw/bus/eastern-zone-latest.osm.pbf sources/raw/osm_places_index.json
+venv/bin/python scripts/build_web.py            # network.json, then places.json (--places: places.json only)
 ```
 
 Walks, buses, minibuses, autos and trams are drawn on streets at view time, for the selected option only, by the FOSSGIS OSRM service at routing.openstreetmap.de (one request at a time, at least 1.1 s apart, cached; straight lines if it cannot be reached). The base map is OpenFreeMap (Positron, Dark in dark mode, Liberty as "Detailed") through MapLibre GL, with OpenStreetMap Standard tiles in the layer switcher and as the fallback without WebGL.

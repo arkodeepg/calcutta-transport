@@ -4,11 +4,11 @@ This dataset is compiled from public information published by the people and org
 
 ## Maps, coordinates and place names
 
-- **OpenStreetMap contributors**: stop and station coordinates, route lines and stop order checks, ferry crossings, bus route relations. © OpenStreetMap contributors, [ODbL 1.0](https://www.openstreetmap.org/copyright). Accessed through the [Overpass API](https://overpass-api.de/), [Nominatim](https://nominatim.org/) and the [Geofabrik](https://download.geofabrik.de/) regional extract.
-- **Photon** by [komoot](https://photon.komoot.io/) (OpenStreetMap data, ODbL): queried as a last-resort geocoder for auto stops; no coordinate in the current data comes from it.
+- **OpenStreetMap contributors**: stop and station coordinates, route lines and stop order checks, ferry crossings, bus route relations, and most of the trip planner's place search list (areas, landmarks, streets). © OpenStreetMap contributors, [ODbL 1.0](https://www.openstreetmap.org/copyright). Accessed through the [Overpass API](https://overpass-api.de/), [Nominatim](https://nominatim.org/) and the [Geofabrik](https://download.geofabrik.de/) regional extract.
+- **Photon** by [komoot](https://photon.komoot.io/) (OpenStreetMap data, ODbL): queried as a last-resort geocoder for auto stops (no coordinate in the current data comes from it), and live by the trip planner as an online fallback for place search.
 - **Trip planner map services** (not data sources): base map by [OpenFreeMap](https://openfreemap.org) (© OpenMapTiles, OpenStreetMap data) and [OpenStreetMap](https://www.openstreetmap.org/) tiles; street routes for walks and road legs by the [FOSSGIS routing service](https://routing.openstreetmap.de/about.html) (OSRM, OpenStreetMap data).
-- **GeoNames** ([geonames.org](https://www.geonames.org/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)): place coordinates for some bus stops (`coord_method=geonames`).
-- **Wikidata** ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)): place coordinates for some bus stops and evidence for the aliases in `data/bus/stop_aliases.csv`.
+- **GeoNames** ([geonames.org](https://www.geonames.org/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)): place coordinates for some bus stops (`coord_method=geonames`), and place names and spellings in the trip planner's place search (`docs/data/places.json`).
+- **Wikidata** ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)): place coordinates for some bus stops, evidence for the aliases in `data/bus/stop_aliases.csv`, and place names and aliases in the trip planner's place search.
 - **Wikipedia contributors** ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), facts only): former and current place names behind `data/bus/stop_aliases.csv` (for example Dalhousie Square = B. B. D. Bagh), and the Kolkata Metro, Kolkata Suburban Railway and Trams in Kolkata articles for station lists, service statements and fare tables.
 
 ## Bus and minibus

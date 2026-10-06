@@ -82,7 +82,11 @@ input[type=text]:focus { outline: 2px solid var(--accent); outline-offset: 0; bo
 .ac-list li.active, .ac-list li:hover { background: var(--sel); }
 .ac-list li.search { color: var(--accent); font-weight: 600; }
 .ac-list li.note { color: var(--muted); cursor: default; font-size: .78rem; }
-.ac-list li.place .nm { white-space: normal; }
+.ac-list li .sg { display: flex; flex-direction: column; min-width: 0; }
+.ac-list li .ah { color: var(--muted); font-size: .76rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ac-list li .tl { display: flex; gap: 6px; align-items: center; flex-shrink: 0; color: var(--muted); font-size: .72rem; text-transform: capitalize; }
+.ac-list li.online .nm { white-space: normal; }
+.reach-note { color: var(--muted); font-size: .85rem; padding: 8px 12px; margin-bottom: 8px; }
 .mini-modes { display: flex; gap: 3px; flex-shrink: 0; }
 .mm { width: 8px; height: 8px; border-radius: 50%; }
 
